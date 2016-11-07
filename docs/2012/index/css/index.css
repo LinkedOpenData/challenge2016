@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*--------------------------------------*/
+/* サイト全体の共通設定 */
+/*--------------------------------------*/
+
+strong{
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.toplogo {
+	width: 350px;
+}
+
+/*--------------------------------------*/
+/* メインイメージに関する指定 p#mainImg */
+/*--------------------------------------*/
+
+div#mainImgBox{
+	width: 100%;
+	margin:30px auto 45px;
+	text-align: left;
+	width: 960px;
+}
+
+/*--------------------------------------*/
+
+div#wBg{
+	background: #fff;
+}
+
+div#mainContents{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+
+}
+
+/* 3つのトピックス */
+div#mainContents div.topicsBox{
+	width: 295px;
+	float: left;
+	margin-left: 33px;
+	margin-bottom: 60px;
+}
+div#mainContents div.firstItem{
+	margin-left: 0;
+}
+div#mainContents div.topicsBox strong{
+	margin-bottom: 15px;
+	font-weight: bold;
+	display: block;
+	font-size: 14px;
+}
+div#mainContents div.topicsBox span{
+	line-height: 1.8;
+	display: block;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+
+/* 新着情報 */
+
+div#newTopics{
+	float: left;
+}
+div#newTopics strong{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 8px;
+	display: block;
+	font-size: 14px;
+}
+div#newTopics dl{
+	width: 640px;
+	border-bottom: 1px solid #ddd;
+}
+div#newTopics dl dt,
+div#newTopics dl dd{
+	padding: 8px 0;
+	border-top: 1px solid #ddd;
+}
+div#newTopics dl dt{
+	float:left;
+	width:80px;
+	padding-left: 10px;
+	clear:both;
+	background: #F6F5F0;
+	color: #7D663A;
+}
+div#newTopics dl dd{
+	width:525px;
+	margin-left:90px;
+	padding-left: 20px;
+	border-left:1px solid #ddd;
+}
+div#newTopics dl dd a{
+	color: #666;
+	text-decoration: none;
+}
+div#newTopics dl dd a:hover{
+	text-decoration: underline;
+}
+
+/* バナーエリア */
+div#bannerBox{
+	float: right;
+	width: 250px;
+}
+div#bannerBox ul li{
+	margin-bottom: 15px;
+}
+
+/*--------------------------------------*/
+/* committee */
+/*--------------------------------------*/
+
+#aboutcommittee, #wanted {
+    margin-bottom: 50px;
+}
+
+#member li {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 310px;
+    margin-right: 20px;
+}
+
+#member .portrait {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#member .role {
+    font-weight: bold;
+}
+
+#member .name {
+    font-size: 1.4em;
+}

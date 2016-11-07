@@ -1,0 +1,15 @@
+.responsive_embed {
+	width: 100%;
+	max-width: 100%;
+	height: 0;
+	padding-top: 35px;
+	position: relative;
+	overflow: hidden;
+}
+.responsive_embed iframe,.responsive_embed embed,.responsive_embed object {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

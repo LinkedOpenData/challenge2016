@@ -1,0 +1,10 @@
+AuthUserFile .htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+Options -Indexes
+
+<Files ~ "^.(htpasswd|htaccess)$">
+    deny from all
+</Files>

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*-------------------------------------*/
+
+body{
+	font-size:12px;
+}
+
+/*-------------------------------------*/
+/* 文字の色 */
+/*-------------------------------------*/
+
+.txtColGold{ color:#D9D4C5;}
+.txtColRed{ color:#900;}
+.txtColGreen{ color:#990;}
+.txtColBlue{ color:#069;}
+.txtColBrown{ color:#715526;}
+
+/*-------------------------------------*/
+/* 文字の処理 */
+/*-------------------------------------*/
+
+.b { font-weight:bold; letter-spacing:0.02em; }
+.i { font-style:italic; }
+
+/*-------------------------------------*/
+/* リンク文字 */
+/*-------------------------------------*/
+a{ color:#917CA3; text-decoration:underline; outline:none;}
+a:hover{color:#FF9900; text-decoration:underline; outline:none;}
+
+a.txtUnder{ text-decoration: underline;}
+a.txtUnder:hover{ text-decoration: underline;}
+
+/*-------------------------------------*/
+/* 小さい文字 */
+/*-------------------------------------*/
+
+.txtS{
+	font-size:0.81em;
+	*font-size:0.81em;
+	*+font-size:9px;
+	letter-spacing: 0.12em;
+}
+
+/*-------------------------------------*/
+/* 行間 */
+/*-------------------------------------*/
+
+.lHeight1_6	{ line-height:1.6em;}
+.lHeight1_65	{ line-height:1.65em;}
+.lHeight1_7		{ line-height:1.7em;}
+.lHeight1_75	{ line-height:1.75em;}
+.lHeight1_8		{ line-height:1.8em;}
+.lHeight1_85	{ line-height:1.85em;}
+.lHeight1_9		{ line-height:1.9em;}
+.lHeight1_95	{ line-height:1.95em;}
+.lHeight2		{ line-height:2em;}
+
+
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+
+a.transparent:hover img{
+	filter: alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity:0.75;
+}
+

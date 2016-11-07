@@ -1,0 +1,107 @@
+<html lang="ja">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>LODチャレンジ応募作品のSPARQLエンドポイント（試行版）</title>
+</head>
+<body>
+<!--<body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#ff00ff" alink="#ff0000">-->
+<h1>LODチャレンジ応募作品のSPARQLエンドポイント（試行版）</h1>
+<hr>
+<a href="http://lod.sfc.keio.ac.jp/">LODチャレンジ</a>の応募作品で利用するために試行している，過去のLODチャレンジの応募作品のデータ格納したRDFデータベースのSPARQLエンドポイントの説明ページです．<br>
+<br>
+LOD公開用のサーバには，<a href="https://www.digitalcube.jp/">（株）デジタルキューブ様</a>よりご提供いただいた，AWS上のVirtuosoを使用させていただいております．<br>
+→2015年3月末まで使用可能です．（それ以降の運用については，決定次第ご案内します．）<br>
+
+<h2>SPARQLエンドポイント(利用API)のアドレス</h2>
+<a href="http://db.lodc.jp/sparql" target="_blank">http://db.lodc.jp/sparql</a>
+
+<h2>利用手続き</h2>
+本SPARQLエンドポイントの利用手続きは不要です．
+
+<h2>利用規程</h2>
+
+<UL>
+<li>以下の目的に限り，ご利用いいただけます．<br>
+－LODチャレンジ2014への応募に向けた作品づくりでの利用<br>　（その作品が最終的に応募に至るか否かは問いません）<br>
+－LODチャレンジ関連イベントでの利用
+</li>
+<li>その他，利用についてご不明な点は，lodosaka@gmail.com宛てにお尋ね下さい．</li>
+</UL>
+
+
+<h2>格納されているデータ</h2>
+現在，
+<UL>
+<li>LODチャレンジ2011-2013の応募作品のメタデータ</li>
+<li>LODチャレンジ2011-2013のデータセット部門の応募作品のうち，「RDF形式のデータ」が提供されているもの．<br>
+※ただし，一部，格納されていないデータがあります．
+</li>
+</ul>
+を公開しています．<br>
+→詳細は<a href="dataset.txt">こちら</a>をご覧下さい．
+
+
+<h2>JavaScriptによるサンプルプログラム</h2>
+<ol>
+<li><a href="simple_sparql.html" target="_blank">フォームから入力したSPARQLクエリを検索</a> <br>
+※<a href="ttp://uedayou.net/SPARQLTimeliner/">SPARQL Timeliner</a>に使われているJavaScriptライブラリを用いることで，<font color="red"><b>JavaScriptのみで実装</b></font>されています．<br>
+<!--　→<a href="http://uedayou.net/lodosaka/simple_sparql.html">改良版</a>-->
+</li>
+<!--<li><a href="sample_googlemap-AWS.html" target="_blank">SPARQLクエリ結果の「Googleマップ」表示</a></li>
+<li><a href="sample_googlemap2-AWS.html" target="_blank">SPARQLクエリ結果の「Googleマップ」表示（マーカでまとめる）</a></li>-->
+<li>「緯度・経度」情報を含むデータを地図上で表示<br>
+(上田洋さん/ATR Creativeが作成されたものです)→詳しくは<a href="map.txt">こちら</a>をご覧下さい．
+<ul>
+<li><a href="http://uedayou.net/lodchallenge/map.html">http://uedayou.net/lodchallenge/map.html</a></li>
+<li><a href="">http://uedayou.net/leaflet-simple-sparql/lodc.html</a>http://uedayou.net/leaflet-simple-sparql/lodc.html</li>
+<li><a href="http://uedayou.net/leaflet-simple-sparql/lodc-jp.html">http://uedayou.net/leaflet-simple-sparql/lodc-jp.html</a></li>
+</ul>
+</li>
+<li></li>
+<li></li>
+
+</ol>
+
+<h2>検索例（SPARQLスニペット）</h2>
+※上述の「SPAQRLエンドポイント」のクエリ入力欄に下記のクエリをコピーして実行すると結果をご覧いただけます．<br>
+<br>
+(1) 任意のトリプルを100件取得
+<pre>
+SELECT * WHERE {
+  ?s ?p ?o 
+}LIMIT 100
+</pre>
+<br>
+<br>
+(2) 指定した作品
+　（この例ではグラフURI＝http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d003）
+　から任意のトリプルを100件取得
+<pre>
+SELECT * WHERE {
+ GRAPH &lt;http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d003&gt; {
+    ?s ?p ?o 
+ }
+} LIMIT 100
+</pre>
+※「Virtuoso SPARQL Query Editor」のDefault Data Set Name (Graph IRI)欄にグラフURIを入力すれば，(1)と同じクエリで実行可能
+<br>
+<br>
+(3) 応募作品のグラフURIとタイトル一覧を100件取得
+<pre>
+SELECT ?id ?title WHERE {
+ GRAPH &lt;http://lod.sfc.keio.ac.jp/challenge/entries&gt; {
+    ?s &lt;http://purl.org/dc/terms/title&gt; ?title;
+       &lt;http://www.w3.org/2000/01/rdf-schema#seeAlso&gt; ?id. 
+ }
+} LIMIT 100
+</pre>
+<br>
+
+
+<br>
+
+<hr>
+<b>問合わせ先：</b>　lodosaka@gmail.com　（LODチャレンジ実行委員会関西支部長/大阪大学　古崎晃司）
+
+</body>
+</html>

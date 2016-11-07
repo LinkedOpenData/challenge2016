@@ -1,0 +1,16 @@
+#!
+mv apply_application_category.php.closed apply_application_category.php
+mv apply_basetechnology_category.php.closed apply_basetechnology_category.php
+mv apply_dataset_category.php.closed apply_dataset_category.php
+mv apply_idea_category.php.closed apply_idea_category.php
+mv apply_visualization_category.php.closed apply_visualization_category.ph
+mv modify_application_status.php.closed modify_application_status.php
+mv modify_basetechnology_status.php.closed modify_basetechnology_status.php
+mv modify_dataset_status.php.closed modify_dataset_status.php
+mv modify_idea_status.php.closed modify_idea_status.php
+mv modify_visualization_status.php.closed modify_visualization_status.php
+mv registered_application.php.closed registered_application.php
+mv registered_basetechnology.php.closed  registered_basetechnology.php
+mv registered_dataset.php.closed registered_dataset.php
+mv registered_idea.php.closed registered_idea.php
+mv registered_visualization.php.closed registered_visualization.php

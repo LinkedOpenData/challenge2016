@@ -1,0 +1,86 @@
+これらアプリは以下のソースコードを使っています。
+SPARQLクエリを書くだけで地図アプリが作れます。
+
+uedayou/leaflet-simple-sparql ・ GitHub
+https://github.com/uedayou/leaflet-simple-sparql
+
+?lat, ?long に緯度、経度が入るようにクエリを書くと
+プログラムが自動的に地図マーカーに変換します。
+?title があると、マーカーをマウスオーバーしたときに
+ラベルとして表示します。
+マーカーをクリックすると、クエリ文で抽出した情報を
+表として表示します。
+
+
+それぞれ、以下のようなクエリを書いています。
+
+(1) http://uedayou.net/leaflet-simple-sparql/lodc.html
+
+-----------------------------------------------------
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+select distinct ?entry ?link ?title ?lat ?long where 
+{
+graph ?entry {
+?link rdfs:label ?title;
+geo:lat ?lat;
+geo:long ?long.
+FILTER(!regex(?title, '^[0-9]+$', 'i')).
+FILTER(lang(?title)='ja').
+}
+}
+-----------------------------------------------------
+
+(2) http://uedayou.net/lodchallenge/map.html
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+select distinct ?entry ?entrytitle ?link ?title ?lat ?long where 
+{
+graph ?entry {
+?link rdfs:label ?title;
+geo:lat ?lat;
+geo:long ?long.
+FILTER(!regex(?title, '^[0-9]+$', 'i')).
+FILTER(lang(?title)='ja').
+FILTER(isnumeric(?long) && isnumeric(?lat)).
+FILTER(bif:st_intersects(bif:st_point(?long, ?lat), bif:st_point(139.741357, 35.658099), 1500)).
+}
+graph <http://lod.sfc.keio.ac.jp/challenge/entries> {
+?entriyuri dcterms:title ?entrytitle;
+rdfs:seeAlso ?entry.
+}
+}
+-----------------------------------------------------
+
+
+(3) http://uedayou.net/leaflet-simple-sparql/lodc-jp.html
+
+-----------------------------------------------------
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+select distinct ?entry ?link ?title ?lat ?long where
+{
+graph ?entry {
+?link rdfs:label ?title;
+geo:lat ?lat;
+geo:long ?long.
+FILTER(!regex(?title, '^[0-9]+$', 'i')).
+FILTER(lang(?title)='ja').
+FILTER(isnumeric(?long) && isnumeric(?lat)).
+FILTER(bif:st_intersects(bif:st_point(?long, ?lat), bif:st_point(139.741357, 35.658099), 1500)).
+}
+}
+order by bif:st_distance(bif:st_point(?long, ?lat), bif:st_point(139.741357, 35.658099))
+-----------------------------------------------------
+
+
+なお、「bif:st_intersects」「bif:st_distance」「bif:st_point」は Virtuosoの地理空間検索機能を利用しています。
+
+http://docs.openlinksw.com/virtuoso/rdfsparqlgeospat.html

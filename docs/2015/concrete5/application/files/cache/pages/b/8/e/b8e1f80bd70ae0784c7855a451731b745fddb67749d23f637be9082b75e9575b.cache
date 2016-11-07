@@ -1,0 +1,177 @@
+O:40:"Concrete\Core\Cache\Page\PageCacheRecord":4:{s:7:"expires";i:1472740080;s:14:"cacheRecordKey";s:5:"event";s:7:"headers";a:3:{s:6:"Pragma";s:6:"public";s:13:"Cache-Control";s:28:"max-age=21600,s-maxage=21600";s:7:"Expires";s:29:"Thu, 01 Sep 2016 14:28:00 GMT";}s:7:"content";s:35477:"<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/themes/elemental/css/bootstrap-modified.css">
+    <link href="/2015/concrete5/application/files/cache/css/elemental/main.css" rel="stylesheet" type="text/css" media="all">    
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Linked Open Data Challenge 2015 :: イベント</title>
+<meta name="description" content="イベント" />
+<meta name="generator" content="concrete5 - 5.7.5.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/2015/concrete5/index.php';var CCM_CID = 191;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/images";
+var CCM_TOOLS_PATH = "/2015/concrete5/index.php/tools/required";
+var CCM_APPLICATION_URL = "http://lodc.jp/2015/concrete5";
+var CCM_REL = "/2015/concrete5";
+
+</script>
+
+
+        <link rel="shortcut icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+            <link rel="apple-touch-icon" href="http://lodc.jp/2015/concrete5/application/files/2414/3813/7129/lodclogomark57x57.png"/>
+            <meta name="msapplication-TileImage" content="http://lodc.jp/2015/concrete5/application/files/4014/3813/7128/lodclogomark144x144.png" />
+<meta property="og:title" content="イベント" />
+<meta property="og:description" content="イベント" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lodc.jp/2015/concrete5/event" />
+<meta property="og:image" content="http://lodc.jp/2015/concrete5/2015/concrete5/application/files/7614/4621/7590/logo2015small.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="128" />
+<meta property="og:site_name" content="Linked Open Data Challenge 2015" />
+<meta property="fb:app_id" content="954041024639805" />
+<meta name="og:locale" content="ja_JP" />
+<meta name="og:updated_time" content="2015-07-30T03:50:12+09:00" />
+<style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="288" data-style-set="83">.ccm-custom-style-container.ccm-custom-style-main-288{padding-top:50px;padding-right:100px;padding-bottom:50px;padding-left:100px}.ccm-custom-style-container.ccm-custom-style-main-288 a{color:rgb(0, 66, 118) !important}</style>
+<link href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/2015/concrete5/application/files/cache/css/9929713a0b5043c102cd5bcb26990b2ef5f784f9.css" rel="stylesheet" type="text/css" media="all" data-source="/2015/concrete5/packages/social_share_lite/blocks/social_share_lite/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/search/view.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+
+<div class="ccm-page page-type-page page-template-full">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6">
+                
+
+    <p data-redactor-inserted-image="true" style="text-align: center;"><a href="http://lodc.jp/2015/concrete5"><img src="/2015/concrete5/application/files/6614/4319/7518/2015.png" alt="LOD Challenge 2015 Home" style="width: 429px; height: auto; display: block; margin: auto;"></a>  </p>
+
+
+    <center>  <table>  <tbody>  <tr>  	<td style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about">開催趣旨</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/sponsor">LODチャレンジへの期待</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/entry">応募方法</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/resource">提供リソース</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog">ブログ</a></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/technical_issue">技術情報</a><br></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/endpoint.html" target="_blank">過去作品DB</a><br></span>  	</td>  </tr>  </tbody>  </table></center>
+            </div>
+            <div class="col-sm-5 col-xs-6">
+                
+
+    <div class="ccm-social-share"><ul><li class="fblike">
+<div class="fb-like" data-href="http://lodc.jp/2015/concrete5/event" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li><li class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lodc.jp/2015/concrete5/event" data-lang="ja">ツイートする</a>
+</li><li class="gplus">
+<div class="g-plusone" data-size="medium" data-href="http://lodc.jp/2015/concrete5/event"></div>
+</li></ul></div>
+            </div>
+                            <div class="col-sm-3 col-xs-12">
+
+    <form action="http://lodc.jp/2015/concrete5/portal/search" method="get" class="ccm-search-block-form"><input name="search_paths[]" type="hidden" value="" /><input name="query" type="text" value="" class="ccm-search-block-text" /></form>
+</div>
+                    </div>
+    </div>
+</header>
+<main>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-288" >
+    <h2>イベント情報</h2><p>LODチャレンジ実行委員会が主催・共催・後援するイベントや、LODに関連するイベント情報をお届けします。</p><p><span class="withArrow"><a href="http://lod.sfc.keio.ac.jp/challenge2014/event.html#scheduled-events" title="開催予定のイベント">開催予定のイベント</a></span> <span class="withArrow"><a href="http://lod.sfc.keio.ac.jp/challenge2014/event.html#closed-events" title="終了したイベント">終了したイベント</a></span></p><h3>開催予定のイベント</h3><p>協賛・後援・出展</p><p>第36回SWO研究会-DBpediaシンポジウム</p><p>日時：2015年7月9日(木)-10日(金)</p><p>場所:国立情報学研究所 12F会議室（1208/1210室）</p><p><a href="https://sites.google.com/site/sigswo15/papers/36program" target="_blank" class="withPochi">イベント概要と申し込み</a></p><p>主催・共催</p><p>第6回LODハッカソン関西 観光・イベント×オープンデータ</p><p>日時：第1回2015年7月8日(水)18:30-21:00 第2回7月12日（日）10:00-18:00</p><p>場所：第1回大阪イノベーションハブ 第2回大阪大学中之島センター5階 講義室507</p><p><a href="http://lod.sfc.keio.ac.jp/challenge2014/%E2%80%9Dhttp://www.sansokan.jp/events/eve_detail.san?H_A_NO=19555%E2%80%9D" target="_blank" class="withPochi">イベント概要と申し込み</a></p><h3>終了したイベント</h3><p>協賛・後援・出展</p><p>第３回自治体オープンデータ推進協議会（関西会議） 「広報誌オープンデータ 次のステップ」</p><p>日時：2015/06/22（月）10:00 - 15:00</p><p>大阪イノベーションハブ</p><p><a href="http://peatix.com/event/93254/" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>NewsPicks &amp; SPEEDA Smart Data Experience Hackathon powered by E2D3</p><p>日時：2015/06/14（日）10:00 - 21:00（受付開始：9:15）</p><p>場所:日本マイクロソフト株式会社 31F セミナーホールC+D（受付：2F）</p><p><a href="http://e2d3.connpass.com/event/14868/" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>【ヒカ☆ラボ】 E2D3と学ぶ「初めてのGitHub」 powered by サークルアラウンド</p><p>日時：2015/05/29 (金) 19:00 - 22:00</p><p>レバレジーズ株式会社</p><p><a href="http://e2d3.connpass.com/event/15492/" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>チャレンジデー</p><p>LODチャレンジ エントリー直前相談会＆もくもく会 in 横浜</p><p>日時：2015/01/12 (月) 10:00 - 20:00</p><p>かながわ県民活動サポートセンター ミーティングルーム604</p><p><a href="http://peatix.com/event/67930" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>関連イベント</p><p>第3回Linked Open Dataとオントロジー勉強会</p><p>日時：2015/01/06 (火) 14:00 - 20:30</p><p>大阪大学中之島センター</p><p><a href="http://peatix.com/event/66651" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>共同主催</p><p>EverySense EverySense リアルセンサーデータ ワークショップ＆ ハッカソン</p><p>日時：2014年12月23日(火)14:00-17:00</p><p>場所:インフォコム株式会社 本社 11階 会議室 </p><p><a href="http://peatix.com/event/64386" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>チャレンジデー</p><p>Lady’s Open Data チャレンジデー ハッカソン 〜忙しい女性もキレイになれるアプリを作ろう！〜</p><p>日時：2014年12月20日（土）-21日(日)10:00 - 18:00</p><p>場所:株式会社リクルートライフスタイル 本社</p><p><a href="http://peatix.com/event/60446" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a><br><a href="http://itpro.nikkeibp.co.jp/atcl/column/14/120800120/122400009/?top_tl1" target="_blank" class="withPochi">日経BP社 Itpro「私たちが欲しいアプリを考えました」、女性のためのオープンデータ活用ハッカソン開催</a></p><p>協賛・後援・出展</p><p>人文科学データアイデアソン 「じんもんそん」 〜文化芸術情報の活用を考える〜</p><p>日時：2014年12月14日(日)17:00-20:00</p><p>場所:国立情報学研究所 </p><p><a href="http://peatix.com/event/58842" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>チャレンジデー</p><p>第4回 Linked Open Data ハッカソン関西</p><p>日時：2014年12月7日（日）11:00-19:00</p><p>場所:大阪イノベーションハブ</p><p><a href="http://www.sansokan.jp/events/eve_detail.san?H_A_NO=18401" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>チャレンジデー</p><p>Lady’s Open Data チャレンジデー アイデアソン 〜忙しい女性もキレイになれるアイデアを考えよう！〜</p><p>日時：2014年12月6日（土）13:00-16:00</p><p>場所:株式会社ドリコム セミナールーム</p><p><a href="http://peatix.com/event/60351" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a><br><a href="http://lod.sfc.keio.ac.jp/blog/?p=2552" target="_blank" class="withPochi">参加レポート</a></p><p>関連イベント</p><p>オープンデータを活用したビジネス化に向けた人材マッチングイベント</p><p>日時：2014年12月5日（金）13:30-17:00</p><p>場所：カタリストBA</p><p><a href="http://opendata-business.jp/matchingevent.htm" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>福岡まちあるきオープンデータソン</p><p>2014年11月29日(土)10:00 ～ 17:00</p><p>場所:福岡市役所3階302会議室</p><p><a href="http://www.isit.or.jp/wg8/2014/11/10/datason1/" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>共同主催</p><p>Linked Open DataチャレンジJapan2014 ＆ EverySense<br>『オープンデータプラットフォーム・ワークショップ』＆『リアルセンサーデータ・アプリアイディアコンテスト』</p><p>2014年11月29日(日)10:00-17:00</p><p>場所:インフォコム株式会社 本社 11階 会議室 </p><p><a href="http://peatix.com/event/60122?utm_campaign=follow-organizer&amp;utm_medium=email&amp;utm_source=event%3A60122" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>とくらく×LODチャレンジ 東急沿線 データビジュアライゼーション アイデアソン</p><p>2014年11月22日(土)13:00-18:00</p><p>場所:カタリストBA</p><p><a href="http://peatix.com/event/59430" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>広島ビジネスアイデアソン</p><p>2014年11月21日(金)13:30-16:45</p><p>場所:サテライトキャンパスひろしま </p><p><a href="http://www.pref.hiroshima.lg.jp/soshiki/70/hiroshimabusinessideathon.html" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>地域の課題を解決するためのアイディアを考えよう！ ～アーバンデータチャレンジ2014 × Linked Open Data チャレンジ Japan 2014～</p><p>2014年11月14日(金)14:00-16:30</p><p>場所:日本科学未来館 会議室２</p><p><a href="http://udc2014-ws4.peatix.com/" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>名駅地下街バリアフリーハッカソン</p><p>2014年10月18日(土)-19日(日)</p><p>場所:名古屋ルーセントタワー36階 株式会社エイチーム キャンプルーム</p><p><a href="http://nagoya-bfree-hackathon.peatix.com/" target="_blank" class="withPochi">イベント概要と申し込み(申し込み終了しました)</a></p><p>協賛・後援・出展</p><p>第4回 Linked Open Data ハッカソン関西 with LODC2014 × UDC2014</p><p>2014年10月13日(月)11:00-19:00</p><p>場所:大阪イノベーションハブ</p><p><a href="http://www.sansokan.jp/events/eve_detail.san?H_A_NO=18060" target="_blank" class="withPochi">イベント概要と申し込み（申し込み終了しました）</a></p><p>チャレンジデー</p><p>オープンデータ・サミット <br>～つないで広げるオープンデータ（LODチャレンジ2014キックオフ）～</p><p>2014年9月27日（土）13:00-18:00</p><p>場所:慶応三田南校舎</p><p><a href="http://peatix.com/event/50519" target="_blank" class="withPochi">イベント概要と申し込み（申し込み終了しました）</a></p><p>チャレンジデー</p><p>LODチャレンジ2014in名古屋 SPARQL勉強会と外国人が欲しがる観光オープンデータのアイデアソン</p><p>2014年9月13日(土)13:00-18:00</p><p>場所:名工大 ２号館C棟1階0211教室</p><p><a href="http://peatix.com/event/49823" class="withPochi">イベント概要と申し込み（申し込み終了しました）</a></p><p>チャレンジデー</p><p>第２回LODチャレンジデー with UDC2014</p><p>2014年9月11日(木)17:00-21:00</p><p>場所:東京大学生産技術研究所As棟</p><p><a href="http://peatix.com/event/50878?utm_campaign=follow-organizer&amp;utm_medium=email&amp;utm_source=event%3A50878" class="withPochi">イベント概要と申し込み（申し込み終了しました）</a></p><p>協賛・後援・出展</p><p>名駅地下街 バリアフリーマッピングパーティー</p><p>2014年8月24日(日)10:00-17:00</p><p>場所:名古屋プライムセントラルタワー13階 第6会議室</p><p><a href="http://nagoya-bfree-mapping.peatix.com/" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>チャレンジデー</p><p>第1回LODチャレンジデー つながる・つづける・めぐりあう「LODサロン」</p><p>2014年8月9日（土）</p><p>場所:株式会社ドリコム セミナールーム</p><p><a href="http://peatix.com/event/46032" class="withPochi">イベント概要と申し込み(申し込みは終了しました)&lt;</a></p><p>関連イベント</p><p>第2回Linked Open Dataとオントロジー勉強会</p><p>2014年8月5日18:30 - 20:30</p><p>大阪大学中之島センター</p><p><a href="http://kokucheese.com/event/index/101729/" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>第1回 Firefox OS x HTML5 x LOD WEBイノベーションハッカソン</p><p>1日目 6月28日（土）13:30～19:00（受付開始：13:00）2日目 6月29日（日）10:30～19:00</p><p>場所:大阪イノベーションハブ</p><p><a href="http://www.sansokan.jp/events/eve_detail.san?H_A_NO=17461" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>関連イベント</p><p>第1回Linked Open Dataとオントロジー勉強会</p><p>2014年4月25日18:00 - 20:00</p><p>大阪大学中之島センター</p><p><a href="http://kokucheese.com/event/index/85698/" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>朝日新聞未来メディアプロジェクト データジャーナリズム・ハッカソン</p><p>日時：2014年3月1日（土）、2（日）いずれも 10～18時（予定）</p><p>場所:朝日新聞社東京本社内</p><p><a href="http://www.asahi.com/miraimedia/sympo/hackathon/" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>朝日新聞未来メディアプロジェクト データジャーナリズム・ハッカソン</p><p>日時：アイデアソン 2014年2月20日（木） 19～22時（予定）</p><p>場所: アイデアソン 朝日新聞社東京本社 読者ホール</p><p><a href="http://www.asahi.com/miraimedia/sympo/hackathon/" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>チャレンジデー</p><p>第3回Linked Open Dataハッカソン関西</p><p>日時:2014年2月11日 (火) 11:00 - 19:30</p><p>場所:大阪イノベーションハブ（（グランフロント大阪 ナレッジキャピタル タワーC７階）</p><p><a href="http://peatix.com/event/27456" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>チャレンジデー</p><p>第２回Linked Open Dataハッカソン関西 in 大阪 第７回LODチャレンジデー×第３回オープンデータとソーシャルデザイン研究会</p><p>日時：2013年年12月6日-12月7日</p><p>場所:大阪イノベーションハブ（「グランフロント大阪」内）</p><p><a href="http://peatix.com/event/23486" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>オープンデータ・アイデアソンin松江～地域の言葉で考えるオープンデータ～</p><p>日時：11月26日(火)13:30-17:10</p><p>場所:松江オープンラボ </p><p><a href="http://opendata-contest.jp/matsue.htm" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>チャレンジデー</p><p>第6回LODチャレンジデー パートナーリソース活用ハッカソン～パートナーの基盤やデータを活用した応募アプリの作り方～</p><p>日時：2013年11月24日（日）10:00～17:00</p><p>場所:株式会社ミクシィ</p><p><a href="http://peatix.com/event/22468/" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>オープンデータ・アイデアソンin東京～オープンデータでルールを超える～</p><p>日時：11月21日(木)13:30～17:40</p><p>場所:東京大学 駒場リサーチキャンパス 生産技術研究所</p><p><a href="http://opendata-contest.jp/tokyo.htm" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>関連イベント</p><p>Open DATA METIアイディアソン</p><p>日時：2013年11月17日（日）</p><p>場所：国立情報学研究所</p><p><a href="http://opendatameti.peatix.com/" target="_blank" class="withPochi">イベント申し込みは終了しました</a></p><p>協賛・後援・出展</p><p>地域の課題を解決するためのアイディアを考えよう！<br>～アーバンデータチャレンジ東京2013 × Linked Open Data Challenge Japan ～</p><p>日時：11月16日(土)</p><p>場所:日本科学未来館 会議室２</p><p><a href="http://aigid.jp/GIS/udct/2013/event/gexpo.html" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>オープンデータ・アイデアソンin大阪～オープンデータでビジネス興し～</p><p>日時：11月9日(土)13:30～17:20</p><p>場所:大阪イノベーションハブ</p><p><a href="http://opendata-contest.jp/osaka.htm" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>旧東海道データを用いたハッカソン</p><p>日時：10月25日(金)18:00開始〜26日(土)18:00終了</p><p>場所:さくらWORKS</p><p><a href="https://www.facebook.com/events/663830400302401/" class="withPochi">イベント概要</a> <a href="http://peatix.com/event/20805" target="_blank" class="withPochi">申し込み(申し込みは終了しました)</a></p><p>チャレンジデー</p><p>第1回Linked Open Dataハッカソン関西 in 大阪<br>第５回LODチャレンジデー×第２回オープンデータとソーシャルデザイン研究会</p><p>日時：2013年10月19日（土）11:00～18:30</p><p>場所:大阪イノベーションハブ</p><p><a href="http://peatix.com/event/19899" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>関連イベント</p><p>All about Open Data ～僕らは開発者とつながりたい～</p><p>日時：2013年10月19日（土）10:00 - 16:00</p><p>場所：明星大学日野校28号館 4F405教室</p><p><a href="http://peatix.com/event/20689#thisiscanonical&quot;" target="_blank" class="withPochi">申し込み(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>旧東海道ハッカソンに向けた勉強会</p><p>日時：2013年10月17日(木)19:00〜21:30</p><p>さくらWORKS</p><p><a href="https://www.facebook.com/events/167819586755344/" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>関連イベント</p><p>第６回 公開シンポジウム＆ワークショップ<br>「来て見て触って地域データ ―応募要領・データリスト・指定課題を公表します！アーバンデータチャレンジ東京 2013 3rdステージ―」</p><p>日時：2013年10月03日（木）</p><p>場所：東京大学駒場第Ⅱキャンパス（生産技術研究所内）An 棟2階コンベンションホール</p><p><a href="http://i.csis.u-tokyo.ac.jp/news/20131003/entry.html" target="_blank" class="withPochi">申し込みページ(申し込みは終了しました)</a></p><p>協賛・後援・出展</p><p>Open Data for Future<br>─開発者の立場からオープンデータを考える会議─</p><p>日時：2013年10月2日（水）</p><p>場所：株式会社三菱総合研究所 ４階 大会議室</p><p><a href="http://www.mri.co.jp/NEWS/seminar/other/2013/2048762_2288.html" target="_blank" class="withPochi">イベント詳細</a></p><p>チャレンジデー</p><p>LODチャレンジ2013 キックオフシンポジウム<br>～つないで広げるオープンデータ～</p><p>日時：2013年9月28日（土）13:30 – 17:20</p><p>場所：慶応義塾大学 三田キャンパス 南校舎5階 南校舎ホール</p><p><a href="http://peatix.com/event/18888/" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>チャレンジデー</p><p>第４回LODチャレンジデー:LODサロン<br>～「つながるLODチャレンジデー」を考えるアイデアソン～</p><p>日時：2013年9月14日（土）13:00 – 17:30</p><p>場所:株式会社ドリコム・セミナースペース</p><p><a href="http://lod.sfc.keio.ac.jp/blog/?p=1690" target="_blank" class="withPochi">参加レポート</a><br><a href="http://peatix.com/event/18976" target="_blank" class="withPochi">イベント概要と申し込み(申し込みは終了しました)</a></p><p>関連イベント</p><p>オープンソースカンファレンス2013Hokkaido オープンデータハッカソン北海道<br>=ハッカソンの成果をLODチャレンジ2013に応募するのがゴールです=</p><p>日時：2013年09月14日（土）</p><p>場所：札幌コンベンションセンタ</p><p><a href="http://www.ospn.jp/osc2013-do/modules/eguide/event.php?eid=58" target="_blank" class="withPochi">イベント詳細</a></p><p>チャレンジデー</p><p>第3回LODチャレンジデー in 東海 (アイディアソン＋データソン)<br>～オープンデータをつなげることで生まれる価値／解決できる問題を考える～</p><p>日時：2013年8月24日（土）13:00 – 17:30</p><p>場所：名古屋工業大学 2号館1階 0211講義室</p><p><a href="http://lod.sfc.keio.ac.jp/blog/?p=1599" target="_blank" class="withPochi">参加レポート</a><br><a href="http://peatix.com/event/17367" target="_blank" class="withPochi">イベント概要とLODチャンジ申し込み(申し込みは終了しました)</a> <a href="https://www.facebook.com/events/574337539271870" target="_blank" class="withPochi">第3回LODチャレンジデー Facebookページ</a></p><p>チャレンジデー</p><p>第2回LODチャレンジデー オープンデータAPI活用アイデアソン（統計編）<br>～統計オープンデータをつないでどんなことができる？～</p><p>日時：2013年8月10日（土）13:00 – 17:00</p><p>場所：株式会社ミクシィ（東京・渋谷）</p><p><a href="http://lod.sfc.keio.ac.jp/blog/?p=1483" target="_blank" class="withPochi">参加レポート</a><br><a href="http://lod.sfc.keio.ac.jp/blog/?p=1468" target="_blank" class="withPochi">開催速報</a><br><a href="http://idea.linkdata.org/idea/idea1s47i" class="withPochi">Idea.LinkData オープンデータAPI活用アイデアソン（統計編）の成果と今後の展開</a><br><a href="http://lod.sfc.keio.ac.jp/blog/?p=1437" target="_blank" class="withPochi">イベント概要（申込みは終了しました）</a></p><p>チャレンジデー</p><p>第1回LODチャレンジデー in 石川高専 <br>～始めよう！あなたの街でオープンデータ。～</p><p>日時：2013年06月08日</p><p>場所：石川工業高等専門学校</p><p><a href="http://lod.sfc.keio.ac.jp/blog/?p=1353" target="_blank" class="withPochi">参加レポート</a> <a href="http://kokucheese.com/event/index/90328/" target="_blank" class="withPochi">イベント概要（申込みは終了しました）</a></p>
+</div></div></div>    </div>
+
+
+</main>
+
+
+<footer id="footer-theme">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                
+
+    <p><span class="title-caps-bold">過去の開催と受賞作品</span></p>
+
+
+    <center>  <table width="100%">  <tbody>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/">LODチャレンジJapan 2015</a></span>　<span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">2015 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">LODチャレンジJapan 2014</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2647">2014 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2013/">LODチャレンジJapan 2013</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2109">2013 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2012/">LODチャレンジJapan 2012</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1071">2012 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/">LODチャレンジJapan 2011</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/result2011.html">2011 受賞作品</a></span>  	</td>  </tr>  </tbody>  </table></center><br>  
+            </div>
+            <div class="col-sm-3">
+                            </div>
+        </div>
+    </div>
+    </section>
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" rel="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Linked Open Data Challenge </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lodc.jp/" property="cc:attributionName" rel="cc:attributionURL">Linked Open Data Challenge Consortium</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p><p>ただし、本サイトに掲載している各企業・団体・グループのロゴおよび各企業・団体・グループ作成コンテンツは各企業・団体・グループの所有でありCC-BYの対象外となります。</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    <p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/partner">スポンサー・パートナー募集</a></span></span>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/committee">LODチャレンジJapan実行委員会</a></span></span><a href="http://lodc.jp/2015/concrete5/about/committee"><br></a>  	</p>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/comittee_rule">実行委員会会則</a></span></span>  	</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    
+<div id="ccm-block-social-links909" class="ccm-block-social-links">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LOD.challenge.Japan"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/LinkedOpenData"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/lodjapan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/108435917546080277840/108435917546080277840/posts"><i class="fa fa-google-plus-square"></i></a></li>
+            <li><a href="http://www.slideshare.net/lodjapan"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCy9PDSVPl-jC8dPoI3Jw3eg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
+
+<footer id="concrete5-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Built with <a href="http://www.concrete5.org" class="concrete5">concrete5</a> CMS.</span>
+                <span class="pull-right">
+                    <a href="http://lodc.jp/2015/concrete5/login">ログイン</a>                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</div>
+
+<div id="fb-root"></div>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appID=954041024639805";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","facebook-jssdk");</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: "ja"};
+</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://apis.google.com/js/plusone.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","google-plusone");</script>
+<!-- load social scripts by social share lite add-on -->
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/picturefill.js"></script>
+
+</body>
+</html>
+";}

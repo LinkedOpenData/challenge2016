@@ -1,0 +1,816 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-to-twitter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-20 18:11+0100\n"
+"PO-Revision-Date: 2011-02-20 18:11+0100\n"
+"Last-Translator: Rasmus Himmelstrup <rh@iihnordic.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:210
+msgid "[<a href='options-general.php?page=wp-to-twitter/wp-to-twitter.php'>Hide</a>] If you're experiencing trouble, please copy these settings into any request for support."
+msgstr "[<a href='options-general.php?page=wp-to-twitter/wp-to-twitter.php'>Skjul</a>] Hvis du oplever problemer, kopiér indstillingerne her og send dem til support."
+
+#: wp-to-twitter-manager.php:74
+msgid "WP to Twitter is now connected with Twitter."
+msgstr "WP to Twitter forbinder nu til Twitter"
+
+#: wp-to-twitter-manager.php:82
+msgid "OAuth Authentication Failed. Check your credentials and verify that <a href=\"http://www.twitter.com/\">Twitter</a> is running."
+msgstr "OAuth Autentikation mislykkedes. "
+
+#: wp-to-twitter-manager.php:89
+msgid "OAuth Authentication Data Cleared."
+msgstr "OAuth Authentication Data nulstillet."
+
+#: wp-to-twitter-manager.php:96
+msgid "OAuth Authentication response not understood."
+msgstr "OAuth Authentication svar blev ikke forstået"
+
+#: wp-to-twitter-manager.php:105
+msgid "WP to Twitter Errors Cleared"
+msgstr "WP to Twitter fejl er løst"
+
+#: wp-to-twitter-manager.php:112
+msgid "Sorry! I couldn't get in touch with the Twitter servers to post your new blog post. Your tweet has been stored in a custom field attached to the post, so you can Tweet it manually if you wish! "
+msgstr "Beklager! Jeg kunne ikke få fat i Twitters servere for at publicere dit nye blog indlæg. Dit tweet er blevet gemt i et felt i dit indlæg, så du kan sende til Twitter manuelt hvis du ønsker."
+
+#: wp-to-twitter-manager.php:114
+msgid "Sorry! I couldn't get in touch with the Twitter servers to post your <strong>new link</strong>! You'll have to post it manually, I'm afraid. "
+msgstr "Beklager! Jeg kunne ikke få fat i Twitters servere og publicere dit <strong>nye indlæg</strong>! Du bliver nød til publicere det manuelt desværre."
+
+#: wp-to-twitter-manager.php:149
+msgid "WP to Twitter Advanced Options Updated"
+msgstr "WP to Twitter udvidede muligheder er opdateret. "
+
+#: wp-to-twitter-manager.php:166
+msgid "You must add your Bit.ly login and API key in order to shorten URLs with Bit.ly."
+msgstr "Du skal tilføje dit Bit.ly login og API key for at forkorte URLs med Bit.ly."
+
+#: wp-to-twitter-manager.php:170
+msgid "You must add your YOURLS remote URL, login, and password in order to shorten URLs with a remote installation of YOURLS."
+msgstr "Du skal tilføje dit YOURLS remote URL, login og password for at forkorte URLs med en fjern installation af YOURLS."
+
+#: wp-to-twitter-manager.php:174
+msgid "You must add your YOURLS server path in order to shorten URLs with a remote installation of YOURLS."
+msgstr "Du skal tilføje din YOURLS server sti for at kunne forkorte URLs med en remote installation af YOURLS."
+
+#: wp-to-twitter-manager.php:178
+msgid "WP to Twitter Options Updated"
+msgstr "WP to Twitter indstillinger er opdateret"
+
+#: wp-to-twitter-manager.php:188
+msgid "Category limits updated."
+msgstr "Kategoribegrænsninger er opdateret"
+
+#: wp-to-twitter-manager.php:192
+msgid "Category limits unset."
+msgstr "Kategori begræsninger fjernet."
+
+#: wp-to-twitter-manager.php:200
+msgid "YOURLS password updated. "
+msgstr "YOURLS password opdateret. "
+
+#: wp-to-twitter-manager.php:203
+msgid "YOURLS password deleted. You will be unable to use your remote YOURLS account to create short URLS."
+msgstr "YOURLS password slettet. Du kan ikke længere bruge din remote YOURLS konto til at udarbejde short URLS."
+
+#: wp-to-twitter-manager.php:205
+msgid "Failed to save your YOURLS password! "
+msgstr "Det mislykkedes at gemme dit YOURLS password! "
+
+#: wp-to-twitter-manager.php:209
+msgid "YOURLS username added. "
+msgstr "YOURLS brugernavn tilføjet"
+
+#: wp-to-twitter-manager.php:213
+msgid "YOURLS API url added. "
+msgstr "YOURLS API url tilføjet. "
+
+#: wp-to-twitter-manager.php:216
+msgid "YOURLS API url removed. "
+msgstr "YOURLS API url fjernet."
+
+#: wp-to-twitter-manager.php:221
+msgid "YOURLS local server path added. "
+msgstr "YOURLS local server sti tilføjet."
+
+#: wp-to-twitter-manager.php:223
+msgid "The path to your YOURLS installation is not correct. "
+msgstr "Stien til din YOURLS installation er ikke korrekt."
+
+#: wp-to-twitter-manager.php:227
+msgid "YOURLS local server path removed. "
+msgstr "YOURLS local server sti slettet. "
+
+#: wp-to-twitter-manager.php:231
+msgid "YOURLS will use Post ID for short URL slug."
+msgstr "YOURLS vil bruge Post ID som short URL adresse."
+
+#: wp-to-twitter-manager.php:234
+msgid "YOURLS will not use Post ID for the short URL slug."
+msgstr "YOURLS vil ikke bruge Post ID som short URL adresse."
+
+#: wp-to-twitter-manager.php:241
+msgid "Cligs API Key Updated"
+msgstr "Cli.gs API Key opdateret"
+
+#: wp-to-twitter-manager.php:244
+msgid "Cli.gs API Key deleted. Cli.gs created by WP to Twitter will no longer be associated with your account. "
+msgstr "Cli.gs API Key slettet. Cli.gs genereret af WP to Twitter vil ikke længere blive forbundet med din konto. "
+
+#: wp-to-twitter-manager.php:246
+msgid "Cli.gs API Key not added - <a href='http://cli.gs/user/api/'>get one here</a>! "
+msgstr "Cli.gs API Key ikke tilføjet - <a href='http://cli.gs/user/api/'>få en her</a>! "
+
+#: wp-to-twitter-manager.php:252
+msgid "Bit.ly API Key Updated."
+msgstr "Bit.ly API Key opdateret"
+
+#: wp-to-twitter-manager.php:255
+msgid "Bit.ly API Key deleted. You cannot use the Bit.ly API without an API key. "
+msgstr "Bit.ly API Key slettet. Du kan ikke bruge Bit.ly API uden en API key."
+
+#: wp-to-twitter-manager.php:257
+msgid "Bit.ly API Key not added - <a href='http://bit.ly/account/'>get one here</a>! An API key is required to use the Bit.ly URL shortening service."
+msgstr "Bit.ly API Key ikke tilføjet - <a href='http://bit.ly/account/'>få en her</a>! En API key er påkrævet for at bruge Bit.ly's URL forkorter service."
+
+#: wp-to-twitter-manager.php:261
+msgid " Bit.ly User Login Updated."
+msgstr "Bit.ly brugernavn er opdateret"
+
+#: wp-to-twitter-manager.php:264
+msgid "Bit.ly User Login deleted. You cannot use the Bit.ly API without providing your username. "
+msgstr "Bit.ly bruger login slettet. Du kan ikke benytte Bit.ly API uden at have et brugernavn."
+
+#: wp-to-twitter-manager.php:266
+msgid "Bit.ly Login not added - <a href='http://bit.ly/account/'>get one here</a>! "
+msgstr "Bit.ly Login ikke tilføjet - <a href='http://bit.ly/account/'>få et her</a>! "
+
+#: wp-to-twitter-manager.php:295
+msgid "No error information is available for your shortener."
+msgstr "Der er ingen fejlinformation tilgængelig for din url forkorter."
+
+#: wp-to-twitter-manager.php:297
+msgid "<li class=\"error\"><strong>WP to Twitter was unable to contact your selected URL shortening service.</strong></li>"
+msgstr "<li class=\"error\"><strong>WP to Twitter kunne ikke komme i kontakt med din valgte URL shortening service.</strong></li>"
+
+#: wp-to-twitter-manager.php:300
+msgid "<li><strong>WP to Twitter successfully contacted your selected URL shortening service.</strong>  The following link should point to your blog homepage:"
+msgstr "<li><strong>WP to Twitter kontaktede din valgte URL shortening service.</strong> Det følgende link bør pege på din blog homepage:successfully contacted your selected URL shortening service.</strong>  The following link should point to your blog homepage:"
+
+#: wp-to-twitter-manager.php:309
+msgid "<li><strong>WP to Twitter successfully submitted a status update to Twitter.</strong></li>"
+msgstr "<li><strong>WP to Twitter sendte succesfuldt en status opdatering til Twitter.</strong></li>"
+
+#: wp-to-twitter-manager.php:311
+msgid "<li class=\"error\"><strong>WP to Twitter failed to submit an update to Twitter.</strong></li>"
+msgstr "<li class=\"error\"><strong>Det lykkedes ikke at sende en opdatering til Twitter med WP to Twitter.</strong></li>"
+
+#: wp-to-twitter-manager.php:314
+msgid "You have not connected WordPress to Twitter."
+msgstr "Du har ikke forbundet Wordpress til Twitter"
+
+#: wp-to-twitter-manager.php:318
+msgid "<li class=\"error\"><strong>Your server does not appear to support the required methods for WP to Twitter to function.</strong> You can try it anyway - these tests aren't perfect.</li>"
+msgstr "<li class=\"error\"><strong>Din server ser ikke ud til at supportere de krævede WP to Twitter funktioner.</strong> Du kan prøve alligevel - de her tests er ikke perfekte.</li>"
+
+#: wp-to-twitter-manager.php:322
+msgid "<li><strong>Your server should run WP to Twitter successfully.</strong></li>"
+msgstr "<li><strong>Din server skulle køre WP to Twitter optimalt.</strong></li>"
+
+#: wp-to-twitter-manager.php:339
+msgid "WP to Twitter Options"
+msgstr "WP to Twitter indstillinger"
+
+#: wp-to-twitter-manager.php:349
+#: wp-to-twitter.php:780
+msgid "Get Support"
+msgstr "Få support"
+
+#: wp-to-twitter-manager.php:350
+msgid "Export Settings"
+msgstr "Eksportér Indstillinger"
+
+#: wp-to-twitter-manager.php:351
+#: wp-to-twitter.php:780
+msgid "Make a Donation"
+msgstr "Donér"
+
+#: wp-to-twitter-manager.php:366
+msgid "Shortcodes available in post update templates:"
+msgstr "Shortcodes er tilgængelige i indlæggets opdaterings templates:"
+
+#: wp-to-twitter-manager.php:368
+msgid "<code>#title#</code>: the title of your blog post"
+msgstr "<code>#title#</code>: titlen på dit indlæg"
+
+#: wp-to-twitter-manager.php:369
+msgid "<code>#blog#</code>: the title of your blog"
+msgstr "<code>#blog#</code>: titlen på din blog"
+
+#: wp-to-twitter-manager.php:370
+msgid "<code>#post#</code>: a short excerpt of the post content"
+msgstr "<code>#post#</code>: en kort beskrivelse af indlæggets indhold"
+
+#: wp-to-twitter-manager.php:371
+msgid "<code>#category#</code>: the first selected category for the post"
+msgstr "<code>#category#</code>: den første valgte kategori for indlægget"
+
+#: wp-to-twitter-manager.php:372
+msgid "<code>#date#</code>: the post date"
+msgstr "<code>#date#</code>: dato for indlæg"
+
+#: wp-to-twitter-manager.php:373
+msgid "<code>#url#</code>: the post URL"
+msgstr "<code>#url#</code>: Indlæg URL"
+
+#: wp-to-twitter-manager.php:374
+msgid "<code>#author#</code>: the post author"
+msgstr "<code>#author#</code>: indlæggets forfatter"
+
+#: wp-to-twitter-manager.php:375
+msgid "<code>#account#</code>: the twitter @reference for the account (or the author, if author settings are enabled and set.)"
+msgstr "<code>#account#</code>: Twitter @reference for kontoen (eller forfatteren, hvis forfatterindstillinger er aktiveret og indsat.)"
+
+#: wp-to-twitter-manager.php:377
+msgid "You can also create custom shortcodes to access WordPress custom fields. Use doubled square brackets surrounding the name of your custom field to add the value of that custom field to your status update. Example: <code>[[custom_field]]</code></p>"
+msgstr "Du kan også generere specielle shortcodes for at få adgang til WordPress custom felter. Brug firkantede klammer omkring navnet på dit custom felt for at tilføje navnet til din status opdatering. Eksempel: <code>[[custom_field]]</code></p>"
+
+#: wp-to-twitter-manager.php:382
+msgid "<p>One or more of your last posts has failed to send it's status update to Twitter. Your Tweet has been saved in your post custom fields, and you can re-Tweet it at your leisure.</p>"
+msgstr "<p>En eller flere of dine sidste indlæg sendte ikke status opdateringer til Twitter. Dit Tweet er gemt i custom feltet på indlægget, du kan re-Tweete når du vil.</p>"
+
+#: wp-to-twitter-manager.php:386
+msgid "<p>The query to the URL shortener API failed, and your URL was not shrunk. The full post URL was attached to your Tweet. Check with your URL shortening provider to see if there are any known issues. [<a href=\"http://blog.cli.gs\">Cli.gs Blog</a>] [<a href=\"http://blog.bit.ly\">Bit.ly Blog</a>]</p>"
+msgstr "<p>Forespørgslen til URL shortener API mislykkedes, og din URL blev ikke forkortet. Den fulde URL blev tilføjet til dit Tweet. Tjek med din URL shortening udbyder for at se om der er nogle kendte problemer. [<a href=\"http://blog.cli.gs\">Cli.gs Blog</a>] [<a href=\"http://blog.bit.ly\">Bit.ly Blog</a>]</p>"
+
+#: wp-to-twitter-manager.php:393
+msgid "Clear 'WP to Twitter' Error Messages"
+msgstr "Nulstil 'WP to Twitter' fejlbeskeder"
+
+#: wp-to-twitter-manager.php:409
+msgid "Basic Settings"
+msgstr "Normale indstillinger"
+
+#: wp-to-twitter-manager.php:415
+msgid "Tweet Templates"
+msgstr "Tweet Temaer"
+
+#: wp-to-twitter-manager.php:418
+msgid "Update when a post is published"
+msgstr "Opdatér når et indlæg er publiceret"
+
+#: wp-to-twitter-manager.php:418
+msgid "Text for new post updates:"
+msgstr "Tekst for nye indlæg:"
+
+#: wp-to-twitter-manager.php:424
+#: wp-to-twitter-manager.php:427
+msgid "Update when a post is edited"
+msgstr "Opdatér når et indlæg er ændret"
+
+#: wp-to-twitter-manager.php:424
+#: wp-to-twitter-manager.php:427
+msgid "Text for editing updates:"
+msgstr "Tekst ved opdateringer:"
+
+#: wp-to-twitter-manager.php:428
+msgid "You can not disable updates on edits when using Postie or similar plugins."
+msgstr "Du kan ikke deaktivere opdateringer ved ændringer når du benytter Postie eller lignende plugins."
+
+#: wp-to-twitter-manager.php:432
+msgid "Update Twitter when new Wordpress Pages are published"
+msgstr "Opdatér Twitter når Wordpress Sider er publiceret"
+
+#: wp-to-twitter-manager.php:432
+msgid "Text for new page updates:"
+msgstr "Tekst til nye side opdateringer:"
+
+#: wp-to-twitter-manager.php:436
+msgid "Update Twitter when WordPress Pages are edited"
+msgstr "Opdatér Twitter når Wordpress sider er ændret"
+
+#: wp-to-twitter-manager.php:436
+msgid "Text for page edit updates:"
+msgstr "Tekst ved opdateringer på sider:"
+
+#: wp-to-twitter-manager.php:440
+msgid "Update Twitter when you post a Blogroll link"
+msgstr "Opdatér Twitter når du poster et Blogroll link"
+
+#: wp-to-twitter-manager.php:441
+msgid "Text for new link updates:"
+msgstr "Tekst for nye link opdateringer:"
+
+#: wp-to-twitter-manager.php:441
+msgid "Available shortcodes: <code>#url#</code>, <code>#title#</code>, and <code>#description#</code>."
+msgstr "Mulige shortcodes: <code>#url#</code>, <code>#title#</code>, og <code>#description#</code>."
+
+#: wp-to-twitter-manager.php:445
+msgid "Choose your short URL service (account settings below)"
+msgstr "Vælg din kort URL service (kontoindstillinger nedenfor)"
+
+#: wp-to-twitter-manager.php:448
+msgid "Use Cli.gs for my URL shortener."
+msgstr "Brug Cli.gs som URL forkerter"
+
+#: wp-to-twitter-manager.php:449
+msgid "Use Bit.ly for my URL shortener."
+msgstr "Brug Bit.ly som min URL forkorter"
+
+#: wp-to-twitter-manager.php:450
+msgid "YOURLS (installed on this server)"
+msgstr "YOURLS (installeret på denne server)"
+
+#: wp-to-twitter-manager.php:451
+msgid "YOURLS (installed on a remote server)"
+msgstr "YOURLS (installeret på en remote server)"
+
+#: wp-to-twitter-manager.php:452
+msgid "Use WordPress as a URL shortener."
+msgstr "Brug Wordpress som en URL forkorter"
+
+#: wp-to-twitter-manager.php:453
+msgid "Don't shorten URLs."
+msgstr "Forkort ikke URLs"
+
+#: wp-to-twitter-manager.php:455
+msgid "Using WordPress as a URL shortener will send URLs to Twitter in the default URL format for WordPress: <code>http://domain.com/wpdir/?p=123</code>. Google Analytics is not available when using WordPress shortened URLs."
+msgstr "Ved at bruge WordPress som en URL shortener vil WordPress sende URLs til Twitter i default format: <code>http://domain.com/wpdir/?p=123</code>. Google Analytics kan ikke benyttes når du benytter WordPress forkortede URLs."
+
+#: wp-to-twitter-manager.php:461
+msgid "Save WP->Twitter Options"
+msgstr "Gem WP->Twitter indstillinger"
+
+#: wp-to-twitter-manager.php:473
+msgid "<abbr title=\"Uniform Resource Locator\">URL</abbr> Shortener Account Settings"
+msgstr "<abbr title=\"Uniform Resource Locator\">URL</abbr> forkorter Kontoindstillinger"
+
+#: wp-to-twitter-manager.php:477
+msgid "Your Cli.gs account details"
+msgstr "Din Cli.gs konto informationer"
+
+#: wp-to-twitter-manager.php:482
+msgid "Your Cli.gs <abbr title='application programming interface'>API</abbr> Key:"
+msgstr "Din Cli.gs <abbr title='application programming interface'>API</abbr> Key:"
+
+#: wp-to-twitter-manager.php:488
+msgid "Don't have a Cli.gs account or Cligs API key? <a href='http://cli.gs/user/api/'>Get one free here</a>!<br />You'll need an API key in order to associate the Cligs you create with your Cligs account."
+msgstr "Har du ikke en Cli.gs konto eller Cligs API key? <a href='http://cli.gs/user/api/'>Få en gratis her</a>!<br /> Du skal bruge en API key for at associere dine Cligs du med din Cligs konto. "
+
+#: wp-to-twitter-manager.php:494
+msgid "Your Bit.ly account details"
+msgstr "Din Bit.ly konto indstillinger"
+
+#: wp-to-twitter-manager.php:499
+msgid "Your Bit.ly username:"
+msgstr "Dit Bit.ly brugernavn"
+
+#: wp-to-twitter-manager.php:503
+msgid "Your Bit.ly <abbr title='application programming interface'>API</abbr> Key:"
+msgstr "Din Bit.ly <abbr title='application programming interface'>API</abbr> Key:"
+
+#: wp-to-twitter-manager.php:510
+msgid "Save Bit.ly API Key"
+msgstr "Gem Bit.ly API Key"
+
+#: wp-to-twitter-manager.php:510
+msgid "Clear Bit.ly API Key"
+msgstr "Nustil Bit.ly API Key"
+
+#: wp-to-twitter-manager.php:510
+msgid "A Bit.ly API key and username is required to shorten URLs via the Bit.ly API and WP to Twitter."
+msgstr "En Bit.ly API ey og brugernavn er nødvendigt for at forkorte URLs via Bit.ly API og WP to Twitter."
+
+#: wp-to-twitter-manager.php:515
+msgid "Your YOURLS account details"
+msgstr "Din YOURLS kontodetaljer"
+
+#: wp-to-twitter-manager.php:519
+msgid "Path to the YOURLS config file (Local installations)"
+msgstr "Sti til YOURLS konfigurationsfil (Lokale installationer)"
+
+#: wp-to-twitter-manager.php:520
+#: wp-to-twitter-manager.php:524
+msgid "Example:"
+msgstr "Eksempel:"
+
+#: wp-to-twitter-manager.php:523
+msgid "URI to the YOURLS API (Remote installations)"
+msgstr "URI til YOURLS API (Remote installationer)"
+
+#: wp-to-twitter-manager.php:527
+msgid "Your YOURLS username:"
+msgstr "Dit YOURLS brugernavn:"
+
+#: wp-to-twitter-manager.php:531
+msgid "Your YOURLS password:"
+msgstr "Dit YOURLS password:"
+
+#: wp-to-twitter-manager.php:531
+msgid "<em>Saved</em>"
+msgstr "<em>Gemt</em>"
+
+#: wp-to-twitter-manager.php:535
+msgid "Use Post ID for YOURLS url slug."
+msgstr "Brug Post ID for YOURLS url adresse."
+
+#: wp-to-twitter-manager.php:540
+msgid "Save YOURLS Account Info"
+msgstr "Gem YOURLS konto info"
+
+#: wp-to-twitter-manager.php:540
+msgid "Clear YOURLS password"
+msgstr "Nulstil YOURLS password"
+
+#: wp-to-twitter-manager.php:540
+msgid "A YOURLS password and username is required to shorten URLs via the remote YOURLS API and WP to Twitter."
+msgstr "Et YOURLS password og brugernavn er nødvendigt for at forkorte URLs via remote YOURLS API og WP to Twitter."
+
+#: wp-to-twitter-manager.php:557
+msgid "Advanced Settings"
+msgstr "Avancerede indstillinger"
+
+#: wp-to-twitter-manager.php:564
+msgid "Advanced Tweet settings"
+msgstr "Avancerede Tweet indstillinger"
+
+#: wp-to-twitter-manager.php:567
+msgid "Add tags as hashtags on Tweets"
+msgstr "Tilføj tags som hastags til Tweets"
+
+#: wp-to-twitter-manager.php:568
+msgid "Spaces replaced with:"
+msgstr "Mellemrum erstattet af:"
+
+#: wp-to-twitter-manager.php:569
+msgid "Default replacement is an underscore (<code>_</code>). Use <code>[ ]</code> to remove spaces entirely."
+msgstr "Default måde at erstatte er underscore (<code>_</code>). Brug <code>[ ]</code> for at fjerne mellemrum helt."
+
+#: wp-to-twitter-manager.php:572
+msgid "Maximum number of tags to include:"
+msgstr "Maksimum antal tags der skal inkluderes"
+
+#: wp-to-twitter-manager.php:573
+msgid "Maximum length in characters for included tags:"
+msgstr "Maksimum længde i karakterer for inkluderede tags:"
+
+#: wp-to-twitter-manager.php:574
+msgid "These options allow you to restrict the length and number of WordPress tags sent to Twitter as hashtags. Set to <code>0</code> or leave blank to allow any and all tags."
+msgstr "Disse muligheder gør det muligt at begrænse længden og antal af Wordpress tags sendt til Twitter som hastags. "
+
+#: wp-to-twitter-manager.php:577
+msgid "Length of post excerpt (in characters):"
+msgstr "Længde af uddrag (i bogstaver)"
+
+#: wp-to-twitter-manager.php:577
+msgid "By default, extracted from the post itself. If you use the 'Excerpt' field, that will be used instead."
+msgstr "Per default, trukket fra indlægget. Hvis du bruger 'Uddrags' feltet vil det blive brugt i stedet."
+
+#: wp-to-twitter-manager.php:580
+msgid "WP to Twitter Date Formatting:"
+msgstr "WP to Twitter Dato formattering:"
+
+#: wp-to-twitter-manager.php:581
+msgid "Default is from your general settings. <a href='http://codex.wordpress.org/Formatting_Date_and_Time'>Date Formatting Documentation</a>."
+msgstr "Default er fra dine generelle indstillinger. <a href='http://codex.wordpress.org/Formatting_Date_and_Time'>Dokumentation for Dato formattering</a>."
+
+#: wp-to-twitter-manager.php:585
+msgid "Custom text before all Tweets:"
+msgstr "Brugerdefineret tekst før alle Tweets:"
+
+#: wp-to-twitter-manager.php:586
+msgid "Custom text after all Tweets:"
+msgstr "Brugerdefineret tekst efter alle Tweets:"
+
+#: wp-to-twitter-manager.php:589
+msgid "Custom field for an alternate URL to be shortened and Tweeted:"
+msgstr "Brugerdefineret felt for at en alternativ URL kan blive forkortet og Tweeted:"
+
+#: wp-to-twitter-manager.php:590
+msgid "You can use a custom field to send an alternate URL for your post. The value is the name of a custom field containing your external URL."
+msgstr "Du kan bruge et brugerdefineret felt til at sende en alternativ URL for dit indlæg. Det du skal indsætte er navnet for dit brugerdefinerede felt, der indeholder din eksterne URL."
+
+#: wp-to-twitter-manager.php:594
+msgid "Special Cases when WordPress should send a Tweet"
+msgstr "Specielle tilfælde hvor Wordpress skal sende et Tweet"
+
+#: wp-to-twitter-manager.php:597
+msgid "Do not post status updates by default"
+msgstr "Undgå at sende statusopdateringer per default"
+
+#: wp-to-twitter-manager.php:598
+msgid "By default, all posts meeting other requirements will be posted to Twitter. Check this to change your setting."
+msgstr "Per default, alle indlæg der opfylder andre betingelser vil blive sendt via Twitter. Tjek det for at ændre dine indstillinger."
+
+#: wp-to-twitter-manager.php:602
+msgid "Send Twitter Updates on remote publication (Post by Email or XMLRPC Client)"
+msgstr "Send Twitter opdateringer via remote publikation (Send indlæg via mail eller XMLRPC klient)"
+
+#: wp-to-twitter-manager.php:604
+msgid "I'm using a plugin to post by email, such as Postie. Only check this if your updates do not work."
+msgstr "Jeg bruger et plugin, som Postie, til at poste via mail. Tjek kun dette hvis dine opdateringer ikke virker."
+
+#: wp-to-twitter-manager.php:608
+msgid "Update Twitter when a post is published using QuickPress"
+msgstr "Opdatér Twitter når et indlæg bliver publiceret ved hjælp af QuickPress"
+
+#: wp-to-twitter-manager.php:612
+msgid "Google Analytics Settings"
+msgstr "Google Analytics Indstillinger"
+
+#: wp-to-twitter-manager.php:613
+msgid "You can track the response from Twitter using Google Analytics by defining a campaign identifier here. You can either define a static identifier or a dynamic identifier. Static identifiers don't change from post to post; dynamic identifiers are derived from information relevant to the specific post. Dynamic identifiers will allow you to break down your statistics by an additional variable."
+msgstr "Du kan måle antallet af hits fra Twitter ved at bruge Google Analytics og definere en kampagne identifikator her. Du kan enten definere en statisk identifikator eller en dynamisk identifikator. Statiske identifikatorer skifter ikke fra indlæg til indlæg; dynamiske identifikatorer er dannet ud fra information relevant til det specifikke indlæg. Dynamiske identifikatorer vil give dig mulighed for nedbryde din statistik med en ekstra variabel."
+
+#: wp-to-twitter-manager.php:617
+msgid "Use a Static Identifier with WP-to-Twitter"
+msgstr "Brug en statisk identifikator med WP-to-Twitter"
+
+#: wp-to-twitter-manager.php:618
+msgid "Static Campaign identifier for Google Analytics:"
+msgstr "Statisk kampagne identifikator for Google Analytics"
+
+#: wp-to-twitter-manager.php:622
+msgid "Use a dynamic identifier with Google Analytics and WP-to-Twitter"
+msgstr "Brug en dynamisk identifikator med Google Analytics og WP-to-Twitter"
+
+#: wp-to-twitter-manager.php:623
+msgid "What dynamic identifier would you like to use?"
+msgstr "Hvilken dynamisk identifikator vil du benytte?"
+
+#: wp-to-twitter-manager.php:625
+msgid "Category"
+msgstr "Kategori"
+
+#: wp-to-twitter-manager.php:626
+msgid "Post ID"
+msgstr "Indlæg ID"
+
+#: wp-to-twitter-manager.php:627
+msgid "Post Title"
+msgstr "Indlæg titel"
+
+#: wp-to-twitter-manager.php:628
+msgid "Author"
+msgstr "Forfatter"
+
+#: wp-to-twitter-manager.php:633
+msgid "Individual Authors"
+msgstr "Individuelle Forfattere"
+
+#: wp-to-twitter-manager.php:636
+msgid "Authors have individual Twitter accounts"
+msgstr "Forfattere har individuelle Twitter konti"
+
+#: wp-to-twitter-manager.php:636
+msgid "Authors can set their username in their user profile. As of version 2.2.0, this feature no longer allows authors to post to their own Twitter accounts. It can only add an @reference to the author. This @reference is placed using the <code>#account#</code> shortcode. (It will pick up the main account if user accounts are not enabled.)"
+msgstr "Forfattere kan skrive deres brugernavn i deres brugerprofil. Den feature tillader efter version 2.2.0 ikke forfattere at poste til deres egen Twitter konto. Den kan kun tilføje en @reference til forfatteren. Den @reference er placeret ved hjælp af <code>#konto#</code> shortcode. (Den vil benytte hovedkontoen hvis brugerkonto ikke er aktiveret.)"
+
+#: wp-to-twitter-manager.php:640
+msgid "Disable Error Messages"
+msgstr "Deaktiver fejlmeddelelser"
+
+#: wp-to-twitter-manager.php:643
+msgid "Disable global URL shortener error messages."
+msgstr "Deaktiver globale URL shortener fejlmeddelelser"
+
+#: wp-to-twitter-manager.php:647
+msgid "Disable global Twitter API error messages."
+msgstr "Deaktiver globale Twitter API fejlmeddelelser"
+
+#: wp-to-twitter-manager.php:651
+msgid "Disable notification to implement OAuth"
+msgstr "Deaktiver note om at implementere OAuth"
+
+#: wp-to-twitter-manager.php:655
+msgid "Get Debugging Data for OAuth Connection"
+msgstr "Få debug data fra OAuth forbindelse"
+
+#: wp-to-twitter-manager.php:661
+msgid "Save Advanced WP->Twitter Options"
+msgstr "Gem Avancerede WP-> Twitter indstillinger"
+
+#: wp-to-twitter-manager.php:675
+msgid "Limit Updating Categories"
+msgstr "Begræsning på opdatering af Kategorier"
+
+#: wp-to-twitter-manager.php:679
+msgid "Select which blog categories will be Tweeted. "
+msgstr "Vælg hvilke blog kategorier der skal Tweetes. "
+
+#: wp-to-twitter-manager.php:682
+msgid "<em>Category limits are disabled.</em>"
+msgstr "<em>Kategoribegrænsninger er fjernet.</em>"
+
+#: wp-to-twitter-manager.php:696
+msgid "Check Support"
+msgstr "Tjek Support"
+
+#: wp-to-twitter-manager.php:696
+msgid "Check whether your server supports <a href=\"http://www.joedolson.com/articles/wp-to-twitter/\">WP to Twitter's</a> queries to the Twitter and URL shortening APIs. This test will send a status update to Twitter and shorten a URL using your selected methods."
+msgstr "Tjek om din server supporterer <a href=\"http://www.joedolson.com/articles/wp-to-twitter/\">WP to Twitter's</a> forespørgelser til Twitter og URL shortening APIs. Testen her vil sende en status opdatering til Twitter og forkorte en URL ved at benytte de valgte metoder."
+
+#: wp-to-twitter-oauth.php:105
+#: wp-to-twitter-oauth.php:143
+msgid "Connect to Twitter"
+msgstr "Forbind til Twitter."
+
+#: wp-to-twitter-oauth.php:108
+msgid "The process to set up OAuth authentication for your web site is needlessly laborious. It is also confusing. However, this is the only method available from Twitter at this time. Note that you will not, at any time, enter you Twitter username or password into WP to Twitter; they are not used in OAuth authentication."
+msgstr "Processen for at sætte OAuth autorisation op for dit website er unødigt besværlig. Det er også svært at forstå. Men det er den eneste metode Twitter stiller til rådighed på nuværende tidspunkt. Vær opmærksom på at du ikke - på noget tidspunkt - indtaster dit Twitter brugernavn og password i WP to Twitter; De benyttes ikke i OAuth autorisation."
+
+#: wp-to-twitter-oauth.php:111
+msgid "1. Register this site as an application on "
+msgstr "1. Registrér dette site som en application på"
+
+#: wp-to-twitter-oauth.php:111
+msgid "Twitter's application registration page"
+msgstr "Twitter's application registreringsside"
+
+#: wp-to-twitter-oauth.php:113
+msgid "If you're not currently logged in, use the Twitter username and password which you want associated with this site"
+msgstr "Hvis du ikke er logget ind, brug det Twitter brugernavn og password du vil have associeret med dette site"
+
+#: wp-to-twitter-oauth.php:114
+msgid "Your Application's Name will be what shows up after \"via\" in your twitter stream; previously, \"WP to Twitter.\" Your application name cannot include the word \"Twitter.\" I suggest using the name of your web site."
+msgstr "Din Applications navn vil være det der vises efter \"via\" i din Twitter strøm; tidligere, \"WP to Twitter.\" Din application kan ikke indeholde ordet \"Twitter.\" Jeg foreslår at du benytter navnet på dit website."
+
+#: wp-to-twitter-oauth.php:115
+msgid "Your Application Description can be whatever you want."
+msgstr "Din Application beskrivelse kan være lige hvad du ønsker."
+
+#: wp-to-twitter-oauth.php:116
+msgid "Application Type should be set on "
+msgstr "Adgangstype skal sættes til"
+
+#: wp-to-twitter-oauth.php:116
+msgid "Browser"
+msgstr "Browser"
+
+#: wp-to-twitter-oauth.php:117
+msgid "The Callback URL should be "
+msgstr "Callback URL skal være"
+
+#: wp-to-twitter-oauth.php:118
+msgid "Default Access type must be set to "
+msgstr "Default adgangstype skal sættes til"
+
+#: wp-to-twitter-oauth.php:118
+msgid "Read &amp; Write"
+msgstr "Læs &amp; Skriv"
+
+#: wp-to-twitter-oauth.php:118
+msgid "(this is NOT the default)"
+msgstr "(Dette er ikke default)"
+
+#: wp-to-twitter-oauth.php:120
+msgid "Once you have registered your site as an application, you will be provided with a consumer key and a consumer secret."
+msgstr "Når du har registreret dit site som en application, vil du blive tildelt en consumer key og en consumer secret."
+
+#: wp-to-twitter-oauth.php:121
+msgid "2. Copy and paste your consumer key and consumer secret into the fields below"
+msgstr "2. Kopiér og indtast din consumer key og consumer secret i feltet nedenfor"
+
+#: wp-to-twitter-oauth.php:124
+msgid "Twitter Consumer Key"
+msgstr "Twitter Consumer Key"
+
+#: wp-to-twitter-oauth.php:128
+msgid "Twitter Consumer Secret"
+msgstr "Twitter Consumer Secret"
+
+#: wp-to-twitter-oauth.php:131
+msgid "3. Copy and paste your Access Token and Access Token Secret into the fields below"
+msgstr "3. Kopiér og indsæt din Access Token og Access Token Secret ind i feltet herunder"
+
+#: wp-to-twitter-oauth.php:132
+msgid "On the right hand side of your new application page at Twitter, click on 'My Access Token'."
+msgstr "I højre side af din nye ansøgningsside på Twitter, klik på 'My Access Token'."
+
+#: wp-to-twitter-oauth.php:134
+msgid "Access Token"
+msgstr "Access Token"
+
+#: wp-to-twitter-oauth.php:138
+msgid "Access Token Secret"
+msgstr "Access Token Secret"
+
+#: wp-to-twitter-oauth.php:153
+msgid "Disconnect from Twitter"
+msgstr "Deaktiver Twitter"
+
+#: wp-to-twitter-oauth.php:160
+msgid "Twitter Username "
+msgstr "Twitter brugernavn"
+
+#: wp-to-twitter-oauth.php:161
+msgid "Consumer Key "
+msgstr "Consumer Key "
+
+#: wp-to-twitter-oauth.php:162
+msgid "Consumer Secret "
+msgstr "Consumer Secret "
+
+#: wp-to-twitter-oauth.php:163
+msgid "Access Token "
+msgstr "Access Token "
+
+#: wp-to-twitter-oauth.php:164
+msgid "Access Token Secret "
+msgstr "Access Token Secret "
+
+#: wp-to-twitter-oauth.php:167
+msgid "Disconnect Your WordPress and Twitter Account"
+msgstr "Frakobl din Wordpress og Twitter konto"
+
+#: wp-to-twitter.php:52
+#, php-format
+msgid "Twitter now requires authentication by OAuth. You will need you to update your <a href=\"%s\">settings</a> in order to continue to use WP to Twitter."
+msgstr "Twitter kræver nu autorisation af OAuth. Du skal opdatere dine <a href=\"%s\">indstillinger</a> for at kunne blive ved med at bruge WP to Twitter."
+
+#: wp-to-twitter.php:108
+msgid "200 OK: Success!"
+msgstr "200 OK: Succes!"
+
+#: wp-to-twitter.php:111
+msgid "400 Bad Request: The request was invalid. This is the status code returned during rate limiting."
+msgstr "400 Forkert forespørgsel: Forespørgslen var ikke korrekt. Det er status koden der returneres i løbet af hastighedsbegræsning."
+
+#: wp-to-twitter.php:114
+msgid "401 Unauthorized: Authentication credentials were missing or incorrect."
+msgstr "401 Ikke godkent: Login detaljer manglede eller var ikke korrekte."
+
+#: wp-to-twitter.php:117
+msgid "403 Forbidden: The request is understood, but it has been refused. This code is used when requests are being denied due to status update character limits."
+msgstr "403 Forbudt: Forespørgslen er forstået, men er blevet afvist. Denne kode benyttes når forespørgelser bliver afvist på grund af karakterbegrænsninger på status opdateringer."
+
+#: wp-to-twitter.php:119
+msgid "500 Internal Server Error: Something is broken at Twitter."
+msgstr "500 Intern Serverfejl: Twitter melder fejl."
+
+#: wp-to-twitter.php:122
+msgid "503 Service Unavailable: The Twitter servers are up, but overloaded with requests Please try again later."
+msgstr "503 Tjenesten er ikke tilgængelig: Twitters servere kører, men er overbelastede pga. mange forespørgelser. Prøv igen senere."
+
+#: wp-to-twitter.php:125
+msgid "502 Bad Gateway: Twitter is down or being upgraded."
+msgstr "502 Forkert Gateway: Twitter er nede eller bliver opdateret"
+
+#: wp-to-twitter.php:707
+msgid "WP to Twitter"
+msgstr "WP to Twitter"
+
+#: wp-to-twitter.php:783
+msgid "Don't Tweet this post."
+msgstr "Tweet ikke dette indlæg."
+
+#: wp-to-twitter.php:793
+msgid "This URL is direct and has not been shortened: "
+msgstr "Denne URL er direkte og er ikke blevet forkortet"
+
+#: wp-to-twitter.php:849
+msgid "WP to Twitter User Settings"
+msgstr "WP to Twitter brugerindstillinger"
+
+#: wp-to-twitter.php:853
+msgid "Use My Twitter Username"
+msgstr "Brug mit Twitter brugernavn"
+
+#: wp-to-twitter.php:854
+msgid "Tweet my posts with an @ reference to my username."
+msgstr "Tweet mit indlæg med en @ reference til mit brugernavn."
+
+#: wp-to-twitter.php:855
+msgid "Tweet my posts with an @ reference to both my username and to the main site username."
+msgstr "Tweet mit indlæg med en @ reference til både mit brugernavn og til hovedsitets brugernavn."
+
+#: wp-to-twitter.php:860
+msgid "Enter your own Twitter username."
+msgstr "Indtast dit Twitter brugernavn."
+
+#: wp-to-twitter.php:896
+msgid "Check the categories you want to tweet:"
+msgstr "Tjeck de kategorier du vil tweete:"
+
+#: wp-to-twitter.php:913
+msgid "Set Categories"
+msgstr "Sæt Kategorier"
+
+#: wp-to-twitter.php:987
+msgid "<p>Couldn't locate the settings page.</p>"
+msgstr "<p>Kunne ikke finde siden med indstillinger.</p>"
+
+#: wp-to-twitter.php:992
+msgid "Settings"
+msgstr "Indstillinger"
+

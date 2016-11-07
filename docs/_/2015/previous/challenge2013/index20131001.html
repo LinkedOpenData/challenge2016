@@ -1,0 +1,165 @@
+<?php 
+	require_once( dirname(__FILE__) . '/template/header.php');
+	require_once( dirname(__FILE__) . '/template/footer.php');
+	require_once( dirname(__FILE__) . '/util/lod_db.php');
+	echo get_header(null);
+?>
+<script type="text/javascript">		
+	$(document).ready(function(){
+		$('#slider-pane').jshowoff({cssClass: "slider-wrapper", changeSpeed: 500, speed: 8000, links: false});
+		$($('#slider-pane').children()[0]).show();
+	});
+</script>
+<div id="top-pane">
+	<div id='mainVisual'>
+		<img src="common/img/mainvisual/topvisual0929.png" alt="2013bnr" />
+	</div>
+	<div id="categoryButtons">
+		<ul id="categoryMenu">
+			<li id="categoryMenu01"><a href="#"><img src="common/img/categorybuttons/category01.png" alt="データセット部門" /></a></li>
+			<li id="categoryMenu02"><a href="#"><img src="common/img/categorybuttons/category02.png" alt="アイディア部門" /></a></li>
+			<li id="categoryMenu03"><a href="#"><img src="common/img/categorybuttons/category03.png" alt="アプリケーション部門" /></a></li>
+			<li id="categoryMenu04"><a href="#"><img src="common/img/categorybuttons/category04.png" alt="ヴィジュアライゼーション部門" /></a></li>
+			<li id="categoryMenu05"><a href="#"><img src="common/img/categorybuttons/category05.png" alt="基盤技術部門" /></a></li>
+		</ul>
+	</div>
+	<!--
+	<div id="slider-pane">
+		<div class="slider-content">
+		</div>
+		<div class="slider-content">
+		</div>
+		<div class="slider-content">
+		</div>
+		-->
+	<!--
+	<div id="entry-pane">
+		<h2 class="title-eyecache">ご応募ありがとうございました!!</h2>
+		<div id="contest-section">
+			<div>
+				<a href="dataset.html"><img src="common/img/icon_data_s.png" alt="データセット部門" /></a>
+				<h3><a href="dataset.html">データセット</a></h3>
+				<div class="num-works">87作品</div>
+			</div>
+			<div>
+				<a href="idea.html"><img src="common/img/icon_idea_s.png" alt="アイデア部門" /></a>
+				<h3><a href="idea.html">アイデア</a></h3>
+				<div class="num-works">50作品</div>
+			</div>
+			<div>
+				<a href="application.html"><img src="common/img/icon_appli_s.png" alt="アプリケーション部門" /></a>
+				<h3><a href="application.html">アプリケーション</a></h3>
+				<div class="num-works">44作品</div>
+			</div>
+			<div>
+				<a href="visualization.html"><img src="common/img/icon_visualization_s.png" alt="ビジュアライゼーション部門" /></a>
+				<h3><a href="visualization.html">ビジュアライゼーション</a></h3>
+				<div class="num-works">24作品</div>
+			</div>
+		</div>
+		-->
+		<!--   <div class="clear" style="line-height:1.5em;font-size: 1.2em;">
+			<h3>表彰は<a href="http://s-web.sfc.keio.ac.jp/conference2013/" target="_blank">セマンティックWEBコンファレンス2013</a>内にて行われます。</h3>
+			<ul>
+				<li>審査結果発表＆表彰：2013年3月7日 (木)</li>
+			</ul>
+		</div>
+		-->
+	</div>
+</div>
+<div id="bottom-pane" class="clear">
+	<div id="contents-pane">
+		<h2><img src="common/img/news.png" alt="news" /></h2>
+		<div id="blog-entry-links">
+		<div><span class="categoryBox"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1483" target="_blank"></span><br />【参加レポート】第2回LODチャレンジデー　オープンデータAPI活用アイデアソン（統計編） </a></div><div><span class="categoryBox"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1578" target="_blank"></span>2013-09-01<br />【参加募集】第4回LODチャレンジデー　～「つながるLODチャレンジデー」を考えるアイデアソン～（9/14，東京目黒）</a></div><div><span class="categoryBox"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1564" target="_blank"></span>2013-09-01<br />【参加募集】LODチャレンジ2013 キックオフシンポジウム（9/28、慶応大）</a></div>			<div style="text-align:right;"><a href="../blog">もっと見る</a></div>
+		</div>
+<!--
+					<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-like-box" data-href="http://www.facebook.com/LOD.challenge.Japan" data-width="530" data-show-faces="true" data-border-color="#FFFFFF" data-stream="false" data-header="false"></div>
+
+				</div>
+				-->
+	</div>
+	<div align="center"><font size="4" color="#ff0000">作品応募受付けは準備中です。<br>済みませんが、お待ち下さい。</font></p></div>
+	<div id="side-contents-pane">
+		<h2 style="margin-bottom:20px;"><img src="common/img/event.png" alt="news" /></h2>
+		
+		<div>
+			<div class="calendarBox" style="margin-bottom: 12px;">
+				<div class="calendarDate">10/2</div>
+				<div class="eventNote"><a href="http://www.mri.co.jp/NEWS/seminar/other/2013/2048762_2288.html" target="_blank">Open Data for Future─開発者の立場からオープンデータを考える会議─
+				</a></div>
+			</div>
+			<div class="calendarBox" style="margin-bottom: 12px;">
+				<div class="calendarDate">10/3</div>
+				<div class="eventNote"><a href="http://i.csis.u-tokyo.ac.jp/news/20131003/entry.html" target="_blank">第６回 公開シンポジウム＆ワークショップ「来て見て触って地域データ ―応募要領・データリスト・指定課題を公表します！アーバンデータチャレンジ東京 2013 3rdステージ―」
+				</a></div>
+			</div>
+			<div class="calendarBox" style="margin-bottom: 12px;">
+				<div class="calendarDate">10/19</div>
+				<div class="eventNote"><a href="http://peatix.com/event/19899" target="_blank">第1回Linked Open Dataハッカソン関西 in 大阪</br>第５回LODチャレンジデー×第２回オープンデータとソーシャルデザイン研究会</a></div>
+			</div>
+			<!--  <div class="calendarBox" style="margin-bottom: 12px;">
+				<div class="calendarDate">8/10</div>
+				<div class="eventNote"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1437" target="_blank">第２回LODチャレンジデー　オープンデータAPI活用アイデアソン（統計編）<br />～統計オープンデータをつないでどんなことができる？～</a></div>
+			</div>
+			-->
+			<!--   <div style="margin-bottom: 12px;">
+				<a href="resource_usage.html">データ／基盤パートナーのリソース利用方法</a>
+			</div> -->
+	</div>
+		
+	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+  	version: 2,
+  	type: 'profile',
+  	rpp: 4,
+  	interval: 30000,
+  	width: 270,
+  	height: 300,
+  	theme: {
+    	shell: {
+      	background: '#22bb22',
+      	color: '#ffffff'
+    	},
+    	tweets: {
+      	background: '#ffffff',
+      	color: '#333333',
+      	links: '#cc0000'
+    	}
+  	},
+  	features: {
+    	scrollbar: false,
+    	loop: true,
+    	live: true,
+    	behavior: 'default'
+  	}
+	}).render().setUser('LodJapan').start();
+	</script>
+	</div> <!--  end side contes pne -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) {return;}
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like-box" data-href="http://www.facebook.com/LOD.challenge.Japan" data-width="530" data-show-faces="true" data-border-color="#FFFFFF" data-stream="false" data-header="false"></div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
+<?php
+	echo get_footer(null);
+?>	

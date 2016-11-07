@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--<meta http-equiv="refresh" content="0 ; URL=http://lodc.jp/2015/concrete5/index.php">-->
+<title>Linked Open Data Challenge</title>
+</head>
+<body>
+<H1>Linked Open Data Challenge</H1>
+<hr>
+<h3>現在，サイトのリニューアル作業中です．<br>
+各ページは，下記のリンクからご覧下さい．</h3>
+
+<font size="5"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">Linked Open Data Challeng 2014</a></font><br>
+<br><font size="4">→最新のイベント開催情報等は，当面，こちらのサイトをご覧下さい．</font>
+<br>
+<br>
+<font size="5"><a href="http://lodc.jp/2015/concrete5/index.php">Linked Open Data Challeng 2015(工事中．関係者のみアクセス可)</a></font><br>
+<br><font size="4">→近日，リニューアル公開予定．もうしばらくお待ち下さい．</font>
+<br>
+<br>
+<font size="5"><a href="http://lodc.jp/endpoint.html">LODチャレンジ応募作品のSPARQLエンドポイント</a></font><br>
+<br><font size="4">→SPARQLエンドポイントの利用情報の説明ページです．LODチャレンジ2014のデータも格納済みです．</font>
+<br>
+<hr>
+<a href="http://lod.sfc.keio.ac.jp/challenge2014/contact.html">お問い合わせ</a>
+</body>
+</html>
+

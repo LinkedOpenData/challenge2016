@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Share Lite 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-20 09:15+0900\n"
+"PO-Revision-Date: 2014-07-20 09:49+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../blocks/social_share_lite/controller.php:6
+#: ../../../controller.php:11
+msgid "Add social sharing buttons"
+msgstr "ソーシャルシェアボタンを追加する"
+
+#: ../../../blocks/social_share_lite/controller.php:10
+#: ../../../controller.php:15
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:2
+msgid "Social Share Lite"
+msgstr "ソーシャルシェア・ライト"
+
+#: ../../../blocks/social_share_lite/edit.php:4
+msgid "Select to display."
+msgstr "表示するものを選択してください。"
+
+#: ../../../blocks/social_share_lite/edit.php:6
+msgid "Facebook's Like"
+msgstr "Facebook いいね"
+
+#: ../../../blocks/social_share_lite/edit.php:12
+msgid "Twitter's Tweet"
+msgstr "Twitter ツイート"
+
+#: ../../../blocks/social_share_lite/edit.php:18
+msgid "Google+'s plus one"
+msgstr "Google+ プラス1"
+
+#: ../../../blocks/social_share_lite/edit.php:24
+msgid "Hatena bookmark"
+msgstr "はてなブックマーク"
+
+#: ../../../blocks/social_share_lite/edit.php:30
+msgid "Tumblr's Share"
+msgstr "Tumblr シェア"
+
+#: ../../../blocks/social_share_lite/edit.php:36
+msgid "Pinterest's Pin it"
+msgstr "Pinterest Pin it ボタン"
+
+#: ../../../blocks/social_share_lite/edit.php:42
+msgid "LinkedIn's Share"
+msgstr "LinkedIn シェア"
+
+#: ../../../blocks/social_share_lite/edit.php:48
+msgid "Pocket Button"
+msgstr "Pocket ボタン"
+
+#: ../../../blocks/social_share_lite/edit.php:54
+msgid "LINE Button"
+msgstr "LINEで送る"
+
+#: ../../../blocks/social_share_lite/view.php:4
+msgid "Social share buttons disabled in edit mode."
+msgstr "ソーシャルシェアボタンは編集モードでは表示されません。"
+
+#: ../../../blocks/social_share_lite/view.php:27
+msgid "Tweet"
+msgstr "ツイートする"
+
+#: ../../../blocks/social_share_lite/view.php:47
+msgid "Add this entry to hatena bookmark"
+msgstr "このエントリーをはてなブックマークに追加"
+
+#: ../../../blocks/social_share_lite/view.php:57
+msgid "Share on Tumblr"
+msgstr "Tumblrでシェア"
+
+#: ../../../controller.php:2
+#: ../../../controllers/dashboard/system/social_share_lite/controller.php:1
+#: ../../../controllers/dashboard/system/social_share_lite/settings.php:1
+msgid "Access Denied."
+msgstr "アクセス拒否"
+
+#: ../../../controllers/dashboard/system/social_share_lite/settings.php:14
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:9
+msgid "Developers option"
+msgstr "開発者オプション"
+
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:11
+msgid "Load scripts"
+msgstr "スクリプトの読み込み"
+
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:15
+msgid ""
+"Add scripts if social share lite blocks are placed on the particular page "
+"(default)."
+msgstr ""
+"ソーシャルシェア・ライトブロックが特定のページに存在する時はスクリプトを追加"
+"（デフォルト）。"
+
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:19
+msgid "Do not add scripts of social network api automatically."
+msgstr "ソーシャルネットワークAPIのスクリプトを自動で追加しない。"
+
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:21
+msgid ""
+"If you want to load javascript files (Twitter widgets.js or Google plusone."
+"js) into your theme manually, please choose second option."
+msgstr ""
+"Javascriptファイル（Twitter widgets.js や Google plusone.js）をテーマから手動"
+"で読み込みたい場合は、2つめのオプションを選択してください。"
+
+#: ../../../single_pages/dashboard/system/social_share_lite/settings.php:27
+msgid "Save"
+msgstr "保存"

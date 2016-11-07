@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/*---------------------------------------------------
+
+File name:      form.css
+Author:         Daisuke Morita
+update:         2011/09/27
+
+--------------------------------------------------- */
+
+/*----------------------------------------------------
+	入力フォーム用
+----------------------------------------------------*/
+div#contents-form h2 {
+	font-size: 2em;
+	font-weight: normal;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	margin: 0 0 20px 0;
+}
+
+div#contents-form h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+	text-decoration: underline;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	margin: 10px 0 5px 0;
+}
+
+div#contents-form {
+	text-align: left;
+	padding: 40px;
+}
+
+/* table general */
+table.application-form {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid  #5C443A;
+}
+
+table.application-form th, table.application-form td {
+	padding: 2px 3px;
+}
+
+/* show_list.php */
+table#entry-list tr.column-definition th {
+	color: white;
+	background-color: #5C443A;
+}
+
+table#entry-list tr.category-head th {
+	color: white;
+	background-color: #CC3333;
+}
+
+table#entry-list tr.even-row td {
+	background-color: #fbddcf;
+}
+
+/* show_status.php */
+
+table#entrysheet th {
+	color: #CC0000;
+	width: 200px;
+}
+
+table#entrysheet tr.info-row th {
+	color: white;
+	background-color: #5C443A;
+}
+
+table#entrysheet th, table#entrysheet td {
+	border-bottom: 1px dotted #5C443A;
+}
+
+table#entrysheet div.designate-right img {
+	float: left;
+}
+
+table#entrysheet div.designate-right div.title {
+	margin-left: 10px;
+	padding-top: 8px;
+	font-weight: bold;
+	float: left;
+}
+
+table#entrysheet div.designate-right div.description {
+	clear: both;
+	padding-top: 3px;
+}
+
+/* apply_***.php */
+table#input-form th {
+	color: #CC0000;
+	width: 240px;
+}
+
+table#input-form tr.info-row th {
+	color: white;
+	background-color: #5C443A;
+}
+
+table#input-form th, table#input-form td {
+	border-bottom: 1px dotted #5C443A;
+}
+
+table#input-form td textarea {
+	width: 520px;
+	height: 4em;
+}
+
+table#input-form td input[type=text] {
+	width: 200px;
+}
+
+table#input-form td div.limit-description {
+	color: #666666;
+}
+
+table#input-form td div.error-message {
+	color: #ee0000;
+}
+
+table#input-form div.designate-right {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+table#input-form div.designate-right input[type=radio] {
+	margin-top: 8px;
+	float: left;
+}
+
+table#input-form div.designate-right input[type=checkbox] {
+	margin-top: 8px;
+	float: left;
+}
+
+table#input-form div.designate-right img {
+	margin-left: 10px;
+	float: left;
+}
+
+table#input-form div.designate-right div.title {
+	margin-left: 10px;
+	padding-top: 8px;
+	font-weight: bold;
+	float: left;
+}
+
+table#input-form div.designate-right div.description {
+	clear: both;
+	padding-top: 3px;
+}
+
+/* registered_***.php */
+div#registered-message {
+	text-align: center;
+	padding: 20px;
+	margin: 0 80px;
+	border: 2px solid #CC0000;
+}
+div#registered-message div.message {
+	font-size: 1.2em;
+	margin: 5px;
+}
+div#registered-message div.message span {
+	font-weight: bold;
+}
+
+div.modified-message {
+	color: #ff5100;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}

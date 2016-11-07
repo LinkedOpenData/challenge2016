@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: List files from sets\n"
+"POT-Creation-Date: 2015-07-08 14:09+0900\n"
+"PO-Revision-Date: 2015-07-08 14:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: kohki <kohki.shikata@gmail.com>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../blocks/list_files_from_set/controller.php:23
+msgid "Displays a list of files from a file set."
+msgstr "ファイルセットに格納されたファイルを一覧表示します"
+
+#: ../../../blocks/list_files_from_set/controller.php:28
+msgid "List Files From Set"
+msgstr "List FIles From Set"
+
+#: ../../../blocks/list_files_from_set/controller.php:33
+#: ../../../blocks/list_files_from_set/controller.php:42
+msgid "You must select a file set."
+msgstr "ファイルのセットを選択してください"
+
+#: ../../../blocks/list_files_from_set/edit.php:9
+#: ../../../blocks/list_files_from_set/edit.php:26
+msgid "Select File Set"
+msgstr "ファイルセットの選択"
+
+#: ../../../blocks/list_files_from_set/edit.php:18
+msgid "Display"
+msgstr "一度に表示するファイル数： "
+
+#: ../../../blocks/list_files_from_set/edit.php:20
+msgid "files from:"
+msgstr "ファイルを以下のセットより…"
+
+#: ../../../blocks/list_files_from_set/edit.php:42
+msgid "(leave blank or enter zero for all files in set)"
+msgstr ""
+"セット内の全ファイルを表示する場合は、表示件数に0または何も入力しないでくださ"
+"い"
+
+#: ../../../blocks/list_files_from_set/edit.php:47
+msgid ""
+"Display pagination interface if more items are available than are displayed."
+msgstr ""
+
+#: ../../../blocks/list_files_from_set/edit.php:52
+msgid "Force files to download"
+msgstr "クリックするとダウンロードするようにリンクを設定する"
+
+#: ../../../blocks/list_files_from_set/edit.php:60
+msgid "Ordering"
+msgstr ""
+
+#: ../../../blocks/list_files_from_set/edit.php:64
+msgid "Date added (newest first)"
+msgstr "ファイルの追加日（新しい順）"
+
+#: ../../../blocks/list_files_from_set/edit.php:66
+msgid "Date added (oldest first)"
+msgstr "ファイルの追加日（古い順）"
+
+#: ../../../blocks/list_files_from_set/edit.php:68
+msgid "Alphabetical"
+msgstr "アルファベット順（A→Z）"
+
+#: ../../../blocks/list_files_from_set/edit.php:70
+msgid "Alphabetical (reversed)"
+msgstr "アルファベット順（Z→A）"
+
+#: ../../../blocks/list_files_from_set/edit.php:72
+msgid "Set order"
+msgstr "セットで設定した順序に応じる"
+
+#: ../../../blocks/list_files_from_set/edit.php:74
+msgid "Set order (reversed)"
+msgstr "セットで設定した順序の逆順"
+
+#: ../../../blocks/list_files_from_set/edit.php:81
+msgid "Display options"
+msgstr "表示オプション"
+
+#: ../../../blocks/list_files_from_set/edit.php:84
+msgid "Display name of set"
+msgstr "セットの名前を表示する"
+
+#: ../../../blocks/list_files_from_set/edit.php:89
+msgid "Replace underscores in titles with spaces"
+msgstr "ファイル名の_アンダーバーを半角スペースに変換して表示"
+
+#: ../../../blocks/list_files_from_set/edit.php:94
+msgid "Uppercase first letter of title (lowercase rest)"
+msgstr "ファイル名の最初を大文字にする（小文字の場合）"
+
+#: ../../../blocks/list_files_from_set/edit.php:99
+msgid "Display file size"
+msgstr "ファイルサイズを表示"
+
+#: ../../../blocks/list_files_from_set/edit.php:104
+msgid "Display date added"
+msgstr "ファイル追加日を表示"
+
+#: ../../../blocks/list_files_from_set/edit.php:108
+msgid "File extension:"
+msgstr "ファイルの拡張子"
+
+#: ../../../blocks/list_files_from_set/edit.php:111
+msgid "Leave in title (if present)"
+msgstr "そのままタイトルとして表示する（拡張子がある場合）"
+
+#: ../../../blocks/list_files_from_set/edit.php:113
+msgid "Hide"
+msgstr "隠す"
+
+#: ../../../blocks/list_files_from_set/edit.php:115
+msgid "Always show (in brackets / column)"
+msgstr "常に表示する（括弧で挟む）"
+
+#: ../../../blocks/list_files_from_set/edit.php:120
+msgid "Empty file set message (optional)"
+msgstr "セットにファイルが無い時のメッセージ（オプション）"
+
+#: ../../../blocks/list_files_from_set/edit.php:125
+msgid "Title Override  (optional)"
+msgstr "ファイルタイトルを以下の内容で上書きする"
+
+#: ../../../blocks/list_files_from_set/edit.php:127
+msgid "(will replace title/filename, e.g. 'latest file')"
+msgstr "（「新着ファイル」など）"
+
+#: ../../../blocks/list_files_from_set/templates/table_layout.php:19
+msgid "File"
+msgstr "ファイル"
+
+#: ../../../blocks/list_files_from_set/templates/table_layout.php:23
+msgid "Type"
+msgstr "タイプ"
+
+#: ../../../blocks/list_files_from_set/templates/table_layout.php:27
+msgid "Size"
+msgstr "サイズ"
+
+#: ../../../blocks/list_files_from_set/templates/table_layout.php:32
+msgid "Date"
+msgstr "日付"
+
+#: ../../../controller.php:15
+msgid "A block to display a list of files from a file set."
+msgstr "ファイルセットからファイルの一覧を表示します"
+
+#: ../../../controller.php:19
+msgid "List files from set"
+msgstr ""

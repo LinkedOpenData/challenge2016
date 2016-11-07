@@ -1,0 +1,753 @@
+<?php 
+	require_once( dirname(__FILE__) . '/template/header.php');
+	require_once( dirname(__FILE__) . '/template/footer.php');
+	$pageName = "データ／基盤パートナーのリソース利用方法";
+	echo get_header($pageName);
+?>
+				<div id="contentsBK">
+					<h2>データ／基盤提供パートナーのリソース利用方法</h2>
+					<p>データ提供パートナー、基盤提供パートナーご提供のリソースについて利用方法の説明</p>
+					<p style="margin-top: 1em;font-weight: bold;">データ提供パートナー</p>
+					<p style="margin-left: 1em;">
+						<a href="#uchuu" class="withArrow">(独)宇宙航空研究開発機構(地球観測データ)</a><br>
+						<a href="#esri" class="withArrow">ESRIジャパン株式会社</a><br>
+						<a href="#osmfj" class="withArrow">オープンストリートマップ・ファウンデーション・ジャパン</a><br>
+						<a href="#NDL" class="withArrow">国立国会図書館</a><br>
+						<a href="#nii" class="withArrow">国立情報学研究所</a><br>
+						<a href="#aigid" class="withArrow">一般社団法人　社会基盤情報流通推進協議会</a><br>
+						<a href="#nstac" class="withArrow">独立行政法人　統計センター、総務省統計局</a><br>
+						<a href="#yokohama" class="withArrow">公益財団法人　横浜市芸術文化振興財団</a><br>
+						<a href="#lodac" class="withArrow">LODAC: Linked Open Data for Academia</a><br>
+						<!--<a href="#aigid" class="withArrow">社会基盤情報流通推進協議会</a><br> -->
+						<!--<a href="#dias" class="withArrow">東京大学　地球観測データ統融合連携研究機構</a><br> -->
+
+						
+					</p>
+					<p style="margin-top: 1em;font-weight: bold;">基盤提供パートナー</p>
+					<p style="margin-left: 1em;">
+						<a href="#cube" class="withArrow">株式会社デジタルキューブ</a><br>
+						<a href="#lod4all" class="withArrow">LOD4ALL:株式会社富士通研究所</a><br>
+						<!-- <a href="#microsoft" class="withArrow">日本マイクロソフト株式会社</a><br> -->
+						<!-- <a href="#riken" class="withArrow">	一般社団法人リンクデータ</a><br> -->
+					</p>
+
+					<h3>データ提供パートナー</h3>
+					<h4 id="uchuu">(独)宇宙航空研究開発機構(地球観測データ)</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>JAXAでは、「人工衛星で観測した地球観測データ」をより多くの方にお使い頂くことを目的として、地球観測データを容易に取得できるWEB APIとして「JAXA OPEN API β版」の試作・一般公開を行いました。
+　　　　　　　　　　　　　　　　　　　　　　<br>現在JAXA OPEN APIでは、「海面水温」「海上風速」「積雪深」「土壌水分量」「降水量」の5つの物理量を提供しています。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+									JAXA OPEN APIの利用には、利用規約への同意と利用登録が必要です。<br>
+                                    利用登録：<a href="https://www.satnavi-sub-jaxa.jp/jaxa_open_api/form/form03.cgi">https://www.satnavi-sub-jaxa.jp/jaxa_open_api/form/form03.cgi</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+								・JAXA OPEN APIで提供している物理量については、以下をご覧ください。<br>
+                                 利用データの解説：<a href ="http://www.satnavi.jaxa.jp/jaxa_open_api/file/data.pdf">http://www.satnavi.jaxa.jp/jaxa_open_api/file/data.pdf</a><br>
+                                ・JAXA OPEN APIでは、欲しい地球観測データを「物理量」「時間（年月日）」「場所（緯度経度）」で指定すると、当該物理量のデータを取得することができます。詳細は以下をご覧ください。<br>
+                                 JAXA OPEN APIの使い方：<a href="http://www.satnavi.jaxa.jp/jaxa_open_api/file/how_to_use.pdf">http://www.satnavi.jaxa.jp/jaxa_open_api/file/how_to_use.pdf</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>原則として、JAXA OPEN APIはユーザの研究・教育目的のための非営利的なご利用を目的として無償で提供しています。詳細は、利用登録ページの利用規約をご覧ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+								・JAXA OPEN APIでは、随時、物理量の追加や、提供データの時間分解能の向上等を実施する予定ですので、詳細は利用登録者向けにご案内します。<br>
+                                ・現状のJAXA OPEN APIは、β版であるため、サーバの負荷状況に応じて、レスポンス速度等に変動がある場合があります。<br>
+                                ・2013年度にJAXA OPEN APIを用いたアプリケーションの開発コンテストを実施しました。詳細は、以下をご覧ください。<br>
+                                 JAXA OPEN API COMPETITION：<a href="http://www.satnavi.jaxa.jp/jaxa_api_competition/">http://www.satnavi.jaxa.jp/jaxa_api_competition/</a><br>
+                                ・JAXAでは、JAXA OPEN APIが取り扱っているデータ以外にも様々なデータを公開しておりますので、ご興味がある場合には、以下のカタログをご覧ください。<br>
+                                 JAXA公開データのウェブサイトカタログ：<a href="http://www.jaxa.jp/projects/db/tebiki_j.html">http://www.jaxa.jp/projects/db/tebiki_j.html</a>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<h4 id="esri">ESRIジャパン株式会社</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+								全国市区町村のオープンデータサイトにて、クリエイティブ・コモンズ・ライセンスなど二次利用が可能なライセンスで公開されているデータセットのうち、地理空間情報を中心に ESRIジャパンにて収集して公開したサイトです。<br>
+								Linked Open Data チャレンジ Japan 2014 をはじめ、各種アイデアソンやハッカソン、コンテストなどのイベントで自由にお使いいただけます。<br>
+								仕様が公開されているオープンなデータ形式（シェープファイル、KML、CSVファイル）でダウンロードして活用いただくことができます。また、API（GeoJSON、ジオサービス）としてもご利用いただけます。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+								特にありません。以下にアクセスしてご利用ください。
+								</p>
+								ESRIジャパン オープンデータポータル（イベント向け）<br>
+								<a href="http://event2014.ejopendataportal.opendata.arcgis.com/">http://event2014.ejopendataportal.opendata.arcgis.com/</a>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									上記 URL にアクセスし、「サイト・API利用ガイド」をご覧ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+							詳細は、ESRIジャパン オープンデータポータル（イベント向け）<br>
+							<a href="http://event2014.ejopendataportal.opendata.arcgis.com/">http://event2014.ejopendataportal.opendata.arcgis.com/</a><br>
+							の「本サイトの利用にあたって」をご覧ください。<br>
+							なお、原則、CC BY 相当のデータセットを公開していますが、各データセットの利用条件（ライセンス）は、データセット詳細ページの「情報」欄に記載されている「ライセンス」をご確認ください。
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								特になし。
+							</td>
+						</tr>
+					</table>
+					<h4 id="osmfj">オープンストリートマップ・ファウンデーション・ジャパン</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+                                 オープンなデータライセンスであるODbLに従う限り、誰でも自由に利用できる地理データです。<br>
+                                 地理データそのものを利用して様々なアプリケーションで利用したり、独自のタイル(地図)画像を生成したりすることができます。<br>
+                                 尚、複製された派生データベース(LinkedGeoData等)の使用法はそちらの説明を参照ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+									手続きは特にありません。
+								</p>
+								<p>
+									リソースの入手方法や使い方は下記を参照ください。
+									データのコピーを取得して使う方法と、APIで利用する方法があります。
+								</p>
+								<p>
+									<a href="http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs" target="_blank">
+										http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs
+									</a> 
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									上述のURLより使い方に応じてリンクをたどってください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+									利用ライセンス原文：<a href="http://www.openstreetmap.org/copyright" target="_blank">http://www.openstreetmap.org/copyright</a>
+								</p>
+								<p>
+									FAQ：<a href="http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ" target="_blank">http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ</a>
+								</p>
+								<p>
+									ライセンス説明スライド：<a href="http://www.slideshare.net/higa4/20120729-odbl" target="_blank">http://www.slideshare.net/higa4/20120729-odbl</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									サーバ負荷を避けるため、タイル(地図)画像の利用に際しては下記「タイル利用ポリシー」も参照ください。
+								</p>
+								<p>
+									<a href="http://wiki.openstreetmap.org/wiki/JA:Tile_usage_policy" target="_blank">
+										http://wiki.openstreetmap.org/wiki/JA:Tile_usage_policy
+									</a> 
+								</p>
+							</td>
+						</tr>
+					</table>
+
+					<h4 id="NDL">国立国会図書館</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>国立国会図書館では、誰もが迅速かつ的確に必要な情報にアクセスできるように、次のようなデータ・サービスを提供しています。<br>
+                                 ・<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ（NDLサーチ）</a>：書誌データ（図書・雑誌・デジタルコンテンツ等のタイトルや著者、出版者などのメタデータ）<br>
+                                 ・<a href="http://id.ndl.go.jp/auth/ndla">国立国会図書館典拠データ検索・提供サービス（Web NDL Authorities）</a>：典拠データ（複数の名前を持つ著者や同義語を同定する情報など）<br>
+                                 ・<a href="http://kn.ndl.go.jp/">国立国会図書館東日本大震災アーカイブ（ひなぎく）</a>：震災関連データ（震災関連の写真・音声・動画などのタイトル、作成日、撮影場所（緯度・経度）などのメタデータ）<br>
+                                 また、今回LODチャレンジ用に次のデータセット等を提供します。<br>
+                                ・<a href="http://ndl.go.jp/jp/aboutus/standards/lod_download.html#lod_download04">LODチャレンジ2014用データセット</a>：近代デジタルライブラリーの原資料のメタデータ（約16万件）や各種IDの対応一覧リスト<br>
+                                  詳しくは「<a href="http://ndl.go.jp/jp/aboutus/standards/lod_download.html">使う・つなげる：国立国会図書館のLinked Open Data (LOD)とは</a>」をご覧ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+								LODチャレンジでの利用範囲内で、非営利目的でのご利用にあたっては、申請手続き等は必要ありません。<BR>
+								※チャレンジ期間終了後（2015年4月1日以降）の利用については「<a href="http://ndl.go.jp/jp/aboutus/standards/lod_download.html">使う・つなげる：国立国会図書館のLODを使う</a>」の各サービスの「データの利用条件」をご覧ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+								「<a href="http://ndl.go.jp/jp/aboutus/standards/lod_download.html">使う・つなげる：国立国会図書館のLODを使う</a>」の各サービスの「データのダウンロード」をご覧ください。<br>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+								「<a href="http://ndl.go.jp/jp/aboutus/standards/lod_download.html">使う・つなげる：国立国会図書館のLODを使う</a>」の各サービスの「データの利用条件」をご覧ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									LODチャレンジでの各データの利用に関するお問合せは下記までお願いします。
+                                    国立国会図書館 電子情報部 電子情報流通課 標準化推進係
+                                    e-mail : standardization[at]ndl.go.jp ＊メールアドレスの[at]を@としてお送り下さい。
+                                    チャレンジ期間終了後のお問合せについては、各サービスの問合せ方法をご確認ください。
+								</p>
+							</td>
+						</tr>
+					</table>
+					<h4 id="nii">国立情報学研究所</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+									国立情報学研究所(以下NII)では学術情報基盤の一つとして学術コンテンツ・ポータルGeNiiを運営しています。
+									その中で、<a href="http://ci.nii.ac.jp" target="_blank">CiNii</a>は論文・図書・雑誌等のデータ、
+									<a href="http://kaken.nii.ac.jp" target="_blank">KAKEN</a>は科学研究費補助金のデータを提供しています。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+									CiNii: <a href="http://ci.nii.ac.jp/info/ja/api/developer.html" target="_blank">http://ci.nii.ac.jp/info/ja/api/developer.html</a>
+								</p>
+								<p>
+									KAKEN: 特になし
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									CiNIi: <a href="http://ci.nii.ac.jp/info/ja/api/api_outline.html" target="_blank">http://ci.nii.ac.jp/info/ja/api/api_outline.html</a>
+								</p>
+								<p>
+									KAKEN: <a href="http://kaken.nii.ac.jp/ja/help/" target="_blank">http://kaken.nii.ac.jp/ja/help/</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+									CiNIi: <a href="http://ci.nii.ac.jp/info/ja/terms.html" target="_blank">http://ci.nii.ac.jp/info/ja/terms.html</a>
+								</p>
+								<p>
+									KAKEN: <a href="http://ge.nii.ac.jp/GeNii-term.pdf" target="_blank">http://ge.nii.ac.jp/GeNii-term.pdf</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									なし
+								</p>
+							</td>
+						</tr>
+					</table>
+
+					<h4 id="aigid">一般社団法人　社会基盤情報流通推進協議会</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+								AIGIDは、サステイナブルな社会基盤情報の流通環境整備を推進するために、この4月から一般社団法人として活動を再スタートすることになりました。社会基盤情報のデジタル化・オープン化が社会全体として期待される中、LODチャレンジを始めとする関係機関とより密接な連携を行うことやアーバンデータチャレンジ（UDC2014）等の公開型イベントを通して様々な活動を促進・支援しています。<br>
+								LODチャレンジ2014には、現在のAIGIDにおいて中心的な活動となっているUDC2014において整備した、CKANサイトのコンテンツをリソースとして提供致します。これは、日本のオープンデータ公開自治体のうちCC-BYで提供されているものを可能な限り網羅的に収集したもので、約40自治体・約1900データセットを掲載するものです。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+								<a href="http://udct-data.aigid.jp">http://udct-data.aigid.jp</a><br>
+								データの閲覧・ダウンロードに際してユーザー登録は必須ではありません。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>APIをご利用の場合は、<a href="http://docs.ckan.org/en/ckan-2.1/api.html">http://docs.ckan.org/en/ckan-2.1/api.html</a>をご参照下さい。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+								本データ提供サイトに収録している各データセットは，原則、地方自治体のオープンデータサイト上で公開されているクリエイティブ・コモンズ・ライセンス（CC-BY等）に基づくデータになります．利用に際しては，データ提供者が定める条項等も併せてご確認下さい。
+								</p>
+							</td>
+						</tr>
+						<!--  
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>　なし。
+ 			                    </p>
+							</td>
+						</tr>
+						-->
+					</table>
+					<h4 id="nstac">独立行政法人　統計センター、総務省統計局</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+						   <p>総務省統計局及び独立行政法人統計センターでは、統計におけるオープンデータの高度化を図ることを目的として、政府統計の総合窓口（e-Stat）で公開している統計データを機械判読可能な形式（XML等）で取得できるAPI機能を提供しています。
+                             （本格運用を開始しました）<br>
+                            政府統計の総合窓口(e-Stat)-API機能：<a href="http://www.e-stat.go.jp/api/">http://www.e-stat.go.jp/api/</a><br>
+                            提供データ：<a href="http://www.e-stat.go.jp/api/api-info/api-data/">http://www.e-stat.go.jp/api/api-info/api-data/</a>
+						  </p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+								API機能をご利用頂くには、利用登録及びアプリケーションIDの発行が必要です。<br>
+                                利用登録・ログイン：<a href="http://www.e-stat.go.jp/api/regist-login/">http://www.e-stat.go.jp/api/regist-login/</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+								以下のページをご覧ください。<br>
+								<a href="http://www.e-stat.go.jp/api/api-info/api-guide/">http://www.e-stat.go.jp/api/api-info/api-guide/</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+								利用規約：<a href="http://www.e-stat.go.jp/api/agreement/">http:// www.e-stat.go.jp/api/agreement/</a><br>
+                                APIを利用して作成したアプリケーションを公開される場合は、クレジット表示をお願いしております。<br>
+                                クレジット表示：<a href="http://www.e-stat.go.jp/api/api-info/credit/">http://www.e-stat.go.jp/api/api-info/credit/</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+								API機能の本格運用を開始しました。<br>
+                                <a href="http://statdb.nstac.go.jp/">次世代統計利用システム</a>のAPI機能（試行運用版）とは、URL、利用規約等が異なりますので、ご注意ください。
+ 			                    </p>
+							</td>
+						</tr>
+					</table>
+					
+					<h4 id="yokohama">公益財団法人　横浜市芸術文化振興財団</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+									横浜の芸術文化情報を集めるサイト、アートの電波塔「ヨコハマ・アートナビ」は、１９９１年にフリーペーパーとして創刊、２００５年にウェブサイトを公開しました。 そして、２０１１年には、ＬＯＤに対応し、広くアートイベント情報を提供するとともに、アーティスト情報の提供も開始しました。 
+								</p>
+								<p>
+									横浜美術館、横浜みなとみらいホール、横浜にぎわい座、横浜能楽堂、大佛次郎記念館といった、美術・音楽・落語・能・文学を扱う専門館は元より、 市内約３００施設を網羅し、多彩なジャンルで、月４００件のアートイベント情報を更新しています。
+								</p>
+								<p>
+									当データと、マップや観光情報、その他の思いもよらないデータが結びつき、公共サービスの向上と、更なる芸術文化の振興を期待しています。 
+								</p>
+								<p>
+									詳細は、<a href="http://fp.yafjp.org/yokohama_art_lod" target="_blank">ヨコハマ・アート・ＬＯＤ</a>をご参照ください。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+									<a href="http://archive.yafjp.org/test/inspection.php " target="_blank">Yokohama Art Search</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									<a href="http://fp.yafjp.org/yokohama_art_lod" target="_blank">ヨコハマ・アート・ＬＯＤ</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+									<a href="http://fp.yafjp.org/yokohama_art_lod" target="_blank">ヨコハマ・アート・ＬＯＤ</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									データを利用する際は原作者のクレジット【ヨコハマ・アート・LOD by （公財）横浜市芸術文化振興財団】を表示するようにしてください 
+								</p>
+							</td>
+						</tr>
+					</table>
+
+					<h4 id="lodac">LODAC: Linked Open Data for Academia</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+									<a href="http://lod.ac/" target="_blank">LODAC (Linked Open Data for Academia)</a>は(共)情報・システム研究機構 新領域融合研究センターの研究プロジェクトであり、
+									学術・科学情報のLinked Dataを構築することを目標としています。
+								</p>
+								<p>
+									プロジェクトで構築したデータの中で、現在オープンデータとして提供しているLODAC BDLSとDBpedia Japaneseを紹介します。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+									特になし
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									LODAC BDLS: <a href="http://lod.ac/about#bdls" target="_blank">http://lod.ac/about#bdls</a>
+								</p>
+								<p>
+									DBpedia Japanese: <a href="http://ja.dbpedia.org" target="_blank">http://ja.dbpedia.org</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+									LODAC BDLS: <a href="http://lod.ac/about#bdls" target="_blank">http://lod.ac/about#bdls</a>
+									<br>&nbsp;&nbsp;&nbsp;&nbsp;CC-BY-SA, クレジット表記は”LODAC & Life Science Database (LSDB)”
+								</p>
+								<p>
+									DBpedia Japanese: <a href="http://ja.dbpedia.org" target="_blank">http://ja.dbpedia.org</a>
+									<br>&nbsp;&nbsp;&nbsp;&nbsp;CC-BY-SA, クレジット表記は”DBpedia Community”
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>応募作品への期待</th>
+							<td>
+								<p>
+									[<a href="http://www.slideshare.net/fumihiro/20121019-4lod-niilodac" target="_blank">第4回LODチャレンジデー発表資料</a>]
+									<br>NII/LODACデータ紹介　加藤文彦
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									なし 
+								</p>
+							</td>
+						</tr>
+					</table>					
+
+					<h3>基盤提供パートナー</h3>
+					<h4 id="cube">株式会社デジタルキューブ</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+                                 VirtuosoとはSPARQLと呼ばれるSQLライクな問い合わせ言語によってRDFを横断検索することができるサーバーソフトウエアです。<br>
+                                 弊社ではAmazon Web Service（AWS）のマーケットプレイスで数クリックで簡単に構築できるVirtuosoのマシンイメージを公開しております。<br>
+                                 弊社ではLODチャレンジ用にこのマシンイメージを使用したSPARQLエンドポイントをご提供させて頂いております。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>詳しくは，<a href="http://lodc.jp/">http://lodc.jp/</a>　をご覧下さい．
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+								SPARQLエンドポイントは以下のURLにてご提供しています。<br>
+								<a href="http://db.lodc.jp/sparql">http://db.lodc.jp/sparql</a>
+                              </p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>詳しくは，<a href="http://lodc.jp/">http://lodc.jp/</a>　をご覧下さい．
+								</p>
+							</td>
+						</tr>
+						<!--  
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									なし 
+								</p>
+							</td>
+						</tr>
+						-->
+					</table>
+					<h4 id="lod4all">LOD4ALL: 株式会社富士通研究所</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+									富士通研究所で研究開発中のLOD活用基盤「LOD4ALL」をLODチャレンジ向けにカスタマイズした環境を基盤提供します。<br>
+									過去のLODチャレンジに応募されたデータセットや、DBPedia Japaneseなど利用頻度が高いデータセットを中心に収集・格納しており、簡単なAPIを通して、格納データに横断的にアクセスできます。<br>
+									また、linkdata.orgとの連携により、linkdata.org内の指定されたデータセットも格納、他のデータセットと併せて同時に利用できます。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+									手続き不要で、以下からご利用いただけます。<br>
+									<a href= "http://lod4all.net/lodc/">http://lod4all.net/lodc/</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+								<a href="http://lod4all.net/lodc/api.html">http://lod4all.net/lodc/api.html</a><br>
+                                <a href="http://lod4all.net/lodc/howtouse.html">http://lod4all.net/lodc/howtouse.html</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+								 <a href="http://lod4all.net/lodc/terms.html">http://lod4all.net/lodc/terms.html</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									本家「LOD4ALL」では、営利目的も含めた２次利用可能なライセンスのデータセットのみを格納していますが、今回基盤提供するカスタマイズ環境では、利用制限のあるデータセットも含まれます。<br>
+									LODチャレンジ2014で利用する範囲内でのみご利用いただけるデータセットもあるため、下記URLで示される各データセットのライセンスをご確認の上、ご利用ください。<br>
+                                    <a href="http://lod4all.net/lodc/dataset_list.html">http://lod4all.net/lodc/dataset_list.html</a>
+								</p>
+							</td>
+						</tr>
+					</table>					
+					
+					<!--  
+					<h4 id="microsoft">日本マイクロソフト株式会社</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+									マイクロソフトのパブリッククラウド【Windows Azure】を2014 年 3月 31 日（月）まで月額12,500円分を無料でご利用いただけます。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+                                 kklodazure[at]microsoft.com 宛に「LOD Challenge 2013でのWindows Azure 利用希望」というタイトルでメールを送付ください。<br>
+                                 メール本文には下記内容を含めていただきますようお願いします。<br>
+                                 ※メールアドレスの[at]を@としてお送り下さい。<br>
+                                ・お名前（フルネーム）<br>
+                                ・メールアドレス<br>
+                                メール本文に記載いただいたメールアドレス宛に利用手続き方法を連絡差し上げます。 
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									<a href="http://www.windowsazure.com/ja-jp/ " target="_blank">http://www.windowsazure.com/ja-jp/ </a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+									<a href="http://www.windowsazure.com/ja-jp/ " target="_blank">http://www.windowsazure.com/ja-jp/ </a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									・月額12,500円分を超えた場合は、Windows Azure 上でご利用いただいているサービスが停止します。<br>
+                                    ・Windows Azure のご登録には携帯電話が必要です。
+								</p>
+							</td>
+						</tr>
+					</table>
+					-->
+					<!--  
+					<h4 id="riken">独立行政法人　理化学研究所</h4>
+					<table class="indexPartnerResourceTable">
+						<tr>
+							<th>概要</th>
+							<td>
+								<p>
+									<a href="http://linkdata.org" target="_blank">LinkData</a>では、サーバを持たない方でもデータセットやアプリを公開できます。
+									今回のLODチャレンジ2012では、応募者の方々に向けてこの基盤を提供しています。
+								</p>
+								<p>
+									LinkDataからデータセットを応募したい方は、Excelファイルやタブ区切りのtextファイルをLinkDataにアップロードして、
+									RDF（Linked Dataとして扱えるファイル）に変換し、公開して下さい。
+								</p>
+								<p>
+									またデータセットからアプリを作りたい方も、オンラインでJavaScriptのコードを書いて公開することができます。
+								</p>
+								<p>
+									LinkDataはLODチャレンジ2012のfacebookページと連動しており、LinkDataで作成したこれらの作品を直接応募することができます。
+									応募方法については以下のページをご参照下さい。
+								</p>
+								<p>
+									<a href="http://linkdata.org/lodchallenge2012" target="_blank">LinkData - LODチャレンジ2012への応募方法</a> 
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用手続き</th>
+							<td>
+								<p>
+								LinkDataのサービスをご利用頂くにはアカウント登録が必要です。下記ページからアカウント登録を行って下さい。
+								</p>
+								<p>
+									<a href="http://linkdata.org/login" target="_blank">LinkData - ログインページ</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用方法</th>
+							<td>
+								<p>
+									<a href="http://linkdata.org/tutorial" target="_blank">LinkData - データセットを公開する手順</a>
+								</p>
+								<p>
+									<a href="http://app.linkdata.org/tutorial" target="_blank">LinkDataApp – アプリを公開する手順</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>利用規定</th>
+							<td>
+								<p>
+									<a href="http://linkdata.org/termsofuse" target="_blank">LinkData – 利用規約</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>応募作品への期待</th>
+							<td>
+								<p>
+									データセット部門、アプリケーション部門、ビジュアライゼーション部門は本サイトから直ぐ応募できようになっています。
+									LinkData,CityDataを通して多くの皆様が応募して下さることを期待しております。
+								</p>
+								<p>
+									<br>[<a href="http://www.slideshare.net/tetsurotoyoda/lodlink-data" target="_blank">第4回LODチャレンジデー発表資料</a>]
+									<br>LODチャレンジ参加者のためのデータセットとアプリの公開基盤Link data
+									<br>（独）理化学研究所　下山紗代子、豊田哲郎
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th>その他</th>
+							<td>
+								<p>
+									LinkDataの利用に関してご不明な点がございましたら、下記LinkDataサポートまでメールでお問い合わせ下さい。
+								</p>
+								<p>
+									<a href="mailto:support@linkdata.org">LinkDataサポート</a>
+								</p>
+							</td>
+						</tr>
+					</table>
+				-->
+				</div>
+<?php
+	echo get_footer($pageName);
+?>			

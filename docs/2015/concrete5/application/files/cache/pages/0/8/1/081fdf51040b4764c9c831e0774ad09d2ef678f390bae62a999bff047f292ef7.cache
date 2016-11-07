@@ -1,0 +1,310 @@
+O:40:"Concrete\Core\Cache\Page\PageCacheRecord":4:{s:7:"expires";i:1478372106;s:14:"cacheRecordKey";s:14:"blog%2Flod2014";s:7:"headers";a:3:{s:6:"Pragma";s:6:"public";s:13:"Cache-Control";s:28:"max-age=21600,s-maxage=21600";s:7:"Expires";s:29:"Sat, 05 Nov 2016 18:55:06 GMT";}s:7:"content";s:42297:"<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/themes/elemental/css/bootstrap-modified.css">
+    <link href="/2015/concrete5/application/files/cache/css/elemental/main.css" rel="stylesheet" type="text/css" media="all">    
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Linked Open Data Challenge 2015 :: LODチャレンジ2014カンファレンス＆優秀作品発表会 授賞式</title>
+<meta name="description" content="LODチャレンジ2014カンファレンス＆優秀作品発表会 授賞式" />
+<meta name="generator" content="concrete5 - 5.7.5.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/2015/concrete5/index.php';var CCM_CID = 223;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/images";
+var CCM_TOOLS_PATH = "/2015/concrete5/index.php/tools/required";
+var CCM_APPLICATION_URL = "http://lodc.jp/2015/concrete5";
+var CCM_REL = "/2015/concrete5";
+
+</script>
+
+
+        <link rel="shortcut icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+            <link rel="apple-touch-icon" href="http://lodc.jp/2015/concrete5/application/files/2414/3813/7129/lodclogomark57x57.png"/>
+            <meta name="msapplication-TileImage" content="http://lodc.jp/2015/concrete5/application/files/4014/3813/7128/lodclogomark144x144.png" />
+<meta property="og:title" content="LODチャレンジ2014カンファレンス＆優秀作品発表会 授賞式" />
+<meta property="og:description" content="LODチャレンジ2014カンファレンス＆優秀作品発表会 授賞式" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lodc.jp/2015/concrete5/blog/lod2014" />
+<meta property="og:image" content="http://lodc.jp/2015/concrete5/2015/concrete5/application/files/7614/4621/7590/logo2015small.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="128" />
+<meta property="og:site_name" content="Linked Open Data Challenge 2015" />
+<meta property="fb:app_id" content="954041024639805" />
+<meta name="og:locale" content="ja_JP" />
+<meta name="og:updated_time" content="2015-10-10T12:01:19+09:00" />
+<link href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/2015/concrete5/application/files/cache/css/b61ab2e7c40d530c67fb008706bd649270e17c2c.css" rel="stylesheet" type="text/css" media="all" data-source="/2015/concrete5/packages/social_share_lite/blocks/social_share_lite/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/search/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/page_list/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/conversations.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/jquery-magnific-popup.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/jquery-ui.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+
+<div class="ccm-page page-type-blog-entry page-template-right-sidebar">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6">
+                
+
+    <p data-redactor-inserted-image="true" style="text-align: center;"><a href="http://lodc.jp/2015/concrete5"><img src="/2015/concrete5/application/files/6614/4319/7518/2015.png" alt="LOD Challenge 2015 Home" style="width: 429px; height: auto; display: block; margin: auto;"></a>  </p>
+
+
+    <center>  <table>  <tbody>  <tr>  	<td style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about">開催趣旨</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/sponsor">LODチャレンジへの期待</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/entry">応募方法</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/resource">提供リソース</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog">ブログ</a></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/technical_issue">技術情報</a><br></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/endpoint.html" target="_blank">過去作品DB</a><br></span>  	</td>  </tr>  </tbody>  </table></center>
+            </div>
+            <div class="col-sm-5 col-xs-6">
+                
+
+    <div class="ccm-social-share"><ul><li class="fblike">
+<div class="fb-like" data-href="http://lodc.jp/2015/concrete5/blog/lod2014" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li><li class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lodc.jp/2015/concrete5/blog/lod2014" data-lang="ja">ツイートする</a>
+</li><li class="gplus">
+<div class="g-plusone" data-size="medium" data-href="http://lodc.jp/2015/concrete5/blog/lod2014"></div>
+</li></ul></div>
+            </div>
+                            <div class="col-sm-3 col-xs-12">
+
+    <form action="http://lodc.jp/2015/concrete5/portal/search" method="get" class="ccm-search-block-form"><input name="search_paths[]" type="hidden" value="" /><input name="query" type="text" value="" class="ccm-search-block-text" /></form>
+</div>
+                    </div>
+    </div>
+</header>
+<main>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-content">
+                
+
+    <div class="ccm-block-page-title-byline">
+    <h1 class="page-title">LODチャレンジ2014カンファレンス＆優秀作品発表会 授賞式</h1>
+
+    <span class="page-date">
+    2015/03/16    </span>
+
+        <span class="page-author">
+    admin    </span>
+    
+</div>
+
+
+    <p>プレスリリース</p><p>2015年3月16日</p><p>LODチャレンジ実行委員会</p><p>LODチャレンジ2014カンファレンス＆優秀作品発表会</p><p><br></p><p>■ 部門賞</p><p>部門賞ご紹介 LODチャレンジ2014授賞式スライド (PDF/9.3MB)</p><p>[アプリケーション部門]</p><p>最優秀賞 （賞金額20万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span></p><p>a034</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>プラネタリウムなび</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>加藤敦丈</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>日本のプラネタリウムの情報をLODとして集めアプリを作成することで、プラネタリウムの機種など、プラネタリウムの奥深い情報を一つのサイトで知ることができるようになりました。単に星を楽しむだけではなく、このアプリを通してプラネタリウムの奥深さを知り、プラネタリウムファンが増えることを期待しています。</p><p><br></p><p>優秀賞（賞金額 10万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>a001</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>AEDオープンデータプラットフォーム</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>初音玲</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>日本全国のAED位置情報を検索できるAPIを提供する社会的意義のある作品です。今後も未公開の自治体のAED情報が追加され、オープンデータによる人命救護支援が広がっていくことを期待しています。</p><p><br></p><p>[データセット部門]</p><p>最優秀賞 （賞金額15万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d001</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>京都が出てくる本のデータ</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>是住久美子</p><p>審査員のコメント<span class="Apple-tab-span">	</span>本に関するオープンデータを、司書ならでは、本の持つ京都度合いや与える印象という専門知識および、京都の地図データとリンクする事で、価値あるデータに昇華して、世界にリリースしている点を高く評価しました。このデータを通じて、本と京都に纏わる事柄に興味を持ち、ユーザ体験を向上させる事に繋がると思います。本チャレンジを通じ、一人でも多くの方に利用されることに繋がれば幸いです。<span class="Apple-tab-span">	</span></p><p>優秀賞（賞金額 10万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d070</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>When.exe Ruby版による日本暦注データセット</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>須賀 隆</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>古今東西、様々な方法で表されてきた「暦」という概念について、LODとしてユニークに名前付けして統一的に扱うための整理を進められている点を高く評価しました。受賞者が開発するWhen.exe（rubyライブラリ）を最大限活用することで、今回の受賞作である日本暦注（方位などの吉凶や禁忌に関する情報）のみならず、世界各国の暦法・暦注を網羅した基盤的なLODデータセットへの発展に期待します。</p><p><br></p><p>[アイデア部門]</p><p>最優秀賞 （賞金額10万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>i035</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>ウィキ町史</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>山形巧哉・山口琢</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>ウィキペディアタウンの成果が蓄積され、記事数等が増えてくると、必然的に「自分の町用の索引」が必要になります。その際、単にカテゴリ索引を作るのではなく「町史」として年表型とすることで、索引でもあり、またそれ自体が「地域をひもとく」魅力的なコンテンツにもなる点に工夫があります。さらに時間や出来事をハブとして、自分の町と他の町の「ウィキ町史」をリンクし横串表示する等により、さらなる二次活用も視野に入れている点も評価しました。</p><p><br></p><p>優秀賞（賞金額 7万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>i015</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>農業生産物の選択の幅を広げるノーバ（農場）～日本の農業を魅力あるものにするIT利活用～</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>庄司昌彦</p><p>審査員のコメント<span class="Apple-tab-span">	</span>ワン・ツー・ワン・マーケティングなど、企業と顧客を結び付ける手法はＩＣＴ技術により発展してきました。ノーバはそれをさらに発展させ、生産者と消費者というレベルまで一般化しています。具体的に農業という場で、モノ・コトを品種という分解能で定義し直している点は画期的です。また、ＬＯＤベースのシステムが補完するバイヤのマッチング方式で、新たな流通網の提案がなされていることを高く評価しました。</p><p>[ビジュアライゼーション部門]</p><p>最優秀賞 （賞金額10万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>v011</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>にたものみっけ</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>D.Yamashita、 murasaki、 H.Chiba</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>シンプルなコンセプトと、スマホやタブレットにも対応できそうな簡単なUIが魅力的です。これを使っていると、分野を横断してもっと様々なデータを試したくなります。データ提供者、アプリ開発者、アプリ利用者それぞれにインパクトのある作品です。子供の頃にデータの関連性を自分で見つけ出す体験をすることが、データを入手して可視化できることが当たり前の社会へとつながるでしょう。</p><p><br></p><p>優秀賞（賞金額 5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>v013</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>大阪市の警察署・交番と犯罪発生地点の重ね合わせ</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>上田洋,佐藤麻耶</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>過去の受賞作品のアプリ等を普遍化する手法を活用し、公開データから作成した警察署・交番の位置を地図上にプロットし前記施設のないエリアを可視化、そこに別の犯罪発生地域データを手打ちでマッシュアップをして、両者の関係を大変わかり易く表現したことを評価しました。上記テーマに限らず、原因と結果を可視化するケースで幅広く援用できるであろう手法の普遍性についても高く評価しました。</p><p><br></p><p>[基盤技術部門]</p><p>最優秀賞 （賞金額15万円）※賞金については受賞者がご辞退されています</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>b008</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>GeoNames.jp</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>インディゴ株式会社 ラボチーム</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>様々なデータからリンクできる、日本語LODの基盤としての重要な役割を担うデータセットです。地理空間情報を、緯度・経度といった数値データではなく、日本語の地名を元にした一意のURIとして表すことで、多くのデータと「つながる」ことが期待されます。ぜひ、継続的なメンテナンスと利用促進を進め、日本語LODクラウドの大きなハブとして発展させてください。</p><p><br></p><p>優秀賞（賞金額 10万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>b001</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>SPARQL Creator</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>藤本椋也, 年岡晃一</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>LODに関連するアプリケーションを開発するさいにSPARQLを使いこなせると有益であるが、適切なSPARQLクエリを構築することは容易ではありません。特に第三者により構築されているデータの場合はなおさらです。本技術はこの問題に対する一つの解決策であり、有用なアプリケーション開発の推進役となるべく重要な基盤技術といえます。利用者からの提案を反映させるなど引き続き機能向上と安定した運用を期待します。</p><p><br></p><p>■ Platinumスポンサー賞</p><p>Platinumスポンサー賞ご紹介 LODチャレンジ2014授賞式スライド (PDF/3.7MB)</p><p>LOD for サイエンス賞 [富士通株式会社]（賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d026</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>全菌類のデータベース「大菌輪」LOD（識別形質）</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>中島淳志</p><p>プレゼンター<span class="Apple-tab-span">	</span></p><p>株式会社富士通研究所ナレッジプラットフォーム研究部部長　湯上伸弘様</p><p>スポンサーコメント<span class="Apple-tab-span">	</span></p><p>本データセットは、学術情報へのアクセシビリティを高めるだけでなく、個々の論文に散らばる知識の断片を「つなげ」たものであり、まさしく菌類の全貌の把握に有益である。また、本家「大菌輪」プロジェクトも秀逸である一方、積極的にLODとしてデータ公開し、将来の技術革新を目指す姿勢を高く評価した。</p><p><br></p><p>日本マイクロソフト賞 [日本マイクロソフト株式会社] （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>a001</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>AEDオープンデータプラットフォーム</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>初音玲</p><p>プレゼンター<span class="Apple-tab-span">	</span></p><p>デベロッパーエクスペリエンス＆エバンジェリズム統括本部エマージングテクノロジー推進部部長　砂金信一郎様</p><p>スポンサーコメント<span class="Apple-tab-span">	</span></p><p>自治体が管理しているAEDの設置情報データを粘り強く交渉して提供してもらい、オープンデータ化するだけでなく、アプリケーションとしても提供し、AEDの利用普及に貢献している点を評価しました。</p><p><br></p><p>朝日新聞賞 [朝日新聞社] （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>a023</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>ご当地なび「防災情報」</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>京都フラワーツーリズム</p><p>プレゼンター<span class="Apple-tab-span">	</span></p><p>株式会社朝日新聞社ブランド推進本部マーケティング部次長　中村啓一様</p><p>スポンサーコメント<span class="Apple-tab-span">	</span></p><p>いざという時しか使わない「防災情報」を、観光や地域情報のアプリに組みこむことで、利用可能性を高めた。自治体のオープンデータと市民や民間のデータを組み合わせ、社会課題を身近で現実的な形で解決している。避難所情報の詳細をビジュアル表現や入り口の明示で分かりやすくする工夫も見られた。公開データの利用促進なども配慮しており、他分野・地域への広がりも期待したい。</p><p><br></p><p>LinkData賞 [一般社団法人リンクデータ] （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d061</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>ウェルカム玄海町動画マッピング</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>宮﨑伸市</p><p>プレゼンター<span class="Apple-tab-span">	</span></p><p>一般社団法人リンクデータ代表理事　豊田哲郎様</p><p>スポンサーコメント<span class="Apple-tab-span">	</span></p><p>佐賀インターネット放送局の美しい映像で玄海町の魅力を伝えており、その映像コンテンツへのリンク情報をオープンデータにすることで、観光アプリなどの自由な創作活動を多くの人に提供されている点を評価しました。動画マッピングの見本となる、高いクオリティのコンテンツを提供されており、多くの動画マッピング講習会で事例紹介にも使われるなど、コンテンツとしての影響力も高く評価されました。</p><p><br></p><p>■審査員特別賞</p><p>審査員特別賞ご紹介 LODチャレンジ2014授賞式スライド (PDF/7.6MB)</p><p>公共LOD賞（賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d036</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>阪神・淡路大震災「1.17の記録」</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>神戸市広報課</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>震災の経験や教訓を風化させることなく後世に伝えるために、画像データは生々しい情報を伝えることができる有効なデータです。本データセットは阪神・淡路大震災の発災直後および復興の様子、約1,000枚の記録写真を画像データとして公開しています。近年、防災・減災への関心が高まる中で、イベント開催やアプリケーション開発など、多様な場面における本データセットの活用が期待できます。</p><p><br></p><p>学生奨励賞（高校部門） （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>i047</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>日本全国投票率向上アプリ「A-Senkyo」 Linked Open Data</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>Team inflatier（猪野 湧斗、川上 拓真、舛村 康成）</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>投票率の低下という社会課題に対し、実際にデータを収集しアプリケーションを作って解決方法を提案するという行動力、さらにはこの仕組みを利用してデータの標準化と各地域への横展開を目指すという広い視点が素晴らしいです。特筆すべきは選挙権を持たない高校生の方々の提案であるという点で、これで大人が動かなかったら恥と思わせるほどです。今後是非たくさんの人を巻き込んで活動を続けて行って頂きたいと思います。</p><p><br></p><p>学生奨励賞（高専部門） （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d036</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>街灯これくしょん</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>松田 裕貴，玉井 雄一郎，新井イスマイル</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>カリキュラム、学生食堂という学校の身近なデータから学校外へ踏み出した作品です。街灯への着目も新鮮であり、実際に使用してみると街灯認識精度の高さにも驚きました。また、オープンデータを誰が提供するのかという大きな課題に対しても、市民自身が自分達のために楽しくデータを集めるという提案となっております。豊かな発想力と技術力で本コンセプト、アイデアの多くのバリエーションが今後も生み出されることを期待します。</p><p><br></p><p>学生奨励賞（大学部門） （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>a018</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>MusicSPARQL</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>岡本将貴、藤井章博</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>若者らしい興味対象でアプリケーションを制作、完成させたところに好感を持ちました。マッシュアップが異なる音源からトラックの一部をそれぞれ取り出してミックスし、一つの曲にする音楽の手法であったところから転じて、WebプログラミングにおけるAPIの活用と制作方法となっていったことからも、MusicSPARQLがLODにおけるマッシュアップ音楽のような存在となりうる可能性も感じられます。今後の発展を期待します。</p><p><br></p><p>チャレンジデー賞 （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d045</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>名古屋駅地下街店舗LOD</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>一円真治，白松俊，野原健美</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>ハッカソンの作業で、各店舗の基本情報や飲食店のメニューの詳細情報が収集されています。このことがチャレンジデー賞受賞のキーになりました。ＬＯＤ形式のＤＢになっており、SPARQLエンドポイント経由で簡単に検索、取得ができます。また、車椅子使用可否情報が属性としてあり、近未来の福祉社会の情報のあり方を示しています。今後ハッカソン等で様々なアプリが作成されることが期待できるデータセットだと思い高く評価しました。</p><p><br></p><p>チャレンジデー賞 （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>a065</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>Perfect Women</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>Himi’s</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>LOD活用基盤サイトLOD4ALLを利活用して、お肌の悩みを解決しようという新しい課題に取り組んだ作品です。自分の肌質やアレルギー、知りたい商品カテゴリーを入力すると、自分に合ったスキンケア商品を表示してくれます。本作品をきっかけとして、多くの商品データがLOD化され、様々な視点での作品が創出されることを期待します。</p><p><br></p><p>LOD推進賞 （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>d007</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>伝統的工芸品/Traditional Crafts of Japan</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>中山 圭太郎</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>伝統的工芸品産業支援補助金の助成対象となる工芸品のリストをオープンデータ化することで、コンサルテーション活動のきっかけを創りだすビジネスモデルを展開されている点を評価しました。自分の専門知識をオープンデータにすることで、個人のブランド形成と、企業コンサルのチャンスを広げていく手法は、今後、全国の個人コンサルタントにも大きな影響を与えていくものと期待されます。</p><p><br></p><p>ビジュアライズ基盤賞 （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>b005</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>E2D3 ver. 0.3 （Excel to D3）</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>E2D3 ver. 0.3 開発チーム</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>オープンデータの活用に限らず、データを処理した結果をどの様に見せるかというビジュアライゼーション(可視化)技術はとても重要です。高機能な可視化ライブラリであるD3をExcelから呼び出せるようにした本作品の応用分野・活用事例は数限りなくあります。基盤技術部門では、その汎用性の高さから惜しくも入賞とならなかったのですが「ビジュアライズ基盤賞」として表彰して、様々な分野で利活用されることを期待します。</p><p><br></p><p>サスティナブル賞 （賞金額5万円）</p><p><br></p><p>エントリー番号<span class="Apple-tab-span">	</span>i010</p><p>作品名称<span class="Apple-tab-span">	</span></p><p>駅のバリアフリールート検索（通勤情報を可視化することによる通勤問題解決2014）</p><p>受賞者<span class="Apple-tab-span">	</span></p><p>オープンデータで通勤問題解決プロジェクト（仮称）</p><p>審査員のコメント<span class="Apple-tab-span">	</span></p><p>昨年の活動を今年も継続して実施しながら、新たな課題を発見しアイデアを生み出した作品であり、アイデアだけでなく、アプリをも構築している点を高く評価しました。２年間活動を継続されているチームワークの素晴らしさに敬意を表するとともに、今後も活動を継続され、さらなる発展を続けていかれることを期待します。</p><p><br></p><p>＊本件連絡先</p><p>LODチャレンジ実行委員会 事務局</p><p>〒252-0882 神奈川県藤沢市遠藤5322</p><p>慶應義塾大学環境情報学部 萩野研究室内</p><p>lod-challenge@sfc.keio.ac.jp</p>
+            </div>
+            <div class="col-sm-offset-1 col-sm-3 col-sidebar">
+                
+
+        <div class="ccm-custom-style-container ccm-custom-style-sidebar-11 block-sidebar-wrapped" >
+    
+
+<div class="ccm-block-next-previous-wrapper">
+        <div class="ccm-block-next-previous-header">
+        <h5>Last Post</h5>
+    </div>
+    
+    	<p class="ccm-block-next-previous-previous-link">
+		<a href="http://lodc.jp/2015/concrete5/blog/20150223">技術コラム第22回：地域主体でのマッピングを支える仕組みづくり</a> 	</p>
+	
+            <div class="ccm-block-next-previous-header">
+            <h5>Next Post</h5>
+        </div>
+    
+            <p class="ccm-block-next-previous-next-link">
+            <a href="http://lodc.jp/2015/concrete5/blog/linked-open-data-japan-2015">Linked Open Data チャレンジ Japan 2015 作品募集開始のお知らせ</a>        </p>
+    
+    
+</div>
+
+
+    </div>
+
+
+        <div class="ccm-custom-style-container ccm-custom-style-sidebar-12 block-sidebar-wrapped" >
+    
+<div class="ccm-block-share-this-page">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2Flod2014"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/intent/tweet?url=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2Flod2014"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/shareArticle?mini-true&url=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2Flod2014&title=LOD%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82014%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%EF%BC%86%E5%84%AA%E7%A7%80%E4%BD%9C%E5%93%81%E7%99%BA%E8%A1%A8%E4%BC%9A+%E6%8E%88%E8%B3%9E%E5%BC%8F"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="mailto:?body=Linked%20Open%20Data%20Challenge%202015%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%0A%0ALOD%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82014%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%EF%BC%86%E5%84%AA%E7%A7%80%E4%BD%9C%E5%93%81%E7%99%BA%E8%A1%A8%E4%BC%9A%20%E6%8E%88%E8%B3%9E%E5%BC%8F%0Ahttp%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2Flod2014&subject=%E3%81%93%E3%81%AE%E8%A8%98%E4%BA%8B%E3%81%AF%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%A7%E3%81%99%E3%80%82"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+</div>
+    </div>
+
+
+    
+<div class="ccm-block-topic-list-wrapper">
+
+    <div class="ccm-block-topic-list-header">
+        <h5>Topics</h5>
+    </div>
+
+    
+                    トピックがありません。        
+    
+</div>
+
+
+
+
+    
+
+<div class="ccm-block-page-list-wrapper">
+
+            <div class="ccm-block-page-list-header">
+            <h5>Related Posts</h5>
+        </div>
+    
+    
+    <div class="ccm-block-page-list-pages">
+
+        </div>
+
+            <div class="ccm-block-page-list-no-pages"></div>
+    
+</div><!-- end .ccm-block-page-list -->
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <hr/>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-conversation-wrapper" data-conversation-id="11">
+    コメント欄を読み込み中 <i class="fa fa-spin fa-circle-o-notch"></i>
+    </div>
+
+    <script type="text/javascript">
+    $(function() {
+        $('div[data-conversation-id=11]').concreteConversation({
+            cnvID: 11,
+            blockID: 1202,
+            cID: 223,
+            posttoken: '1478350506:bdafe559f80433e4e2a3baea6ec44d51',
+            displayMode: 'threaded',
+            addMessageLabel: 'Add Message',
+            paginate: true,
+            itemsPerPage: 50,
+            orderBy: 'date_asc',
+            enableOrdering: 0,
+            displayPostingForm: 'top',
+            activeUsers: [],
+            enableCommentRating: 1,
+            commentRatingUserID: 0,
+            commentRatingIP: 'b44c0fa3',
+            dateFormat: 'default',
+            customDateFormat: '',
+            blockAreaHandle: 'Page Footer',
+            fileExtensions: 'jpg,gif,jpeg,png,doc,docx,zip',
+            maxFileSize: '1',
+            maxFiles: '3',
+            attachmentsEnabled: '1',
+            attachmentOverridesEnabled: '0'
+        });
+    });
+    </script>
+
+</div></div></div>
+</main>
+
+
+<footer id="footer-theme">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                
+
+    <p><span class="title-caps-bold">過去の開催と受賞作品</span></p>
+
+
+    <center>  <table width="100%">  <tbody>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/">LODチャレンジJapan 2015</a></span>　<span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">2015 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">LODチャレンジJapan 2014</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2647">2014 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2013/">LODチャレンジJapan 2013</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2109">2013 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2012/">LODチャレンジJapan 2012</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1071">2012 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/">LODチャレンジJapan 2011</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/result2011.html">2011 受賞作品</a></span>  	</td>  </tr>  </tbody>  </table></center><br>  
+            </div>
+            <div class="col-sm-3">
+                            </div>
+        </div>
+    </div>
+    </section>
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" rel="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Linked Open Data Challenge </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lodc.jp/" property="cc:attributionName" rel="cc:attributionURL">Linked Open Data Challenge Consortium</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p><p>ただし、本サイトに掲載している各企業・団体・グループのロゴおよび各企業・団体・グループ作成コンテンツは各企業・団体・グループの所有でありCC-BYの対象外となります。</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    <p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/partner">スポンサー・パートナー募集</a></span></span>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/committee">LODチャレンジJapan実行委員会</a></span></span><a href="http://lodc.jp/2015/concrete5/about/committee"><br></a>  	</p>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/comittee_rule">実行委員会会則</a></span></span>  	</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    
+<div id="ccm-block-social-links909" class="ccm-block-social-links">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LOD.challenge.Japan"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/LinkedOpenData"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/lodjapan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/108435917546080277840/108435917546080277840/posts"><i class="fa fa-google-plus-square"></i></a></li>
+            <li><a href="http://www.slideshare.net/lodjapan"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCy9PDSVPl-jC8dPoI3Jw3eg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
+
+<footer id="concrete5-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Built with <a href="http://www.concrete5.org" class="concrete5">concrete5</a> CMS.</span>
+                <span class="pull-right">
+                    <a href="http://lodc.jp/2015/concrete5/login">ログイン</a>                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</div>
+
+<div id="fb-root"></div>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appID=954041024639805";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","facebook-jssdk");</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: "ja"};
+</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://apis.google.com/js/plusone.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","google-plusone");</script>
+<!-- load social scripts by social share lite add-on -->
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/picturefill.js"></script>
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/2015/concrete5/application/files/cache/js/a35d0b5a8cc329cf4e82ce0044db4971c189d2e7.js" data-source="http://lodc.jp/2015/concrete5/ccm/assets/localization/jquery/ui/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/underscore.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery-magnific-popup.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/dropzone.js http://lodc.jp/2015/concrete5/ccm/assets/localization/dropzone/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/bootstrap/dropdown.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/events.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/conversations.js http://lodc.jp/2015/concrete5/ccm/assets/localization/conversations/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/lightbox.js"></script>
+
+</body>
+</html>
+";}

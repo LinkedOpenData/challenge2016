@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/*---------------------------------------------------
+
+File name:      base.css
+Author:         Scholex co., ltd.
+update:         2011/03/18
+
+--------------------------------------------------- */
+
+/*----------------------------------------------------
+	Reset
+----------------------------------------------------*/
+
+html {
+	overflow-y: scroll;
+	height: 100%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,th {
+	text-align: left;
+}
+
+q {
+	font-style: normal;
+}
+
+q:before{
+	content: no-open-quote;
+}
+
+q:after {
+	content: no-close-quote;
+}
+
+object,
+embed,
+img {
+	vertical-align: top;
+}
+
+hr,legend {
+	display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+
+img,abbr,acronym,fieldset {
+	border: 0;
+}
+
+/*li {
+	list-style-type: none;
+}*/
+
+p {
+	/*margin: 0 0 1em 0;*/
+	line-height: 1.8em;
+}
+
+/*----------------------------------------------------
+	Base
+----------------------------------------------------*/
+
+
+body {
+	height: 100%;
+	color: #333333;
+	font-size: 77.5%;
+	/*font-family:Georgia,Times New Roman,Times,Meiryo,serif;*/
+	font-family: verdana,helvetica,arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ ゴシック",sans-serif;
+	background: #ffffff url(../img/bg.gif) repeat-x 0 0;
+	text-align:center;
+}
+
+
+
+* + html body {
+	font-family: sans-serif;
+}
+
+/*----------------------------------------------------
+	Link
+ ----------------------------------------------------*/
+
+
+a {
+	text-decoration: underline;
+}
+
+a:link {
+	color: #006600;
+}
+
+a:visited {
+	color: #003300;
+}
+
+a:hover {
+	color: #339966;
+}
+
+a:active {
+	color: #003300;
+}
+
+/*----------------------------------------------------
+	.clearfix
+ ----------------------------------------------------*/
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*?*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}

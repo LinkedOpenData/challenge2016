@@ -1,0 +1,70 @@
+<?php 
+	require_once( dirname(__FILE__) . '/template/header.php');
+	require_once( dirname(__FILE__) . '/template/footer.php');
+	$pageName = "イベント情報";
+	echo get_header($pageName);
+?>
+				<a id="event" name="event"></a>
+				<div id="contentsBK">
+					<h2>イベント情報</h2>
+					<p>LODチャレンジ実行委員会が主催・共催・後援するイベントや、LODに関連するイベント情報をお届けします。</p>
+					<div style="padding:10px;">
+						<span class="withArrow"><a href="#scheduled-events" title="開催予定のイベント">開催予定のイベント</a></span>
+						<span class="withArrow" style="margin-left: 10px;"><a href="#closed-events" title="終了したイベント">終了したイベント</a></span>
+					</div>
+					
+					<h3 id="scheduled-events">開催予定のイベント</h3>
+					
+					<div class="event-item">
+						<div class="event-type type3">協賛・後援・出展</div>
+						<div class="event-title">オープンソースカンファレンス 2012 Okinawa</div>
+						<div class="event-detail">
+							<div class="event-date">日時：2012年9月22日（土）</div>
+							<div class="event-links">
+								<a href="http://www.ospn.jp/osc2012-okinawa/" target="_blank" class="withPochi">イベント詳細</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="event-item">
+						<div class="event-type type4">関連イベント</div>
+						<div class="event-title">第28回 SWO研究会 & オープンデータハッカソン in 鯖江</div>
+						<div class="event-detail">
+							<div class="event-date">日時：2012年10月5日（金）～2012年10月6日（土）</div>
+							<div class="event-links">
+								<a href="http://sigswo.org/A1202_cfp.htm" target="_blank" class="withPochi">イベント詳細</a>
+							</div>
+						</div>
+					</div>
+					
+					<h3 id="closed-events">終了したイベント</h3>
+					
+					<div class="event-item">
+						<div class="event-type type1">チャレンジデー</div>
+						<div class="event-title">第2回LODチャレンジデー 「Linked Open Data入門」</div>
+						<div class="event-detail">
+							<div class="event-date">日時：2012年9月1日（土）</div>
+							<div class="event-links">
+								<a href="http://lod.sfc.keio.ac.jp/blog/?p=40" target="_blank" class="withPochi">イベント詳細</a>
+								<a href="http://kokucheese.com/event/index/46150/" target="_blank" class="withPochi">申込ページ</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="event-item">
+						<div class="event-type type1">チャレンジデー</div>
+						<div class="event-title">第1回LODチャレンジデー  「Linked Open Data入門」</div>
+						<div class="event-detail">
+							<div class="event-date">日時：2012年8月25日（土）</div>
+							<div class="event-links">
+								<a href="http://lod.sfc.keio.ac.jp/blog/?p=40" target="_blank" class="withPochi">イベント詳細</a>
+								<a href="http://kokucheese.com/event/index/46148/" target="_blank" class="withPochi">申込ページ</a>
+								<a href="http://lod.sfc.keio.ac.jp/blog/?p=276" target="_blank" class="withPochi">開催レポート</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+<?php
+	echo get_footer($pageName);
+?>			

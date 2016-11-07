@@ -1,0 +1,1094 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP to Twitter 2.2.0 (beta 7)\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-to-twitter\n"
+"POT-Creation-Date: 2010-08-26 22:15+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rene <info@wpwebshop.com>\n"
+"Language-Team: translation by WPwebshop.com <info@wpwebshop.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: functions.php:222
+msgid "[<a href='options-general.php?page=wp-to-twitter/wp-to-twitter.php'>Hide</a>] If you're experiencing trouble, please copy these settings into any request for support."
+msgstr "[<a href='options-general.php?page=wp-to-twitter/wp-to-twitter.php'>Verberg</a>] Wanneer je problemen hebt kopieer deze instellingen in je bericht om verzoek tot hulp."
+
+#: wp-to-twitter-manager.php:74
+msgid "WP to Twitter is now connected with Twitter."
+msgstr "WP to Twitter is nu verbonden met Twitter."
+
+#: wp-to-twitter-manager.php:82
+msgid "OAuth Authentication Failed. Check your credentials and verify that <a href=\"http://www.twitter.com/\">Twitter</a> is running."
+msgstr "OAuth authenticatie mislukt. Controleer uw login gegevens en controleer of <a href=\"http://www.twitter.com/\">Twitter</a> actief is."
+
+#: wp-to-twitter-manager.php:89
+msgid "OAuth Authentication Data Cleared."
+msgstr "OAuth authenticatie data gewist."
+
+#: wp-to-twitter-manager.php:99
+msgid "WP to Twitter Errors Cleared"
+msgstr "WP to Twitter Foutmeldingen Verwijderd"
+
+#: wp-to-twitter-manager.php:106
+msgid "Sorry! I couldn't get in touch with the Twitter servers to post your new blog post. Your tweet has been stored in a custom field attached to the post, so you can Tweet it manually if you wish! "
+msgstr "Sorry! Ik kon de Twitter servers niet bereiken om je nieuwe bericht te plaatsen. Je tweet is opgeslagen in een aangepast veld in je bericht, zodat je deze evt. manueel kan tweeten! "
+
+#: wp-to-twitter-manager.php:108
+msgid "Sorry! I couldn't get in touch with the Twitter servers to post your <strong>new link</strong>! You'll have to post it manually, I'm afraid. "
+msgstr "Sorry! Ik kon de Twitter servers niet bereiken om je <strong>nieuwe link</strong> te plaatsen! Ik ben bang dat je het zelf manueel moet plaatsen. "
+
+#: wp-to-twitter-manager.php:143
+msgid "WP to Twitter Advanced Options Updated"
+msgstr "WP to Twitter Geavanceerde Opties Bijgewerkt"
+
+#: wp-to-twitter-manager.php:160
+msgid "You must add your Bit.ly login and API key in order to shorten URLs with Bit.ly."
+msgstr "Je moet je Bit.ly login en API sleutel ingeven om URL's te verkorten met Bit.ly."
+
+#: wp-to-twitter-manager.php:164
+msgid "You must add your YOURLS remote URL, login, and password in order to shorten URLs with a remote installation of YOURLS."
+msgstr "Je moet je YOURLS remote URL, login en wachtwoord toevoegen om URL's te verkorten met een installatie op afstand van YOURLS."
+
+#: wp-to-twitter-manager.php:168
+msgid "You must add your YOURLS server path in order to shorten URLs with a remote installation of YOURLS."
+msgstr "Je moet je YOURLS server pad ingeven om URL's te verkorten met een installatie op afstand van YOURLS."
+
+#: wp-to-twitter-manager.php:172
+msgid "WP to Twitter Options Updated"
+msgstr "WP to Twitter Opties Bijgewerkt"
+
+#: wp-to-twitter-manager.php:182
+msgid "Category limits updated."
+msgstr "Categorie limieten bijgewerkt."
+
+#: wp-to-twitter-manager.php:186
+msgid "Category limits unset."
+msgstr "Categorie limieten uitgezet"
+
+#: wp-to-twitter-manager.php:194
+msgid "YOURLS password updated. "
+msgstr "YOURLS wachtwoord bijgewerkt. "
+
+#: wp-to-twitter-manager.php:197
+msgid "YOURLS password deleted. You will be unable to use your remote YOURLS account to create short URLS."
+msgstr "YOURLS wachtwoord verwijderd. Je kunt je remote YOURLS account niet gebruiken om verkorte URL's te creëeren."
+
+#: wp-to-twitter-manager.php:199
+msgid "Failed to save your YOURLS password! "
+msgstr "YOURLS wachtwoord opslaan is mislukt! "
+
+#: wp-to-twitter-manager.php:203
+msgid "YOURLS username added. "
+msgstr "YOURLS gebruikersnaam toegevoegd. "
+
+#: wp-to-twitter-manager.php:207
+msgid "YOURLS API url added. "
+msgstr "YOURLS API url toegevoegd. "
+
+#: wp-to-twitter-manager.php:210
+msgid "YOURLS API url removed. "
+msgstr "YOURLS API url verwijderd. "
+
+#: wp-to-twitter-manager.php:215
+msgid "YOURLS local server path added. "
+msgstr "YOURLS lokaal server pad toegevoegd. "
+
+#: wp-to-twitter-manager.php:217
+msgid "The path to your YOURLS installation is not correct. "
+msgstr "Het pad naar je YOURLS installatie is niet correct."
+
+#: wp-to-twitter-manager.php:221
+msgid "YOURLS local server path removed. "
+msgstr "YOURLS lokaal server pad verwijderd. "
+
+#: wp-to-twitter-manager.php:225
+msgid "YOURLS will use Post ID for short URL slug."
+msgstr "YOURLS zal een bericht ID gebruiken voor een korte URL slug."
+
+#: wp-to-twitter-manager.php:228
+msgid "YOURLS will not use Post ID for the short URL slug."
+msgstr "YOURLS zal geen bericht ID gebruiken voor een korte URL slug."
+
+#: wp-to-twitter-manager.php:235
+msgid "Cligs API Key Updated"
+msgstr "Cli.gs API sleutel bijgewerkt"
+
+#: wp-to-twitter-manager.php:238
+msgid "Cli.gs API Key deleted. Cli.gs created by WP to Twitter will no longer be associated with your account. "
+msgstr "Cli.gs API sleutel verwijderd. Cli.gs gemaakt met WP to Twitter zullen niet langer verbonden zijn met je account. "
+
+#: wp-to-twitter-manager.php:240
+msgid "Cli.gs API Key not added - <a href='http://cli.gs/user/api/'>get one here</a>! "
+msgstr "Cli.gs API sleutel niet toegevoegd - <a href='http://cli.gs/user/api/'>verkrijg er één hier</a>! "
+
+#: wp-to-twitter-manager.php:246
+msgid "Bit.ly API Key Updated."
+msgstr "Bit.ly API sleutel bijgewerkt."
+
+#: wp-to-twitter-manager.php:249
+msgid "Bit.ly API Key deleted. You cannot use the Bit.ly API without an API key. "
+msgstr "Bit.ly API sleutel verwijderd. Je kan de Bit.ly API niet geberuiken zonder API sleutel. "
+
+#: wp-to-twitter-manager.php:251
+msgid "Bit.ly API Key not added - <a href='http://bit.ly/account/'>get one here</a>! An API key is required to use the Bit.ly URL shortening service."
+msgstr "Bit.ly API sleutel niet toegevoegd - <a href='http://bit.ly/account/'>HIER aanvragen</a>! Een API sleutel is nodig om de Bit.ly URL verkorter te gebruiken."
+
+#: wp-to-twitter-manager.php:255
+msgid " Bit.ly User Login Updated."
+msgstr " Bit.ly gebruikerslogin bijgewerkt."
+
+#: wp-to-twitter-manager.php:258
+msgid "Bit.ly User Login deleted. You cannot use the Bit.ly API without providing your username. "
+msgstr "Bit.ly gebruikerslogin verwijderd. Je kan niet de Bit.ly API gebruiken zonder je gebruikersnaam in te voeren. "
+
+#: wp-to-twitter-manager.php:260
+msgid "Bit.ly Login not added - <a href='http://bit.ly/account/'>get one here</a>! "
+msgstr "Bit.ly Login niet toegevoegd - maak <a href='http://bit.ly/account/'>HIER</a> een account aan!"
+
+#: wp-to-twitter-manager.php:289
+msgid "No error information is available for your shortener."
+msgstr "Er is geen informatie beschikbaar over je URL verkorter."
+
+#: wp-to-twitter-manager.php:291
+msgid "<li class=\"error\"><strong>WP to Twitter was unable to contact your selected URL shortening service.</strong></li>"
+msgstr "<li class=\"error\"><strong>WP to Twitter kon geen contact maken met je geselecteerde URL verkorter.</strong></li>"
+
+#: wp-to-twitter-manager.php:294
+msgid "<li><strong>WP to Twitter successfully contacted your selected URL shortening service.</strong>  The following link should point to your blog homepage:"
+msgstr "<li><strong>WP to Twitter heeft succesvol contact gemaakt met je geselecteerde URL verkorter.</strong>  De volgende link moet naar je blog homepage wijzen:"
+
+#: wp-to-twitter-manager.php:303
+msgid "<li><strong>WP to Twitter successfully submitted a status update to Twitter.</strong></li>"
+msgstr "<li><strong>WP to Twitter heeft succesvol een status update geplaatst op Twitter.</strong></li>"
+
+#: wp-to-twitter-manager.php:305
+msgid "<li class=\"error\"><strong>WP to Twitter failed to submit an update to Twitter.</strong></li>"
+msgstr "<li class=\"error\"><strong>Het is WP to Twitter niet gelukt om een update naar Twitter te sturen.</strong></li>"
+
+#: wp-to-twitter-manager.php:308
+msgid "You have not connected WordPress to Twitter."
+msgstr "Je hebt geen connectie met WordPress to Twitter."
+
+#: wp-to-twitter-manager.php:312
+msgid "<li class=\"error\"><strong>Your server does not appear to support the required methods for WP to Twitter to function.</strong> You can try it anyway - these tests aren't perfect.</li>"
+msgstr "<li class=\"error\"><strong>Je server lijkt niet de benodigde methodes te ondersteunen om WP to Twitter te laten functioneren.</strong> Je kunt het altijd proberen - deze tests zijn niet perfect</li>"
+
+#: wp-to-twitter-manager.php:316
+msgid "<li><strong>Your server should run WP to Twitter successfully.</strong></li>"
+msgstr "<li><strong>WP to Twitter zou probleemloos op je server moeten werken.</strong></li>"
+
+#: wp-to-twitter-manager.php:333
+msgid "WP to Twitter Options"
+msgstr "WP to Twitter Opties"
+
+#: wp-to-twitter-manager.php:343
+#: wp-to-twitter.php:805
+msgid "Get Support"
+msgstr "Verkrijg Ondersteuning"
+
+#: wp-to-twitter-manager.php:344
+msgid "Export Settings"
+msgstr "Exporteren Instellingen"
+
+#: wp-to-twitter-manager.php:345
+#: wp-to-twitter.php:805
+msgid "Make a Donation"
+msgstr "Geef een Donatie"
+
+#: wp-to-twitter-manager.php:360
+msgid "Shortcodes available in post update templates:"
+msgstr "Shortcodes beschikbaar in bericht update templates:"
+
+#: wp-to-twitter-manager.php:362
+msgid "<code>#title#</code>: the title of your blog post"
+msgstr "<code>#title#</code>: de titel van je blog bericht"
+
+#: wp-to-twitter-manager.php:363
+msgid "<code>#blog#</code>: the title of your blog"
+msgstr "<code>#blog#</code>: de titel van je blog"
+
+#: wp-to-twitter-manager.php:364
+msgid "<code>#post#</code>: a short excerpt of the post content"
+msgstr "<code>#post#</code>: een korte samenvatting van het bericht"
+
+#: wp-to-twitter-manager.php:365
+msgid "<code>#category#</code>: the first selected category for the post"
+msgstr "<code>#category#</code>: de eerste geselecteerde categorie voor het bericht"
+
+#: wp-to-twitter-manager.php:366
+msgid "<code>#date#</code>: the post date"
+msgstr "<code>#date#</code>: de bericht datum"
+
+#: wp-to-twitter-manager.php:367
+msgid "<code>#url#</code>: the post URL"
+msgstr "<code>#url#</code>: de bericht URL"
+
+#: wp-to-twitter-manager.php:368
+msgid "<code>#author#</code>: the post author"
+msgstr "<code>#author#</code>: de bericht auteur"
+
+#: wp-to-twitter-manager.php:370
+msgid "You can also create custom shortcodes to access WordPress custom fields. Use doubled square brackets surrounding the name of your custom field to add the value of that custom field to your status update. Example: <code>[[custom_field]]</code></p>"
+msgstr "Je kan ook aangepaste shortcodes creëeren voor toegang tot aangepaste WordPress velden. Gebruik dubbele [ ] om de naam van je aangepast veld om de waarde hiervan toe te voegen aan je status update. Voorbeeld: <code>[[custom_field]]</code></p>"
+
+#: wp-to-twitter-manager.php:375
+msgid "<p>One or more of your last posts has failed to send it's status update to Twitter. Your Tweet has been saved in your post custom fields, and you can re-Tweet it at your leisure.</p>"
+msgstr "<p>Eén of meer van je laatste berichten konden niet hun status sturen naar Twitter. Je tweet is bewaard in een aangepast veld in je bericht, en je kan het naar behoeven manueel retweeten.</p>"
+
+#: wp-to-twitter-manager.php:379
+msgid "<p>The query to the URL shortener API failed, and your URL was not shrunk. The full post URL was attached to your Tweet. Check with your URL shortening provider to see if there are any known issues. [<a href=\"http://blog.cli.gs\">Cli.gs Blog</a>] [<a href=\"http://blog.bit.ly\">Bit.ly Blog</a>]</p>"
+msgstr "<p>De query van de URL verkorter API is mislukt, en je URL is niet verkort. De volledige bericht URL is gebruikt in je Tweet. Informeer bij de aanbieder van je URL verkorter of er problemen zijn. [<a href=\"http://blog.cli.gs\">Cli.gs Blog</a>] [<a href=\"http://blog.bit.ly\">Bit.ly Blog</a>]</p>"
+
+#: wp-to-twitter-manager.php:386
+msgid "Clear 'WP to Twitter' Error Messages"
+msgstr "Verwijderden 'WP to Twitter' Foutmeldingen"
+
+#: wp-to-twitter-manager.php:402
+msgid "Basic Settings"
+msgstr "Basis Instellingen"
+
+#: wp-to-twitter-manager.php:408
+msgid "Tweet Templates"
+msgstr "Tweet Templates"
+
+#: wp-to-twitter-manager.php:411
+msgid "Update when a post is published"
+msgstr "Bijwerken wanneer een bericht is gepubliceerd"
+
+#: wp-to-twitter-manager.php:411
+msgid "Text for new post updates:"
+msgstr "Tekst voor nieuwe berichten:"
+
+#: wp-to-twitter-manager.php:417
+#: wp-to-twitter-manager.php:420
+msgid "Update when a post is edited"
+msgstr "Bijwerken wanneer een bericht aangepast is"
+
+#: wp-to-twitter-manager.php:417
+#: wp-to-twitter-manager.php:420
+msgid "Text for editing updates:"
+msgstr "Tekst voor aangepaste updates:"
+
+#: wp-to-twitter-manager.php:421
+msgid "You can not disable updates on edits when using Postie or similar plugins."
+msgstr "Je kunt updates niet uitschakelen op bewerkingen wanneer je Postie of vergelijkbare plugins gebruikt."
+
+#: wp-to-twitter-manager.php:425
+msgid "Update Twitter when new Wordpress Pages are published"
+msgstr "Bijwerken Twitter wanneer nieuwe WordPress pagina's gepubliceerd zijn"
+
+#: wp-to-twitter-manager.php:425
+msgid "Text for new page updates:"
+msgstr "Tekst voor nieuwe pagina updates:"
+
+#: wp-to-twitter-manager.php:429
+msgid "Update Twitter when WordPress Pages are edited"
+msgstr "Bijwerken Twitter wanneer WordPress pagina's bijgewerkt worden"
+
+#: wp-to-twitter-manager.php:429
+msgid "Text for page edit updates:"
+msgstr "Tekst voor aanpassing pagina updates:"
+
+#: wp-to-twitter-manager.php:433
+msgid "Update Twitter when you post a Blogroll link"
+msgstr "Bijwerken Twitter wanneer je een blogrol link plaatst"
+
+#: wp-to-twitter-manager.php:434
+msgid "Text for new link updates:"
+msgstr "Tekst voor nieuwe link updates:"
+
+#: wp-to-twitter-manager.php:434
+msgid "Available shortcodes: <code>#url#</code>, <code>#title#</code>, and <code>#description#</code>."
+msgstr "Beschikbare shortcodes: <code>#url#</code>, <code>#title#</code> en <code>#description#</code>."
+
+#: wp-to-twitter-manager.php:438
+msgid "Choose your short URL service (account settings below)"
+msgstr "Kies je verkorte URL service (account instelllingen onder)"
+
+#: wp-to-twitter-manager.php:441
+msgid "Use Cli.gs for my URL shortener."
+msgstr "Gebruik Cli.gs voor mijn URL verkorter."
+
+#: wp-to-twitter-manager.php:442
+msgid "Use Bit.ly for my URL shortener."
+msgstr "Gebruik Bit.ly voor mijn URL verkorter."
+
+#: wp-to-twitter-manager.php:443
+msgid "YOURLS (installed on this server)"
+msgstr "YOURLS (geïnstalleerd op deze server)"
+
+#: wp-to-twitter-manager.php:444
+msgid "YOURLS (installed on a remote server)"
+msgstr "YOURLS (geïnstalleerd op een remote server)"
+
+#: wp-to-twitter-manager.php:445
+msgid "Use WordPress as a URL shortener."
+msgstr "Gebruik WordPress voor mijn URL verkorter."
+
+#: wp-to-twitter-manager.php:446
+msgid "Don't shorten URLs."
+msgstr "URL's niet verkorten."
+
+#: wp-to-twitter-manager.php:448
+msgid "Using WordPress as a URL shortener will send URLs to Twitter in the default URL format for WordPress: <code>http://domain.com/wpdir/?p=123</code>. Google Analytics is not available when using WordPress shortened URLs."
+msgstr "Door WordPress als een URL verkorter te gebruiken zul je URL's verzenden naar Twitter in het standaard formaat voor WordPress: <code>http://domein.com/folder/?p=123</code>. Google Analytics is niet beschikbaar wanneer WordPress gebruikt wordt voor verkorte URL's."
+
+#: wp-to-twitter-manager.php:454
+msgid "Save WP->Twitter Options"
+msgstr "WP->Twitter Instellingen opslaan"
+
+#: wp-to-twitter-manager.php:466
+msgid "<abbr title=\"Uniform Resource Locator\">URL</abbr> Shortener Account Settings"
+msgstr "<abbr title=\"Uniform Resource Locator\">URL</abbr> Verkorter Account Instellingen"
+
+#: wp-to-twitter-manager.php:470
+msgid "Your Cli.gs account details"
+msgstr "Jouw Cli.gs account informatie"
+
+#: wp-to-twitter-manager.php:475
+msgid "Your Cli.gs <abbr title='application programming interface'>API</abbr> Key:"
+msgstr "Jouw Cli.gs <abbr title='application programming interface'>API</abbr> sleutel:"
+
+#: wp-to-twitter-manager.php:481
+msgid "Don't have a Cli.gs account or Cligs API key? <a href='http://cli.gs/user/api/'>Get one free here</a>!<br />You'll need an API key in order to associate the Cligs you create with your Cligs account."
+msgstr "Heb je geen Cli.gs account of Cligs API sleutel? <a href='http://cli.gs/user/api/'>Verkrijg er een gratis hier</a>!<br />Je hebt een API sleutel nodig om de Cligs die je maakt te koppelen aan je Cligs account."
+
+#: wp-to-twitter-manager.php:487
+msgid "Your Bit.ly account details"
+msgstr "Je Biy.ly account informatie"
+
+#: wp-to-twitter-manager.php:492
+msgid "Your Bit.ly username:"
+msgstr "Je Bit.ly gebruikersnaam:"
+
+#: wp-to-twitter-manager.php:496
+msgid "Your Bit.ly <abbr title='application programming interface'>API</abbr> Key:"
+msgstr "Je Bit.ly <abbr title='application programming interface'>API</abbr> sleutel:"
+
+#: wp-to-twitter-manager.php:503
+msgid "Save Bit.ly API Key"
+msgstr "Opslaan Bit.ly API sleutel"
+
+#: wp-to-twitter-manager.php:503
+msgid "Clear Bit.ly API Key"
+msgstr "Verwijderen Bit.ly API sleutel"
+
+#: wp-to-twitter-manager.php:503
+msgid "A Bit.ly API key and username is required to shorten URLs via the Bit.ly API and WP to Twitter."
+msgstr "Een Bit.ly API en gebruikersnaam is nodig om URL's te verkorten met de Bit.ly API en WP to Twitter."
+
+#: wp-to-twitter-manager.php:508
+msgid "Your YOURLS account details"
+msgstr "Jouw YOURLS account informatie"
+
+#: wp-to-twitter-manager.php:512
+msgid "Path to the YOURLS config file (Local installations)"
+msgstr "Pad naar het YOURLS configuratie bestand (Lokale installaties)"
+
+#: wp-to-twitter-manager.php:513
+#: wp-to-twitter-manager.php:517
+msgid "Example:"
+msgstr "Voorbeeld:"
+
+#: wp-to-twitter-manager.php:516
+msgid "URI to the YOURLS API (Remote installations)"
+msgstr "URI naar de YOURLS API (Remote installaties)"
+
+#: wp-to-twitter-manager.php:520
+msgid "Your YOURLS username:"
+msgstr "Je YOURLS gebruikersnaam:"
+
+#: wp-to-twitter-manager.php:524
+msgid "Your YOURLS password:"
+msgstr "Jouw YOURLS wachtwoord:"
+
+#: wp-to-twitter-manager.php:524
+msgid "<em>Saved</em>"
+msgstr "<em>Opgeslagen</em>"
+
+#: wp-to-twitter-manager.php:528
+msgid "Use Post ID for YOURLS url slug."
+msgstr "Gebruik bericht ID voor YOURLS url slug."
+
+#: wp-to-twitter-manager.php:533
+msgid "Save YOURLS Account Info"
+msgstr "Opslaan  YOURLS Account Info"
+
+#: wp-to-twitter-manager.php:533
+msgid "Clear YOURLS password"
+msgstr "Wissen YOURLS wachtwoord"
+
+#: wp-to-twitter-manager.php:533
+msgid "A YOURLS password and username is required to shorten URLs via the remote YOURLS API and WP to Twitter."
+msgstr "Een YOURLS wachtwoord en gebruikersnaam is nodig om URL's te verkorten met de YOURLS API en WP to Twitter."
+
+#: wp-to-twitter-manager.php:550
+msgid "Advanced Settings"
+msgstr "Geavanceerde Instellingen"
+
+#: wp-to-twitter-manager.php:557
+msgid "Advanced Tweet settings"
+msgstr "Geavanceerde Tweet instellingen"
+
+#: wp-to-twitter-manager.php:560
+msgid "Add tags as hashtags on Tweets"
+msgstr "Gebruik tags als hashtags in Tweets"
+
+#: wp-to-twitter-manager.php:561
+msgid "Spaces replaced with:"
+msgstr "Spaties vervangen door:"
+
+#: wp-to-twitter-manager.php:562
+msgid "Default replacement is an underscore (<code>_</code>). Use <code>[ ]</code> to remove spaces entirely."
+msgstr "Standaard vervanging is een underscore (<code>_</code>). Gebruik <code>[ ]</code> om spaties geheel te verwijderen."
+
+#: wp-to-twitter-manager.php:565
+msgid "Maximum number of tags to include:"
+msgstr "Maximaal aantal tags om in te voegen:"
+
+#: wp-to-twitter-manager.php:566
+msgid "Maximum length in characters for included tags:"
+msgstr "Maximale lengte in karakters voor ingevoegde tags:"
+
+#: wp-to-twitter-manager.php:567
+msgid "These options allow you to restrict the length and number of WordPress tags sent to Twitter as hashtags. Set to <code>0</code> or leave blank to allow any and all tags."
+msgstr "Deze opties maken het mogelijk om de lengte en het aantal tags te beperken welke naar Twitter verzonden worden als hashtags. Ingesteld op <code>0</code> of laat leeg om alle tags toe te staan."
+
+#: wp-to-twitter-manager.php:570
+msgid "Length of post excerpt (in characters):"
+msgstr "Lengte van de bericht samenvatting (in karakters):"
+
+#: wp-to-twitter-manager.php:570
+msgid "By default, extracted from the post itself. If you use the 'Excerpt' field, that will be used instead."
+msgstr "Standaard, verkregen van het bericht zelf. Wanneer je het 'Excerpt' veld gebruikt zal dit hiervoor gebruikt worden."
+
+#: wp-to-twitter-manager.php:573
+msgid "WP to Twitter Date Formatting:"
+msgstr "WP to Twitter Datum Opmaak:"
+
+#: wp-to-twitter-manager.php:574
+msgid "Default is from your general settings. <a href='http://codex.wordpress.org/Formatting_Date_and_Time'>Date Formatting Documentation</a>."
+msgstr "Standaard is van je algemene instellingen. <a href='http://codex.wordpress.org/Formatting_Date_and_Time'>Documentatie Datum Opmaak (Eng)</a>."
+
+#: wp-to-twitter-manager.php:578
+msgid "Custom text before all Tweets:"
+msgstr "Aangepaste tekst vóór alle Tweets:"
+
+#: wp-to-twitter-manager.php:579
+msgid "Custom text after all Tweets:"
+msgstr "Aangepaste tekst ná alle Tweets:"
+
+#: wp-to-twitter-manager.php:582
+msgid "Custom field for an alternate URL to be shortened and Tweeted:"
+msgstr "Aangepast veld voor een alternatieve URL om te verkorten en tweeten:"
+
+#: wp-to-twitter-manager.php:583
+msgid "You can use a custom field to send an alternate URL for your post. The value is the name of a custom field containing your external URL."
+msgstr "Je kan een aangepast veld gebruiken om een alternatieve URL te sturen voor je bericht. De waarde is de naam van het aangepast veld met de externe URL."
+
+#: wp-to-twitter-manager.php:587
+msgid "Special Cases when WordPress should send a Tweet"
+msgstr "Speciale gevallen wanneer WordPress een Tweet moet versturen"
+
+#: wp-to-twitter-manager.php:590
+msgid "Do not post status updates by default"
+msgstr "Plaats standaard geen bericht updates"
+
+#: wp-to-twitter-manager.php:591
+msgid "By default, all posts meeting other requirements will be posted to Twitter. Check this to change your setting."
+msgstr "Standaard zullen alle berichten welke voldoen aan andere eisen verstuurd worden naar Twitter. Selecteer dit om de instelling te veranderen."
+
+#: wp-to-twitter-manager.php:595
+msgid "Send Twitter Updates on remote publication (Post by Email or XMLRPC Client)"
+msgstr "Twitter updates verzenden met publicatie op afstand (per email of XMLRPC Client)"
+
+#: wp-to-twitter-manager.php:597
+msgid "I'm using a plugin to post by email, such as Postie. Only check this if your updates do not work."
+msgstr "Ik gebruik een plugin om te versturen per email, zoals Postie. Selecteer dit alleen als je updates niet werken."
+
+#: wp-to-twitter-manager.php:601
+msgid "Update Twitter when a post is published using QuickPress"
+msgstr "Update Twitter wanneer een bericht gepubliceerd wordt met QuickPress"
+
+#: wp-to-twitter-manager.php:605
+msgid "Google Analytics Settings"
+msgstr "Google Analytics Instellingen"
+
+#: wp-to-twitter-manager.php:606
+msgid "You can track the response from Twitter using Google Analytics by defining a campaign identifier here. You can either define a static identifier or a dynamic identifier. Static identifiers don't change from post to post; dynamic identifiers are derived from information relevant to the specific post. Dynamic identifiers will allow you to break down your statistics by an additional variable."
+msgstr "Je kunt de respons van Twitter bijhouden met gebruik van Google Analytics door een campagne ID te definiëren. Je kan zowel een statische als een dynamische ID definiëren. Statische ID's wijzigen niet van bericht tot bericht; dynamische ID's worden afgeleid van informatie relevant aan het specifieke bericht. Dynamische ID's stellen je in staat om statistieken onder te verdelen met een extra variabele."
+
+#: wp-to-twitter-manager.php:610
+msgid "Use a Static Identifier with WP-to-Twitter"
+msgstr "Gebruik statische identifier met WP-to-Twitter"
+
+#: wp-to-twitter-manager.php:611
+msgid "Static Campaign identifier for Google Analytics:"
+msgstr "Statische Campagne Identifier voor Google Analytics:"
+
+#: wp-to-twitter-manager.php:615
+msgid "Use a dynamic identifier with Google Analytics and WP-to-Twitter"
+msgstr "Gebruik een dynamische identifier met Google Analytics en WP-to-Twitter"
+
+#: wp-to-twitter-manager.php:616
+msgid "What dynamic identifier would you like to use?"
+msgstr "Welke dynamische ID wil je gebruiken?"
+
+#: wp-to-twitter-manager.php:618
+msgid "Category"
+msgstr "Categorie"
+
+#: wp-to-twitter-manager.php:619
+msgid "Post ID"
+msgstr "Bericht ID"
+
+#: wp-to-twitter-manager.php:620
+msgid "Post Title"
+msgstr "Bericht Titel"
+
+#: wp-to-twitter-manager.php:621
+msgid "Author"
+msgstr "Auteur"
+
+#: wp-to-twitter-manager.php:626
+msgid "Individual Authors"
+msgstr "Individuele Auteurs"
+
+#: wp-to-twitter-manager.php:629
+msgid "Authors have individual Twitter accounts"
+msgstr "Auteurs hebben individuele Twitter accounts"
+
+#: wp-to-twitter-manager.php:629
+msgid "Authors can set their username in their user profile. As of version 2.2.0, this feature no longer allows authors to post to their own Twitter accounts. It can only add an @reference to the author."
+msgstr "Auteurs kunnen hun gebruikersnaam instellen in hun profiel. Vanaf versie 2.2.0 kunnen auteurs niet meer berichten plaatsen op hun eigen Twitter accounts, alleen een @reference naar de auteur kan toegevoegd worden."
+
+#: wp-to-twitter-manager.php:633
+msgid "Disable Error Messages"
+msgstr "Uitschakelen Foutmeldingen"
+
+#: wp-to-twitter-manager.php:636
+msgid "Disable global URL shortener error messages."
+msgstr "Uitschakelen globale URL verkorter foutmeldingen."
+
+#: wp-to-twitter-manager.php:640
+msgid "Disable global Twitter API error messages."
+msgstr "Uitschakelen globale Twitter API foutmeldingen."
+
+#: wp-to-twitter-manager.php:644
+msgid "Disable notification to implement OAuth"
+msgstr "Uitschakelen melding om OAuth te implementeren"
+
+#: wp-to-twitter-manager.php:648
+msgid "Get Debugging Data for OAuth Connection"
+msgstr "Verkrijg debugging data voor OAuth connectie"
+
+#: wp-to-twitter-manager.php:654
+msgid "Save Advanced WP->Twitter Options"
+msgstr "WP->Twitter Geavanceerde Instellingen Opslaan"
+
+#: wp-to-twitter-manager.php:668
+msgid "Limit Updating Categories"
+msgstr "Limiteer Updaten Categorieën"
+
+#: wp-to-twitter-manager.php:672
+msgid "Select which blog categories will be Tweeted. "
+msgstr "Selecteer welke blog categorieën worden Getweet."
+
+#: wp-to-twitter-manager.php:675
+msgid "<em>Category limits are disabled.</em>"
+msgstr "<em>Categorie limieten zijn uitgeschakeld.</em>"
+
+#: wp-to-twitter-manager.php:689
+msgid "Check Support"
+msgstr "Ondersteuning Raadplegen"
+
+#: wp-to-twitter-manager.php:689
+msgid "Check whether your server supports <a href=\"http://www.joedolson.com/articles/wp-to-twitter/\">WP to Twitter's</a> queries to the Twitter and URL shortening APIs. This test will send a status update to Twitter and shorten a URL using your selected methods."
+msgstr "Selecteer of je server <a href=\"http://www.joedolson.com/articles/wp-to-twitter/\">WP to Twitter's</a> queries ondersteund naar de Twitter en URL verkorter API's. Deze test zal een status update sturen naar Twitter en een URL verkorten met gebruik van jouw geselecteerde methodes."
+
+#: wp-to-twitter-oauth.php:105
+#: wp-to-twitter-oauth.php:143
+msgid "Connect to Twitter"
+msgstr "Verbinding maken met Twitter"
+
+#: wp-to-twitter-oauth.php:108
+msgid "The process to set up OAuth authentication for your web site is needlessly laborious. It is also confusing. However, this is the only method available from Twitter at this time. Note that you will not, at any time, enter you Twitter username or password into WP to Twitter; they are not used in OAuth authentication."
+msgstr "Het proces om OAuth authenticatie in te stellen voor je website is onnodig tijdsrovend en verwarrend. Desondanks is het de enige methode beschikbaar van Twitter op dit moment. Let op dat je nooit je Twitter gebruikersnaam of wachtwoord invoert in WP to Twitter; ze worden niet gebruikt met OAuth authenticatie."
+
+#: wp-to-twitter-oauth.php:111
+msgid "1. Register this site as an application on "
+msgstr "1. Registreer deze site als een applicatie op "
+
+#: wp-to-twitter-oauth.php:111
+msgid "Twitter's application registration page"
+msgstr "Twitter's applicatie registratie pagina"
+
+#: wp-to-twitter-oauth.php:113
+msgid "If you're not currently logged in, use the Twitter username and password which you want associated with this site"
+msgstr "Als je op dit moment niet ingelogd bent gebruik de Twitter gebruikersnaam en het wachtwoord welke je geassocieerd wil zien met deze site"
+
+#: wp-to-twitter-oauth.php:114
+msgid "Your Application's Name will be what shows up after \"via\" in your twitter stream; previously, \"WP to Twitter.\" Your application name cannot include the word \"Twitter.\" I suggest using the name of your web site."
+msgstr "De naam van je applicatie zal dat zijn wat weergegeven wordt na \"via\" in je twitter stream; vroeger \"WP to Twitter.\" Je applicatie naam kan niet het woord \"Twitter\" bevatten. Gebruik een andere naam voor je website."
+
+#: wp-to-twitter-oauth.php:115
+msgid "Your Application Description can be whatever you want."
+msgstr "Je applicatie omschrijving kan van alles zijn."
+
+#: wp-to-twitter-oauth.php:116
+msgid "Application Type should be set on "
+msgstr "Applicatie Type moet staan op "
+
+#: wp-to-twitter-oauth.php:116
+msgid "Browser"
+msgstr "Browser"
+
+#: wp-to-twitter-oauth.php:117
+msgid "The Callback URL should be "
+msgstr "De terugkoppel URL zou moeten zijn "
+
+#: wp-to-twitter-oauth.php:118
+msgid "Default Access type must be set to "
+msgstr "Standaard Toegangstype moet ingesteld staan op "
+
+#: wp-to-twitter-oauth.php:118
+msgid "Read &amp; Write"
+msgstr "Lezen &amp; Schrijven"
+
+#: wp-to-twitter-oauth.php:118
+msgid "(this is NOT the default)"
+msgstr "(dit is NIET de standaard)"
+
+#: wp-to-twitter-oauth.php:120
+msgid "Once you have registered your site as an application, you will be provided with a consumer key and a consumer secret."
+msgstr "Zodra je je site geregistreerd hebt als een applicatie wordt je voorzien van een gebruikerssleutel en gebruikersgeheim."
+
+#: wp-to-twitter-oauth.php:121
+msgid "2. Copy and paste your consumer key and consumer secret into the fields below"
+msgstr "2. Kopieer en plak je gebruikerssleutel en gebruikersgeheim in de onderstaande velden"
+
+#: wp-to-twitter-oauth.php:124
+msgid "Twitter Consumer Key"
+msgstr "Twitter Gebruiker  Sleutel"
+
+#: wp-to-twitter-oauth.php:128
+msgid "Twitter Consumer Secret"
+msgstr "Twitter Gebruiker Geheim"
+
+#: wp-to-twitter-oauth.php:131
+msgid "3. Copy and paste your Access Token and Access Token Secret into the fields below"
+msgstr "3. Kopieer en plak je toegangsbewijs en toegangsbewijs geheim in de onderstaande velden"
+
+#: wp-to-twitter-oauth.php:132
+msgid "On the right hand side of your application page, click on 'My Access Token'."
+msgstr "Klik op 'Mijn Toegangsbewijs' aan de rechterzijde van je applicatiepagina."
+
+#: wp-to-twitter-oauth.php:134
+msgid "Access Token"
+msgstr "Toegangsbewijs"
+
+#: wp-to-twitter-oauth.php:138
+msgid "Access Token Secret"
+msgstr "Toegangsbewijs Geheim"
+
+#: wp-to-twitter-oauth.php:153
+msgid "Disconnect from Twitter"
+msgstr "Twitter verbinding verbreken"
+
+#: wp-to-twitter-oauth.php:160
+msgid "Twitter Username "
+msgstr "Twitter Gebruikersnaam"
+
+#: wp-to-twitter-oauth.php:161
+msgid "Consumer Key "
+msgstr "Gebruikerssleutel"
+
+#: wp-to-twitter-oauth.php:162
+msgid "Consumer Secret "
+msgstr "Gebruikersgeheim"
+
+#: wp-to-twitter-oauth.php:163
+msgid "Access Token "
+msgstr "Toegangsbewijs"
+
+#: wp-to-twitter-oauth.php:164
+msgid "Access Token Secret "
+msgstr "Toegangsbewijs Geheim"
+
+#: wp-to-twitter-oauth.php:167
+msgid "Disconnect Your WordPress and Twitter Account"
+msgstr "Verbreek de verbinding met WordPress en Twitter"
+
+#: wp-to-twitter.php:55
+#, php-format
+msgid "Twitter now requires authentication by OAuth. You will need you to update your <a href=\"%s\">settings</a> in order to continue to use WP to Twitter."
+msgstr "Twitter gebruikt nu authenticatie met OAuth. Je moet je <a href=\"%s\">instellingen</a> bijwerken om WP to Twitter te kunnen blijven gebruiken."
+
+#: wp-to-twitter.php:136
+msgid "200 OK: Success!"
+msgstr "200 OK: Success!"
+
+#: wp-to-twitter.php:139
+msgid "400 Bad Request: The request was invalid. This is the status code returned during rate limiting."
+msgstr "400 Bad Request: De aanvraag was onjuist. Dit is de status code welke wordt teruggegeven met waardebeperking."
+
+#: wp-to-twitter.php:142
+msgid "401 Unauthorized: Authentication credentials were missing or incorrect."
+msgstr "401 Unauthorized: Authenticatie login gegevens zijn onvolledig of onjuist."
+
+#: wp-to-twitter.php:145
+msgid "403 Forbidden: The request is understood, but it has been refused. This code is used when requests are being denied due to update limits."
+msgstr "403 Forbidden: De aanvraag is begrepen maar geweigerd. Deze code wordt gebruikt wanneer aanvragen worden geweigerd door update limieten."
+
+#: wp-to-twitter.php:147
+msgid "500 Internal Server Error: Something is broken at Twitter."
+msgstr "500 Internal Server Error: Er is iets kapot bij Twitter."
+
+#: wp-to-twitter.php:150
+msgid "503 Service Unavailable: The Twitter servers are up, but overloaded with requests Please try again later."
+msgstr "503 Service Unavailable: De Twitter servers werken maar zijn overbelast, probeer het later nog eens."
+
+#: wp-to-twitter.php:153
+msgid "502 Bad Gateway: Twitter is down or being upgraded."
+msgstr "502 Bad Gateway: Twitter is buiten werking of wordt bijgewerkt."
+
+#. #-#-#-#-#  plugin.pot (WP to Twitter 2.2.0 (beta 7))  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-to-twitter.php:732
+msgid "WP to Twitter"
+msgstr "WP to Twitter"
+
+#: wp-to-twitter.php:808
+msgid "Don't Tweet this post."
+msgstr "Dit bericht niet twitteren."
+
+#: wp-to-twitter.php:818
+msgid "This URL is direct and has not been shortened: "
+msgstr "Deze URL is direct en is niet verkort:"
+
+#: wp-to-twitter.php:872
+msgid "WP to Twitter User Settings"
+msgstr "WP to Twitter gebruikersinstellingen"
+
+#: wp-to-twitter.php:876
+msgid "Use My Twitter Username"
+msgstr "Gebruik je Twitter gebruikersnaam"
+
+#: wp-to-twitter.php:877
+msgid "Tweet my posts with an @ reference to my username."
+msgstr "Tweet mijn berichten met een @ referentie naar mijn gebruikersnaam."
+
+#: wp-to-twitter.php:878
+msgid "Tweet my posts with an @ reference to both my username and to the main site username."
+msgstr "Tweet mijn berichten met een @ referentie naar mijn gebruikersnaam en de algemene site gebruikersnaam."
+
+#: wp-to-twitter.php:883
+msgid "Enter your own Twitter username."
+msgstr "Geef je eigen Twitter gebruikersnaam in."
+
+#: wp-to-twitter.php:919
+msgid "Check the categories you want to tweet:"
+msgstr "Selecteer de categorieën welke je wilt tweeten:"
+
+#: wp-to-twitter.php:936
+msgid "Set Categories"
+msgstr "Categorieen Instellen"
+
+#: wp-to-twitter.php:1010
+msgid "<p>Couldn't locate the settings page.</p>"
+msgstr "<p>Kon de instellingspagina niet vinden.</p>"
+
+#: wp-to-twitter.php:1015
+msgid "Settings"
+msgstr "Instellingen"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.joedolson.com/articles/wp-to-twitter/"
+msgstr "http://www.joedolson.com/articles/wp-to-twitter/"
+
+#. Description of the plugin/theme
+msgid "Updates Twitter when you create a new blog post or add to your blogroll using Cli.gs. With a Cli.gs API key, creates a clig in your Cli.gs account with the name of your post as the title."
+msgstr "Bijwerken Twitter wanneer je een nieuw blog bericht of toevoeging aan je blogroll creëert met gebruik van Cli.gs. Met een Cli.gs API sleutel wordt een clig in je Cli.gs account gemaakt met de naam van je bericht als titel."
+
+#. Author of the plugin/theme
+msgid "Joseph Dolson"
+msgstr "Joseph Dolson"
+
+#. Author URI of the plugin/theme
+msgid "http://www.joedolson.com/"
+msgstr "http://www.joedolson.com/"
+
+#~ msgid "Twitter Password Saved"
+#~ msgstr "Twitter Wachtwoord Opgeslagen"
+
+#~ msgid "Twitter Password Not Saved"
+#~ msgstr "Twitter Wachtwoord Niet Opgeslagen"
+
+#~ msgid "Bit.ly API Saved"
+#~ msgstr "Bit.ly API sleutel opgeslagen"
+
+#~ msgid "Bit.ly API Not Saved"
+#~ msgstr "Bit.ly API sleutel niet opgeslagen"
+
+#~ msgid ""
+#~ "Set your Twitter login information and URL shortener API information to "
+#~ "use this plugin!"
+#~ msgstr ""
+#~ "Instellen van je Twitter login en URL verkorter API informatiie om deze "
+#~ "plugin te gebruiken!"
+
+#~ msgid "Please add your Twitter password. "
+#~ msgstr "Voeg je Twitter wachtwoord toe."
+
+#~ msgid "You need to provide your twitter login and password! "
+#~ msgstr "Je moet je Twitter login en wachtwoord ingeven! "
+
+#~ msgid ""
+#~ "<li>Successfully contacted the Cli.gs API via Snoopy, but the URL "
+#~ "creation failed.</li>"
+#~ msgstr ""
+#~ "<li>Cli.gs API via Snoopy succesvol gecontacteerd, maar de URL is niet "
+#~ "aangemaakt.</li>"
+
+#~ msgid ""
+#~ "<li>Successfully contacted the Cli.gs API via Snoopy, but a Cli.gs server "
+#~ "error prevented the URL from being shrotened.</li>"
+#~ msgstr ""
+#~ "<li>Cli.gs API via Snoopy succesvol gecontacteerd, maar een Cli.gs server "
+#~ "fout voorkwam dat de URL werd verkort.</li>"
+
+#~ msgid ""
+#~ "<li>Successfully contacted the Cli.gs API via Snoopy and created a "
+#~ "shortened link.</li>"
+#~ msgstr ""
+#~ "<li>Cli.gs API via Snoopy succesvol gecontacteerd en verkorte URL is "
+#~ "aangemaakt.</li>"
+
+#~ msgid "<li>Successfully contacted the Bit.ly API via Snoopy.</li>"
+#~ msgstr "<li>Bit.ly API via Snoopy succesvol gecontacteerd.</li>"
+
+#~ msgid "<li>Failed to contact the Bit.ly API via Snoopy.</li>"
+#~ msgstr "<li>Contact Bit.ly API via Snoopy mislukt.</li>"
+
+#~ msgid "<li>Cannot check the Bit.ly API without a valid API key.</li>"
+#~ msgstr ""
+#~ "<li>Kan de Bit.ly API niet controleren zonder een geldige API sleutel.</"
+#~ "li>"
+
+#~ msgid "<li>Successfully contacted the Twitter API via Snoopy.</li>"
+#~ msgstr "<li>Twitter API via Snoopy succesvol gecontacteerd.</li>"
+
+#~ msgid "<li>Failed to contact the Twitter API via Snoopy.</li>"
+#~ msgstr "<li>Contact Twitter API via Snoopy mislukt.</li>"
+
+#~ msgid "<li>Successfully contacted the Twitter API via cURL.</li>"
+#~ msgstr "<li>Twitter API succesvol gecontacteerd via cURL.</li>"
+
+#~ msgid "<li>Failed to contact the Twitter API via cURL.</li>"
+#~ msgstr "<li>Contact Twitter API via cURL mislukt.</li>"
+
+#~ msgid "<li>Successfully contacted the Cli.gs API via Snoopy.</li>"
+#~ msgstr "<li>Cli.gs API via Snoopy succesvol gecontacteerd.</li>"
+
+#~ msgid "<li>Failed to contact the Cli.gs API via Snoopy.</li>"
+#~ msgstr "<li>Contact Cli.gs API via Snoopy mislukt.</li>"
+
+#~ msgid "<li>Your server does not support <code>fputs</code>.</li>"
+#~ msgstr "<li>Je server ondersteund geen <code>fputs</code>.</li>"
+
+#~ msgid ""
+#~ "<li>Your server does not support <code>file_get_contents</code> or "
+#~ "<code>cURL</code> functions.</li>"
+#~ msgstr ""
+#~ "<li>Je server ondersteund geen <code>file_get_contents</code> of "
+#~ "<code>cURL</code> functies.</li>"
+
+#~ msgid "<li>Your server does not support <code>Snoopy</code>.</li>"
+#~ msgstr "<li>Je server ondersteund geen <code>Snoopy</code>.</li>"
+
+#~ msgid ""
+#~ "This plugin may not fully work in your server environment. The plugin "
+#~ "failed to contact both a URL shortener API and the Twitter service API."
+#~ msgstr ""
+#~ "Deze plugin kan misschien niet volledig werken in jouw server omgeving. "
+#~ "Contact met de URL verkorter API en de Twitter service API is mislukt."
+
+#~ msgid ""
+#~ "For any post update field, you can use the codes <code>#title#</code> for "
+#~ "the title of your blog post, <code>#blog#</code> for the title of your "
+#~ "blog, <code>#post#</code> for a short excerpt of the post content, "
+#~ "<code>#category#</code> for the first selected category for the post, "
+#~ "<code>#date#</code> for the post date, or <code>#url#</code> for the post "
+#~ "URL (shortened or not, depending on your preferences.) You can also "
+#~ "create custom shortcodes to access WordPress custom fields. Use doubled "
+#~ "square brackets surrounding the name of your custom field to add the "
+#~ "value of that custom field to your status update. Example: <code>"
+#~ "[[custom_field]]</code>"
+#~ msgstr ""
+#~ "Voor elke bijwerking kun je deze codes gebruiken: <code>#title#</code> "
+#~ "voor de naam van je blog bericht, <code>#blog#</code> voor de blognaam, "
+#~ "<code>#post#</code> voor een samenvatting van het bericht, "
+#~ "<code>#category#</code> voor de eerst geselecteerde categorie van het "
+#~ "bericht, <code>#date#</code> voor de plaatsingsdatum of <code>#url#</"
+#~ "code> voor de URL van het bericht (verkort of niet, afhankelijk van je "
+#~ "instellingen.) Je kan ook shortcodes creëeren om toegang te krijgen tot "
+#~ "aangepaste velden. Gebruik dubbele [ ] rondom de naam van je aangepast "
+#~ "veld om de waarde hiervan toe te voegen aan je status update. Voorbeeld: "
+#~ "<code>[[aangepast_veld]]</code>"
+
+#~ msgid "Set what should be in a Tweet"
+#~ msgstr "Instellen wat er in een Tweet moet staan"
+
+#~ msgid "Set default Tweet status to 'No.'"
+#~ msgstr "Zet standaard Tweet status op 'Nee'"
+
+#~ msgid ""
+#~ "Twitter updates can be set on a post by post basis. By default, posts "
+#~ "WILL be posted to Twitter. Check this to change the default to NO."
+#~ msgstr ""
+#~ "Twitter updates kunnen ingesteld worden per bericht. Standaard zullen "
+#~ "berichten gepost worden op Twitter. Selecteer dit om de standaard waarde "
+#~ "te veranderen naar NEE."
+
+#~ msgid "Special Fields"
+#~ msgstr "Speciale Velden"
+
+#~ msgid ""
+#~ "You can track the response from Twitter using Google Analytics by "
+#~ "defining a campaign identifier here."
+#~ msgstr ""
+#~ "Je kunt de Twitter response meten met Google Analytics door een campaign "
+#~ "identifier hier te definieren."
+
+#~ msgid ""
+#~ "Each author can set their own Twitter username and password in their user "
+#~ "profile. Their posts will be sent to their own Twitter accounts."
+#~ msgstr ""
+#~ "Elke auteur kan zijn eigen Twitter gebruikersnaam en wachtwoord "
+#~ "instellen. Hun berichten zullen verzonden worden naar hun eigen Twitter "
+#~ "accounts."
+
+#~ msgid "Set your preferred URL Shortener"
+#~ msgstr "Stel je voorkeur URL verkorter in"
+
+#~ msgid "Your Twitter account details"
+#~ msgstr "Jouw Twitter account informatie"
+
+#~ msgid "Your Twitter username:"
+#~ msgstr "Jouw Twitter gebruikersnaam:"
+
+#~ msgid "Save Twitter Login Info"
+#~ msgstr "Twitter Login bewaren"
+
+#~ msgid ""
+#~ "&raquo; <small>Don't have a Twitter account? <a href='http://www.twitter."
+#~ "com'>Get one for free here</a>"
+#~ msgstr ""
+#~ "&raquo; <small>Heb je geen Twitter Account? Klik <a href='http://www."
+#~ "twitter.com'>HIER</a> om er een aan te maken"
+
+#~ msgid ""
+#~ "Check whether your server supports WP to Twitter's queries to the Twitter "
+#~ "and URL shortening APIs."
+#~ msgstr ""
+#~ "Controleer of je server WP to Twitter's queries ondersteund naar de "
+#~ "Twitter en URL shortening APIs."
+
+#~ msgid "Need help?"
+#~ msgstr "Hulp nodig?"
+
+#~ msgid ""
+#~ "Visit the <a href='http://www.joedolson.com/articles/wp-to-twitter/'>WP "
+#~ "to Twitter plugin page</a>."
+#~ msgstr ""
+#~ "Bezoek de <a href='http://www.joedolson.com/articles/wp-to-twitter/'>WP "
+#~ "to Twitter plugin pagina</a>."
+
+#~ msgid ""
+#~ " characters.<br />Twitter posts are a maximum of 140 characters; if your "
+#~ "Cli.gs URL is appended to the end of your document, you have 119 "
+#~ "characters available. You can use <code>#url#</code>, <code>#title#</"
+#~ "code>, <code>#post#</code>, <code>#category#</code>, <code>#date#</code>, "
+#~ "or <code>#blog#</code> to insert the shortened URL, post title, the first "
+#~ "category selected, the post date, or a post excerpt or blog name into the "
+#~ "Tweet."
+#~ msgstr ""
+#~ " karakters.<br />Twitter berichten zijn max.140 karakters; wanneer je Cli."
+#~ "gs URL is toegevoegd aan het einde van je bericht heb je nog 119 "
+#~ "karakters beschikbaar. Je kunt<code>#url#</code>, <code>#title#</code>, "
+#~ "<code>#post#</code>, <code>#category#</code>, <code>#date#</code>, of "
+#~ "<code>#blog#</code> gebruiken om de verkorte URL in te voegen, bericht "
+#~ "titel,  eerst geselecteerde categorie, bericht datum, of een bericht "
+#~ "samenvatting of blog naam in de Tweet."
+
+#~ msgid "Use My Twitter Account"
+#~ msgstr "Gebruik Mijn Twitter Account"
+
+#~ msgid ""
+#~ "Select this option if you would like your posts to be Tweeted into your "
+#~ "own Twitter account with no @ references."
+#~ msgstr ""
+#~ "Selecteer deze optie wanneer je berichten getweet moeten worden naar je "
+#~ "eigen Twitter account zonder @ referenties."
+
+#~ msgid ""
+#~ "Tweet my posts into the main site Twitter account with an @ reference to "
+#~ "my username. (Password not required with this option.)"
+#~ msgstr ""
+#~ "Tweet mijn berichten naar de standaard Twitter account met een @ "
+#~ "referentie naar mijn gebruikersnaam. (Wachtwoord niet benodigd met deze "
+#~ "optie.)"
+
+#~ msgid "Your Twitter Password"
+#~ msgstr "Jouw Twitter Wachtwoord"
+
+#~ msgid "Enter your own Twitter password."
+#~ msgstr "Geef je eigen Twitter wachtwoord in."
+
+#~ msgid ""
+#~ "The query to the URL shortener API failed, and your URL was not shrunk. "
+#~ "The full post URL was attached to your Tweet."
+#~ msgstr ""
+#~ "Die Verbindung zum URL Kürzer API schlug fehl und deine URL wurde nicht "
+#~ "verkürzt. Es wurde die normale URL wurde im Tweet veröffentlicht."
+
+#~ msgid "Add_new_tag"
+#~ msgstr "Tag_hinzufügen"
+
+#~ msgid "This plugin may not work in your server environment."
+#~ msgstr ""
+#~ "Dieses Plugin funktioniert vielleicht nicht in deiner Server Umgebung."
+
+#~ msgid "Wordpress to Twitter Publishing Options"
+#~ msgstr "Wordpress to Twitter Veröffentlichungs-Optionen"
+
+#~ msgid "Provide link to blog?"
+#~ msgstr "Link zum Blog hinzufügen?"
+
+#~ msgid "Use <strong>link title</strong> for Twitter updates"
+#~ msgstr ""
+#~ "Verwende den <strong>Link Namen</strong> für Twitter Aktualisierungen"
+
+#~ msgid "Use <strong>link description</strong> for Twitter updates"
+#~ msgstr ""
+#~ "Verwende die <strong>Link Beschreibung</strong> für Twitter "
+#~ "Aktualisierungen"
+
+#~ msgid ""
+#~ "Text for new link updates (used if title/description isn't available.):"
+#~ msgstr ""
+#~ "Text für neuen Link (wenn kein Namen oder Beschreibung vorhanden sind.):"
+
+#~ msgid "Custom text prepended to Tweets:"
+#~ msgstr "Eigener Text zu Beginn des Tweets:"
+
+#~ msgid ""
+#~ "Your server appears to support the required PHP functions and classes for "
+#~ "WP to Twitter to function."
+#~ msgstr ""
+#~ "Es scheint als würde dein Server die benötigten PHP Funktion und Klassen "
+#~ "für WP to Twitter bereitstellen."

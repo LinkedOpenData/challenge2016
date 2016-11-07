@@ -1,0 +1,851 @@
+@charset "utf-8";
+
+/*---------------------------------------------------
+
+File name:      layout.css
+Author:         Scholex co., ltd.
+update:         2011/09/24
+
+--------------------------------------------------- */
+
+#wrapperAll {
+	background: url(../img/bg_contents.png) no-repeat 0 -60px transparent;
+	min-height: 651px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	width:800px;
+	height:40px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 50px 0px 0px 0px;
+}
+
+#header h1 {
+	padding: 0 0 0 0px;
+	text-align:center;
+}
+
+#mainBK {
+	width:900px;
+	padding:0 0 0 30px;
+}
+
+#mainMenu {
+	margin: 20px 0 0 0;
+	padding:0;
+	height:75px;
+	background: url(../img/bg_nm.png) no-repeat 50% 100% transparent;
+}
+
+#mainVisual {
+	padding: 0px 0;
+}
+
+#nav {
+	padding: 0 0 20px 60px;
+}
+
+#nav li {
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	font-size:1.4em;
+	padding: 0px 20px 0px 20px;
+	background: url(../img/hn_pochi2.png) no-repeat 0% 58% transparent;
+	display: block;
+	min-width: 50px;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: #666666;
+	display: block;
+	padding: 30px 0 0 0;
+	height: 45px;
+}
+
+#nav li.hmActive {
+	background: url(../img/hn_pochi.png) no-repeat 0% 58% transparent;	
+}
+
+#nav li ul {
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-box-shadow: 1px 2px 3px #666;
+	-webkit-box-shadow: 1px 2px 3px #666;
+	left:20px;
+	min-width: 120px;
+}
+
+#nav li ul li {
+	text-align: left;
+	font-size: 0.8em;
+	padding: 0px 0px;
+	background-image: none;
+	background-color: #EEEEEE;
+}
+
+#nav li ul li a {
+	height: auto;
+	padding: 10px 10px;
+	border-bottom: 1px #CCC solid;
+	text-decoration: none;
+}
+
+#nav li ul li a:hover {
+	background-color: #FCFCFC;
+}
+
+#contentsBK {
+	text-align: left;
+	padding: 0 40px 40px 40px;
+	word-break: break-all;
+}
+
+#contentsBK h2 {
+	font-size: 2em;
+	font-weight: normal;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	margin: 20px 0 20px 0;
+}
+
+#footer {
+	/*background-color: #eeeeee;*/
+	background-color: #ffffff;
+	border-top: 1px #CCC solid;
+}
+
+#footerPankuzu {
+	background-color: #ffffff;
+	border-top: 1px #CCC solid;
+	padding: 8px 0px;
+	max-height: 40px;
+	overflow-y: hidden;
+}
+
+#footerPankuzu ul {
+	width: 880px;
+	padding: 0px 40px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#footerPankuzu ul li {
+	display: inline;
+	padding: 10px 10px 10px 40px;
+}
+
+#footerPankuzu ul li a {
+	text-decoration: none;
+}
+
+#footerPankuzu ul li:first-child {;
+	padding: 10px 10px 10px 20px;
+	background: url(../img/hn_pochi2.png) no-repeat 0% 50% transparent;
+}
+
+#footerPankuzu ul li {
+	background: url(../img/arrow.gif) no-repeat 0% 50% transparent;
+}
+
+#footerBody {
+	width:920px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#footerBody h3 {
+	padding: 20px 20px;
+}
+
+#btmSponsorBK h3{
+	padding: 5px;
+}
+
+#btmSponsorBK ul li {
+	display: inline-block;
+	margin: 0 20px 0px 20px;
+}
+
+#btmSponsorBK ul li img {
+	padding: 0 0 20px 0;
+}
+
+#footerMenu {
+	text-align: center;
+	padding: 20px 0 10px 0;
+	position: relative;
+}
+
+#facebook {
+	position: absolute;
+	bottom:10px;
+	right:0;
+}
+
+#facebook img {
+	border: 1px #CCC solid;
+} 
+
+#footerMenu ul li {
+	display: inline;
+	padding: 0px 20px;
+	border-right: 1px #CCC solid;
+}
+
+#footerMenu ul li:last-child {
+	border-right: none;
+}
+
+#credit {
+	padding: 0px 0 20px 0;
+	text-align:center;
+}
+
+
+
+.numberList {
+
+}
+
+.numberList li {
+	margin-left: 20px;
+	margin-bottom:1em; 
+	list-style-type: decimal;
+}
+
+#contentsBK h3 {
+	font-size: 1.4em;
+	margin: 1.4em 0;
+	font-weight: normal;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCCCCC solid;
+	padding: 5px 10px;
+	background-color: #FFFFFF;
+}
+
+#contentsBK h4 {
+	font-size: 1em;
+	margin: 1em 0;
+	color: #993300;
+}
+#contentsBK ul {
+	margin: 20px 0;
+}
+
+#contentsBK ul li {
+	margin-left: 3em;
+	list-style-type: disc;
+	margin-bottom: 1.4em;
+}
+
+.roundedColumn {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;
+	padding: 10px 20px;
+}
+
+.withArrow {
+	background: url(../img/arrow_dt.png) no-repeat 0% 50% transparent;
+	padding: 0 0 0 30px;
+	margin:1em 0 2em 0;
+	line-height: 18px;
+}
+
+.withPochi {
+	background: url(../img/hn_pochi.png) no-repeat 0% 50% transparent;
+	padding: 0 0 0 20px;
+	margin:1em 0 2em 0;
+	line-height: 18px;
+}
+
+#contentsBK ul,
+#contentsBK ol {
+	margin:1em 0;
+}
+
+.categoeyBX {
+	width:220px;
+	margin: 0 5px;
+	float:left;
+	/*-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;*/
+	text-align: center;
+}
+
+.categoeyBX img {
+	text-align: center;
+}
+
+.entrybtn {
+	margin: 10px 0 0 0;
+}
+
+#recruitment {
+	margin-bottom: 20px;
+}
+
+#recruitment h3 {
+	border: none;
+}
+
+#sponsorBK {
+	padding: 20px;
+	text-align: left;
+}
+
+#sponsorBK h3 {
+	border: none;
+}
+
+.attentionBX {
+	padding: 10px 20px;
+	margin: 20px 0;
+	background-color: #e6e6c8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #cccc99 solid;
+}
+
+.kome {
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+
+#contentsBK .categoryTitle {
+	padding: 10px 20px;
+	margin: 10px 0 20px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;
+}
+
+#contentsBK .categoryTitle h3 {
+	margin: 5px 0;
+	border: none;
+	background-color: #FFFFFF;
+	padding-left: 60px;
+}
+
+#contentsBK .categoryTitle img {
+	vertical-align: middle;
+}
+
+#contentsBK dl {
+	margin-bottom: 2em;
+}
+
+#contentsBK dl dt {
+	margin-left: 20px;
+}
+
+#contentsBK dl dt {
+	font-weight: bold;
+}
+
+#contentsBK dl dd {
+	margin-left: 10em;
+	margin-top: -1.6em;
+	margin-bottom:1em;
+}
+
+#contentsBK .toReference {
+	padding: 2em 20px 0 2em;
+	margin: 10px 0 20px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;
+}
+
+#contentsBK dl.toReference dt {
+	margin-left: 0;
+}
+
+#contentsBK dl.toReference dd {
+	margin-left: 15em;
+}
+
+.iconDataS,
+.iconIdeaS,
+.iconAppliS,
+.iconBase,
+.iconVisualS {
+	padding: 0 0 0 60px;
+	line-height: 46px;
+}
+
+.iconDataS {
+	background: url(../img/icon_data_s.png) no-repeat 0% 50% transparent;
+}
+
+.iconIdeaS {
+	background: url(../img/icon_idea_s.png) no-repeat 0% 50% transparent;
+}
+
+.iconAppliS {
+	background: url(../img/icon_appli_s.png) no-repeat 0% 50% transparent;
+}
+
+.iconVisualS {
+	background: url(../img/icon_visual_s.png) no-repeat 0% 50% transparent;
+}
+
+.iconBase {
+	background: url(../img/icon_platform_s.png) no-repeat 0% 50% transparent;
+}
+.categoryBody {
+	padding: 20px;
+}
+
+.portraitImg img {
+	border: 1px solid #CCC;
+	padding: 2px;
+}
+
+.roundedBorder{
+	padding: 20px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;
+}
+
+.imgCaption {
+	font-style: italic;
+	text-align: right;
+}
+
+.fb-like-box {
+	padding: 20px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;
+}
+
+#sponsorBK ul li {
+	display: inline;
+	margin: 0 20px 0px 20px;
+}
+
+#sponsorBK ul li img {
+	padding: 0 0 20px 0;
+}
+
+.sponsorLogo img {
+	margin: 2em 0;
+}
+
+#contentsBK #supporterList li {
+	margin: 1em 0;
+	padding: 0;
+	font-size: 1.4em;
+	font-weight: normal;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+}
+
+#sponsorBKMain ul,
+#sponsorBKGold ul {
+	list-style-type: none;
+}
+
+#sponsorBKMain ul li {
+	display: block;
+	float:left;
+	text-align: center;
+	margin: 0;
+	width:260px;
+}
+
+#sponsorBKGold ul li {
+	display: block;
+	float:left;
+	text-align: center;
+	width:220px;
+}
+
+.sponsorName {
+	display: block;
+	padding: 1em 0;
+}
+
+.indexTable {
+	width:600px;
+	margin-top: 20px;
+}
+
+.indexTable td,
+.indexTable th {
+	border: 1px solid #CCC;
+	padding: 1em;
+}
+
+.indexTable th {
+	color: #666;
+	width:200px;
+	background: #EEEEEE;
+}
+
+.indexPartnerResourceTable {
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.indexPartnerResourceTable td,
+.indexPartnerResourceTable th {
+	border: 1px solid #CCC;
+	padding: 1em;
+}
+
+.indexPartnerResourceTable th {
+	color: #666;
+	width:100px;
+	background: #EEEEEE;
+}
+
+#aboutChallengeDay {
+	padding: 20px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCC solid;
+}
+
+#aboutChallengeDay h3 {
+	border: none;
+	margin: 0 0 1em 0;;
+	padding: 0;
+}
+
+#aboutChallengeDay h4 {
+	font-size:1.4em;
+	font-weight: normal;
+}
+
+ul.goldSponsors li img {
+	padding:0;
+	border: #CCC solid 1px;
+	background-color: #FFFFFF;
+}
+
+#btmSponsorBK ul.goldSponsors li {
+	padding: 5px;
+}
+
+#btmSponsorBK ul.goldSponsors li img {
+	padding: 0;
+}
+
+#btmSponsorBK ul.supporter li {
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.commentBx {
+	padding: 0px 20px 0 130px;
+	background: url(../img/quote.gif) transparent 0 0 no-repeat;
+
+}
+
+.name {
+	margin-top: 1em;
+	color: #666633;
+	text-align: right;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+h3.footerDataPartner {
+	font-size: 1.4em;
+	margin: 1.4em 0;
+	font-weight: normal;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCCCCC solid;
+	padding: 5px 10px;
+	color:#FFFFFF;
+	background-color: #999999;
+}
+
+#prizeList h4 {
+	font-size:1.4em;
+	font-weight: normal;
+	color:#666633;
+}
+
+#prizeList h5 {
+	font-size:1.4em;
+	font-weight: normal;
+	color:#000000;
+}
+
+#prizeList .prize {
+	font-size: 1.2em;
+}
+
+#prizeList span {
+	color:#cc3333;
+	font-size: 1.2em; 
+}
+
+.orijinalTable th,
+.orijinalTable td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+.roundBox {
+	margin: 20px 0 0 0;
+	padding: 20px 40px;
+		-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px #CCCCCC solid;
+}
+
+/* index.html (by morita) */
+.slider-wrapper {
+	float: left;
+	border-right: 1px #555 solid;
+}
+.jshowoff-controls {
+	padding: 5px;
+	text-align: right;
+	clear: both;
+}
+#slider-pane {
+	text-align: left;
+	padding: 10px;
+	width: 479px;
+}
+#slider-pane div.slider-content {
+	padding: 5px 0 0 5px;
+	height: 200px;
+	font-size: 11pt;
+	display: none;
+}
+#entry-pane {
+	padding: 10px;
+	width: 360px;
+	float: left;
+}
+.entry-container {
+	text-align:center;
+	border: 2px solid #d88;
+	border-radius: 4px;
+	padding: 6px;
+	margin-bottom: 2px;
+}
+#contest-section div {
+	float:left;
+	width: 80px;
+	padding: 5px;
+}
+#contest-section div h3 {
+	margin-top: 6px;
+	height: 2.5em;
+	vertical-align: bottom;
+}
+.num-works {
+	font-weight: bold;
+	font-size: 12pt;
+}
+#bottom-pane {
+
+}
+#contents-pane {
+	text-align: left;
+	padding: 40px 20px 0 60px;
+	width: 500px;
+	float: left;
+	
+}
+#blog-entry-links div {
+	margin: 12px 0 12px 0px;
+}
+#side-contents-pane {
+	padding: 10px 10px 10px 20px;
+	width: 330px;
+	float: left;
+	text-align:left;
+	margin:30px 0 0 0;
+}
+h2.title-eyecache {
+	font-size: 2em;
+	font-weight: normal;
+	font-family: garamond,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",arial,"メイリオ",Meiryo,serif;
+	margin: 10px 0 10px 0;
+}
+
+.qanda {
+	margin-bottom: 30px;
+}
+
+.qanda strong {
+	font-size: 12pt;
+}
+
+/* event.html */
+div.event-item {
+	padding-left: 8px;
+	margin: 5px 0 28px;
+}
+
+div.event-type {
+	border-radius: 5px;
+	padding: 4px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	float: left;
+}
+
+div.event-type.type1 { background-color:#C00; width: 9em;} /* チャレンジデー */
+div.event-type.type2 { background-color:#880; width: 8em;} /* 共催イベント */
+div.event-type.type3 { background-color:#008; width: 10em;} /* 協賛・後援・出展 */
+div.event-type.type4 { background-color:#080; width: 8em;} /* 関連イベント */
+
+div.event-title {
+	padding: 2px;
+	margin-left: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+div.event-detail {
+	clear: both;
+	padding: 4px 8px;	
+	line-height: 1.8em;
+}
+
+div.event-links a {
+	margin-right: 15px;
+}
+
+#flowBK {
+	width:300px;
+	float:left;
+}
+
+#outlineFlow {
+	margin-top: 20px;
+	padding-right: 20px;
+	width: 480px;
+	float:left;
+}
+
+.categoryBox {
+	font-size:0.8em;
+	padding:3px 10px;
+	background-color: #ff9900;
+}
+
+.categoryBox a {
+	border:none;
+		color:#FFFFFF;
+}
+
+#blog-entry-links {
+	font-size:1.1em;
+	line-height: 1.8em;
+}
+
+.calendarBox {
+	position: relative;
+}
+
+.eventNote {
+	padding: 0 0 0 80px;
+	font-size: 1.1em;
+	min-height: 60px;
+}
+
+.calendarDate {
+	font-size:1.4em;
+	display:block;
+	text-align: center;
+	width:60px;
+	padding: 20px 0;
+	border:1px solid #cc0033;
+	color:#cc0033;
+	position: absolute;
+}
+
+#categoryMenu li {
+	display: block;
+	height: 40px;
+	float: left;
+}
+
+#categoryMenu li a {
+	display: block;
+	height: 40px;
+}
+
+
+#categoryMenu li a:hover img {
+	display: none;
+}
+
+#categoryMenu01 {
+	width: 159px;
+	background-image: url(../img/categorybuttons/category01_h.png)
+}
+
+#categoryMenu02 {
+	width: 159px;
+	background-image: url(../img/categorybuttons/category02_h.png)
+}
+
+#categoryMenu03 {
+	width: 179px;
+	background-image: url(../img/categorybuttons/category03_h.png)
+}
+
+#categoryMenu04 {
+	width: 232px;
+	background-image: url(../img/categorybuttons/category04_h.png)
+}
+
+#categoryMenu05 {
+	width: 171px;
+	background-image: url(../img/categorybuttons/category05_h.png)
+}
+
+#pressRelease {
+	border: 1px solid #d61218;
+	margin: 10px 30px;
+	font-size: 1.2em;
+	background-color: #ffe5e5;
+}
+
+#pressRelease a {
+	display: block;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+#pressRelease a:hover {
+	background-color: #d61218;
+	color :#ffffff;
+}

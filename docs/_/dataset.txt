@@ -1,0 +1,315 @@
+LODチャレンジ応募作品のSPARQLエンドポイント（試行版）への登録データ一覧
+
+【エンドポイントURL】
+
+http://db.lodc.jp/sparql
+
+
+■LODチャレンジの応募情報
+
+https://github.com/tsunagun/lodcworks
+
+を使って作成したLODチャレンジ2011-2013の応募作品のRDF形式データ
+
+http://uedayou.net/lodchallenge/lodchallenge_entries_2011-2013.ttl
+http://uedayou.net/lodchallenge/lodchallenge_entries_2011-2013.rdf
+
+を格納しています．
+
+※グラフURIは，http://lod.sfc.keio.ac.jp/challenge/entries　です．
+
+■LODチャレンジ・データセット部門への応募作品
+
+※ それぞれのデータセット投入時に、エントリーURLをグラフURIとして設定しています。
+
+※RDF形式のデータが公開されており，ライセンス上も問題がないもののみを選択して
+　格納しています．
+→一部，データサイズの問題等で格納されていないデータもありますが，RDF形式のデータ
+　は，ほぼすべて格納されています．
+
+【LODチャレンジ2011】
+
+anime_cast - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d003
+
+１０００日以上続いた歴代総理とその背景 - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d004
+
+
+お笑い芸人コンビとその事務所および同期関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d005
+
+ポケットモンスターシリーズにおけるジムリーダーと四天王 - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d006
+
+声優数珠つなぎ - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d007
+
+Location Site of Japanimation - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d008
+
+BRC mouse strain - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d010
+
+エッセンシャルオイルについて - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d011
+
+MEO - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d017
+
+横浜観光スポット施設情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2011
+http://lod.sfc.keio.ac.jp/challenge2011/show_status.php?id=d021
+
+【LODチャレンジ2012】
+
+プレミアリーグ得点ランキング上位の関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d011
+
+MGS_CV - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d012
+
+seiyu_list - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d014
+
+ライトノベル作家一覧と作品・イラストレーター・レーベル - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d015
+
+2012年サッカー日本代表選手同士の所属関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d016
+
+犬神家の一族 （1977年）・主要登場人物と俳優の関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d017
+
+ソクラテス以前の哲学者の人間関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d018
+
+ゲーム開発会社と有名ゲーム - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d019
+
+ツタンカーメンの一族 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d021
+
+ゲーム作品Fateに登場するキャラの主従関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d022
+
+ドラえもんの主要人物の人間関係 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d023
+
+YukariTamura_CharacterList - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d024
+
+NTTの系列会社 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d025
+
+スタジオジブリ劇場公開作品一覧 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d026
+
+名探偵コナンの登場人物リスト - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d027
+
+Boeing_list - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d028
+
+市内避難所 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d031
+
+消火栓情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d032
+
+日本さくら名所100選 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d034
+
+青空文庫 Linked Open Data - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d035
+
+「SmartTown」実現のための自治会町内会予算分類基準COFOT - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d042
+
+ご当地グルメ - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d044
+
+JAXA宇宙航空データリスト - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d045
+
+2010年度 国勢調査 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d047
+
+Astro Database - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d049
+
+平成24年度横浜市予算【部局別主要事業明細】データ - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d052
+
+マウス・フェノーム - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d060
+
+地方自治体Facebookページ - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d061
+
+横浜市ごみ分別情報LOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d062
+
+横濱写真アルバムLOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d064
+
+公共施設マップ - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d065
+
+毎月1歳毎年齢別人口 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d066
+
+毎月大字別人口 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d067
+
+西山動物園の動物情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d069
+
+鯖江市文化財情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d070
+
+地域SNS参考文献リスト - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d072
+
+鯖江市議会議員情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d075
+
+九州の温泉地一覧 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d076
+
+ダジャレで世界旅行? - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d079
+
+落語家LOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d084
+
+LODC Works - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d085
+
+2012年の衆院選に関するメディア情報LOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d086
+
+鯖江観光LOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d088
+
+ギリシャ神話の相関図 - データセットのエントリーシート | Linked Open Data Challenge Japan 2012
+http://lod.sfc.keio.ac.jp/challenge2012/show_status.php?id=d089
+
+【LODチャレンジ2013】
+
+横手市一般会計決算 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d002
+
+横手やきそば暖簾会加盟店 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d003
+
+市報よこて記事タイトル - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d004
+
+横手市文化財 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d005
+
+横手市笹川スポーツ財団チャレンジデー参加実績 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d006
+
+横手市AED設置場所 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d007
+
+横手市子育て関連施設 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d009
+
+UDCT 取組情報(下水道，鉄道) - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d011
+
+平成22年国勢調査人口基本集計（47都道府県別） - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d013
+
+大阪市の工業推移（統計データ）のLOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d014
+
+横手市消火栓 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d015
+
+横手市の朝市 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d017
+
+横手市農産物直売所 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d018
+
+横手市にこにこレシピ - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d019
+
+国民体育大会情報 (第45回～第68回) - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d021
+
+ねじLOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d028
+
+大阪市の施設情報・防災情報のLOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d030
+
+大阪市の統計情報一覧のLOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d037
+
+厚木市のアミューズメント施設 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d039
+
+大阪都市景観×YouTube - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d040
+
+会津若松市消防水利位置情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d042
+
+従業地・通学地による人口・産業等集計（平成22年国勢調査） - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d052
+
+メガネブ！ロケ地 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d053
+
+鯖江検定2011年（鯖江市文化財解説リンク付） - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d054
+
+次世代統計利用システム・統計表と項目名のデータセット - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d071
+
+東日本大震災復興特別会計 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d072
+
+避難所情報（施設英語表示） - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d073
+
+横浜市公衆トイレ位置情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d078
+
+福島県耶麻郡北塩原村の避難所情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d079
+
+横浜ランドマークタワーをのぞむMAP - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d080
+
+カクテルレシピRDF - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d084
+
+アイドルLOD - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d085
+
+リキュールオントロジー　LIQO - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d087
+
+食品の生産量統計 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d095
+
+鯖江市内レッサーパンダ看板の写真と位置情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d097
+
+鯖江市入札情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d100
+
+コンビニ情報 - データセットのエントリーシート | Linked Open Data Challenge Japan 2013
+http://lod.sfc.keio.ac.jp/challenge2013/show_status.php?id=d101
+
+
+
+【日本国内の位置情報を持つデータを地図に表示してみました】
+
+http://uedayou.net/lodchallenge/map.html
+

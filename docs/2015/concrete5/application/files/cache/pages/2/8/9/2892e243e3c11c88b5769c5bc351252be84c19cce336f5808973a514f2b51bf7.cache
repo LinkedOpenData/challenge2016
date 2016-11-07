@@ -1,0 +1,180 @@
+O:40:"Concrete\Core\Cache\Page\PageCacheRecord":4:{s:7:"expires";i:1478451252;s:14:"cacheRecordKey";s:15:"about%2Farchive";s:7:"headers";a:3:{s:6:"Pragma";s:6:"public";s:13:"Cache-Control";s:28:"max-age=21600,s-maxage=21600";s:7:"Expires";s:29:"Sun, 06 Nov 2016 16:54:12 GMT";}s:7:"content";s:37173:"<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/themes/elemental/css/bootstrap-modified.css">
+    <link href="/2015/concrete5/application/files/cache/css/elemental/main.css" rel="stylesheet" type="text/css" media="all">    
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>ニュースアーカイブ</title>
+<meta name="description" content="ニュースアーカイブ" />
+<meta name="generator" content="concrete5 - 5.7.5.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/2015/concrete5/index.php';var CCM_CID = 216;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/images";
+var CCM_TOOLS_PATH = "/2015/concrete5/index.php/tools/required";
+var CCM_APPLICATION_URL = "http://lodc.jp/2015/concrete5";
+var CCM_REL = "/2015/concrete5";
+
+</script>
+
+
+        <link rel="shortcut icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+            <link rel="apple-touch-icon" href="http://lodc.jp/2015/concrete5/application/files/2414/3813/7129/lodclogomark57x57.png"/>
+            <meta name="msapplication-TileImage" content="http://lodc.jp/2015/concrete5/application/files/4014/3813/7128/lodclogomark144x144.png" />
+<meta property="og:title" content="ニュースアーカイブ" />
+<meta property="og:description" content="ニュースアーカイブ" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lodc.jp/2015/concrete5/about/archive" />
+<meta property="og:image" content="http://lodc.jp/2015/concrete5/2015/concrete5/application/files/7614/4621/7590/logo2015small.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="128" />
+<meta property="og:site_name" content="Linked Open Data Challenge 2015" />
+<meta property="fb:app_id" content="954041024639805" />
+<meta name="og:locale" content="ja_JP" />
+<meta name="og:updated_time" content="2016-09-24T22:04:27+09:00" />
+<link href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/2015/concrete5/application/files/cache/css/9929713a0b5043c102cd5bcb26990b2ef5f784f9.css" rel="stylesheet" type="text/css" media="all" data-source="/2015/concrete5/packages/social_share_lite/blocks/social_share_lite/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/search/view.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+
+<div class="ccm-page page-type-page page-template-full">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6">
+                
+
+    <p data-redactor-inserted-image="true" style="text-align: center;"><a href="http://lodc.jp/2015/concrete5"><img src="/2015/concrete5/application/files/6614/4319/7518/2015.png" alt="LOD Challenge 2015 Home" style="width: 429px; height: auto; display: block; margin: auto;"></a>  </p>
+
+
+    <center>  <table>  <tbody>  <tr>  	<td style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about">開催趣旨</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/sponsor">LODチャレンジへの期待</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/entry">応募方法</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/resource">提供リソース</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog">ブログ</a></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/technical_issue">技術情報</a><br></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/endpoint.html" target="_blank">過去作品DB</a><br></span>  	</td>  </tr>  </tbody>  </table></center>
+            </div>
+            <div class="col-sm-5 col-xs-6">
+                
+
+    <div class="ccm-social-share"><ul><li class="fblike">
+<div class="fb-like" data-href="http://lodc.jp/2015/concrete5/about/archive" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li><li class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lodc.jp/2015/concrete5/about/archive" data-lang="ja">ツイートする</a>
+</li><li class="gplus">
+<div class="g-plusone" data-size="medium" data-href="http://lodc.jp/2015/concrete5/about/archive"></div>
+</li></ul></div>
+            </div>
+                            <div class="col-sm-3 col-xs-12">
+
+    <form action="http://lodc.jp/2015/concrete5/portal/search" method="get" class="ccm-search-block-form"><input name="search_paths[]" type="hidden" value="" /><input name="query" type="text" value="" class="ccm-search-block-text" /></form>
+</div>
+                    </div>
+    </div>
+</header>
+<main>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <div class="row"><div class="col-sm-6">
+
+    <h1>News</h1>  <ul>  	<li>2016-07-04</li>  </ul>  	<p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://e2d3.org/ja/2016/07/%E6%97%A5%E6%9C%AC%E8%AA%9E-%E3%80%8E%E5%8F%82%E9%99%A2%E9%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8A%E3%83%AA%E3%82%BA%E3%83%A0%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD/" target="_blank">(後援イベント) 『参院選データジャーナリズムハッカソン−立候補者の違いを可視化しよう！』開催レポート</a></p>    <ul>  	<li>2016-07-01</li>  </ul>  	<p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://lifedesign.tech/?p=292&preview=1&_ppp=f4f501ea6b" target="_blank">(協力イベント) ECHONET Lite＆ラズパイ/3GPIによるおうちハック体験＋もくもく会 レポート</a></p>  <ul>  	<li>2016-06-29</li>  </ul>  	<p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://lifedesign.tech/lifedesigncontest_3/" target="_blank">(協力イベント) 生活デザインコンテスト 第３回 審査結果発表</a></p>  <ul>  	<li>2016-06-27</li>  </ul>  	<p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://lifedesign.tech/?p=156&preview=1&_ppp=8e2cbfdeb1" target="_blank">(協力イベント) つっぱり棒 × Raspberry Pi × 3GPI × Nifty Cloud Mobile Backend ワークショップ・ハッカソン 開催報告</a></p>  <ul>  	<li>2016-06-10</li>  </ul>  	<p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://aigid.jp/?p=1399" target="_blank">アーバンデータチャレンジ2016 キックオフ「地域課題解決の輪を広げ、全国に！〜30地域拠点が一挙に集結〜」</a></p>  <ul>  	<li>2016-05-29</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://idea.linkdata.org/idea/idea1s1905i" target="_blank">(協力イベント) つっぱり棒アイデアソン開催報告</a></p>  <ul>  	<li>2016-05-11</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="https://www.change-makers.jp/technology/11032" target="_blank">(後援イベント) 「夢」は宇宙で花開く！NASA Space Apps Challenge 2016</a>  </p>  <ul>  	<li>2016-05-09</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://spacemgz-telstar.com/?p=2532" target="_blank">(後援イベント) NASA SpaceApps Challenge TOKYOレポート(１)</a>,<a href="http://spacemgz-telstar.com/?p=2575" target="_blank">レポート(２)</a>  </p>  <ul>  	<li>2016-05-05</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://qzss.go.jp/news/archive/spaceapps_160505.html" target="_blank">(後援イベント) 4月22-24日、世界各地でハッカソン「NASA Space Apps Challenge」を開催</a>  </p>  <ul>  	<li>2016-04-30</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://lifedesign.tech/" target="_blank">(協力イベント) 生活デザインコンテスト 第３回 募集開始</a>  </p>  <ul>  	<li>2016-04-28</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://current.ndl.go.jp/e1789" target="_blank">カレントアウェアネス-Eに『LODチャレンジ2015における「参加型オープンデータ」の推進』掲載</a>  </p>  <ul>  	<li>2016-02-19</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">【プレスリリース】Linked Open Data チャレンジ Japan 2015 受賞作品発表のお知らせ</a>  </p>  <ul>  	<li>2015-12-25</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/blog/20151225">【プレスリリース】Linked Open Data チャレンジ Japan 2015表彰予定賞のお知らせ<br></a>  </p>  <ul>  	<li>2015-12-24</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lab.ndl.go.jp/cms/?q=hack2015#result">国立国会図書館のデータを使い尽くそうハッカソン 開催報告</a>  </p>  <ul>  	<li>2015-12-09</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/blog/20151208">【参加レポート】政策見える化カード作成アイデアソン</a>  </p>  <ul>  	<li>2015-12-05</li>  </ul>  <p style="margin-left: 40px;"><a href="http://www.hamakei.com/headline/9668/">【メディア掲載】Code for YOKOHAMAが八景島で横浜・横須賀・鎌倉3市連携ハッカソン　データ活用で地域活性化を目指す</a>  </p>  <ul>  	<li>2015-12-03</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/blog/20151203">【参加レポート】札幌オープンデータアイディアソン・ハッカソンin東京</a>  </p>  <ul>  	<li>2015-11-17</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2826">【参加レポート】参加型オープンデータで日本を元気にするシンポジウム</a>  </p>  <ul>  	<li>2015-10-11</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/technical_issue/lod20151011">第一回 Linked Open Data勉強会 開催報告</a>  </p>  <ul>  	<li>2015-10-10</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/technical_issue/lod20151010">【プレスリリース】第2回ウィキペディアタウンもりまち 開催報告</a>  </p>  <ul>  	<li>2015-10-01</li>  </ul>  <p style="margin-left: 40px;"><a href="http://open-press.info/release/business_report/46037.html" target="_blank">【プレスリリース】</a><a href="http://lod.sfc.keio.ac.jp/blog/?p=2769" target="_blank">Linked Open Data チャレンジ Japan 2015 作品募集開始のお知らせ</a>  </p>  <ul>  	<li>2015-09-29</li>  </ul>  <p style="margin-left: 40px;">【メディア掲載】<a href="http://itpro.nikkeibp.co.jp/atcl/news/15/092803071/" target="_blank">国内最大級のオープンデータの活用コンテスト、今年も開催</a>  </p>  <ul>  	<li>2015-09-26</li>  </ul>  <p style="margin-left: 40px;"><a href="http://peatix.com/event/113007" target="_blank">参加型オープンデータで日本を元気にするシンポジウム</a>  </p>  <p style="margin-left: 40px;"><a href="http://peatix.com/event/113007" target="_blank">〜Linked Open Dataチャレンジ2015キックオフ〜</a>  </p>  <ul>  	<li>2015-09-17</li>  </ul>  <p style="margin-left: 40px;"><a href="http://wp.lodosaka.jp/other/lod20150912kobe/" target="_blank">第1回 LOD Challenge Day KOBE 2015 開催報告</a>  </p>  <ul>  	<li>2015-07-28</li>  </ul>  <p style="margin-left: 40px;">【プレスリリース】<a href="http://newsrelease.blog.jp/news/o87.html" target="_blank">「Linked Open DataチャレンジJapan 2015」、開催決定</a>  </p>  <ul>  	<li>2015-05-09</li>  </ul>  <p style="margin-left: 40px;">【メディア掲載】<a href="http://www.kobe-np.co.jp/news/akashi/201505/0008007323.shtml" target="_blank">スマホで街灯の明るさ情報収集 明石高専生がシステム開発</a>  </p>  <ul>  	<li>2015-02-23</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lodc.jp/2015/concrete5/blog/20150223">技術コラム第22回：地域主体でのマッピングを支える仕組みづくり 木田和海氏</a>  </p>  <ul>  	<li>2015-01-14</li>  </ul>  <p style="margin-left: 40px;"><a href="http://www.tokyuensen.com/special/contest2014/" target="_blank">"とくらく×LODチャレンジ2014 東急沿線 データビジュアライゼーション コンテスト"</a>の応募締め切りは1月30日です。LODチャレンジ ビジュアライゼーション部門との「併願」も可能です。  </p>  <p style="margin-left: 40px;">* <a href="http://itpro.nikkeibp.co.jp/atcl/column/14/346926/120100115/" target="_blank">日経BP社Itpro 社内に埋もれたデータ活用でアピール、企業オープンデータに広がりも</a>  </p>  <p style="margin-left: 40px;">* <a href="http://www.tokyuensen.com/special/report/detail83/" target="_blank">11月22日開催アイデアソンレポート</a>  </p>  <ul>  	<li>2015-01-10</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2552" target="_blank">【参加レポート】Lady’s Open Dataチャレンジデー アイデアソン</a>  </p>  <ul>  	<li>2014-12-26</li>  </ul>  <p style="margin-left: 40px;"><a href="http://itpro.nikkeibp.co.jp/atcl/column/14/120800120/122400009/?top_tl1" target="_blank">Lady’s Open Data チャレンジデー記事掲載していただきました。</a>  </p>  <p style="margin-left: 40px;"><a href="http://itpro.nikkeibp.co.jp/atcl/column/14/120800120/122400009/?top_tl1" target="_blank">日経BP社 Itpro「私たちが欲しいアプリを考えました」、女性のためのオープンデータ活用ハッカソン開催</a>  </p>  <ul>  	<li>2014-12-09</li>  </ul>  <p style="margin-left: 40px;"><a href="http://idea.linkdata.org/idea/idea1s567i" target="_blank">12/6 Lady’s Open Data チャレンジデー アイデアソン で生まれたアイデアです。</a>  </p>  <p style="margin-left: 40px;"><a href="http://peatix.com/event/60446" target="_blank">ハッカソンは12月20,21日</a>となります。  </p>  <ul>  	<li>2014-12-08</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2515" target="_blank">【プレスリリース】LODチャレンジJapan2014 表彰予定賞及び賞金額</a>  </p>  <ul>  	<li>2014-12-02</li>  </ul>  <p style="margin-left: 40px;"><a href="http://itpro.nikkeibp.co.jp/atcl/column/14/346926/120100115/?rt=nocnt" "="" target="_blank">【メディア掲載】社内に埋もれたデータ活用でアピール、企業オープンデータに広がりも</a>  </p>  <ul>  	<li>2014-11-08</li>  </ul>  <p style="margin-left: 40px;"><a href="http://www.meti.go.jp/press/2014/11/20141107002/20141107002.html" target="_blank">経済産業省は、一般社団法人リンクデータの協力のもと、オープンデータを活用したビジネス創出のためのマッチング支援サイト「Knowledge Connector （ β 版） 」（http://idea.linkdata.org/）を構築し、公開</a>  </p>  <ul>  	<li>2014-11-07</li>  </ul>  <p style="margin-left: 40px;"><a href="http://www.jipdec.or.jp/information/newsrelease/20141028.html" target="_blank">オープンデータを活用したビジネス化を支援するためのイベントを開催 ～人材マッチングイベント、ビジネスコンペティション～</a>  </p>  <ul>  	<li>2014-11-06</li>  </ul>  <p style="margin-left: 40px;"><a href="http://www.tokyuensen.com/special/contest2014/" target="_blank">とくらく×LOD Challenge2014 東急沿線ビジュアライゼーションコンテスト</a>  </p>  <ul>  	<li>2014-10-24</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2395" target="_blank">【参加レポート】「オープンデータ・サミット」</a>  </p>  <ul>  	<li>2014-10-06</li>  </ul>  <p style="margin-left: 40px;"><a href="http://japan.zdnet.com/cio/analysis/35054510/" target="_blank">ZDNETJapan 多様な取り組みと参加を認めながら進むオープンデータの活用--「オープンデータ・サミット」レポート</a>  </p>  <ul>  	<li>2014-10-06</li>  </ul>  <p style="margin-left: 40px;"><a href="http://japan.zdnet.com/cio/analysis/35054510/" target="_blank">【参加レポート】名駅地下街バリアフリーマッピングパーティー</a>  </p>  <ul>  	<li>2014-10-01</li>  </ul>  <p style="margin-left: 40px;"><a href="http://japan.zdnet.com/cio/analysis/35054533/" target="_blank">ZDNET Japan オープンデータ推進コンテスト「LODチャレンジ」開幕--1月まで作品を募集</a>  </p>  <ul>  	<li>2014-10-01</li>  </ul>  <p style="margin-left: 40px;"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2319" target="_blank">【プレスリリース】LODチャレンジJapan2014 作品募集開始のお知らせ</a><br>  </p>  <ul>  	<li>2014-09-27</li>  </ul>  <p style="margin-left: 40px;">9月27日 オープンデータ・サミット  </p>  <p style="margin-left: 40px;">～つないで広げるオープンデータ（LODチャレンジ2014キックオフ）～  </p>  <p style="margin-left: 40px;"><a href="http://peatix.com/event/50519" target="_blank">多くの皆様の参加ありがとうございました。</a>  </p>  <p style="margin-left: 40px;"><a href="http://opendata.nikkei.co.jp/article/201409274174980820/" target="_blank">2014/09/27 多様な活動多様な活動、つながる場に 「オープンデータ・サミット」開催 日経オープン情報ポータル 掲載!</a>  </p>  <ul>  	<li>2013-11-26</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;">【資料公開】第6回LODチャレンジデー パートナーリソース活用ハッカソン  </p>  <ul>  	<li>2013-11-18</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;">【参加レポート】第1回Linked Open Dataハッカソン関西 in 大阪 第5回LODチャレンジデー×第2回オープンデータとソーシャルデザイン研究会  </p>  <ul>  	<li>2013-10-26</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;">【参加レポート】第4回LODチャレンジデー　～「つながるLODチャレンジデー」を考えるアイデアソン～（9/14，東京目黒）  </p>  <ul>  	<li>2013-10-26</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;">【参加レポート】第3回LODチャレンジデー in 東海 (アイディアソン＋データソン)  </p>  <ul>  	<li>2013-09-01</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;">【参加レポート】第2回LODチャレンジデー オープンデータAPI活用アイデアソン（統計編）  </p>  <ul>  	<li>2013-06-25</li>  </ul>  <p style="margin-left: 40px;" rel="margin-left: 40px;">【参加レポート】第1回LODチャレンジデー in 石川高専  </p>
+</div><div class="col-sm-6">
+
+    <h1>Event</h1>  <ul>  	<!-- event -->  	<li>2016-08-21</li>  	<p><a href="http://peatix.com/event/190138" target="_blank">(主催) オープンデータをLOD化するデータソン in 高槻 -５つ星オープンデータ（LOD)の公開方法を学ぶ「勉強会＆データソン」</a></p>  	<!-- event -->  	<li>2016-08-20，09-03</li>  	<p><a href="https://sites.google.com/site/sigswo15/papers/iswc2016hackathon" target="_blank">(後援イベント) ISWC2016＠KOBE連携ハッカソン -オープンデータ×NHKワールドで「インバウンド向けLODアプリ」を開発しよう！</a></p>  	<!-- event -->  	<li>2016-07-13</li>  	<p><a href="http://e2d3.connpass.com/event/35440/" target="_blank">(後援イベント) 地理空間情報 x ビジネス x オープンソースGIS 勉強会！</a></p>  	<!-- event -->  	<li>2016-07-02</li>  	<p><a href="http://e2d3.connpass.com/event/34328/" target="_blank">(後援イベント) 【投票直前】 参院選データジャーナリズムハッカソン - 立候補者の違いを可視化しよう！</a></p>  	<!-- event -->  	<li>2016-06-21〜07-26</li>  	<p><a href="http://peatix.com/event/169617" target="_blank">(後援イベント) リンクト・オープン・データ連続講座（東京）「LODの基本から応用最新情報まで」</a></p>  	<!-- event -->  	<li>2016-06-11～2016-06-12</li>  	<p><a href="https://ouch-hack.doorkeeper.jp/events/45161" target="_blank">(協力イベント) つっぱり棒 × Raspberry Pi × 3GPI × Nifty Cloud Mobile Backend　ワークショップ・ハッカソン</a></p>  	<!-- event -->  	<li>2016-06-05</li>  	<p><a href="https://ouch-hack.doorkeeper.jp/events/45163" target="_blank">(協力イベント) ECHONET Lite＆ラズパイ/3GPIによるおうちハック体験＋もくもく会</a>  	</p>  	<!-- event -->  	<li>2016-05-28</li>  	<p><a href="https://ouch-hack.doorkeeper.jp/events/45155" target="_blank">(協力イベント) つっぱり棒アイデアソン</a>  	</p>  	<!-- event -->  	<li>2016-04-23～2016-04-24</li>  	<p><a href="https://spaceappsjapan.doorkeeper.jp/events/42494" target="_blank">（後援）Space Apps Challenge Sagamihara 2016</a>  	</p>  	<!-- event -->  	<li>2016-04-23～2016-04-24</li>  	<p><a href="https://spaceappsjapan.doorkeeper.jp/events/39142" target="_blank">（後援）Space Apps Challenge Ube 2016</a>  	</p>  	<!-- event -->  	<li>2016-04-23～2016-04-24</li>  	<p><a href="https://spaceappsjapan.doorkeeper.jp/events/40619" target="_blank">（後援）Space Apps Challenge Tsukuba 2016</a>  	</p>  	<!-- event -->  	<li>2016-04-23～2016-04-24</li>  	<p><a href="https://spaceappsjapan.doorkeeper.jp/events/39704" target="_blank">（後援）Space Apps Challenge Fukui 2016</a>  	</p>  	<!-- event -->  	<li>2016-04-23～2016-04-24</li>  	<p><a href="https://spaceappsjapan.doorkeeper.jp/events/41664" target="_blank">（後援）Space Apps Challenge Tokyo 2016</a>  	</p>  	<!-- event -->  	<li>2016-04-23～2016-04-24</li>  	<p><a href="https://www.facebook.com/events/606921166121711/ " target="_blank">（後援）Space Apps Challenge Aizu 2016</a>  		<!-- event -->  	</p>  	<li>2016-03-05～2016-03-31</li>  	<p><a href="https://rallyapp.jp/campaign/iodd2016/" target="_blank">（後援）IODD 2016 スタンプラリーコンテスト</a>  	</p>  	<!-- event -->  	<li>2016-03-05</li>  	<p><a href="https://www.sansokan.jp/events/eve_detail.san?H_A_NO=20768" target="_blank">第7回 LODハッカソン関西 in インターナショナル・オープンデータ・ディ 大阪</a>  	</p>  	<!-- event -->  	<li>2016-02-20</li>  	<p><a href="http://ptix.co/1R643ao" target="_blank">（後援）鎌倉・横須賀・横浜3市連携ハッカソン成果発表会＆フューチャーセッション</a>  	</p>  	<!-- event -->  	<li>2016-02-07, 14</li>  	<p><a href="http://openhirakata.com" target="_blank">（後援）枚方アイデアソン・ハッカソン</a><a href="http://lodc.jp/2015/concrete5/%7BCCM:BASE_URL%7D/blog/20151225"></a>  	</p>  	<!-- event -->  	<li>2016-01-22</li>  	<p><a href="http://sapporo.odcity.org/odcontest/" target="_blank">（協力）札幌オープンデータアプリコンテスト応募締切</a>  	</p>  	<!-- event -->  	<li>2016-01-14</li>  	<p><a href="http://peatix.com/event/141383" target="_blank">LODチャレンジ2015締切直前相談会 in YOKOHAMA</a>  	</p>  	<!-- event -->  	<li>2016-01-12</li>  	<p><a href="http://ptix.co/1QDcd9U" target="_blank">応募締切迫る！第3回LODチャレンジ応募相談会＆もくもく会</a>  	</p>  	<!-- event -->  	<li>2015-12-19</li>  	<p><a href="http://ptix.co/1jAAcbo" target="_blank">第2回LODチャレンジデー Bluemix勉強会</a>  	</p>  	<p><a href="http://ptix.co/1jAAcbo" target="_blank">～ Bluemixを使って1日で作るLODチャレンジ応募作品 ～</a>  	</p>  	<!-- event -->  	<li>2015-12-18</li>  	<p><a href="http://lod2015-12-18.peatix.com/">第2回LODチャレンジ応募相談会＆もくもく会</a>  	</p>  	<!-- event -->  	<li>2015-12-13</li>  	<p><a href="http://peatix.com/event/129138" target="_blank">第1回LODチャレンジデー in 東京</a>  	</p>  	<p><a href="http://peatix.com/event/129138">〜教えて! goo API と LOD4ALL を使ってLODチャレンジの応募作品を作ろう！〜</a>  	</p>  	<!-- event -->  	<li>2015-12-05〜2015-12-06</li>  	<p><a href="http://peatix.com/event/129971" target="_blank">横浜・横須賀・鎌倉3市連携ハッカソン（金沢区大会）2Days</a>  	</p>  	<p><a href="http://peatix.com/event/129138"></a>  	</p>  	<!-- event -->  	<li>2015-11-28～29</li>  	<p><a href="http://lab.ndl.go.jp/cms/?q=hack2015" target="_blank">国立国会図書館のデータを使い尽くそうハッカソン</a>  	</p>  	<!-- event -->  	<li>2015-11-28</li>  	<p><a href="http://peatix.com/event/126786/">政策見える化カード作成アイデアソン</a>  	</p>  	<p><a href="http://peatix.com/event/126786/">～政策の根拠データを集め、ロジックを示し、計画し、評価する仕組みを作ろう～</a>  	</p>  	<!-- event -->  	<li>2015-11-23</li>  	<p><a href="https://www.facebook.com/events/519662078184283/" target="_blank">関西オープンデータディ－検索したおしたんディ－</a>  	</p>  	<!-- event -->  	<li>2015-11-23</li>  	<p><a href="http://peatix.com/event/130118">LODチャレンジ2015応募相談会＆もくもく会</a>  	</p>  	<!-- event -->  	<li>2015-11-21〜22</li>  	<p><a href="http://peatix.com/event/125852">札幌オープンデータアイデアソン・ハッカソン2015 in 東京</a>  	</p>  	<!-- event -->  	<li>2015-11-07</li>  	<p><a href="http://e2d3.connpass.com/event/20658/" target="_blank">【裏鎌倉×野良IT】感性ビジュアライズの世界</a> (もくもく会)  	</p>  	<!-- event -->  	<li>2015-11-07</li>  	<p><a href="https://www.facebook.com/events/1654792704802289/">第2回 LOD Challenge Day KOBE 2015</a>  	</p>  	<!-- event -->  	<li>2015-10-30</li>  	<p><a href="http://peatix.com/event/123875/" target="_blank">健康・医療分野におけるデータ活用とビジネス化セミナー</a>  	</p>  	<!-- event -->  	<li>2015-10-27</li>  	<p><a href="http://peatix.com/event/122238" target="_blank">第4回Linked Open Dataとオントロジー勉強会</a>  	</p>  	<!-- event -->  	<li>2015-10-24</li>  	<p><a href="http://peatix.com/event/122203">第1回 LODチャレンジデーin名古屋 2015</a>  	</p>  	<!-- event -->  	<li>2015-10-10</li>  	<p><a href="http://ptix.co/1Kw4R40">第一回 Linked Open Data勉強会</a>  	</p>  	<!-- event -->  	<li>2015-10-03</li>  	<p><a href="http://howml.org/2015/08/217.html" target="_blank">鷲ノ木遺跡アーカイブ - ウィキペディアタウンもりまち</a>  	</p>  	<!-- event -->  	<li>2015-09-26</li>  	<p><a href="http://peatix.com/event/113007" target="_blank">「Linked Open Dataチャレンジ 2015 キックオフシンポジウム 〜参加型オープンデータで日本を元気にするシンポジウム〜」</a>  	</p>  	<!-- event -->  	<li>2015-09-12</li>  	<p><a href="http://peatix.com/event/109163" target="_blank">第1回 LOD Challenge Day KOBE 2015</a>  	</p>  	<!-- event -->  	<li>2015-09-12</li>  	<p><a href="http://connpass.com/event/18682/" target="_blank">LIGブログの勝手に1日編集長ハッカソン</a>  	</p>  	<!-- event -->  	<li>2015-08-20</li>  	<p><a href="http://e2d3.connpass.com/event/18570/" target="_blank">E2D3を使ってExcelでデータビジュアライゼーションをしよう！</a>  	</p>  	<!-- event -->  	<li>2015-07-09～2015-07-10</li>  	<p rel="margin-left: 40px;"><a href="https://sites.google.com/site/sigswo15/papers/36program" target="_blank">第36回SWO研究会-DBpediaシンポジウム</a>  	</p>  	<!-- event -->  	<li>2015-07-08, 2015-07-12</li>  	<p><a href="http://www.sansokan.jp/events/eve_detail.san?H_A_NO=19555" target="_blank">第6回LODハッカソン関西 観光・イベント×オープンデータ</a>  	</p>  	<!-- event -->  	<li>2015-06-22</li>  	<p><a href="http://peatix.com/event/93254/" target="_blank">第３回自治体オープンデータ推進協議会（関西会議）「広報誌オープンデータ 次のステップ」</a>  	</p>  	<!-- event -->  	<li>2015-06-14</li>  	<p><a href="http://e2d3.connpass.com/event/14868/" target="_blank">NewsPicks & SPEEDA Smart Data Experience Hackathon powered by E2D3</a>  	</p>  	<!-- event -->  	<li>2015-05-29</li>  	<p><a href="http://e2d3.connpass.com/event/15492/" target="_blank">【ヒカ☆ラボ】 E2D3と学ぶ「初めてのGitHub」 powered by サークルアラウンド</a>  	</p>  	<!-- event -->  	<li>2015-01-12</li>  	<p><a href="http://peatix.com/event/67930" target="_blank">LODチャレンジ エントリー直前相談会＆もくもく会 in 横浜</a>  	</p>  	<!-- event -->  	<li>2015-01-06</li>  	<p rel="margin-left: 40px;"><a href="http://peatix.com/event/66651" target="_blank">第3回Linked Open Dataとオントロジー勉強会</a>  	</p>  </ul>
+</div></div>
+</div></div></div>
+
+</main>
+
+
+<footer id="footer-theme">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                
+
+    <p><span class="title-caps-bold">過去の開催と受賞作品</span></p>
+
+
+    <center>  <table width="100%">  <tbody>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/">LODチャレンジJapan 2015</a></span>　<span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">2015 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">LODチャレンジJapan 2014</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2647">2014 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2013/">LODチャレンジJapan 2013</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2109">2013 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2012/">LODチャレンジJapan 2012</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1071">2012 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/">LODチャレンジJapan 2011</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/result2011.html">2011 受賞作品</a></span>  	</td>  </tr>  </tbody>  </table></center><br>  
+            </div>
+            <div class="col-sm-3">
+                            </div>
+        </div>
+    </div>
+    </section>
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" rel="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Linked Open Data Challenge </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lodc.jp/" property="cc:attributionName" rel="cc:attributionURL">Linked Open Data Challenge Consortium</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p><p>ただし、本サイトに掲載している各企業・団体・グループのロゴおよび各企業・団体・グループ作成コンテンツは各企業・団体・グループの所有でありCC-BYの対象外となります。</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    <p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/partner">スポンサー・パートナー募集</a></span></span>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/committee">LODチャレンジJapan実行委員会</a></span></span><a href="http://lodc.jp/2015/concrete5/about/committee"><br></a>  	</p>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/comittee_rule">実行委員会会則</a></span></span>  	</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    
+<div id="ccm-block-social-links909" class="ccm-block-social-links">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LOD.challenge.Japan"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/LinkedOpenData"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/lodjapan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/108435917546080277840/108435917546080277840/posts"><i class="fa fa-google-plus-square"></i></a></li>
+            <li><a href="http://www.slideshare.net/lodjapan"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCy9PDSVPl-jC8dPoI3Jw3eg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
+
+<footer id="concrete5-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Built with <a href="http://www.concrete5.org" class="concrete5">concrete5</a> CMS.</span>
+                <span class="pull-right">
+                    <a href="http://lodc.jp/2015/concrete5/login">ログイン</a>                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</div>
+
+<div id="fb-root"></div>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appID=954041024639805";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","facebook-jssdk");</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: "ja"};
+</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://apis.google.com/js/plusone.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","google-plusone");</script>
+<!-- load social scripts by social share lite add-on -->
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/picturefill.js"></script>
+
+</body>
+</html>
+";}

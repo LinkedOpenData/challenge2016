@@ -1,0 +1,86 @@
+<?php 
+	require_once( dirname(__FILE__) . '/template/header.php');
+	require_once( dirname(__FILE__) . '/template/footer.php');
+	$pageName = "リンク集";
+	echo get_header($pageName);
+?>
+				<a id="sponsor" name="sponsor"></a>
+				<div id="contentsBK">
+					<h2>リンク集</h2>
+					<p>Linked Open Dataの技術的な解説，活用アイデアやアプリケーションの紹介，関連する文献／Webサイトをご紹介します．</p>
+
+					<h3>Linked Open Dataのビジョン</h3>
+					<p>Webを発明したTim Berners-Lee氏が、Linked Open Dataの理念、将来の社会像について熱く語っています。彼がデータの公開（Open）と共有（Link）を提唱したことにより、Linking Open Data運動が世界中で広まっています。日本語字幕の字幕がついています。</p>
+					<ul>
+						<li><a href="http://www.ted.com/talks/lang/jpn/tim_berners_lee_on_the_next_web.html" target="_blank">TED2009 Tim Berners-Lee on the next Web</a></li>
+						<li><a href="http://www.ted.com/talks/lang/jpn/tim_berners_lee_the_year_open_data_went_worldwide.html" target="_blank">TED2010 Tim Berners-Lee:The year open data went worldwide</a></li>
+					</ul>
+
+					<h3>ショーケース</h3>
+					<p>Linked Open Dataやオープンデータを利用したアプリケーション、データの可視化などの事例を紹介しているWebサイトです。</p>
+					<ul>
+						<li><a href="http://opendatachallenge.org/" target="_blank">Open Data Challenge</a></li>
+						<li>Hack4Europe（<a href="http://www.version1.europeana.eu/web/api/hackathons" target="_blank">ウェブサイト</a>）（<a href="http://vimeo.com/29416377">動画</a>）</li>
+						<li><a href="http://www.guardian.co.uk/data">Guardian: Data journalism and data visualization</a></li>
+					</ul>
+
+					<h3>技術解説</h3>
+					<ul>
+					<li>英語の文献ですが、Linked Open Dataの仕組みから活用事例までを一通り学ぶことができます。<br />
+					<a href="http://linkeddatabook.com/editions/1.0/" target="_blank">Linked Data: Evolving the Web into a Global Data Space<br />Tom Heath and Christian Bizer, 2011.</a>（<a href="http://www.amazon.co.jp/dp/1608454304/" target="_blank">Amazonで探す）</a></li>
+
+					<li>各分野でのLinked Open Dataの活用事例がコンパクトにまとめられています。<br />
+					<a href="http://www.bookpark.ne.jp/cm/ipsj/mokuji.asp?category1=Magazine&amp;vol=52&amp;no=3" target="_blank">リンクするデータ（Linked Data）～広がり始めたデータのクラウド～</a><br />長野伸一, 萩野達也(編), 情報処理学会誌「情報処理」2011年3月号, Vol.52, No.3, pp.282-333, 2011年.</li>
+
+					<li><a href="http://s-web.sfc.keio.ac.jp/conference2011/" target="_blank">セマンティックWebコンファレンス2011 ～日本にも広がるLOD～</a></li>
+
+					<li>HTML/XHTMLとメタデータの関係について解説しています。Linked Open Dataについても記述があります。<br />
+<a href="http://www.amazon.co.jp/dp/483993195X/" target="_blank">セマンティックHTML/XHTML</a><br />
+神崎正英, 毎日コミュニケーションズ, 2009年.</li>
+					</ul>
+
+					<h3>アプリケーション開発</h3>
+					<p>Linked Open Dataを利用したアプリケーション開発向けの解説書、Webサイトです。</p>
+					<ul>
+						<li><a href="http://www.amazon.co.jp/dp/4873114527/" target="_blank">セマンティックWebプログラミング</a><br />
+Toby Segaran, Colin Evans, Jamie Taylor(著), 大向一輝, 加藤文彦, 中尾光輝, 山本泰智(監訳), 玉川竜司(訳), オライリー・ジャパン, 2010年.</li>
+
+						<li><a href="http://www.ibm.com/developerworks/jp/views/web/libraryview.jsp?contentarea_by=Web+development&amp;search_by=linked+data" target="_blank">IBM developerWorksの解説記事（日本語）</a></li>
+
+						<li><a href="http://logd.tw.rpi.edu/tutorials" target="_blank">Learning SPARQL: Querying and Updating With Sparql 1.1</a><br />Bob Ducharme, Oreilly & Associates Inc, 2011.<br />LOGD tutorials</li>
+
+
+					<h3>ツールリンク集</h3>
+					<p>Linked Open Dataの作成や、アプリケーション開発などに利用可能なツールを紹介しているWebサイトです。</p>
+					<ul>
+						<li><a href="http://www.w3.org/2001/sw/wiki/Tools" target="_blank">Semantic Web Development Tools</a></li>
+						<li><a href="http://logd.tw.rpi.edu/tools_technologies" target="_blank">Featured Tools and Technologies</a></li>
+						<li><a href="http://opendata-tools.org/" target="_blank">Open Data Tools</a></li>
+					</ul>
+
+					<h3>データサイト集（リポジトリ）</h3>
+					<p>一般に利用可能なLinked Open Data、オープンデータを提供しているWebサイトのリストを掲載しているリンク集です。</p>
+					<ul>
+						<li><a href="http://thedatahub.org/" target="_blank">CKAN</a></li>
+						<li><a href="http://logd.tw.rpi.edu/datasets" target="_blank">LOGD Dataset Catalog</a></li>
+						<li><a href="http://labs.mondeca.com/sparqlEndpointsStatus/index.html" target="_blank">SPARQL Endpoints Status</a></li>
+					</ul>
+
+					<h3>最新情報の入手先</h3>
+					<ul>
+					<li>ヨーロッパにおけるLinked Open Dataの最新情報を配信しているWebサイトです。<br />
+					<a href="http://blog.okfn.org/" target="_blank">Open Knowledge Foundation Blog</a></li>
+					<li>ビジネス動向を中心に、セマンティックWebに関する情報を配信しているWebサイトです。Linked Open Dataの情報も発信されています。<br />
+					<a href="http://semanticweb.com/" target="_blank">semanticweb.com</a></li>
+					</ul>
+
+					<p>Linked Open Dataについて幅広く情報交換できる、日本のコミュニティです。</p>
+					<ul>
+						<li><a href="http://www.facebook.com/home.php?sk=group_130625107020532" target="_blank">Facebookグループ: Linked Open Data Japan</a></li>
+						<li><a href="http://linkeddata.jp/" target="_blank">LinkedData.jp</a></li>
+					</ul>
+
+				</div>
+<?php
+	echo get_footer($pageName);
+?>			

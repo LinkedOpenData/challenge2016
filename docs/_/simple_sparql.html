@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SPARQL Sample</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://lod.hozo.jp/SparqlFinder/js/sparql.js" charset="UTF-8"></script>
+<script type="text/javascript" src="http://uedayou.net/SPARQLTimeliner/js_sparql/sparql.js" charset="UTF-8"></script>
+<script>
+<!-- // 
+
+var endpoint = "http://db.lodc.jp/sparql";
+
+$(window).load(function() {
+
+	sparql = new Sparql();
+
+	$('#find_query').click(function(){
+
+	qr = sendQuery(
+		endpoint
+		,$('#query_area').val().replace(/[\n\r]/g,"")
+	);
+	qr.fail(
+		function (xhr, textStatus, thrownError) {
+			alert("Error: A '" + textStatus+ "' occurred.");
+		}
+	);
+	qr.done(
+		function (d) {
+			result_table(d.results.bindings);
+		}
+	);
+
+
+	});
+
+	$('#result_div').hide();
+
+	init();
+
+});
+
+
+//結果表示用の関数
+function result_table(data){
+	 var result_div = $('#result_div');
+
+	var table = $('#result_list')[0];
+
+
+	if (table == undefined) {
+		result_div.append($('<table border="1"></table>').attr({
+			'id' : 'result_list',
+			'class' : 'table'
+		}));
+		table = $('#result_list')[0];
+	}
+
+	while (table.rows.length > 0) {
+		table.deleteRow(0); // 行を追加
+	}
+
+	if (data instanceof Array) {
+		result_div.show();
+		// ヘッダ
+		var header = table.createTHead(); // 行を追加
+		var headerRow = header.insertRow(0);
+
+		id = 1;
+		for (var d = 0; d < data.length; d++) {
+			var row1 = table.insertRow(d + 1); // 行を追加
+
+			if (d == 0) {
+				for ( var key in data[0]) {
+					var th = document.createElement('th');
+					var label = key;
+					th.innerHTML = key;
+					headerRow.appendChild(th);
+				}
+			}
+	
+			var i = 0;
+			for ( var key in data[d]) {
+				var cell = row1.insertCell(i++); // ２つ目以降のセルを追加
+				var value = data[d][key];
+				if (value.value != undefined){
+					value = value.value;
+				}
+				if (value == null) {
+					value = '';
+				}
+	
+				var link = true;
+				if (link) {
+					if (value != null && value.indexOf("http://") == 0) {
+						value = '<a href="'+value+'" target="_blank">'
+								+ value + '</a>';
+					}
+				}
+				cell.innerHTML = value;
+			}
+		}
+	}
+};
+
+
+// -->
+</script>
+</head>
+<body>
+
+
+<div id="container">
+	<div id="header">
+	<h2 style="background-color: #99cc00">JavaScriptによるSPARQL利用サンプル</h2>
+	</div>
+
+	<div id="right" class="right">
+		<div>
+		<textarea id="query_area" cols="60" rows="10">select * {?s ?p ?o} LIMIT 100</textarea>
+			<input type="button" id="find_query" value="query"/>
+		</div>
+	
+		<!-- 結果ペイン -->
+		<div id="result_div" class="table_parent">
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

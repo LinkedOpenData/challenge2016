@@ -1,0 +1,63 @@
+<?php 
+	require_once( dirname(__FILE__) . '/template/header.php');
+	require_once( dirname(__FILE__) . '/template/footer.php');
+	$pageName = "アプリケーション部門";
+	echo get_header($pageName);
+	
+	require_once dirname(__FILE__) . '/util/copyright.php';
+	require_once dirname(__FILE__) . '/util/star_badge.php';
+	require_once dirname(__FILE__) . '/util/lod_db.php';
+
+	require_once dirname(__FILE__) . '/util/lod_settings.php';
+
+	$db = LodDb::getInstance();
+	$cr = Copyright::getInstance();
+	$sb = StarBadge::getInstance();
+?>
+				<a id="category" name="category"></a>
+				<div id="contentsBK">
+					<h2 class="iconAppliS">アプリケーション部門</h2>
+					
+					
+					<p class="withArrow"><a href="category.html#categoryAppli" title="アプリケーション部門の詳細">アプリケーション部門の詳細はコチラ</a></p>
+					
+					<h3>応募作品一覧</h3>
+					
+					<table id="entry-list" class="application-form">
+						<thead>
+							<tr class="column-definition">
+								<th style="width:50px;">　</th>
+								<th style="width:110px;">エントリー番号</th>
+								<th style="width:120px;">作品の名称</th>
+								<th style="width:100px;">応募者</th>
+								<th>応募概要</th>
+								<th style="width:185px;">エントリー情報</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php
+								$applications = $db->executeQuery("select id, name, abstract, application_name, icon_filename , copyright, license  from application_2014 order by id ASC;");
+								$even = false;
+								if($applications){
+									foreach($applications as $ap){
+										echo '<tr'.($even ? ' class="even-row"' : '').'>';
+										$even = !$even;
+										echo '<td><img src="'.$ap[icon_filename].'" width="'. ICON_WIDTH .'" heigth="'. ICON_HEIGHT .'" alt="icon">';
+										echo '<td><a href="show_status.php?id=a'.sprintf('%03d',$ap['id']).'">a'.sprintf('%03d',$ap['id']).'</a></td>';
+										echo '<td>'.$ap['application_name'].'</td>';
+										echo '<td>'.$ap['name'].'</td>';
+										echo '<td>'.str_replace("\n", "<br>", $ap["abstract"]).'</td>';
+										echo '<td>'.($ap["copyright"] ? '<img src="'.$cr->image($ap["copyright"]).'" /> ' : $ap["license"]).'</td>';
+										echo '</tr>';
+									}
+								} else {
+									echo '<tr><td colspan="5">まだ登録はありません</td></tr>';
+								}
+							?>
+						</tbody>
+					</table>
+					
+				</div>
+<?php
+	echo get_footer($pageName);
+?>			

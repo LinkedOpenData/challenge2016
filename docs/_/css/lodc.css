@@ -1,0 +1,68 @@
+body{
+font-size:16px;
+margin-top: 70px;
+position: relative;
+}
+.word-break{
+word-break:break-all;
+}
+p {
+word-break:break-all;	
+}
+.section-class{
+padding:5px;
+}
+.sample-query-class{
+min-height:400px;
+}
+.sample-app-class{
+min-height:410px;
+}
+.faq-class{
+min-height:300px;
+}
+pre {
+font-size:inherit;
+}
+.footer-lodc-position{
+float:left;
+height:50px;
+}
+.footer-dc-position{
+float:right;
+height:50px;
+padding:8px;
+}
+.clear{
+clear:both;
+}
+.footer-text-class{
+text-align:center;
+padding-top:5px;
+padding-bottom:5px;
+}
+.bcolor-none-class{
+background-color:inherit;
+}
+.bimage-none-class{
+background-image:inherit;
+}
+.centering-class{
+text-align:center;
+}
+.dataset-td {
+min-width:100px;
+}
+.img-center {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.navbar>.container .navbar-lodc-icon, .navbar>.container-fluid .navbar-lodc-icon {
+margin-left:5px;
+margin-right:10px;
+padding:5px 5px;
+}
+h2 {
+padding:10px 0;
+}

@@ -1,0 +1,314 @@
+O:40:"Concrete\Core\Cache\Page\PageCacheRecord":4:{s:7:"expires";i:1478451221;s:14:"cacheRecordKey";s:15:"blog%2F20120810";s:7:"headers";a:3:{s:6:"Pragma";s:6:"public";s:13:"Cache-Control";s:28:"max-age=21600,s-maxage=21600";s:7:"Expires";s:29:"Sun, 06 Nov 2016 16:53:41 GMT";}s:7:"content";s:30749:"<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/themes/elemental/css/bootstrap-modified.css">
+    <link href="/2015/concrete5/application/files/cache/css/elemental/main.css" rel="stylesheet" type="text/css" media="all">    
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Linked Open Data Challenge 2015 :: 技術コラム第2回：ロンドンオリンピックとBBC</title>
+<meta name="description" content="LODチャレンジ実行委員会で「メディアとLOD」を担当します乙守です。
+
+オリンピック開催中でもあり、今回は「本テーマの旬な導入編」ということでお読み頂ければと思います。" />
+<meta name="generator" content="concrete5 - 5.7.5.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/2015/concrete5/index.php';var CCM_CID = 232;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/images";
+var CCM_TOOLS_PATH = "/2015/concrete5/index.php/tools/required";
+var CCM_APPLICATION_URL = "http://lodc.jp/2015/concrete5";
+var CCM_REL = "/2015/concrete5";
+
+</script>
+
+
+        <link rel="shortcut icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+            <link rel="apple-touch-icon" href="http://lodc.jp/2015/concrete5/application/files/2414/3813/7129/lodclogomark57x57.png"/>
+            <meta name="msapplication-TileImage" content="http://lodc.jp/2015/concrete5/application/files/4014/3813/7128/lodclogomark144x144.png" />
+<meta property="og:title" content="技術コラム第2回：ロンドンオリンピックとBBC" />
+<meta property="og:description" content="LODチャレンジ実行委員会で「メディアとLOD」を担当します乙守です。
+
+オリンピック開催中でもあり、今回は「本テーマの旬な導入編」ということでお読み頂ければと思います。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lodc.jp/2015/concrete5/blog/20120810" />
+<meta property="og:image" content="http://lodc.jp/2015/concrete5/2015/concrete5/application/files/7614/4621/7590/logo2015small.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="128" />
+<meta property="og:site_name" content="Linked Open Data Challenge 2015" />
+<meta property="fb:app_id" content="954041024639805" />
+<meta name="og:locale" content="ja_JP" />
+<meta name="og:updated_time" content="2015-11-18T18:59:51+09:00" />
+<link href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/2015/concrete5/application/files/cache/css/b61ab2e7c40d530c67fb008706bd649270e17c2c.css" rel="stylesheet" type="text/css" media="all" data-source="/2015/concrete5/packages/social_share_lite/blocks/social_share_lite/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/search/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/page_list/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/conversations.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/jquery-magnific-popup.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/jquery-ui.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+
+<div class="ccm-page page-type-blog-entry page-template-right-sidebar">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6">
+                
+
+    <p data-redactor-inserted-image="true" style="text-align: center;"><a href="http://lodc.jp/2015/concrete5"><img src="/2015/concrete5/application/files/6614/4319/7518/2015.png" alt="LOD Challenge 2015 Home" style="width: 429px; height: auto; display: block; margin: auto;"></a>  </p>
+
+
+    <center>  <table>  <tbody>  <tr>  	<td style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about">開催趣旨</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/sponsor">LODチャレンジへの期待</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/entry">応募方法</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/resource">提供リソース</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog">ブログ</a></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/technical_issue">技術情報</a><br></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/endpoint.html" target="_blank">過去作品DB</a><br></span>  	</td>  </tr>  </tbody>  </table></center>
+            </div>
+            <div class="col-sm-5 col-xs-6">
+                
+
+    <div class="ccm-social-share"><ul><li class="fblike">
+<div class="fb-like" data-href="http://lodc.jp/2015/concrete5/blog/20120810" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li><li class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lodc.jp/2015/concrete5/blog/20120810" data-lang="ja">ツイートする</a>
+</li><li class="gplus">
+<div class="g-plusone" data-size="medium" data-href="http://lodc.jp/2015/concrete5/blog/20120810"></div>
+</li></ul></div>
+            </div>
+                            <div class="col-sm-3 col-xs-12">
+
+    <form action="http://lodc.jp/2015/concrete5/portal/search" method="get" class="ccm-search-block-form"><input name="search_paths[]" type="hidden" value="" /><input name="query" type="text" value="" class="ccm-search-block-text" /></form>
+</div>
+                    </div>
+    </div>
+</header>
+<main>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-content">
+                
+
+    <div class="ccm-block-page-title-byline">
+    <h1 class="page-title">技術コラム第2回：ロンドンオリンピックとBBC</h1>
+
+    <span class="page-date">
+    2012/08/10    </span>
+
+        <span class="page-author">
+    nakayama    </span>
+    
+</div>
+
+
+    <p>LODチャレンジ実行委員会で「メディアとLOD」を担当します乙守です。</p><p>オリンピック開催中でもあり、今回は「本テーマの旬な導入編」ということでお読み頂ければと思います。</p><p>&lt;h3&gt;○ロンドンオリンピックとLODとの繋がり&lt;/h3&gt;</p><p>まずは、なんと言ってもWorld Wide Webの考案者、LODの提唱者、そしてLODチャレンジJapanとの関係で言えば<a href="&lt;a href=" http:="" lod.sfc.keio.ac.jp="" challenge2011="" "="">LODチャレンジJapan2011で応援メッセージ</a>を送って頂いた<a">http://lod.sfc.keio.ac.jp/challenge2011/"&gt;LODチャレンジ... href="http://www.huffingtonpost.com/2012/07/28/tim-berners-lee-lee-london-2012-olympics-opening-ceremony_n_1714256.html?utm_hp_ref=technology"&gt;ティム・バーナーズ・リー卿がオリンピック開会式への登場したこと。</a"></p><p>インターネットの基盤を作った「イギリスが生んだ偉大な科学者」ということでは当然なのかもしれませんが、本分野の関係者?の間でも大いに盛り上がったサプライズです。</p><p>そして、ティム・バーナーズ・リー卿とともにイギリス、ロンドンがお膝元となる本コラムのテーマ「イギリス放送協会＝BBC」。</p><p>BBCとLODは、実はとても深い関係があります。</p><p>放送メディアの分野においてLODそしてセマンティックの技術の導入を積極的に進め、このロンドンオリンピックで実際のサービスとして運用しているのがBBCなのです。</p><p>&lt;h3&gt;○データ、データ、データ&lt;/h3&gt;</p><p>BBCがLOD技術の導入を進める背景として「三つのデータ」があります。</p><p>一つ目のデータは、インターネット上にあるソーシャルデータです。</p><p>前回の北京オリンピック当時に比べてFaceBookユーザは１億人から９億人へ、twitterは600万人から６億人と大幅に増えました。</p><p>ロンドンオリンピックは「ソーシャル＊メディア＝ソーシャリンピック」ともマスコミでは言われています。BBCも”世界初のソーシャルメディアオリンピック”として、<a href="&lt;a href=" http:="" www.bbc.co.uk="" sport="" 0="" olympics="" 2012="" "="">BBC" class="redactor-linkify-object"&gt;http://www.bbc.co.uk/sport/0/olympics/2012/"&gt;BBC</a> SPORT Olympicsではtwitterを利用したサイト構築なども進めています。<a href="http://www.bbc.com/news/technology-18889406">[参考URL(1)]</a></p><p>二つ目のデータは、オリンピック自体のデータです。</p><p>17日間という短い時間でアスリート数 10,000以上、参加チーム数200以上、26の競技が32に及ぶ地域で日々行わていくのですから想像もつかないデータ量です。</p><p>BBCは、こうした情報＝ページをLODとセマンティックWeb技術を利用して自動生成しています。<a href="http://www.fastcocreate.com/1681072/how-the-bbc-is-building-the-first-social-olympic-games">[参考URL(2)]</a></p><p>例えば、気迫いっぱい！で金メダルを獲得した<a href="http://www.bbc.co.uk/sport/olympics/2012/athletes/43251fa4-f850-4509-a199-8a6aa8d1c191">松本薫選手のページ</a>では、松本選手の記事、試合記録、他の選手と比較情報などが掲載されています。</p><p>このアスリートの情報ですが、これはイギリス選手だけでなく、オリンピックに参加した全選手について、その試合結果や関連した記事をBBCのサイトで発信しています。</p><p>そして三つ目のデータがBBCにおける放送戦略に関わるデータです。</p><p>BBCは８つのテレビ放送局、１０の公共ラジオ局、４０のローカルラジオ局など多くのチャネルを運営し、そこで多種多様なコンテンツを発信しています。</p><p>と同時に、以前はTVやPCが対象でしたが、BBC iPlayerなどのスマートフォンやタブレットなど視聴が利用する媒体へ対応も行なっています。</p><p>BBC は、このような各種番組や媒体がサイロとして孤立するのではなく、１０の番組（カテゴリ）、４つの画面が（PC／TV／スマートフォン/タブレット）をひ とつのサービスとして視聴者に届けること＝「One,Ten,Fourオンライン戦略」を昨年からオンライン戦略として進めています。<a href="http://www.bbc.co.uk/blogs/aboutthebbc/2011/06/connected-storytelling-one-service-ten-products-four-screens.shtml">[参考URL(3)]</a></p><p>イギリス公共放送ということで、Webサイトのニュース記事やラジオ番組などしか日本では利用できなく私自身経験できないのですが、一 人のアスリートの試合結果のニュースが４種類の媒体でシームレスに視聴できる、と同時にニュース記事から映像もシームレスに繋がる世界を目指しているよう です。</p><p>&lt;h3&gt;○BBCとLOD&lt;/h3&gt;</p><p>まさに、データ、データ、データの中、ロンドンオリンピックを舞台にBBCは世界初のソーシャルオリンピック、デジタルオリンピックに果敢に挑戦しているわけですが、ここで利用されているのがLODそしてセマンティックWeb技術です。</p><p>と言いつつ、十分に記述できるスペースがないのとオリンピックの最中も<a href="&lt;a href=" http:="" www.bbc.co.uk="" blogs="" bbcinternet="" "="">BBC" class="redactor-linkify-object"&gt;http://www.bbc.co.uk/blogs/bbcinternet/"&gt;BBC</a> Internet Blogから技術情報がアップされ続けているため、今回は現状入手可能な情報の紹介ということで、残りは次回にしたいと思います。</p><p>(1)LOD技術の導入目的と簡単な技術説明</p><p>少々古いですが、<a href="&lt;a href=" http:="" ameblo.jp="" nobuotto="" entry-10675795918.html"="">[参考URL(4)</a>]<a">http://ameblo.jp/nobuotto/entry-10675795918.html"&gt;... href="<a href="http://ameblo.jp/nobuotto/entry-10675797991.html">[参考URL(5)]</a><a">http://ameblo.jp/nobuotto/entry-10675797991.html"&gt;... href="http://ameblo.jp/nobuotto/entry-10675799301.html"&gt;[参考URL(6)]にまとめていますので参考にして頂ければと思います。</a"></a"></p><p>(2)セマンティック技術を用いた動的出版(Dymanic Semantic Publication)</p><p>ロンドンオリンピックで実運用されている、前述したページの自動生成や各番組をシームレスにつなげるサービスの基盤となる技術です。</p><p>本技術は2年前のワールドカップにまず実験的に開発され<a href="&lt;a href=" http:="" ameblo.jp="" nobuotto="" entry-10675800420.html"="">[参考URL(7)]</a>今回のオリンピックでもよりスケーラビリティをあげて運用されています。<a">http://ameblo.jp/nobuotto/entry-10675800420.html"&gt;... href="<a href="http://www.bbc.co.uk/blogs/bbcinternet/2012/04/sports_dynamic_semantic.html">[参考URL(8)]</a><a">http://www.bbc.co.uk/blogs/bbcinternet/2012/04/spo... href="<a href="http://semanticweb.com/dynamic-semantic-publishing-for-beginners-part-1_b29415">[参考URL(9-1)]</a><a">http://semanticweb.com/dynamic-semantic-publishing... href="http://semanticweb.com/dynamic-semantic-publishing-for-beginners-part-2_b29751"&gt; [参考URL(9-2)]<a href="http://semanticweb.com/dynamic-semantic-publishing-for-beginners-part-3_b30352">[参考URL(9-3)] </a></a"></a"></a"></p><p>&lt;h3&gt;○中締めとして&lt;/h3&gt;</p><p>本コラムのテーマ、「スポーツとLOD」ですが、実は<a href="http://lod.sfc.keio.ac.jp/challenge2011/show_list.php">昨年のLODチャレンジJapan</a>ではスポーツを題材とした作品の応募はありませんでした。</p><p>スポーツ関連のオープンデータについて私も調査したことはありませんが、”スポーツ”はLODチャレンジJapanで新鮮なテーマになりそうです。</p><p>オリンピックの興奮冷めやらぬうちに、応募作品のアイデアを練っておくといいかもしれません。</p><p>＜これは事務局としてではなく、あくまで個人としての発言です。:-)＞</p><p>&lt;h3&gt;&lt;参考URL&gt;&lt;/h3&gt;</p><p>BBCが発表しているロンドンオリンピックに向けての各資料。</p><p>(1)London2012:London Tweety12 - 世界初のソーシャルメディアオリンピック</p><p><a href="http://www.bbc.com/news/technology-18889406"> London 2012: London Tweety12 - the first social media Olympics</a></p><p>(2)BBCが作る世界初のソーシャルメディアオリンピック</p><p><a href="&lt;a href=" http:="" www.fastcocreate.com="" 1681072="" how-the-bbc-is-building-the-first-social-olympic-games"="">How" class="redactor-linkify-object"&gt;http://www.fastcocreate.com/1681072/how-the-bbc-is...</a> The BBC Is Building The First Social Olympic Games | Co.Create</p><p>(3)ストーリーを紡ぐ- ひとつサービス、１０の番組、４つの画面</p><p><a href="&lt;a href=" http:="" www.bbc.co.uk="" blogs="" aboutthebbc="" 2011="" 06="" connected-storytelling-one-service-ten-products-four-screens.shtml"="">Connected" class="redactor-linkify-object"&gt;http://www.bbc.co.uk/blogs/aboutthebbc/2011/06/con...</a> storytelling - one service, ten products, four screens</p><p>BBCについて以前筆者が書いたBLOG</p><p>(4)<a href="http://ameblo.jp/nobuotto/entry-10675795918.html">LODとメディア(13):イギリスBBC編：抱えていた問題</a></p><p>(5)<a href="http://ameblo.jp/nobuotto/entry-10675797991.html">LODとメディア(14):イギリスBBC編：プログラムオントロジー</a></p><p>(6)<a href="http://ameblo.jp/nobuotto/entry-10675799301.html">LODとメディア(15):イギリスBBC編：DBPedia</a></p><p>(7)<a href="http://ameblo.jp/nobuotto/entry-10675800420.html">LODとメディア(16):イギリスBBC編：ワールドカップ</a></p><p>BBCにおけるLOD、セマンティックWeb技術説明資料</p><p>(8)新しいBBC Sports　セマンティック技術を用いた動的出版</p><p><a href="&lt;a href=" http:="" www.bbc.co.uk="" blogs="" bbcinternet="" 2012="" 04="" sports_dynamic_semantic.html"="">Sports" class="redactor-linkify-object"&gt;http://www.bbc.co.uk/blogs/bbcinternet/2012/04/spo...</a> Refresh: Dynamic Semantic Publishing　2012/04/17 Jem Rayfiled</p><p>(9)semanticweb.comのエディターKristen MilhollinによるDSPの各紹介記事</p><p>(9-1)セマンティック技術を用いた動的出版入門パート1</p><p><a href="http://semanticweb.com/dynamic-semantic-publishing-for-beginners-part-1_b29415"> Dynamic Semantic Publishing for Beginners, Part 1</a></p><p>(9-2)セマンティック技術を用いた動的出版入門パート2</p><p><a href="http://semanticweb.com/dynamic-semantic-publishing-for-beginners-part-2_b29751"> Dynamic Semantic Publishing for Beginners, Part 2</a></p><p>(9-3)セマンティック技術を用いた動的出版入門パート3</p><p>D<a href="&lt;a href=" http:="" semanticweb.com="" dynamic-semantic-publishing-for-beginners-part-3_b30352"="">ynamic" class="redactor-linkify-object"&gt;http://semanticweb.com/dynamic-semantic-publishing...</a> Semantic Publishing for Beginners, Part 3</p><p>&lt;p style="text-align: right"&gt;&lt;span style="color: #008080"&gt;（株）MetaMoJi 乙守信行　&lt;/span&gt;&lt;/p&gt;</p>
+            </div>
+            <div class="col-sm-offset-1 col-sm-3 col-sidebar">
+                
+
+        <div class="ccm-custom-style-container ccm-custom-style-sidebar-11 block-sidebar-wrapped" >
+    
+
+<div class="ccm-block-next-previous-wrapper">
+        <div class="ccm-block-next-previous-header">
+        <h5>Last Post</h5>
+    </div>
+    
+    	<p class="ccm-block-next-previous-previous-link">
+		<a href="http://lodc.jp/2015/concrete5/blog/20120802">技術コラム第1回：saveMLAK</a> 	</p>
+	
+            <div class="ccm-block-next-previous-header">
+            <h5>Next Post</h5>
+        </div>
+    
+            <p class="ccm-block-next-previous-next-link">
+            <a href="http://lodc.jp/2015/concrete5/blog/20120903">技術コラム第3回：LinkData.jp</a>        </p>
+    
+    
+</div>
+
+
+    </div>
+
+
+        <div class="ccm-custom-style-container ccm-custom-style-sidebar-12 block-sidebar-wrapped" >
+    
+<div class="ccm-block-share-this-page">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2F%2521drafts%2F232"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/intent/tweet?url=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2F%2521drafts%2F232"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/shareArticle?mini-true&url=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2F%2521drafts%2F232&title="><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="mailto:?body=Linked%20Open%20Data%20Challenge%202015%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%0A%0A%0Ahttp%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2F%2521drafts%2F232&subject=%E3%81%93%E3%81%AE%E8%A8%98%E4%BA%8B%E3%81%AF%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%A7%E3%81%99%E3%80%82"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+</div>
+    </div>
+
+
+    
+<div class="ccm-block-topic-list-wrapper">
+
+    <div class="ccm-block-topic-list-header">
+        <h5>Topics</h5>
+    </div>
+
+    
+                    トピックがありません。        
+    
+</div>
+
+
+
+
+    
+
+<div class="ccm-block-page-list-wrapper">
+
+            <div class="ccm-block-page-list-header">
+            <h5>Related Posts</h5>
+        </div>
+    
+    
+    <div class="ccm-block-page-list-pages">
+
+        </div>
+
+            <div class="ccm-block-page-list-no-pages"></div>
+    
+</div><!-- end .ccm-block-page-list -->
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <hr/>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-conversation-wrapper" data-conversation-id="13">
+    コメント欄を読み込み中 <i class="fa fa-spin fa-circle-o-notch"></i>
+    </div>
+
+    <script type="text/javascript">
+    $(function() {
+        $('div[data-conversation-id=13]').concreteConversation({
+            cnvID: 13,
+            blockID: 1616,
+            cID: 232,
+            posttoken: '1478429621:192f5787c047d660543eb0e42eb5c566',
+            displayMode: 'threaded',
+            addMessageLabel: 'Add Message',
+            paginate: true,
+            itemsPerPage: 50,
+            orderBy: 'date_asc',
+            enableOrdering: 0,
+            displayPostingForm: 'top',
+            activeUsers: [],
+            enableCommentRating: 1,
+            commentRatingUserID: 0,
+            commentRatingIP: 'cf2e0d91',
+            dateFormat: 'default',
+            customDateFormat: '',
+            blockAreaHandle: 'Page Footer',
+            fileExtensions: 'jpg,gif,jpeg,png,doc,docx,zip',
+            maxFileSize: '1',
+            maxFiles: '3',
+            attachmentsEnabled: '1',
+            attachmentOverridesEnabled: '0'
+        });
+    });
+    </script>
+
+</div></div></div>
+</main>
+
+
+<footer id="footer-theme">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                
+
+    <p><span class="title-caps-bold">過去の開催と受賞作品</span></p>
+
+
+    <center>  <table width="100%">  <tbody>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/">LODチャレンジJapan 2015</a></span>　<span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">2015 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">LODチャレンジJapan 2014</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2647">2014 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2013/">LODチャレンジJapan 2013</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2109">2013 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2012/">LODチャレンジJapan 2012</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1071">2012 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/">LODチャレンジJapan 2011</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/result2011.html">2011 受賞作品</a></span>  	</td>  </tr>  </tbody>  </table></center><br>  
+            </div>
+            <div class="col-sm-3">
+                            </div>
+        </div>
+    </div>
+    </section>
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" rel="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Linked Open Data Challenge </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lodc.jp/" property="cc:attributionName" rel="cc:attributionURL">Linked Open Data Challenge Consortium</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p><p>ただし、本サイトに掲載している各企業・団体・グループのロゴおよび各企業・団体・グループ作成コンテンツは各企業・団体・グループの所有でありCC-BYの対象外となります。</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    <p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/partner">スポンサー・パートナー募集</a></span></span>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/committee">LODチャレンジJapan実行委員会</a></span></span><a href="http://lodc.jp/2015/concrete5/about/committee"><br></a>  	</p>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/comittee_rule">実行委員会会則</a></span></span>  	</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    
+<div id="ccm-block-social-links909" class="ccm-block-social-links">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LOD.challenge.Japan"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/LinkedOpenData"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/lodjapan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/108435917546080277840/108435917546080277840/posts"><i class="fa fa-google-plus-square"></i></a></li>
+            <li><a href="http://www.slideshare.net/lodjapan"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCy9PDSVPl-jC8dPoI3Jw3eg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
+
+<footer id="concrete5-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Built with <a href="http://www.concrete5.org" class="concrete5">concrete5</a> CMS.</span>
+                <span class="pull-right">
+                    <a href="http://lodc.jp/2015/concrete5/login">ログイン</a>                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</div>
+
+<div id="fb-root"></div>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appID=954041024639805";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","facebook-jssdk");</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: "ja"};
+</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://apis.google.com/js/plusone.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","google-plusone");</script>
+<!-- load social scripts by social share lite add-on -->
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/picturefill.js"></script>
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/2015/concrete5/application/files/cache/js/a35d0b5a8cc329cf4e82ce0044db4971c189d2e7.js" data-source="http://lodc.jp/2015/concrete5/ccm/assets/localization/jquery/ui/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/underscore.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery-magnific-popup.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/dropzone.js http://lodc.jp/2015/concrete5/ccm/assets/localization/dropzone/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/bootstrap/dropdown.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/events.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/conversations.js http://lodc.jp/2015/concrete5/ccm/assets/localization/conversations/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/lightbox.js"></script>
+
+</body>
+</html>
+";}
