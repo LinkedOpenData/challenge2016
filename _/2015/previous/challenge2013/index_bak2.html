@@ -1,0 +1,148 @@
+<?php 
+	require_once( dirname(__FILE__) . '/template/header.php');
+	require_once( dirname(__FILE__) . '/template/footer.php');
+	require_once( dirname(__FILE__) . '/util/lod_db.php');
+	echo get_header(null);
+?>
+<script type="text/javascript">		
+	$(document).ready(function(){
+		$('#slider-pane').jshowoff({cssClass: "slider-wrapper", changeSpeed: 500, speed: 8000, links: false});
+		$($('#slider-pane').children()[0]).show();
+	});
+</script>
+<div id="top-pane">
+	<div id='mainVisual'>
+		<img src="common/img/mainvisual/0001.png" alt="2013bnr" />
+	</div>
+	
+	<!--
+	<div id="slider-pane">
+		<div class="slider-content">
+		</div>
+		<div class="slider-content">
+		</div>
+		<div class="slider-content">
+		</div>
+		-->
+	<!--
+	<div id="entry-pane">
+		<h2 class="title-eyecache">ご応募ありがとうございました!!</h2>
+		<div id="contest-section">
+			<div>
+				<a href="dataset.html"><img src="common/img/icon_data_s.png" alt="データセット部門" /></a>
+				<h3><a href="dataset.html">データセット</a></h3>
+				<div class="num-works">87作品</div>
+			</div>
+			<div>
+				<a href="idea.html"><img src="common/img/icon_idea_s.png" alt="アイデア部門" /></a>
+				<h3><a href="idea.html">アイデア</a></h3>
+				<div class="num-works">50作品</div>
+			</div>
+			<div>
+				<a href="application.html"><img src="common/img/icon_appli_s.png" alt="アプリケーション部門" /></a>
+				<h3><a href="application.html">アプリケーション</a></h3>
+				<div class="num-works">44作品</div>
+			</div>
+			<div>
+				<a href="visualization.html"><img src="common/img/icon_visualization_s.png" alt="ビジュアライゼーション部門" /></a>
+				<h3><a href="visualization.html">ビジュアライゼーション</a></h3>
+				<div class="num-works">24作品</div>
+			</div>
+		</div>
+		-->
+		<!--   <div class="clear" style="line-height:1.5em;font-size: 1.2em;">
+			<h3>表彰は<a href="http://s-web.sfc.keio.ac.jp/conference2013/" target="_blank">セマンティックWEBコンファレンス2013</a>内にて行われます。</h3>
+			<ul>
+				<li>審査結果発表＆表彰：2013年3月7日 (木)</li>
+			</ul>
+		</div>
+		-->
+	</div>
+</div>
+<div id="bottom-pane" class="clear">
+	<div id="contents-pane">
+		<h2><img src="common/img/news.png" alt="news" /></h2>
+		<div id="blog-entry-links">
+		<?php 
+			$pressReleaseId = null;
+			foreach (LodDb::getInstance()->executeQuery("select term_id from wp_terms where name = 'プレスリリース'") as $term) {
+				$pressReleaseId = $term['term_id'];
+				break;
+			}
+			$postIds = array();
+			foreach (LodDb::getInstance()->executeQuery("select object_id from wp_term_relationships where term_taxonomy_id = '".$pressReleaseId."'") as $rel) {
+				array_push($postIds, $rel["object_id"]);
+			}
+			$sql = "select ID, post_title, guid, post_date from wp_posts where post_status = 'publish' order by post_date DESC limit 3";
+			foreach (LodDb::getInstance()->executeQuery($sql) as $article) {
+				echo '<div>';
+				echo '<span class="categoryBox"><a href="'.$article['guid'].'" target="_blank">'.(in_array($article['ID'], $postIds) ? "プレスリリース" : "" ).'</span>'.$pDate[0] . '<br />' . $article['post_title'].'</a>';
+				$pDate = explode(" ", $article['post_date']);
+				echo '</div>';
+			}
+		?>
+			<div style="text-align:right;"><a href="../blog">もっと見る</a></div>
+		</div>
+<!--
+					<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-like-box" data-href="http://www.facebook.com/LOD.challenge.Japan" data-width="530" data-show-faces="true" data-border-color="#FFFFFF" data-stream="false" data-header="false"></div>
+
+				</div>
+				-->
+	</div>
+	<div id="side-contents-pane">
+		<h2 style="margin-bottom:20px;"><img src="common/img/event.png" alt="news" /></h2>
+		
+		<div>
+			<div class="calendarBox" style="margin-bottom: 12px;">
+				<div class="calendarDate">8/10</div>
+				<div class="eventNote"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1437" target="_blank">第２回LODチャレンジデー　オープンデータAPI活用アイデアソン（統計編）<br />～統計オープンデータをつないでどんなことができる？～</a></div>
+			</div>
+			<!--   <div style="margin-bottom: 12px;">
+				<a href="resource_usage.html">データ／基盤パートナーのリソース利用方法</a>
+			</div> -->
+		</div>
+		
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 270,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#22bb22',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#333333',
+      links: '#cc0000'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().setUser('LodJapan').start();
+</script>
+	</div>
+</div>
+<div class="clear"></div>
+<?php
+	echo get_footer(null);
+?>			

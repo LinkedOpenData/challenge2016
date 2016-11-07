@@ -1,0 +1,236 @@
+O:40:"Concrete\Core\Cache\Page\PageCacheRecord":4:{s:7:"expires";i:1478471307;s:14:"cacheRecordKey";s:15:"technical_issue";s:7:"headers";a:3:{s:6:"Pragma";s:6:"public";s:13:"Cache-Control";s:28:"max-age=21600,s-maxage=21600";s:7:"Expires";s:29:"Sun, 06 Nov 2016 22:28:27 GMT";}s:7:"content";s:31029:"<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/themes/elemental/css/bootstrap-modified.css">
+    <link href="/2015/concrete5/application/files/cache/css/elemental/main.css" rel="stylesheet" type="text/css" media="all">    
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Linked Open Data Challenge 2015 :: 技術情報</title>
+<meta name="description" content="技術情報" />
+<meta name="generator" content="concrete5 - 5.7.5.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/2015/concrete5/index.php';var CCM_CID = 212;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/images";
+var CCM_TOOLS_PATH = "/2015/concrete5/index.php/tools/required";
+var CCM_APPLICATION_URL = "http://lodc.jp/2015/concrete5";
+var CCM_REL = "/2015/concrete5";
+
+</script>
+
+
+        <link rel="shortcut icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+            <link rel="apple-touch-icon" href="http://lodc.jp/2015/concrete5/application/files/2414/3813/7129/lodclogomark57x57.png"/>
+            <meta name="msapplication-TileImage" content="http://lodc.jp/2015/concrete5/application/files/4014/3813/7128/lodclogomark144x144.png" />
+<meta property="og:title" content="技術情報" />
+<meta property="og:description" content="技術情報" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lodc.jp/2015/concrete5/technical_issue" />
+<meta property="og:image" content="http://lodc.jp/2015/concrete5/2015/concrete5/application/files/7614/4621/7590/logo2015small.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="128" />
+<meta property="og:site_name" content="Linked Open Data Challenge 2015" />
+<meta property="fb:app_id" content="954041024639805" />
+<meta name="og:locale" content="ja_JP" />
+<meta name="og:updated_time" content="2016-05-04T17:21:04+09:00" />
+<style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="1377" data-style-set="360">.ccm-custom-style-container.ccm-custom-style-main-1377{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="1378" data-style-set="361">.ccm-custom-style-container.ccm-custom-style-main-1378{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="1379" data-style-set="362">.ccm-custom-style-container.ccm-custom-style-main-1379{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="1380" data-style-set="363">.ccm-custom-style-container.ccm-custom-style-main-1380{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="1385" data-style-set="365">.ccm-custom-style-container.ccm-custom-style-main-1385{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="1394" data-style-set="359">.ccm-custom-style-container.ccm-custom-style-main-1394{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="2041" data-style-set="398">.ccm-custom-style-container.ccm-custom-style-main-2041{padding-right:100px;padding-left:100px}</style><style type="text/css" data-area-style-area-handle="Main" data-block-style-block-id="2042" data-style-set="397">.ccm-custom-style-container.ccm-custom-style-main-2042{padding-right:100px;padding-left:100px}</style>
+<link href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/2015/concrete5/application/files/cache/css/9929713a0b5043c102cd5bcb26990b2ef5f784f9.css" rel="stylesheet" type="text/css" media="all" data-source="/2015/concrete5/packages/social_share_lite/blocks/social_share_lite/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/search/view.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+
+<div class="ccm-page page-type-page page-template-full">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6">
+                
+
+    <p data-redactor-inserted-image="true" style="text-align: center;"><a href="http://lodc.jp/2015/concrete5"><img src="/2015/concrete5/application/files/6614/4319/7518/2015.png" alt="LOD Challenge 2015 Home" style="width: 429px; height: auto; display: block; margin: auto;"></a>  </p>
+
+
+    <center>  <table>  <tbody>  <tr>  	<td style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about">開催趣旨</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/sponsor">LODチャレンジへの期待</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/entry">応募方法</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/resource">提供リソース</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog">ブログ</a></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/technical_issue">技術情報</a><br></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/endpoint.html" target="_blank">過去作品DB</a><br></span>  	</td>  </tr>  </tbody>  </table></center>
+            </div>
+            <div class="col-sm-5 col-xs-6">
+                
+
+    <div class="ccm-social-share"><ul><li class="fblike">
+<div class="fb-like" data-href="http://lodc.jp/2015/concrete5/technical_issue" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li><li class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lodc.jp/2015/concrete5/technical_issue" data-lang="ja">ツイートする</a>
+</li><li class="gplus">
+<div class="g-plusone" data-size="medium" data-href="http://lodc.jp/2015/concrete5/technical_issue"></div>
+</li></ul></div>
+            </div>
+                            <div class="col-sm-3 col-xs-12">
+
+    <form action="http://lodc.jp/2015/concrete5/portal/search" method="get" class="ccm-search-block-form"><input name="search_paths[]" type="hidden" value="" /><input name="query" type="text" value="" class="ccm-search-block-text" /></form>
+</div>
+                    </div>
+    </div>
+</header>
+<main>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <p><span style="color: rgb(247, 150, 70);"><strong><span id="data_06" style="font-size: 20px;">LOD技術情報</span></strong></span>  </p>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-1394" >
+    <ul>  	<li><a href="#tech_01">Linked Open Dataのビジョン</a> </li>  	<li><a href="#tech_02">LOD技術情報</a></li>  	<li><a href="#tech_03">LOD分野別事例紹介</a></li>  	<li><a href="#tech_04">LOD活用</a></li>  	<li><a href="#tech_05">技術コラム</a></li>  	<li><a href="#tech_06">LODイベント情報</a></li>  	<li><a href="#tech_07">参考リンク</a></li>  </ul>
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span style="font-size: 20px;" rel="font-size: 20px;" id="tech_01">Linked Open Dataのビジョン</a><br></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-1377" >
+    <p>Webを発明したTim Berners-Lee氏が、Linked Open Dataの理念、将来の社会像について熱く語っています。彼がデータの公開（Open）と共有（Link）を提唱したことにより、Linking Open Data運動が世界中で広まっています。日本語字幕の字幕がついています。<br></p><ul><li><a href="http://www.ted.com/talks/lang/jpn/tim_berners_lee_on_the_next_web.html" target="_blank">TED2009 Tim Berners-Lee on the next Web</a></li><li><a href="http://www.ted.com/talks/lang/jpn/tim_berners_lee_the_year_open_data_went_worldwide.html" target="_blank">TED2010 Tim Berners-Lee:The year open data went worldwide</a><a href="http://www.ted.com/talks/lang/jpn/tim_berners_lee_the_year_open_data_went_worldwide.html"></a><br></li></ul>
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span style="font-size: 20px;" rel="font-size: 20px;" id="tech_02">LOD技術情報</a></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-1378" >
+    <p>Linked Open Data（LOD）に関する技術情報です．<br>  </p>  <p><span class="title-caps-bold">Linked Open Dataとは？</span>  </p>  <p style="width:425px" rel="width:425px" id="__ss_10164445"> <strong><a href="http://www.slideshare.net/lodjapan/lod-14067254" title="Linked Open Dataとは" target="_blank">Linked Open Dataとは</a></strong>  	<iframe src="http://www.slideshare.net/slideshow/embed_code/14067254" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="">  	</iframe><strong> <a href="http://www.slideshare.net/lodjapan/lod-14067254" title="Linked Open Dataとは" target="_blank">Linked Open Dataとは</a> </strong> from <strong><a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a></strong>  </p>  <h3>Linked Open Dataを閲覧する／作成する</h3>  <p style="width:425px" id="__ss_10212356"> <strong><a href="http://www.slideshare.net/lodjapan/lod-10212356" title="LODを閲覧する／作成する" target="_blank">LODを閲覧する／作成する</a></strong>  	<iframe src="http://www.slideshare.net/slideshow/embed_code/10212356" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">  	</iframe>  View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a>  </p>  <h3>Linked Open Dataを検索する</h3>  <p style="width:425px" id="__ss_10164471"> <strong><a href="http://www.slideshare.net/lodjapan/lod-14067108" title="LODを検索する" target="_blank">LODを検索する</a></strong>  	<iframe src="http://www.slideshare.net/slideshow/embed_code/14067108" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="">  	</iframe><strong> <a href="http://www.slideshare.net/lodjapan/lod-14067108" title="LODを検索する" target="_blank">LODを検索する</a> </strong> from <strong><a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a></strong>  </p>
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span style="font-size: 20px;" rel="font-size: 20px;" id="tech_03">LOD分野別事例紹介</a></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-1379" >
+    <p>Linked Open Dataを積極的に活用している各分野の先進的な取り組みを紹介します。</p>  				  <h3>ライフサイエンス分野</h3>  				  <div style="width:425px" id="__ss_9857870">  <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/lodjapan/linked-open-data-9857870" title="ライフサイエンス分野におけるLinked Open Dataの活用例" target="_blank">ライフサイエンス分野におけるLinked Open Dataの活用例</a></strong>  <iframe src="http://www.slideshare.net/slideshow/embed_code/9857870" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a>  </div>  </div>    <h3>学術分野</h3>  <div style="width:425px" id="__ss_10167924">  <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/lodjapan/ss-10167924" title="学術分野の事例紹介" target="_blank">学術分野の事例紹介</a></strong>  <iframe src="http://www.slideshare.net/slideshow/embed_code/10167924" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a>  </div>  </div>    <h3>地理空間情報分野</h3>  <div style="width:425px" id="__ss_10181952">  <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/lodjapan/linked-open-data-10181952" title="地理空間情報におけるLinked Open Dataの活用例" target="_blank">地理空間情報におけるLinked Open Dataの活用例</a></strong>  <iframe src="http://www.slideshare.net/slideshow/embed_code/10181952" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a>  </div>  </div>      <h3>ガバメント分野</h3>  <div style="width:425px" id="__ss_10212631">  <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/lodjapan/lod-10212631" title="ガバメント分野におけるLODの活用例" target="_blank">ガバメント分野におけるLODの活用例</a></strong>  <iframe src="http://www.slideshare.net/slideshow/embed_code/10212631" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a>  </div>  </div>    <h3>メディア分野</h3>  <div style="width:425px" id="__ss_10212602">  <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/lodjapan/lod-10212602" title="LODとメディア　ニューヨークタイムズ最新事情" target="_blank">LODとメディア　ニューヨークタイムズ最新事情</a></strong>  <iframe src="http://www.slideshare.net/slideshow/embed_code/10212602" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/lodjapan" target="_blank">Linked Open Dataチャレンジ実行委員会</a>  </div>  </div>  
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span style="font-size: 20px;" rel="font-size: 20px;" id="tech_04">LOD活用</span></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-1380" >
+    <p><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/uedayou/sparqllod" title="SPARQLでマッシュアップ-LOD活用のための技術紹介-" target="_blank">SPARQLでマッシュアップ-LOD活用のための技術紹介-</a></strong>  </p>  <iframe src="//www.slideshare.net/slideshow/embed_code/key/HctAhY0yJH7ynh" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="">  </iframe>  <p style="margin-bottom:5px"><strong><a href="//www.slideshare.net/uedayou/sparqllod" title="SPARQLでマッシュアップ-LOD活用のための技術紹介-" target="_blank">SPARQLでマッシュアップ-LOD活用のための技術紹介-</a></strong> from <strong><a href="//www.slideshare.net/uedayou" target="_blank">Hiroshi Ueda</a></strong>  </p>  
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span rel="font-size: 20px;" id="tech_05">技術コラム</span></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-2042" >
+    <ul><li><a href="http://lodc.jp/2015/concrete5/blog/20150223" target="_self">技術コラム第22回：地域主体でのマッピングを支える仕組みづくり</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130401" target="_self">技術コラム第21回：函館の歴史資料を用いた市民に新たな発見がある写真検索システム</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130327" target="_self">技術コラム第20回：SparqlEPCU／WebDocManager／LOD Browser</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130326" target="_self">技術コラム第19回：depicts.azurewebsites.net</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130318" target="_self">技術コラム第18回：東日本大震災アーカイブ</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130306" target="_self">技術コラム第17回：Chiba Open Data Day 2013 -こどもNo.1千葉- 参加レポート</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130305" target="_self">技術コラム第16回：2.23インターナショナル・オープンデータ・デー in YOKOHAMA 参加レポート（その2）</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130304" target="_self">技術コラム第15回：2.23インターナショナル・オープンデータ・デー in YOKOHAMA 参加レポート（その1）</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130303" target="_self">技術コラム第14回：オープンデータ東海 参加レポート</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130302" target="_self">技術コラム第13回：International Open Data Hackathon Tokyo 参加レポート</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130301" target="_self">技術コラム第12回：International Open Data Day in Japan 開催</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130212" target="_self">技術コラム第11回：横浜オープンデータハッカソン -LODチャレンジデー in 横浜-</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130129" target="_self">技術コラム第10回：LODチャレンジ2012 LODサロン参加レポート</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130128" target="_self">技術コラム第9回：国内で広がるオープンデータの取り組み</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20120121" target="_self">技術コラム第8回：LODチャレンジデー（アイデアソン）で結成したチームによる作品応募（第5回LODチャレンジデーの成果報告）</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130111" target="_self">技術コラム第7回：第8回LODチャレンジデー in はこだて</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20130109" target="_self">技術コラム第6回：昨今のオープンデータアイデアソン・ハッカソン、コンテストの広まりが目指すもの ～2012年の振り返りと2013年の展望～</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20121211" target="_self">技術コラム第5回：International Asian LOD Challenge Day</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20121108" target="_self">技術コラム第4回：第3回 LODチャレンジデー「オープンデータハッカソン in 鯖江」</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20120926" target="_self">技術コラム第4回：BioHackathon2012 in 富山 開催報告</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20120903" target="_self">技術コラム第3回：LinkData.jp</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20120810" target="_self">技術コラム第2回：ロンドンオリンピックとBBC</a></li><li><a href="http://lodc.jp/2015/concrete5/blog/20120802" target="_self">技術コラム第1回：saveMLAK</a></li></ul><ul><ul>  	</ul>  </ul>  <ul>  </ul>
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span id="tech_06">LODイベント情報</span></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-2041" >
+    <ul>  	<li><a href="http://lodc.jp/2015/concrete5/technical_issue/lod20151020">第1回 LODチャレンジデー in 名古屋 2015 開催のおしらせ</a></li></ul><h2>イベントレポート</h2><ul>  	<li><a href="http://lodc.jp/2015/concrete5/technical_issue/lod20151010">第2回ウィキペディアタウンもりまち 開催報告</a></li>  	<li><a href="http://lodc.jp/2015/concrete5/technical_issue/lod20151011">第一回 Linked Open Data勉強会</a></li>  	<li><a href="http://wp.lodosaka.jp/other/lod20150912kobe/" target="_blank">第1回 LOD Challenge Day KOBE 2015 開催報告</a></li>  </ul>
+</div></div></div>    </div>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">    <h2><span style="font-size: 20px;" rel="font-size: 20px;" id="tech_07">参考リンク</span></h2>
+</div></div></div>
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-custom-style-container ccm-custom-style-main-1385" >
+    <ul><li>Linked Open Data ハッカソン関西：<a href="http://wp.lodosaka.jp/tool/">http://wp.lodosaka.jp/tool/</a></li>  	<li>Link Data勉強会：<a target="_blank" href="http://linkeddata.jp/">http://linkeddata.jp</a></li>  	<li>人工知能学会（私のブックマーク） ：<a target="_blank" href="http://www.ai-gakkai.or.jp/my-bookmark_vol28-no5/">http://www.ai-gakkai.or.jp/my-bookmark_vol28-no5/</a></li>  	<li>SPARQLthon：<a target="_blank" href="http://wiki.lifesciencedb.jp/mw/SPARQLthon">http://wiki.lifesciencedb.jp/mw/SPARQLthon</a></li>  	<li>BioHackathon：<a target="_blank" href="https://github.com/dbcls/bh15/wiki">https://github.com/dbcls/bh15/wiki</a></li></ul>
+</div></div></div>    </div>
+
+
+</main>
+
+
+<footer id="footer-theme">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                
+
+    <p><span class="title-caps-bold">過去の開催と受賞作品</span></p>
+
+
+    <center>  <table width="100%">  <tbody>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/">LODチャレンジJapan 2015</a></span>　<span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">2015 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">LODチャレンジJapan 2014</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2647">2014 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2013/">LODチャレンジJapan 2013</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2109">2013 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2012/">LODチャレンジJapan 2012</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1071">2012 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/">LODチャレンジJapan 2011</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/result2011.html">2011 受賞作品</a></span>  	</td>  </tr>  </tbody>  </table></center><br>  
+            </div>
+            <div class="col-sm-3">
+                            </div>
+        </div>
+    </div>
+    </section>
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" rel="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Linked Open Data Challenge </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lodc.jp/" property="cc:attributionName" rel="cc:attributionURL">Linked Open Data Challenge Consortium</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p><p>ただし、本サイトに掲載している各企業・団体・グループのロゴおよび各企業・団体・グループ作成コンテンツは各企業・団体・グループの所有でありCC-BYの対象外となります。</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    <p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/partner">スポンサー・パートナー募集</a></span></span>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/committee">LODチャレンジJapan実行委員会</a></span></span><a href="http://lodc.jp/2015/concrete5/about/committee"><br></a>  	</p>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/comittee_rule">実行委員会会則</a></span></span>  	</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    
+<div id="ccm-block-social-links909" class="ccm-block-social-links">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LOD.challenge.Japan"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/LinkedOpenData"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/lodjapan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/108435917546080277840/108435917546080277840/posts"><i class="fa fa-google-plus-square"></i></a></li>
+            <li><a href="http://www.slideshare.net/lodjapan"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCy9PDSVPl-jC8dPoI3Jw3eg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
+
+<footer id="concrete5-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Built with <a href="http://www.concrete5.org" class="concrete5">concrete5</a> CMS.</span>
+                <span class="pull-right">
+                    <a href="http://lodc.jp/2015/concrete5/login">ログイン</a>                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</div>
+
+<div id="fb-root"></div>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appID=954041024639805";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","facebook-jssdk");</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: "ja"};
+</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://apis.google.com/js/plusone.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","google-plusone");</script>
+<!-- load social scripts by social share lite add-on -->
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/picturefill.js"></script>
+
+</body>
+</html>
+";}

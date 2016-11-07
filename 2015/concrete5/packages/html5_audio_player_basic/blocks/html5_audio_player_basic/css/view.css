@@ -1,0 +1,348 @@
+.bootstrap-player .progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #cccccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.bootstrap-player .progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+.bootstrap-player .progress-striped .progress-bar,
+.bootstrap-player .progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.bootstrap-player .progress.active .progress-bar,
+.bootstrap-player .progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.bootstrap-player .progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .bootstrap-player .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.bootstrap-player .progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .bootstrap-player .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.bootstrap-player .progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .bootstrap-player .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.bootstrap-player .progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .bootstrap-player .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.bootstrap-player .jp-audio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  position: relative;
+  font-size: 12px;
+}
+.bootstrap-player .jp-audio * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.bootstrap-player .jp-audio .jp-album-art img {
+  height: 200px;
+  width: auto;
+}
+.bootstrap-player .jp-audio .jp-no-solution {
+  display: none;
+}
+.bootstrap-player .jp-audio .jp-interface {
+  height: 30px;
+  width: 350px;
+  padding: 5px;
+  background: #222222;
+  position: relative;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-play,
+.bootstrap-player .jp-audio .jp-interface .jp-pause {
+  position: absolute;
+  top: 5px;
+  color: #dddddd;
+  font-size: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-play:hover,
+.bootstrap-player .jp-audio .jp-interface .jp-pause:hover {
+  color: #bbbbbb;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-stop,
+.bootstrap-player .jp-audio .jp-interface .jp-repeat,
+.bootstrap-player .jp-audio .jp-interface .jp-repeat-off {
+  position: absolute;
+  top: 8px;
+  color: #dddddd;
+  font-size: 14px;
+  width: 14px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-stop:hover,
+.bootstrap-player .jp-audio .jp-interface .jp-repeat:hover,
+.bootstrap-player .jp-audio .jp-interface .jp-repeat-off:hover {
+  color: #bbbbbb;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-pause,
+.bootstrap-player .jp-audio .jp-interface .jp-repeat-off,
+.bootstrap-player .jp-audio .jp-interface .jp-unmute {
+  display: none;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-repeat:hover {
+  color: #dddddd;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-repeat-off,
+.bootstrap-player .jp-audio .jp-interface .jp-repeat-off:hover {
+  color: #666666;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #cccccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  height: 15px;
+  top: 7.5px;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-seek-bar {
+  cursor: pointer;
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background: #888888;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-seek-bar[aria-valuenow="1"],
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-seek-bar[aria-valuenow="2"] {
+  min-width: 30px;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-seek-bar[aria-valuenow="0"] {
+  color: #777777;
+  min-width: 30px;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-play-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background: #eeeeee;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-play-bar[aria-valuenow="1"],
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-play-bar[aria-valuenow="2"] {
+  min-width: 30px;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-progress .jp-play-bar[aria-valuenow="0"] {
+  color: #777777;
+  min-width: 30px;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-time-wrapper {
+  left: 0;
+  top: -17px;
+  position: absolute;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-current-time {
+  position: relative;
+  left: -50%;
+  padding: 0px 2px;
+  background: #eee;
+  background: rgba(240, 240, 240, 0.75);
+  border-radius: 4px;
+  border: 1px solid #666;
+  display: none;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-mute,
+.bootstrap-player .jp-audio .jp-interface .jp-unmute {
+  position: absolute;
+  top: 8px;
+  color: #dddddd;
+  font-size: 14px;
+  width: 14px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  right: 84px;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-mute:hover,
+.bootstrap-player .jp-audio .jp-interface .jp-unmute:hover {
+  color: #bbbbbb;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-volume-max {
+  position: absolute;
+  top: 8px;
+  color: #dddddd;
+  font-size: 14px;
+  width: 14px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  right: 10px;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-volume-max:hover {
+  color: #bbbbbb;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-volume-bar {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #cccccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  height: 10px;
+  top: 10px;
+  right: 29px;
+  width: 50px;
+  background: #aaaaaa;
+  cursor: pointer;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-volume-bar .jp-volume-bar-value {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background: #dddddd;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-volume-bar .jp-volume-bar-value[aria-valuenow="1"],
+.bootstrap-player .jp-audio .jp-interface .jp-volume-bar .jp-volume-bar-value[aria-valuenow="2"] {
+  min-width: 30px;
+}
+.bootstrap-player .jp-audio .jp-interface .jp-volume-bar .jp-volume-bar-value[aria-valuenow="0"] {
+  color: #777777;
+  min-width: 30px;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-play,
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-pause {
+  left: 10px;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-stop {
+  left: 35px;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-repeat,
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-repeat-off {
+  left: 59px;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-progress {
+  left: 82px;
+  width: 157px;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-interface .jp-time-holder {
+  position: absolute;
+  left: 82px;
+  width: 157px;
+  height: 0;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.bootstrap-player .jp-audio .jp-type-single .jp-details ul li {
+  margin: 0;
+  padding: 0;
+}
+.bootstrap-player .jp-audio .jp-no-volume .jp-volume-bar,
+.bootstrap-player .jp-audio .jp-no-volume a.jp-mute,
+.bootstrap-player .jp-audio .jp-no-volume a.jp-unmute,
+.bootstrap-player .jp-audio .jp-no-volume a.jp-volume-max {
+  display: none !important;
+}
+.bootstrap-player .jp-audio .jp-no-volume .jp-interface,
+.bootstrap-player .jp-audio .jp-no-volume .jp-type-playlist .jp-playlist ul {
+  width: 252px;
+}
+@media (max-width: 350px) {
+  .bootstrap-player .jp-audio .jp-volume-bar,
+  .bootstrap-player .jp-audio a.jp-mute,
+  .bootstrap-player .jp-audio a.jp-unmute,
+  .bootstrap-player .jp-audio a.jp-volume-max {
+    display: none !important;
+  }
+  .bootstrap-player .jp-audio .jp-interface,
+  .bootstrap-player .jp-audio .jp-type-playlist .jp-playlist ul {
+    width: 252px;
+  }
+}

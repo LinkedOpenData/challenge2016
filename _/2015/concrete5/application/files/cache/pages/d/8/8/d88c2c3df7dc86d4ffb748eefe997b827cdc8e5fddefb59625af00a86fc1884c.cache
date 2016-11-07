@@ -1,0 +1,310 @@
+O:40:"Concrete\Core\Cache\Page\PageCacheRecord":4:{s:7:"expires";i:1478451224;s:14:"cacheRecordKey";s:15:"blog%2F20151208";s:7:"headers";a:3:{s:6:"Pragma";s:6:"public";s:13:"Cache-Control";s:28:"max-age=21600,s-maxage=21600";s:7:"Expires";s:29:"Sun, 06 Nov 2016 16:53:44 GMT";}s:7:"content";s:34380:"<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/themes/elemental/css/bootstrap-modified.css">
+    <link href="/2015/concrete5/application/files/cache/css/elemental/main.css" rel="stylesheet" type="text/css" media="all">    
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Linked Open Data Challenge 2015 :: 【参加レポート】政策見える化カード作成アイデアソン</title>
+<meta name="description" content="11月28日（土）さくらWORKS＜関内＞、「政策見える化カード作成アイデアソン」開催レポートです。" />
+<meta name="generator" content="concrete5 - 5.7.5.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/2015/concrete5/index.php';var CCM_CID = 278;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/images";
+var CCM_TOOLS_PATH = "/2015/concrete5/index.php/tools/required";
+var CCM_APPLICATION_URL = "http://lodc.jp/2015/concrete5";
+var CCM_REL = "/2015/concrete5";
+
+</script>
+
+
+        <link rel="shortcut icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="http://lodc.jp/2015/concrete5/application/files/3014/3813/7127/favicon.ico" type="image/x-icon"/>
+            <link rel="apple-touch-icon" href="http://lodc.jp/2015/concrete5/application/files/2414/3813/7129/lodclogomark57x57.png"/>
+            <meta name="msapplication-TileImage" content="http://lodc.jp/2015/concrete5/application/files/4014/3813/7128/lodclogomark144x144.png" />
+<meta property="og:title" content="【参加レポート】政策見える化カード作成アイデアソン" />
+<meta property="og:description" content="11月28日（土）さくらWORKS＜関内＞、「政策見える化カード作成アイデアソン」開催レポートです。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lodc.jp/2015/concrete5/blog/20151208" />
+<meta property="og:image" content="http://lodc.jp/2015/concrete5/2015/concrete5/application/files/7514/4959/4771/800px-Earth_flag_PD.jpg" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="534" />
+<meta property="og:site_name" content="Linked Open Data Challenge 2015" />
+<meta property="fb:app_id" content="954041024639805" />
+<meta name="og:locale" content="ja_JP" />
+<meta name="og:updated_time" content="2015-12-09T14:43:35+09:00" />
+<link href="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/2015/concrete5/application/files/cache/css/b61ab2e7c40d530c67fb008706bd649270e17c2c.css" rel="stylesheet" type="text/css" media="all" data-source="/2015/concrete5/packages/social_share_lite/blocks/social_share_lite/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/search/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/blocks/page_list/view.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/conversations.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/jquery-magnific-popup.css /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/css/jquery-ui.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            )
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+
+<div class="ccm-page page-type-blog-entry page-template-right-sidebar">
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-6">
+                
+
+    <p data-redactor-inserted-image="true" style="text-align: center;"><a href="http://lodc.jp/2015/concrete5"><img src="/2015/concrete5/application/files/6614/4319/7518/2015.png" alt="LOD Challenge 2015 Home" style="width: 429px; height: auto; display: block; margin: auto;"></a>  </p>
+
+
+    <center>  <table>  <tbody>  <tr>  	<td style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about">開催趣旨</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/sponsor">LODチャレンジへの期待</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/entry">応募方法</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/resource">提供リソース</a></span>  	</td>  	<td style="text-align: center;" rel="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog">ブログ</a></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/technical_issue">技術情報</a><br></span>  	</td>  	<td rel="text-align: center;" style="text-align: center;"><span class="btn btn-default"><a href="http://lodc.jp/endpoint.html" target="_blank">過去作品DB</a><br></span>  	</td>  </tr>  </tbody>  </table></center>
+            </div>
+            <div class="col-sm-5 col-xs-6">
+                
+
+    <div class="ccm-social-share"><ul><li class="fblike">
+<div class="fb-like" data-href="http://lodc.jp/2015/concrete5/blog/20151208" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</li><li class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lodc.jp/2015/concrete5/blog/20151208" data-lang="ja">ツイートする</a>
+</li><li class="gplus">
+<div class="g-plusone" data-size="medium" data-href="http://lodc.jp/2015/concrete5/blog/20151208"></div>
+</li></ul></div>
+            </div>
+                            <div class="col-sm-3 col-xs-12">
+
+    <form action="http://lodc.jp/2015/concrete5/portal/search" method="get" class="ccm-search-block-form"><input name="search_paths[]" type="hidden" value="" /><input name="query" type="text" value="" class="ccm-search-block-text" /></form>
+</div>
+                    </div>
+    </div>
+</header>
+<main>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-content">
+                
+
+    <div class="ccm-block-page-title-byline">
+    <h1 class="page-title">【参加レポート】政策見える化カード作成アイデアソン</h1>
+
+    <span class="page-date">
+    2015/12/08    </span>
+
+        <span class="page-author">
+    ikushima    </span>
+    
+</div>
+
+
+    <h1><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/1114/4958/9895/7.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/1114/4958/9895/7.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/1114/4958/9895/7.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/1114/4958/9895/7.jpg" alt="#"></picture><br></h1><p><br></p> <p>11月28日（土）さくらWORKS＜関内＞において、「政策見える化カード作成アイデアソン</p><p>　～政策の根拠データを集め、ロジックを示し、計画し、評価する仕組みを作ろう～</p><p>」が開かれました。</p><p>オープンガバメントの『透明性』、『参加』、『連携』というスローガンの下、具合的な政策を市民が作れることを目指し、「政策の根拠データを集め、ロジックを示し、計画し、評価する仕組みを作ろう」という方針で行なわれました。</p><p>まず、共催・協力団体から説明がありました。</p><h2>（１）<a href="https://www.facebook.com/yokohamalab" target="_blank">NPO法人横浜コミュニティデザイン・ラボ</a></h2><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/3214/4958/9891/1.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/3214/4958/9891/1.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/3214/4958/9891/1.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/3214/4958/9891/1.jpg" alt="#"></picture></p><p>　2004年以降の活動の歴史のお話しがありました。</p><p>　ICTを使って地域のリソース（人、活動）を共有化しようとして、横浜経済新聞では、一万件あまりの情報を展開したそうです。</p><p>　当初は、クリエイティブの人たちの紹介、2011年から、政策デザイン勉強会を始め、コミュニティ経済については3，40回勉強会を行っているとのことです。ツール、道具は有効な手法と認識しているとのことでした。</p><h2>（２）LODチャレンジ</h2><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/3914/4958/9895/2.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/3914/4958/9895/2.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/3914/4958/9895/2.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/3914/4958/9895/2.jpg" alt="#"></picture></p><p><br></p> <p>　サイトを中心にコンセプト、応募手順について説明させていただきました。</p><p>　また関連情報として、<a href="http://ja.linkdata.org/" target="_blank">linkdata</a>、<a href="http://sigswo.org/" target="_blank">SWO</a>、<a href="http://linkedopendata.jp/" target="_blank">LODI</a>、<a href="http://iswc2015.semanticweb.org/" target="_blank">ISWC2016</a>の紹介をさせていただきました。</p><h2>（３）<a href="http://www.maniken.jp/" target="_blank">早稲田大学マニフェスト研究所</a></h2><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/3014/4958/9894/3.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/3014/4958/9894/3.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/3014/4958/9894/3.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/3014/4958/9894/3.jpg" alt="#"></picture></p><p><br></p> <p>　マニフェスト大賞の説明、マニフェストスイッチの現状について、また今後、市民の政策作成についての話がありました。</p><p>　2000年～地方分権一括法、2015年現在「地方創生」の時代へ移行し、『「形式」から「地方創生」へ＝「分権」から「地方創生へ』と変わったとのことです。</p><p>　また、アンケートを実行し、その結果を元にマニフェストスイッチプロジェクトは始まったとのことです。</p><p>　「候補者を選ぶ理由は？」の問いに対してアンケートは1位「政策・提言」44.4%とのことでした。しかし、実際にはマニフェストは11%しか参考にされていなく、理由としては「争点がない」、「わかりづらい」、「知りたい内容でない」とのことでした。さらに、必要なものは「具体策」、「地域の課題」、「比較できるメディア」、参考にするのは、「ビジョン」、「政策」、「優先順位付け」だそうです。</p><p>　まず、政治家に政策を出してもらう、次に、政策の「検証」「住民による政策形成」と進むとのことでした。</p><h2>（４）<a href="http://www.city.yokohama.lg.jp/seisaku/" target="_blank">横浜市</a></h2><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/7114/4958/9893/4.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/7114/4958/9893/4.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/7114/4958/9893/4.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/7114/4958/9893/4.jpg" alt="#"></picture></p><p><br></p> <p>　「自治体における公共政策のイノベーションーダブルケア解決の視点からー」と題してお話でした。</p><p>　人口構成バランス、非正規雇用労働者の推移、未婚率と生涯未婚率の推移など、具体的なデータを基に厳しい現実の話がありました。</p><p>　超高齢・人口減少社会における避けるべき悪循環の実態を示され、ダブルケアの詳細な実態、横浜市における扶助費の推移、保育」と「介護」の需要推移などから、もはや行政からの施策や事業を行うことは、予算的に無理なことが示されました。結果、ビジネスでダブルケアに立ち向かう必要が出てきたとのことだそうです。</p><p>　ダブルケアマトリックスというものを作り、「誰が？」、「何を？」、「課題」、「次のアクション」の４つを属性として考える方法を展開されました。</p><p>　最後に、横浜市では来年度、新しい官民共同プラットフォームDB作りを行っていくので、提案をお待ちしているとのことでした。</p><h2>（５）東京大学公共政策大学院PADIT研究チーム</h2><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/7214/4958/9892/5.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/7214/4958/9892/5.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/thumbnails/small/7214/4958/9892/5.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/thumbnails/small/7214/4958/9892/5.jpg" alt="#"></picture></p><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/8314/4958/9893/6.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/8314/4958/9893/6.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/thumbnails/small/8314/4958/9893/6.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/thumbnails/small/8314/4958/9893/6.jpg" alt="#"></picture></p><p><br></p> <p>　奥村先生と研究室の笹川さんより詳しいお話しがありました。</p><p>　市民は「観客から主役へ」、行政は「市民が主役世界を支える存在」への発想の転換が必要とのことです。</p><p>　大きく「政策見える化カード」、「政策提案作成ガイド」２つについて説明がありました。</p><h3>　「政策見える化カード」</h3><p>　　政策内容、根拠データ、政策（着想と実現）ロジック、政策の実現計画（資源配分を含む）４つのを示すことだそうです。</p><p>　　データと政策を結ぶロジックの見せ方については、社会の実相、制度、制約要因、政策の5W1H表現が重要とのことでした。</p><h3>　「政策提案作成ガイド」</h3><p>　　政策提案作成キットとガイドマップからなります。</p><h4>　　政策提案作成キット（奥村先生）</h4><p>　　　課題を発見と、そこから政策提案までを支援する、道具箱を考察するとのことです。私は、フェーズと手段と道具のカタログのようにイメージしました。実施計画、政策実行、評価なども重要だが今回は対象外とするそうです。</p><p>　　　英国政府では「オープン政策ツールキット」などを準備しているとのことです。</p><h4>　　政策提案作成ガイドマップ（笹川さん）</h4><p>　　「課題を発見する→エビデンスを探す→政策アイデアを考える」を通常の流れとし、状態に対して「yes→　No→」と分岐し、作成過程を見える化していきます。また、その状態に対する「アドバイス」などメタデータも付与していきます。思考過程がそのままガイドマップとして表現されるような気がしました。</p><p>詳しくはこちら→<a href="http://ja.idea.linkdata.org/idea/idea1s1293i" target="_blank">政策見える化カードから始めるオープンガバメント</a><span class="redactor-invisible-space"><a href="http://ja.idea.linkdata.org/idea/idea1s1293i"></a></span></p><h2>アイデアソン</h2><p><span></span></p><p data-redactor-inserted-image="true"><picture><!--[if IE 9]><video style='display: none;'><![endif]--><source srcset="http://lodc.jp/2015/concrete5/application/files/5014/4959/0417/3.jpg" media="(min-width: 900px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/thumbnails/medium/5014/4959/0417/3.jpg" media="(min-width: 768px)"><source srcset="http://lodc.jp/2015/concrete5/application/files/thumbnails/small/5014/4959/0417/3.jpg"><!--[if IE 9]></video><![endif]--><img src="http://lodc.jp/2015/concrete5/application/files/thumbnails/small/5014/4959/0417/3.jpg" alt="#"></picture></p><p><br></p> <p>フェーズ１、フェーズ２の2部構成でした。<br></p><p>熱い議論が戦わされ、５チームがプレゼンいたしました。</p><p>「政策見える化カード」、「政策提案作成ガイド」のテーマはある意味で政策に対するメタで、実際の事例テーマ「ダブルケア」を元に考察するのは難しかった思います。しかし、皆さんテーマに対する解を作っていらっしゃいました。</p><p>以下５チームアイデアの簡単なご紹介です。</p><h3>・<a href="http://ja.idea.linkdata.org/idea/idea1s1353i" target="_blank">チームA</a> </h3><p>　テレワーク普及推進提案</p><h3>・<a href="http://ja.idea.linkdata.org/idea/idea1s1354i" target="_blank">横浜の外から応援する会 （チーム外）</a></h3><p>　課題の提案から政策提案へどうつなげるか</p><h3>・<a href="http://ja.idea.linkdata.org/idea/idea1s1357i" target="_blank">TEAM彗星</a></h3><p>　現状の政策からオプションの政策を作る</p><h3>・<a href="http://ja.idea.linkdata.org/idea/idea1s1355i" target="_blank">チーム「ろく」</a> </h3><p>　一人の市民が問題を発見して、課題を提示するまでの過程を提示するまでの過程をロールプレーン的に考察</p><h3>・<a href="http://ja.idea.linkdata.org/idea/idea1s1356i" target="_blank">非正規を救うチーム</a> </h3><p>　非正規雇用の人たちをターゲットとして考えた、政策ガイドマップの作製</p><p><br></p><p><strong>本イベントの結果及び今後の展開は、<a href="https://www.facebook.com/groups/557347054419398/" target="_blank">LOD Graspp OpenGov</a> グループに掲載されています。</strong></p><p><strong><br></strong></p><h2>今後の展開</h2><p>以下のことを検討しております。</p><h3>１．政策見える化カード（5WIH部分など）の詳細考察と、それを見える化した考え方のプロトタイプテンプレート、政策提言作成ツールの作成</h3><h3>２．事例として、横浜ダブルケアで、実験を行い、見える化カードでいう「政策内容」を見せ、そして、政策の根拠とした政策ロジックの部分を作成する</h3><h3>３．ここまでの作業がまとまった段階で、プロトタイプテンプレートを一つの例として、「テンプレートづくりのアイデアソン」などを検討する</h3><h3>４．次に、見える化のテンプレートを使った、ダブルケア別政策もしくは他政策分野での、アイデソンを検討する</h3><h3>５．また、「ダブルケアでの5WIHの見える化カード」と「マニフェストスイッチ」のマニフェストの分類の関係の整理、 政策分類の一般論、中央省庁の組織分類との整合性検討、標準化の模索</h3><p>を考えているとのことです。</p><p><strong>興味のある方は是非、<a href="https://www.facebook.com/groups/557347054419398/" target="_blank">LOD Graspp OpenGov</a> グループにご参加ください。</strong></p><p>長い道のりになると思いますが、フェーズをきちんと意識し、定期的にオープンな場で評価しながら、進めて行くとのことです。</p><p>今後ともご期待ください。</p><p><br></p><p>また、LODチャレンジJapan2015への応募お待ちしています！</p><p>エントリー方法はこちら→<a href="http://lodc.jp/2015/concrete5/entry">http://lodc.jp/2015/concrete5/entry</a></p>
+            </div>
+            <div class="col-sm-offset-1 col-sm-3 col-sidebar">
+                
+
+        <div class="ccm-custom-style-container ccm-custom-style-sidebar-11 block-sidebar-wrapped" >
+    
+
+<div class="ccm-block-next-previous-wrapper">
+        <div class="ccm-block-next-previous-header">
+        <h5>Last Post</h5>
+    </div>
+    
+    	<p class="ccm-block-next-previous-previous-link">
+		<a href="http://lodc.jp/2015/concrete5/blog/20151203">【参加レポート】札幌オープンデータアイディアソン・ハッカソン in 東京</a> 	</p>
+	
+            <div class="ccm-block-next-previous-header">
+            <h5>Next Post</h5>
+        </div>
+    
+            <p class="ccm-block-next-previous-next-link">
+            <a href="http://lodc.jp/2015/concrete5/blog/20151225">LODチャレンジJapan2015 表彰予定賞のお知らせ</a>        </p>
+    
+    
+</div>
+
+
+    </div>
+
+
+        <div class="ccm-custom-style-container ccm-custom-style-sidebar-12 block-sidebar-wrapped" >
+    
+<div class="ccm-block-share-this-page">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2F20151208"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/intent/tweet?url=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2F20151208"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/shareArticle?mini-true&url=http%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2F20151208&title=%E3%80%90%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%80%91%E6%94%BF%E7%AD%96%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96%E3%82%AB%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2%E3%82%BD%E3%83%B3"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="mailto:?body=Linked%20Open%20Data%20Challenge%202015%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%0A%0A%E3%80%90%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%80%91%E6%94%BF%E7%AD%96%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96%E3%82%AB%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2%E3%82%BD%E3%83%B3%0Ahttp%3A%2F%2Flodc.jp%2F2015%2Fconcrete5%2Fblog%2F20151208&subject=%E3%81%93%E3%81%AE%E8%A8%98%E4%BA%8B%E3%81%AF%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%A7%E3%81%99%E3%80%82"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+</div>
+    </div>
+
+
+    
+<div class="ccm-block-topic-list-wrapper">
+
+    <div class="ccm-block-topic-list-header">
+        <h5>Topics</h5>
+    </div>
+
+    
+                    トピックがありません。        
+    
+</div>
+
+
+
+
+    
+
+<div class="ccm-block-page-list-wrapper">
+
+            <div class="ccm-block-page-list-header">
+            <h5>Related Posts</h5>
+        </div>
+    
+    
+    <div class="ccm-block-page-list-pages">
+
+        </div>
+
+            <div class="ccm-block-page-list-no-pages"></div>
+    
+</div><!-- end .ccm-block-page-list -->
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <hr/>
+
+
+<div class="container"><div class="row"><div class="col-sm-12">        <div class="ccm-conversation-wrapper" data-conversation-id="61">
+    コメント欄を読み込み中 <i class="fa fa-spin fa-circle-o-notch"></i>
+    </div>
+
+    <script type="text/javascript">
+    $(function() {
+        $('div[data-conversation-id=61]').concreteConversation({
+            cnvID: 61,
+            blockID: 2495,
+            cID: 278,
+            posttoken: '1478429624:12789b67e6f31095a18a7ebf1b46e82c',
+            displayMode: 'threaded',
+            addMessageLabel: 'Add Message',
+            paginate: true,
+            itemsPerPage: 50,
+            orderBy: 'date_asc',
+            enableOrdering: 0,
+            displayPostingForm: 'top',
+            activeUsers: [],
+            enableCommentRating: 1,
+            commentRatingUserID: 0,
+            commentRatingIP: 'cf2e0d91',
+            dateFormat: 'default',
+            customDateFormat: '',
+            blockAreaHandle: 'Page Footer',
+            fileExtensions: 'jpg,gif,jpeg,png,doc,docx,zip',
+            maxFileSize: '1',
+            maxFiles: '3',
+            attachmentsEnabled: '1',
+            attachmentOverridesEnabled: '0'
+        });
+    });
+    </script>
+
+</div></div></div>
+</main>
+
+
+<footer id="footer-theme">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                
+
+    <p><span class="title-caps-bold">過去の開催と受賞作品</span></p>
+
+
+    <center>  <table width="100%">  <tbody>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/">LODチャレンジJapan 2015</a></span>　<span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/blog/2016-02-19">2015 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2014/">LODチャレンジJapan 2014</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2647">2014 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2013/">LODチャレンジJapan 2013</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=2109">2013 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2012/">LODチャレンジJapan 2012</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/blog/?p=1071">2012 受賞作品</a></span>  	</td>  </tr>  <tr>  	<td style="text-align: center;" rel="text-align: center;" width="100%"><span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/">LODチャレンジJapan 2011</a></span>　<span class="btn btn-default"><a href="http://lod.sfc.keio.ac.jp/challenge2011/result2011.html">2011 受賞作品</a></span>  	</td>  </tr>  </tbody>  </table></center><br>  
+            </div>
+            <div class="col-sm-3">
+                            </div>
+        </div>
+    </div>
+    </section>
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" rel="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Linked Open Data Challenge </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://lodc.jp/" property="cc:attributionName" rel="cc:attributionURL">Linked Open Data Challenge Consortium</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p><p>ただし、本サイトに掲載している各企業・団体・グループのロゴおよび各企業・団体・グループ作成コンテンツは各企業・団体・グループの所有でありCC-BYの対象外となります。</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    <p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/partner">スポンサー・パートナー募集</a></span></span>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/committee">LODチャレンジJapan実行委員会</a></span></span><a href="http://lodc.jp/2015/concrete5/about/committee"><br></a>  	</p>  	<p><span class="image-caption"><span class="btn btn-default"><a href="http://lodc.jp/2015/concrete5/about/comittee_rule">実行委員会会則</a></span></span>  	</p>
+            </div>
+            <div class="col-sm-3">
+                
+
+    
+<div id="ccm-block-social-links909" class="ccm-block-social-links">
+    <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LOD.challenge.Japan"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/LinkedOpenData"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/lodjapan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/b/108435917546080277840/108435917546080277840/posts"><i class="fa fa-google-plus-square"></i></a></li>
+            <li><a href="http://www.slideshare.net/lodjapan"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCy9PDSVPl-jC8dPoI3Jw3eg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+</footer>
+
+<footer id="concrete5-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Built with <a href="http://www.concrete5.org" class="concrete5">concrete5</a> CMS.</span>
+                <span class="pull-right">
+                    <a href="http://lodc.jp/2015/concrete5/login">ログイン</a>                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</div>
+
+<div id="fb-root"></div>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appID=954041024639805";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","facebook-jssdk");</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: "ja"};
+</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://apis.google.com/js/plusone.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","google-plusone");</script>
+<!-- load social scripts by social share lite add-on -->
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/picturefill.js"></script>
+<script type="text/javascript" src="/2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/2015/concrete5/application/files/cache/js/a35d0b5a8cc329cf4e82ce0044db4971c189d2e7.js" data-source="http://lodc.jp/2015/concrete5/ccm/assets/localization/jquery/ui/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/underscore.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/jquery-magnific-popup.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/dropzone.js http://lodc.jp/2015/concrete5/ccm/assets/localization/dropzone/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/bootstrap/dropdown.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/events.js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/conversations.js http://lodc.jp/2015/concrete5/ccm/assets/localization/conversations/js /2015/concrete5/updates/concrete5.7.5.1_remote_updater/concrete/js/lightbox.js"></script>
+
+</body>
+</html>
+";}
