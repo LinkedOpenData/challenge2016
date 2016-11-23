@@ -42,13 +42,18 @@ div.partner-detail-list-element h4 {
 }
 
 table.partner-table th {
-  width: 15%;
+  width: 16%;
   font-size: 15px;
+  font-weight: bold;
 }
 
 table.partner-table th, td {
   border-top: 1px solid #ddd;
   padding: 8px;
+}
+
+table.partner-table td {
+  font-size: 15px;
 }
 
 table.partner-table tr:nth-child(even) {
