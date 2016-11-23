@@ -26,6 +26,10 @@ div.partner-detail-list {
   margin-top: 10px;
 }
 
+div.partner-detail-list-element {
+  margin-bottom: 30px;
+}
+
 .partner-detail-list-element h4 {
   color: rgb(247, 150, 70);
   font-size: 20px;
