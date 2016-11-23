@@ -13,7 +13,7 @@ h3.partner-type {
   font-weight: bold;
 }
 
-
+/* list start */
 ul.partner-list li {
   font-size: 15px;
 }
@@ -21,7 +21,9 @@ ul.partner-list li {
 ul.partner-list li a {
   text-decoration: none;
 }
+/* list end */
 
+/* detail start */
 div.partner-detail-list {
   margin-top: 10px;
 }
@@ -30,7 +32,7 @@ div.partner-detail-list-element {
   margin-bottom: 30px;
 }
 
-.partner-detail-list-element h4 {
+div.partner-detail-list-element h4 {
   color: rgb(247, 150, 70);
   font-size: 20px;
   font-weight: bold;
@@ -56,3 +58,4 @@ table.partner-table tr:nth-child(even) {
 table.partner-table tr:nth-child(odd) {
   background-color: #f9f9f9;
 }
+/* detail end*/
