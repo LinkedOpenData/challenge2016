@@ -48,6 +48,10 @@ div#mainContents{
 	text-align: left;
 
 }
+div#mainContents .leftcontainer {
+	width: 680px;
+	float: left;
+}
 
 /* 3つのトピックス */
 div#mainContents div.topicsBox{
@@ -76,9 +80,6 @@ div#mainContents div.topicsBox span{
 
 div#newTopics{
 	float: left;
-}
-div#newTopics .leftcontainer {
-	width: 680px;
 }
 div#newTopics strong{
 	font-weight: bold;
