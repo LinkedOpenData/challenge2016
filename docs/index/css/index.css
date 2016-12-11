@@ -76,6 +76,8 @@ div#mainContents div.topicsBox span{
 
 div#newTopics{
 	float: left;
+}
+div#newTopics .leftcontainer {
 	width: 680px;
 }
 div#newTopics strong{
