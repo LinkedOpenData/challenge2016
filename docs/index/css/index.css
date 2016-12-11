@@ -76,6 +76,7 @@ div#mainContents div.topicsBox span{
 
 div#newTopics{
 	float: left;
+	width: 680px;
 }
 div#newTopics strong{
 	font-weight: bold;
