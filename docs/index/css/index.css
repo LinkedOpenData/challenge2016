@@ -34,6 +34,40 @@ div#mainImgBox{
 	margin:30px auto 45px;
 	text-align: left;
 	width: 960px;
+	position: relative;
+}
+#mainContents .list_button {
+    width: 80px;
+    border: solid 1px #bc2a30;
+    text-align: center;
+    color: #bc2a30;
+    position: absolute;
+    display: block;
+    text-decoration: none;
+}
+#mainContents a.list_button:hover {
+    color: rgba(187, 42, 47, 0.7);
+    text-decoration: none;
+}
+#list_i {
+    top: 250px;
+    left: 65px;
+}
+#list_d {
+    top: 310px;
+    left: 250px;
+}
+#list_a {
+    top: 250px;
+    left: 440px;
+}
+#list_v {
+    top: 310px;
+    left: 620px;
+}
+#list_b {
+    top: 250px;
+    left: 800px;
 }
 
 /*--------------------------------------*/
@@ -51,6 +85,15 @@ div#mainContents{
 div#mainContents .leftcontainer {
 	width: 680px;
 	float: left;
+}
+#mainContents #entry_button {
+    background: #FFF;
+    padding: 10px;
+    font-size: 2.5em;
+    color: #BC2A30;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
 }
 
 /* 3つのトピックス */
