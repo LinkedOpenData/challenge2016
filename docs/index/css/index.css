@@ -36,7 +36,7 @@ div#mainImgBox{
 	width: 960px;
 	position: relative;
 }
-#mainContents .list_button {
+a.list_button {
     width: 80px;
     border: solid 1px #bc2a30;
     text-align: center;
@@ -45,7 +45,7 @@ div#mainImgBox{
     display: block;
     text-decoration: none;
 }
-#mainContents a.list_button:hover {
+a.list_button:hover {
     color: rgba(187, 42, 47, 0.7);
     text-decoration: none;
 }
