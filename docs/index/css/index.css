@@ -204,7 +204,7 @@ div#bannerBox ul li{
 /* entry */
 /*--------------------------------------*/
 
-#entry h2 {
+#entry h2, #criteria h2 {
     background: #F6F5F0;
     color: #7D663A;
     margin: 15px 0;
@@ -228,4 +228,13 @@ div#bannerBox ul li{
 
 #entry dd {
 	margin-left: 20px;
+}
+
+/*--------------------------------------*/
+/* criteria */
+/*--------------------------------------*/
+
+#criteria dl {
+	list-style: decimal inside;
+}
 }
