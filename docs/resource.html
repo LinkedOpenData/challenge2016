@@ -19,63 +19,102 @@
 <script type="text/javascript" src="share/js/default.js"></script>
 <script>
   $(function() {
-       $("#header").load("header.html");
-       $("#footer").load("footer.html");
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
   });
 </script>
 </head>
 
 <body>
-
 	<div id="wrapper">
-
 		<div id="header" class="clearfix"></div>
-
 		<div id="mainImgBox"><p id="mainImg"></p></div>
-
 		<div id="mainContents">
 			<div class="clearfix">
 				<h1>データ／基盤提供パートナーのリソース利用方法</h1>
 				<h2>データ提供パートナー (50音順)</h2>
 			 	<ul class="partner-list">
-          <li><a href="#d1">NHK放送技術研究所</a></li>
-          <li><a href="#d2">国立研究開発法人科学技術振興機構（JST）</a></li>
-				  <li><a href="#d3">国立国会図書館</a></li>
-				  <li><a href="#d4">ししょまろはんラボ</a></li>
-				  <li><a href="#d5">独立行政法人情報推進研究機構（IPA）</a></li>
-				  <li><a href="#d6">総務省統計局, 独立行政法人統計センター</a></li>
-				  <li><a href="#d7">株式会社ソニーコンピュータサイエンス研究所</a></li>
-				  <li><a href="#d8">駐日外国政府観光局協議会（ANTOR-JAPAN）</a></li>
-				  <li><a href="#d9">DBpedia Japanese</a></li>
-				  <li><a href="#d10">ねじLOD(法政大学理工学部 藤井研究室, 電気通信大学大須賀・清研究室)</a></li>
-				  <li><a href="#d11">株式会社ビットマイスター</a></li>
-				  <li><a href="#d12">放置自転車LOD(電気通信大学大須賀・清研究室＆田原研究室)</a></li>
-				  <li><a href="#d13">株式会社メビウス</a></li>
-          <li><a href="#d14">情報・システム研究機構データサイエンス共同利用基盤施設人文学オープンデータ共同利用センター, 人間文化研究機構国文学研究資料館</a></li>
-          <li><a href="#d15">オープンストリートマップ・ファウンデーション・ジャパン</a></li>
+          <li><a href="#d010">DBpedia Japanese</a></li>
+          <li><a href="#d020">NHK放送技術研究所</a></li>
+          <li><a href="#d030">オープンストリートマップ・ファウンデーション・ジャパン</a></li>
+          <li><a href="#d040">ししょまろはんラボ</a></li>
+          <li><a href="#d050">ねじLOD(法政大学理工学部 藤井研究室, 電気通信大学大須賀・清研究室)</a></li>
+          <li><a href="#d060">株式会社ソニーコンピュータサイエンス研究所</a></li>
+          <li><a href="#d070">株式会社ビットマイスター</a></li>
+          <li><a href="#d080">株式会社メビウス</a></li>
+          <li><a href="#d090">国立国会図書館</a></li>
+          <li><a href="#d100">国立研究開発法人科学技術振興機構（JST）</a></li>
+          <li><a href="#d110">情報・システム研究機構データサイエンス共同利用基盤施設人文学オープンデータ共同利用センター, 人間文化研究機構国文学研究資料館</a></li>
+          <li><a href="#d120">総務省統計局, 独立行政法人統計センター</a></li>
+          <li><a href="#d130">駐日外国政府観光局協議会（ANTOR-JAPAN）</a></li>
+				  <li><a href="#d140">独立行政法人情報推進研究機構（IPA）</a></li>
+				  <li><a href="#d150">放置自転車LOD(電気通信大学大須賀・清研究室＆田原研究室)</a></li>
   			</ul>
 				<h2>基盤提供パートナー (50音順)</h2>
 				<ul class="partner-list">
 <!-- 				  <li><a href="#i1">NTTレゾナント株式会社</a></li> -->
-				  <li><a href="#i1">E2D3</a></li>
-				  <li><a href="#i2">インディゴ株式会社</a></li>
-				  <li><a href="#i3">LOD4ALL: 株式会社富士通研究所</a></li>
-				  <li><a href="#i4">株式会社jig.jp</a></li>
-				  <li><a href="#i5">ハウモリ</a></li>
-				  <li><a href="#i6">一般社団法人リンクデータ</a></li>
+				  <li><a href="#i010">E2D3</a></li>
+          <li><a href="#i020">LOD4ALL: 株式会社富士通研究所</a></li>
+				  <li><a href="#i030">インディゴ株式会社</a></li>
+				  <li><a href="#i040">ハウモリ</a></li>
+				  <li><a href="#i050">一般社団法人リンクデータ</a></li>
+          <li><a href="#i060">株式会社jig.jp</a></li>
 				</ul>
-				      <h3 class="partner-type">データ提供パートナー詳細</h3>
 
-				      <div class="partner-detail-list">
-					<div class="partner-detail-list-element" id="d1">
+				<h3 class="partner-type">データ提供パートナー詳細</h3>
+				<div class="partner-detail-list">
+          <div class="partner-detail-list-element" id="d010">
+            <h4>DBpedia Japanese</h4>
+            <table class="partner-table">
+              <tr>
+                <th>概要</th>
+                <td>
+                  <p>
+                    DBpedia Japaneseは、主にウィキペディア日本語版等から抽出したデータをLODとして公開しているコミュニティプロジェクトです。百科事典由来なので人物、施設等様々な種類のデータをLinked DataやSPARQL経由で利用可能です。
+                	</p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用手続き</th>
+                <td>
+                  <p>
+                    特に無し
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用方法</th>
+                <td><a href="http://ja.dbpedia.org">DBpedia Japaneseのウェブサイト</a>を参照のこと。
+                </td>
+              </tr>
+              <tr>
+                <th>利用規定</th>
+                <td>
+                	<p>
+                    DBpedia Japanese: <a href="http://ja.dbpedia.org">http://ja.dbpedia.org</a><br>CC-BY-SA, クレジット表記は”DBpedia Community”
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>
+                	<p>
+                	  特に無し
+                	</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+					<div class="partner-detail-list-element" id="d020">
 					  <h4>NHK放送技術研究所</h4>
 					  <table class="partner-table">
 					    <tr>
 					      <th>概要</th>
 					      <td>
-						<p>
-							※後日アップデート予定です
-						</p>
+						      <p>
+							      ※後日アップデート予定です
+						      </p>
 					      </td>
 					    </tr>
 					    <tr>
@@ -109,7 +148,296 @@
 					  </table>
 					</div>
 
-					<div class="partner-detail-list-element" id="d2">
+          <div class="partner-detail-list-element" id="d030">
+            <h4>オープンストリートマップ・ファウンデーション・ジャパン</h4>
+            <table class="partner-table">
+              <tr>
+                <th>概要</th>
+                <td>
+                  <p>
+                    オープンなデータライセンスであるODbLに従う限り、誰でも自由に利用できる地理データです。
+          地理データそのものを利用して様々なアプリケーションで利用したり、独自のタイル(地図)画像を生成したりすることができます。
+          尚、複製された派生データベース(LinkedGeoData等)の使用法はそちらの説明を参照ください。
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用手続き</th>
+                <td>
+                  <p>
+                    手続きは特にありません。
+          リソースの入手方法や使い方は下記を参照ください。 データのコピーを取得して使う方法と、APIで利用する方法があります。
+          <a href="http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs">http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs</a>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用方法</th>
+                <td>
+                  <p>
+                    上述のURLより使い方に応じてリンクをたどってください。
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用規定</th>
+                <td>
+                  <p>
+                    利用ライセンス原文：<a href="http://www.openstreetmap.org/copyright">http://www.openstreetmap.org/copyright</a>
+          FAQ：<a href="http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ">http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ</a>
+          ライセンス説明スライド：<a href="http://www.slideshare.net/higa4/20120729-odbl">http://www.slideshare.net/higa4/20120729-odbl</a>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>
+                  <p>
+                    サーバ負荷を避けるため、タイル(地図)画像の利用に際しては下記「タイル利用ポリシー」も参照ください。
+          <a href="http://wiki.openstreetmap.org/wiki/JA:Tile_usage_policy">http://wiki.openstreetmap.org/wiki/JA:Tile_usage_policy</a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="partner-detail-list-element" id="d040">
+            <h4>ししょまろはんラボ</h4>
+            <table class="partner-table">
+            <tr>
+              <th>概要</th>
+              <td>
+                <p>
+                  「京都が出てくる本のデータ」：京都の公共図書館で働く図書館司書が作成した、京都が出てくる小説やマンガ・ライトノベル等のデータです。作品に出てくるスポットの緯度・経度に加え、おススメ度や内容紹介、Web NDL Authoritiesの著者名典拠URI等が含まれています。<br/><br/>
+                  「図書館員が調べた京都のギモン」：国立国会図書館のレファレンス協同データベースに登録された、全国の図書館員が調べた京都のギモンの数々です。レファレンスの対象となっているスポットの緯度・経度や関連する項目のDBpediaのURIが含まれています。
+                </p>
+              </td>
+                        </tr>
+                        <tr>
+                          <th>利用手続き</th>
+                          <td>
+                      <p>
+                        利用手続きは不要。
+                      </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>利用方法</th>
+                          <td>
+                      <p>
+                        <a href="http://linkdata.org/work/rdf1s1294i">http://linkdata.org/work/rdf1s1294i</a><br/>
+                        <a href="http://linkdata.org/work/rdf1s1534i">http://linkdata.org/work/rdf1s1534i</a>
+                      </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>利用規定</th>
+                          <td>
+                      <p>
+                      </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>その他</th>
+                          <td>
+                      <p>
+                      </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+
+                    <div class="partner-detail-list-element" id="d050">
+          					  <h4>ねじLOD(法政大学理工学部藤井研究室，電気通信大学大須賀・清研究室)</h4>
+          					  <table class="partner-table">
+          					    <tr>
+          					      <th>概要</th>
+          					      <td>
+          					      <p>平成9年以来、ねじ企業間情報処理研究会(N研)は、ねじ製品のEDI実現のため、ねじコード体系(N研コード)の作成やプロトコルの制定などを行ってきました。現在は大阪鋲螺卸商協同組合で管理されているこのN研コードを基に、我々はねじ・締結具のLinked Open Data「ねじLOD」を構築しました。データセットの公開に加えて、SPARQLエンドポイントの設置やWeb APIの提供を行っています。工業分野の実データのLOD化により、工業分野のオープンイノベーションが期待できます。工業分野のLOD普及とオープンイノベーションの実現に向けて、ねじLODをデータセットとして活用した作品や、ねじLODにリンクする作品が生まれることを期待しています。<br>
+          					      </p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用手続き</th>
+          					      <td>
+          						<p>
+          						  特に無し
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用方法</th>
+          					      <td><p><a href="http://monodzukurilod.org/neji/">http://monodzukurilod.org/neji/</a></p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用規定</th>
+          					      <td><p>CC-BY-SA</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>その他</th>
+          					      <td>
+          						<p>
+          						  特に無し
+          						</p>
+          					      </td>
+          					    </tr>
+          					  </table>
+          					</div>
+
+                    <div class="partner-detail-list-element" id="d060">
+          					  <h4>株式会社ソニーコンピュータサイエンス研究所</h4>
+          					  <table class="partner-table">
+          					    <tr>
+          					      <th>概要</th>
+          					      <td>
+          						<p>
+          						  エアコンや照明、エコキュート、テレビなどのネットワーク家電を簡単に動かせるWebAPIサーバ。<br>
+          						  Linux版とAndroidアプリ版とGR-SAKURA版があり、それぞれ動かせるものが異なります。<br>
+          						  以下の情報をご覧ください。
+          						  <a href="http://kadecot.net">http://kadecot.net</a><br>
+          						  対応家電をお持ちでない方にはエミュレータもあります。
+          						  <a href="https://github.com/SonyCSL/MoekadenRoom">https://github.com/SonyCSL/MoekadenRoom</a>
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用手続き</th>
+          					      <td>
+          						<p>
+          						  Android版：<a href="https://play.google.com/store/apps/details?id=com.sonycsl.Kadecot">https://play.google.com/store/apps/details?id=com.sonycsl.Kadecot</a><br>
+          						  Linux版：<a href="https://github.com/SonyCSL/Kadecot-JS">https://github.com/SonyCSL/Kadecot-JS</a><br>
+          						  GR-SAKURA版：<a href="http://dev.toppers.jp/trac_user/contrib/wiki/uKadecot">http://dev.toppers.jp/trac_user/contrib/wiki/uKadecot</a>
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用方法</th>
+          					      <td>
+          						<p>
+          						  <a href="http://kadecot.net">http://kadecot.net</a>　をご覧ください。
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用規定</th>
+          					      <td>
+          						<p>
+          						  Android版はインストール時に出現するEULAをご覧ください。<br>
+          						  Linux版はMITライセンスです。<br>
+          						  GR-SAKURA版はTOPPERSライセンスです。
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>その他</th>
+          					      <td>
+          						<p>
+          						</p>
+          					      </td>
+          					    </tr>
+          					  </table>
+          					</div>
+
+                    <div class="partner-detail-list-element" id="d070">
+          					  <h4>株式会社ビットマイスター</h4>
+          					  <table class="partner-table">
+          					    <tr>
+          					      <th>概要</th>
+          					      <td>
+          						<p>
+          						  日々、当たり前に変化する日の出・日の入り時刻ですが、これを計算するのは以外に複雑です。<br/>
+          						  地球が23.4度傾いて公転していることや、公転軌道が楕円であること、光が大気に屈折することも加味しなくてはなりません。<br/>
+          						  「おはこん番地は!? API」は日の出・日の入り時刻の他、月の出・月の入り、時々刻々変化する太陽・月の位置、月齢、月相を計算するWeb APIです。<br/>
+          						  計算結果はXMLで出力され、他のアプリケーションとの連携も簡単です。
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用手続き</th>
+          					      <td>
+          						<p>
+          						  <a hred="http://labs.bitmeister.jp/ohakon/index.cgi">http://labs.bitmeister.jp/ohakon/index.cgi</a>
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用方法</th>
+          					      <td>
+          						<p>
+          						  <a href="http://labs.bitmeister.jp/ohakon/api/readme.txt">http://labs.bitmeister.jp/ohakon/api/readme.txt</a>
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用規定</th>
+          					      <td>
+          						<p>
+          						  <a href="http://labs.bitmeister.jp/term.html">http://labs.bitmeister.jp/term.html</a>
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>その他</th>
+          					      <td>
+          						<p>
+          						  なし。
+          						</p>
+          					      </td>
+          					    </tr>
+          					  </table>
+          					</div>
+
+                    <div class="partner-detail-list-element" id="d080">
+          					  <h4>株式会社メビウス</h4>
+          					  <table class="partner-table">
+          					    <tr>
+          					      <th>概要</th>
+          					      <td>
+          						<p>
+          						  When.exe Ruby版の目的は、古今東西あらゆる文化および言語で用いられた暦日・暦法・時法・暦年代・暦注などにユニークな名前付けを行い、統一的に扱うための枠組みを提供することです。このためにISO19108の時間スキーマを用いてクラスおよびインスタンスを定義して、ISO8601の拡張とIRIによりユニークな名前付けを行い語彙を定義しました。When.exe Ruby版はこれらの語彙で表現されるオブジェクトの操作を支援するツールとして使えるようにしています。<br/>
+          						  「When.exe Ruby版による日本暦注データセット」は定義した語彙の一部を用いたもので、西暦593年～2050年の期間の日本暦日と具注暦暦注のデータです。トリプル数にして約867万ほど。大部分はWhen.exe Ruby版ライブラリで計算で生成していますが、建仁２年冬至など史実で変更が確認できるものは変更を反映しています。
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用手続き</th>
+          					      <td>
+          						<p>
+          						  特に無し
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用方法</th>
+          					      <td>
+          						<p>
+          						  <a href="http://www2u.biglobe.ne.jp/~suchowan/wiki/RDF.html">http://www2u.biglobe.ne.jp/~suchowan/wiki/RDF.html</a>
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>利用規定</th>
+          					      <td>
+          						<p>
+          						  <a href="http://www2u.biglobe.ne.jp/~suchowan/when_exe_wiki.html#i4">http://www2u.biglobe.ne.jp/~suchowan/when_exe_wiki.html#i4</a><br/>
+          						  「When.exe Ruby版による日本暦注データセット」はCC-BY-ND
+          						</p>
+          					      </td>
+          					    </tr>
+          					    <tr>
+          					      <th>その他</th>
+          					      <td>
+          						<p>
+          						  特に無し
+          						</p>
+          					      </td>
+          					    </tr>
+          					  </table>
+          					</div>
+
+					<div class="partner-detail-list-element" id="d090">
 					  <h4>国立研究開発法人科学技術振興機構（JST）</h4>
 					  <table class="partner-table">
 					    <tr>
@@ -166,7 +494,7 @@
 					  </table>
 					</div>
 
-					<div class="partner-detail-list-element" id="d3">
+					<div class="partner-detail-list-element" id="d100">
 					  <h4>国立国会図書館</h4>
 					  <table class="partner-table">
 					    <tr>
@@ -223,110 +551,70 @@
 					  </table>
 					</div>
 
-					<div class="partner-detail-list-element" id="d4">
-					  <h4>ししょまろはんラボ</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  「京都が出てくる本のデータ」：京都の公共図書館で働く図書館司書が作成した、京都が出てくる小説やマンガ・ライトノベル等のデータです。作品に出てくるスポットの緯度・経度に加え、おススメ度や内容紹介、Web NDL Authoritiesの著者名典拠URI等が含まれています。<br/>
-						  <br/>
-						  「図書館員が調べた京都のギモン」：国立国会図書館のレファレンス協同データベースに登録された、全国の図書館員が調べた京都のギモンの数々です。レファレンスの対象となっているスポットの緯度・経度や関連する項目のDBpediaのURIが含まれています。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  利用手続きは不要。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://linkdata.org/work/rdf1s1294i">http://linkdata.org/work/rdf1s1294i</a><br/>
-						  <a href="http://linkdata.org/work/rdf1s1534i">http://linkdata.org/work/rdf1s1534i</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
+          <div class="partner-detail-list-element" id="d110">
+            <h4>情報・システム研究機構データサイエンス共同利用基盤施設人文学オープンデータ共同利用センター, 人間文化研究機構国文学研究資料館</h4>
+            <table class="partner-table">
+              <tr>
+                <th>概要</th>
+                <td>
+            <p>
+              人文学オープンデータ共同利用センターと国文学研究資料館の２機関は、共同して日本古典籍に関するオープンデータを公開している。
+(1) 「日本古典籍データセット」：歴史的典籍NW事業においてデジタル化された古典籍のうち、主に国文研所蔵本を対象に、画像データと書誌データを公開し、さらに一部の古典籍には作品紹介や翻刻テキストデータ、タグ情報なども付与している。
+(2) 「日本古典籍字形データセット」：日本古典籍データセットで公開するデジタル化された古典籍を対象に、翻刻テキストの制作過程で生まれるくずし字の切り出された字形と座標情報などを、機械のための学習データや人間のための学習データとして提供する。
+(3) 「江戸料理レシピデータセット」：日本古典籍データセットに含まれる江戸の料理本を対象に、江戸の料理文化に関するデータとして、翻刻・現代語訳・レシピ化という作業を加えたレシピデータを提供する。
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用手続き</th>
+                <td>
+            <p>
+              無し
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用方法</th>
+                <td>
+            <p>
+              <a href="http://codh.rois.ac.jp/dataset/">http://codh.rois.ac.jp/dataset/</a><br/>
+<a href="http://www.nijl.ac.jp/pages/cijproject/data_set_list.html">http://www.nijl.ac.jp/pages/cijproject/data_set_list.html</a>
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用規定</th>
+                <td>
+            <p>
+              <a href="http://codh.rois.ac.jp/dataset">http://codh.rois.ac.jp/dataset</a>/<br/>
+<a href="http://www.nijl.ac.jp/pages/cijproject/data_set_list.html<">http://www.nijl.ac.jp/pages/cijproject/data_set_list.html</a><br/><br/>
+データセットのライセンスは、クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス（CC BY-SA）とする。ただし「表示」の内容はデータセットごとに異なるため注意すること。
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>LODチャレンジ参加者へのメッセージ</th>
+                <td>
+            <p>
+              日本古典籍にはかつての日本文化に関する情報や知恵が満載です。しかし、その内容を現代の我々が利用することは決して簡単ではありません。どうしたらそれを活用できるでしょうか。また、どんな場面でどんなデータが使えるようになると嬉しいでしょうか。具体的なシナリオを思い浮かべながら、アイデアを自由に広げて下さい。
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>
+            <p>
+              <a href="http://www.nijl.ac.jp/pages/cijproject/">http://www.nijl.ac.jp/pages/cijproject/</a><br/>
+本データセットは、国文学研究資料館が中心となって推進する歴史的典籍ＮＷ事業（正式名称：日本語の歴史的典籍の国際共同研究ネットワーク構築計画）に協力して、人文学オープンデータ共同利用センターが公開しているものです。
+            </p>
+                </td>
+              </tr>
+            </table>
+          </div>
 
-					<div class="partner-detail-list-element" id="d5">
-					  <h4>独立行政法人情報処理推進機構（IPA）</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  APIにより提供されるのは、文字情報基盤整備事業において構築した画像や文字に関する情報です。APIには，二種類存在し，MJ文字情報一覧表の情報を検索・取得可能なMJ文字情報一覧表APIと文字に関する情報をRDFトリプルで記述した文字情報基盤データベースとが存在します。二つが提供するデータは、内容や構造が異なっています。なお、文字情報基盤データベースは、RDFストアで、SPARQLクエリ検索を提供しますが、改修を予定していため、データ構造やURIは変更される予定です。MJ文字情報APIは、IPA MJ文字情報検索システム(簡易版)を製作するために、整備したAPIの機能を整理したものとなります。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  MJ文字情報API: <a href="http://mojikiban.ipa.go.jp/mji/">http://mojikiban.ipa.go.jp/mji/</a><br/>
-						  文字情報基盤データベース: <a href="https://mojikiban.ipa.go.jp/1bf7a30fda/">https://mojikiban.ipa.go.jp/1bf7a30fda/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  MJ文字情報API: <a href="http://mojikiban.ipa.go.jp/mji/">http://mojikiban.ipa.go.jp/mji/</a><br/>
-						  文字情報基盤データベース: <a href="https://mojikiban.ipa.go.jp/1bf7a30fda/help/">https://mojikiban.ipa.go.jp/1bf7a30fda/help/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">https://creativecommons.org/licenses/by-sa/2.1/jp/</a><br/>
-						  クリエイティブ・コモンズ 表示 ? 継承 2.1 日本 ライセンス
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>LODチャレンジ参加者へのメッセージ</th>
-					      <td>
-						<p>
-						  現状では，文字情報基盤整備事業のコンテンツをAPIで活用する例は少なく，存在しても画像イメージ(MJ文字図形)の取得が大半です。MJ文字情報一覧表の情報を活用したWebアプリケーションの作成品が増えることを期待しています。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
-					<div class="partner-detail-list-element" id="d6">
+
+					<div class="partner-detail-list-element" id="d120">
 					  <h4>総務省統計局、独立行政法人統計センター</h4>
 					  <table class="partner-table">
 					    <tr>
@@ -390,61 +678,9 @@
 					  </table>
 					</div>
 
-					<div class="partner-detail-list-element" id="d7">
-					  <h4>株式会社ソニーコンピュータサイエンス研究所</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  エアコンや照明、エコキュート、テレビなどのネットワーク家電を簡単に動かせるWebAPIサーバ。<br>
-						  Linux版とAndroidアプリ版とGR-SAKURA版があり、それぞれ動かせるものが異なります。<br>
-						  以下の情報をご覧ください。
-						  <a href="http://kadecot.net">http://kadecot.net</a><br>
-						  対応家電をお持ちでない方にはエミュレータもあります。
-						  <a href="https://github.com/SonyCSL/MoekadenRoom">https://github.com/SonyCSL/MoekadenRoom</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  Android版：<a href="https://play.google.com/store/apps/details?id=com.sonycsl.Kadecot">https://play.google.com/store/apps/details?id=com.sonycsl.Kadecot</a><br>
-						  Linux版：<a href="https://github.com/SonyCSL/Kadecot-JS">https://github.com/SonyCSL/Kadecot-JS</a><br>
-						  GR-SAKURA版：<a href="http://dev.toppers.jp/trac_user/contrib/wiki/uKadecot">http://dev.toppers.jp/trac_user/contrib/wiki/uKadecot</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://kadecot.net">http://kadecot.net</a>　をご覧ください。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  Android版はインストール時に出現するEULAをご覧ください。<br>
-						  Linux版はMITライセンスです。<br>
-						  GR-SAKURA版はTOPPERSライセンスです。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
-					<div class="partner-detail-list-element" id="d8">
+
+					<div class="partner-detail-list-element" id="d130">
 					  <h4>駐日外国政府観光局協議会（ANTOR-JAPAN）</h4>
 					  <table class="partner-table">
 					    <tr>
@@ -493,300 +729,24 @@
 					  </table>
 					</div>
 
-					<div class="partner-detail-list-element" id="d9">
-					  <h4>DBpedia Japanese</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>DBpedia Japaneseは、主にウィキペディア日本語版等から抽出したデータをLODとして公開しているコミュニティプロジェクトです。百科事典由来なので人物、施設等様々な種類のデータをLinked DataやSPARQL経由で利用可能です。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td><a href="http://ja.dbpedia.org">DBpedia Japaneseのウェブサイト</a>を参照のこと。
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  DBpedia Japanese: <a href="http://ja.dbpedia.org">http://ja.dbpedia.org</a><br>CC-BY-SA, クレジット表記は”DBpedia Community”
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
 
-					<div class="partner-detail-list-element" id="d10">
-					  <h4>ねじLOD(法政大学理工学部藤井研究室，電気通信大学大須賀・清研究室)</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-					      <p>平成9年以来、ねじ企業間情報処理研究会(N研)は、ねじ製品のEDI実現のため、ねじコード体系(N研コード)の作成やプロトコルの制定などを行ってきました。現在は大阪鋲螺卸商協同組合で管理されているこのN研コードを基に、我々はねじ・締結具のLinked Open Data「ねじLOD」を構築しました。データセットの公開に加えて、SPARQLエンドポイントの設置やWeb APIの提供を行っています。工業分野の実データのLOD化により、工業分野のオープンイノベーションが期待できます。工業分野のLOD普及とオープンイノベーションの実現に向けて、ねじLODをデータセットとして活用した作品や、ねじLODにリンクする作品が生まれることを期待しています。<br>
-					      </p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td><p><a href="http://monodzukurilod.org/neji/">http://monodzukurilod.org/neji/</a></p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td><p>CC-BY-SA</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
-					<div class="partner-detail-list-element" id="d11">
-					  <h4>株式会社ビットマイスター</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  日々、当たり前に変化する日の出・日の入り時刻ですが、これを計算するのは以外に複雑です。<br/>
-						  地球が23.4度傾いて公転していることや、公転軌道が楕円であること、光が大気に屈折することも加味しなくてはなりません。<br/>
-						  「おはこん番地は!? API」は日の出・日の入り時刻の他、月の出・月の入り、時々刻々変化する太陽・月の位置、月齢、月相を計算するWeb APIです。<br/>
-						  計算結果はXMLで出力され、他のアプリケーションとの連携も簡単です。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  <a hred="http://labs.bitmeister.jp/ohakon/index.cgi">http://labs.bitmeister.jp/ohakon/index.cgi</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://labs.bitmeister.jp/ohakon/api/readme.txt">http://labs.bitmeister.jp/ohakon/api/readme.txt</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="http://labs.bitmeister.jp/term.html">http://labs.bitmeister.jp/term.html</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  なし。
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
-					<div class="partner-detail-list-element" id="d12">
-					  <h4>放置自転車LOD(電気通信大学大須賀・清研究室＆田原研究室)</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>現在国内では駐輪場施設の不足，問題意識の低さなどが原因で放置自転車が後を絶たず社会課題となっています．電気通信大学大須賀・清研究室＆田原研究室では，放置自転車問題を解決するために放置台数，時間，場所，要因などのデータを「放置自転車LOD」として提供しています．<br>
-						  本データセットを通して放置自転車問題やその他社会課題解決に貢献する活用例が生まれることを期待しています．
-					      </p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td><p>データセット詳細:<a href="http://www.ohsuga.is.uec.ac.jp/bicycle/dataset.html">http://www.ohsuga.is.uec.ac.jp/bicycle/dataset.html</a><br>
-						  SPARQLエンドポイント:<a href="http://www.ohsuga.is.uec.ac.jp/bicycle/sparql.html">http://www.ohsuga.is.uec.ac.jp/bicycle/sparql.html</a><br>
-						  アプリケーション：<a href="http://www.ohsuga.is.uec.ac.jp/bicycle/about.html">http://www.ohsuga.is.uec.ac.jp/bicycle/about.html</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td><p>CC-BY</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					  </table>
 
-				      </div>
 
-					<div class="partner-detail-list-element" id="d13">
-					  <h4>株式会社メビウス</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  When.exe Ruby版の目的は、古今東西あらゆる文化および言語で用いられた暦日・暦法・時法・暦年代・暦注などにユニークな名前付けを行い、統一的に扱うための枠組みを提供することです。このためにISO19108の時間スキーマを用いてクラスおよびインスタンスを定義して、ISO8601の拡張とIRIによりユニークな名前付けを行い語彙を定義しました。When.exe Ruby版はこれらの語彙で表現されるオブジェクトの操作を支援するツールとして使えるようにしています。<br/>
-						  「When.exe Ruby版による日本暦注データセット」は定義した語彙の一部を用いたもので、西暦593年～2050年の期間の日本暦日と具注暦暦注のデータです。トリプル数にして約867万ほど。大部分はWhen.exe Ruby版ライブラリで計算で生成していますが、建仁２年冬至など史実で変更が確認できるものは変更を反映しています。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://www2u.biglobe.ne.jp/~suchowan/wiki/RDF.html">http://www2u.biglobe.ne.jp/~suchowan/wiki/RDF.html</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="http://www2u.biglobe.ne.jp/~suchowan/when_exe_wiki.html#i4">http://www2u.biglobe.ne.jp/~suchowan/when_exe_wiki.html#i4</a><br/>
-						  「When.exe Ruby版による日本暦注データセット」はCC-BY-ND
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  特に無し
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
-          <div class="partner-detail-list-element" id="d14">
-					  <h4>情報・システム研究機構データサイエンス共同利用基盤施設人文学オープンデータ共同利用センター, 人間文化研究機構国文学研究資料館</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-							人文学オープンデータ共同利用センターと国文学研究資料館の２機関は、共同して日本古典籍に関するオープンデータを公開している。
-(1) 「日本古典籍データセット」：歴史的典籍NW事業においてデジタル化された古典籍のうち、主に国文研所蔵本を対象に、画像データと書誌データを公開し、さらに一部の古典籍には作品紹介や翻刻テキストデータ、タグ情報なども付与している。
-(2) 「日本古典籍字形データセット」：日本古典籍データセットで公開するデジタル化された古典籍を対象に、翻刻テキストの制作過程で生まれるくずし字の切り出された字形と座標情報などを、機械のための学習データや人間のための学習データとして提供する。
-(3) 「江戸料理レシピデータセット」：日本古典籍データセットに含まれる江戸の料理本を対象に、江戸の料理文化に関するデータとして、翻刻・現代語訳・レシピ化という作業を加えたレシピデータを提供する。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-              無し
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-              <a href="http://codh.rois.ac.jp/dataset/">http://codh.rois.ac.jp/dataset/</a><br/>
-<a href="http://www.nijl.ac.jp/pages/cijproject/data_set_list.html">http://www.nijl.ac.jp/pages/cijproject/data_set_list.html</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-              <a href="http://codh.rois.ac.jp/dataset">http://codh.rois.ac.jp/dataset</a>/<br/>
-<a href="http://www.nijl.ac.jp/pages/cijproject/data_set_list.html<">http://www.nijl.ac.jp/pages/cijproject/data_set_list.html</a><br/><br/>
-データセットのライセンスは、クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス（CC BY-SA）とする。ただし「表示」の内容はデータセットごとに異なるため注意すること。
-						</p>
-					      </td>
-					    </tr>
-              <tr>
-					      <th>LODチャレンジ参加者へのメッセージ</th>
-					      <td>
-						<p>
-              日本古典籍にはかつての日本文化に関する情報や知恵が満載です。しかし、その内容を現代の我々が利用することは決して簡単ではありません。どうしたらそれを活用できるでしょうか。また、どんな場面でどんなデータが使えるようになると嬉しいでしょうか。具体的なシナリオを思い浮かべながら、アイデアを自由に広げて下さい。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-              <a href="http://www.nijl.ac.jp/pages/cijproject/">http://www.nijl.ac.jp/pages/cijproject/</a><br/>
-本データセットは、国文学研究資料館が中心となって推進する歴史的典籍ＮＷ事業（正式名称：日本語の歴史的典籍の国際共同研究ネットワーク構築計画）に協力して、人文学オープンデータ共同利用センターが公開しているものです。
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
 
-          <div class="partner-detail-list-element" id="d15">
-            <h4>オープンストリートマップ・ファウンデーション・ジャパン</h4>
+
+
+          <div class="partner-detail-list-element" id="d140">
+            <h4>独立行政法人情報処理推進機構（IPA）</h4>
             <table class="partner-table">
               <tr>
                 <th>概要</th>
                 <td>
             <p>
-              オープンなデータライセンスであるODbLに従う限り、誰でも自由に利用できる地理データです。
-地理データそのものを利用して様々なアプリケーションで利用したり、独自のタイル(地図)画像を生成したりすることができます。
-尚、複製された派生データベース(LinkedGeoData等)の使用法はそちらの説明を参照ください。
+              APIにより提供されるのは、文字情報基盤整備事業において構築した画像や文字に関する情報です。APIには，二種類存在し，MJ文字情報一覧表の情報を検索・取得可能なMJ文字情報一覧表APIと文字に関する情報をRDFトリプルで記述した文字情報基盤データベースとが存在します。二つが提供するデータは、内容や構造が異なっています。なお、文字情報基盤データベースは、RDFストアで、SPARQLクエリ検索を提供しますが、改修を予定していため、データ構造やURIは変更される予定です。MJ文字情報APIは、IPA MJ文字情報検索システム(簡易版)を製作するために、整備したAPIの機能を整理したものとなります。
             </p>
                 </td>
               </tr>
@@ -794,9 +754,8 @@
                 <th>利用手続き</th>
                 <td>
             <p>
-              手続きは特にありません。
-リソースの入手方法や使い方は下記を参照ください。 データのコピーを取得して使う方法と、APIで利用する方法があります。
-http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs
+              MJ文字情報API: <a href="http://mojikiban.ipa.go.jp/mji/">http://mojikiban.ipa.go.jp/mji/</a><br/>
+              文字情報基盤データベース: <a href="https://mojikiban.ipa.go.jp/1bf7a30fda/">https://mojikiban.ipa.go.jp/1bf7a30fda/</a>
             </p>
                 </td>
               </tr>
@@ -804,7 +763,8 @@ http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs
                 <th>利用方法</th>
                 <td>
             <p>
-              上述のURLより使い方に応じてリンクをたどってください。
+              MJ文字情報API: <a href="http://mojikiban.ipa.go.jp/mji/">http://mojikiban.ipa.go.jp/mji/</a><br/>
+              文字情報基盤データベース: <a href="https://mojikiban.ipa.go.jp/1bf7a30fda/help/">https://mojikiban.ipa.go.jp/1bf7a30fda/help/</a>
             </p>
                 </td>
               </tr>
@@ -812,9 +772,16 @@ http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs
                 <th>利用規定</th>
                 <td>
             <p>
-              利用ライセンス原文：<a href="http://www.openstreetmap.org/copyright">http://www.openstreetmap.org/copyright</a>
-FAQ：<a href="http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ">http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ</a>
-ライセンス説明スライド：<a href="http://www.slideshare.net/higa4/20120729-odbl">http://www.slideshare.net/higa4/20120729-odbl</a>
+              <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">https://creativecommons.org/licenses/by-sa/2.1/jp/</a><br/>
+              クリエイティブ・コモンズ 表示 ? 継承 2.1 日本 ライセンス
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>LODチャレンジ参加者へのメッセージ</th>
+                <td>
+            <p>
+              現状では，文字情報基盤整備事業のコンテンツをAPIで活用する例は少なく，存在しても画像イメージ(MJ文字図形)の取得が大半です。MJ文字情報一覧表の情報を活用したWebアプリケーションの作成品が増えることを期待しています。
             </p>
                 </td>
               </tr>
@@ -822,16 +789,57 @@ FAQ：<a href="http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ">http://wiki.open
                 <th>その他</th>
                 <td>
             <p>
-              サーバ負荷を避けるため、タイル(地図)画像の利用に際しては下記「タイル利用ポリシー」も参照ください。
-<a href="http://wiki.openstreetmap.org/wiki/JA:Tile_usage_policy">http://wiki.openstreetmap.org/wiki/JA:Tile_usage_policy</a>
             </p>
                 </td>
               </tr>
             </table>
           </div>
 
-				      <h3 class="partner-type">基盤提供パートナー詳細</h3>
+          <div class="partner-detail-list-element" id="d150">
+            <h4>放置自転車LOD(電気通信大学大須賀・清研究室＆田原研究室)</h4>
+            <table class="partner-table">
+              <tr>
+                <th>概要</th>
+                <td>
+            <p>現在国内では駐輪場施設の不足，問題意識の低さなどが原因で放置自転車が後を絶たず社会課題となっています．電気通信大学大須賀・清研究室＆田原研究室では，放置自転車問題を解決するために放置台数，時間，場所，要因などのデータを「放置自転車LOD」として提供しています．<br>
+              本データセットを通して放置自転車問題やその他社会課題解決に貢献する活用例が生まれることを期待しています．
+                </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用手続き</th>
+                <td>
+            <p>
+              特に無し
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用方法</th>
+                <td><p>データセット詳細:<a href="http://www.ohsuga.is.uec.ac.jp/bicycle/dataset.html">http://www.ohsuga.is.uec.ac.jp/bicycle/dataset.html</a><br>
+              SPARQLエンドポイント:<a href="http://www.ohsuga.is.uec.ac.jp/bicycle/sparql.html">http://www.ohsuga.is.uec.ac.jp/bicycle/sparql.html</a><br>
+              アプリケーション：<a href="http://www.ohsuga.is.uec.ac.jp/bicycle/about.html">http://www.ohsuga.is.uec.ac.jp/bicycle/about.html</a>
+            </p>
+                </td>
+              </tr>
+              <tr>
+                <th>利用規定</th>
+                <td><p>CC-BY</p>
+                </td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>
+            <p>
+              特に無し
+            </p>
+                </td>
+              </tr>
+            </table>
 
+              </div>
+
+				      <h3 class="partner-type">基盤提供パートナー詳細</h3>
 				      <div class="partner-detail-list">
 <!--
 					<div class="partner-detail-list-element" id="i1">
@@ -876,335 +884,324 @@ FAQ：<a href="http://wiki.openstreetmap.org/wiki/JA:Legal_FAQ">http://wiki.open
 					  </table>
 					</div>
 -->
-					<div class="partner-detail-list-element" id="i1">
-					  <h4>E2D3</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  Excelでいつも作っているグラフをもっと恰好良くしたくないですか？でも，デザインソフトを自分で習得するには時間がかかりますし，グラフ作成をデザイナーに依頼にはお金がかかります．<br/>
-						  そこで我々は，ExcelからD3.jsを簡単に呼び出せるアプリE2D3 （Excel to D3.js） を開発しました．<br/>
-						  D3.jsは2014-2015年，世界で最も注目されているJavaScriptのグラフィックライブラリーです．<br/>
-						  E2D3を使えば，簡単なExcel操作のみでビジュアルインパクトが強烈なグラフを誰でも作成できます！<br/>
-						  - ご意見・ご質問はこちらへお願いします！<br/>
-						  <a href="https://www.facebook.com/e2d3project https://twitter.com/e2d3org">https://www.facebook.com/e2d3project https://twitter.com/e2d3org</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  なし。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://e2d3.org/ja/app-install/">http://e2d3.org/ja/app-install/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  Apache License, Version 2.0
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  <a href="https://github.com/e2d3/e2d3/wiki/Getting-Started_ja">https://github.com/e2d3/e2d3/wiki/Getting-Started_ja</a><br/>
-						  E2D3はソースコードをGithubで公開しております。そして、我々と一緒にグラフの改善・追加にご協力頂けるコントリビューターを募集中です。<br/>
-						  既存のグラフを、データだけを差し替えて追加して頂くのも大歓迎です。
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
+					    <div class="partner-detail-list-element" id="i010">
+					      <h4>E2D3</h4>
+					      <table class="partner-table">
+					        <tr>
+					          <th>概要</th>
+					          <td>
+						        <p>
+						          Excelでいつも作っているグラフをもっと恰好良くしたくないですか？でも，デザインソフトを自分で習得するには時間がかかりますし，グラフ作成をデザイナーに依頼にはお金がかかります．<br/>
+						          そこで我々は，ExcelからD3.jsを簡単に呼び出せるアプリE2D3 （Excel to D3.js） を開発しました．<br/>
+						          D3.jsは2014-2015年，世界で最も注目されているJavaScriptのグラフィックライブラリーです．<br/>
+						          E2D3を使えば，簡単なExcel操作のみでビジュアルインパクトが強烈なグラフを誰でも作成できます！<br/>
+						          - ご意見・ご質問はこちらへお願いします！<br/>
+						          <a href="https://www.facebook.com/e2d3project https://twitter.com/e2d3org">https://www.facebook.com/e2d3project https://twitter.com/e2d3org</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用手続き</th>
+					        <td>
+						        <p>
+						          なし。
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用方法</th>
+					        <td>
+						        <p>
+						          <a href="http://e2d3.org/ja/app-install/">http://e2d3.org/ja/app-install/</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用規定</th>
+					        <td>
+						        <p>
+						          Apache License, Version 2.0
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>その他</th>
+					        <td>
+						        <p>
+						          <a href="https://github.com/e2d3/e2d3/wiki/Getting-Started_ja">https://github.com/e2d3/e2d3/wiki/Getting-Started_ja</a><br/>
+						          E2D3はソースコードをGithubで公開しております。そして、我々と一緒にグラフの改善・追加にご協力頂けるコントリビューターを募集中です。<br/>
+						          既存のグラフを、データだけを差し替えて追加して頂くのも大歓迎です。
+						        </p>
+					        </td>
+					      </tr>
+					    </table>
+					  </div>
 
-					<div class="partner-detail-list-element" id="i2">
-					  <h4>インディゴ株式会社</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  GeoNames.jp は、「大字小字/町丁目レベルの日本語地名」までを対象に一意の URI を付与する基盤であり、LODチャレンジ2014では基盤技術部門 最優秀賞を受賞しました。<br/>
-						  インディゴでは、GeoNames.jp をより容易に活用頂けるよう、下記のAPIとリンクセットを新たに提供します。<br/>
-						  ・API： 既存テーブルデータなどに含まれる住所文字列を GeoNames.jp の URI に名寄せすることが可能です。本 API はExcel の WEBSERVICE 関数 や javascript など、任意の環境からの利用が可能です。<br/>
-						  ・リンクセット： GeoNames.jp の URI （市区町村レベル）→ DBpedia-ja、GeoNames.org 、都道府県・市区町村コードなど主要リソースの URI を関連付けたリンクセットを用意し、LOD4ALL に提供しています。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  利用手続きは不要です。<br/>
-						  <a href="https://github.com/indigo-lab/geonamesjp/wiki/LODC2015">https://github.com/indigo-lab/geonamesjp/wiki/LODC2015</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  以下のURLをご参照ください。<br/>
-						  <a href="https://github.com/indigo-lab/geonamesjp/wiki/LODC2015">https://github.com/indigo-lab/geonamesjp/wiki/LODC2015</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  LODチャレンジに限定した規定はありません。また、LODチャレンジ以外の目的での利用や期間後の利用についても特に制限はありません。<br/>
-						  全般的な利用規定はリンク先より GeoNames.jp および関連リソース個別のライセンスをご確認ください。<br/>
-						  <a href="https://github.com/indigo-lab/geonamesjp/wiki/LODC2015">https://github.com/indigo-lab/geonamesjp/wiki/LODC2015</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  なし。
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
+            <div class="partner-detail-list-element" id="i020">
+              <h4>LOD4ALL: 株式会社富士通研究所</h4>
+              <table class="partner-table">
+                <tr>
+                  <th>概要</th>
+                  <td>
+                    <p>
+                      富士通研究所で研究開発中のLOD活用基盤「LOD4ALL」を基盤提供します。<br>
+                      DBPedia Japaneseなど利用頻度が高いデータセットを中心に収集・格納しており、SPARQLにより格納データを横断的に検索できます。<br>
+                      また、linkdata.orgとの連携により、linkdata.org内の指定されたデータセットも格納、他のデータセットと併せて同時に利用できます。
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>利用手続き</th>
+                  <td>
+                    <p>
+                      手続き不要で、以下からご利用いただけます。<br>
+                      <a href="https://lod4all.net/ja/">https://lod4all.net/ja/</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>利用方法</th>
+                  <td>
+                    <p>
+                      <a href="https://lod4all.net/ja/api.html">https://lod4all.net/ja/api.html</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>利用規定</th>
+                  <td>
+                    <p>
+                      <a href="https://lod4all.net/ja/terms.html">https://lod4all.net/ja/terms.html</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>その他</th>
+                  <td>
+                    <p>
+                      「LOD4ALL」では、営利目的も含めた２次利用可能なライセンスの データセットのみを格納していますが、利用制限のあるデータセットも含まれます。<br>
+                      下記URLで示される各データセットのライセンスをご確認の上、ご利用ください。<br>
+                      <a href="https://lod4all.net/ja/dataset.html">https://lod4all.net/ja/dataset.html</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
 
-					<div class="partner-detail-list-element" id="i3">
-					  <h4>LOD4ALL: 株式会社富士通研究所</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  富士通研究所で研究開発中のLOD活用基盤「LOD4ALL」を基盤提供します。<br>
-						  DBPedia Japaneseなど利用頻度が高いデータセットを中心に収集・格納しており、SPARQLにより格納データを横断的に検索できます。<br>
-						  また、linkdata.orgとの連携により、linkdata.org内の指定されたデータセットも格納、他のデータセットと併せて同時に利用できます。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  手続き不要で、以下からご利用いただけます。<br>
-						  <a href="https://lod4all.net/ja/">https://lod4all.net/ja/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="https://lod4all.net/ja/api.html">https://lod4all.net/ja/api.html</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="https://lod4all.net/ja/terms.html">https://lod4all.net/ja/terms.html</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  「LOD4ALL」では、営利目的も含めた２次利用可能なライセンスの データセットのみを格納していますが、利用制限のあるデータセットも含まれます。<br>
-						  下記URLで示される各データセットのライセンスをご確認の上、ご利用ください。<br>
-						  <a href="https://lod4all.net/ja/dataset.html">https://lod4all.net/ja/dataset.html</a>
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
+  					<div class="partner-detail-list-element" id="i030">
+					    <h4>インディゴ株式会社</h4>
+					    <table class="partner-table">
+					      <tr>
+					        <th>概要</th>
+					        <td>
+						        <p>
+						            GeoNames.jp は、「大字小字/町丁目レベルの日本語地名」までを対象に一意の URI を付与する基盤であり、LODチャレンジ2014では基盤技術部門 最優秀賞を受賞しました。<br/>
+						          インディゴでは、GeoNames.jp をより容易に活用頂けるよう、下記のAPIとリンクセットを新たに提供します。<br/>
+						          ・API： 既存テーブルデータなどに含まれる住所文字列を GeoNames.jp の URI に名寄せすることが可能です。本 API はExcel の WEBSERVICE 関数 や javascript など、任意の環境からの利用が可能です。<br/>
+						          ・リンクセット： GeoNames.jp の URI （市区町村レベル）→ DBpedia-ja、GeoNames.org 、都道府県・市区町村コードなど主要リソースの URI を関連付けたリンクセットを用意し、LOD4ALL に提供しています。
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用手続き</th>
+					        <td>
+						      <p>
+						        利用手続きは不要です。<br/>
+						        <a href="https://github.com/indigo-lab/geonamesjp/wiki/LODC2015">https://github.com/indigo-lab/geonamesjp/wiki/LODC2015</a>
+						      </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用方法</th>
+					        <td>
+						        <p>
+						          以下のURLをご参照ください。<br/>
+						          <a href="https://github.com/indigo-lab/geonamesjp/wiki/LODC2015">https://github.com/indigo-lab/geonamesjp/wiki/LODC2015</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用規定</th>
+					        <td>
+						        <p>
+						          LODチャレンジに限定した規定はありません。また、LODチャレンジ以外の目的での利用や期間後の利用についても特に制限はありません。<br/>
+						          全般的な利用規定はリンク先より GeoNames.jp および関連リソース個別のライセンスをご確認ください。<br/>
+						          <a href="https://github.com/indigo-lab/geonamesjp/wiki/LODC2015">https://github.com/indigo-lab/geonamesjp/wiki/LODC2015</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>その他</th>
+					        <td>
+						        <p>
+						          なし。
+						        </p>
+					        </td>
+					      </tr>
+					    </table>
+					  </div>
 
-					<div class="partner-detail-list-element" id="i4">
-					  <h4>株式会社jig.jp</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  オープンデータプラットフォーム 自治体の持つオープンデータを、簡単に５つ星オープンデータ（LOD、Linked-RDF）に変換し、公開するASPサービスです。<br/>
-						  現在、30近い自治体さんのオープンデータが公開されています。主なデータは、避難所、公共施設、観光情報、人口統計、AED情報、トイレ情報、ごみ分別情報、リアルタイム水位情報など。<br/><br/>
+  					<div class="partner-detail-list-element" id="i040">
+					    <h4>ハウモリ</h4>
+					    <table class="partner-table">
+					      <tr>
+					        <th>概要</th>
+					        <td>
+						        <p>
+						          街の歴史が繋がれば、未来も繋がる。そして魅力が繋がる。<br/>
+						          様々な年表を横串し、古くて新しい「気付き」を「築き」ませんか？<br/>
+						          ハウモリでは、ウィキ町史プロジェクトの一環である、「ウィキ町史」のビューアAPIと、エディタを提供します。<br/>
+						          ビューアではみなさんがハウモリデータ仕様に準じた形式で作成した年表を、ハウモリが作成した森町の沿革等と横串表示ができるなどの機能を提供し、エディタでは、ハウモリデータ仕様に準じた 年表作成を支援します。<br/>
+						          ※ハウモリでは、IPA共通語彙基盤 コア語彙を利用しております。<br/>
+						          合わせて　<a href="http://goikiban.ipa.go.jp">http://goikiban.ipa.go.jp</a>　をご確認ください。
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用手続き</th>
+					        <td>
+						        <p>
+						          <a href="http://cc-study.appspot.com/my-town-timeline/lodc2015">http://cc-study.appspot.com/my-town-timeline/lodc2015</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用方法</th>
+					        <td>
+						      <p>
+						        <a href="http://cc-study.appspot.com/my-town-timeline/lodc2015">http://cc-study.appspot.com/my-town-timeline/lodc2015</a>
+						      </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用規定</th>
+					        <td>
+						        <p>
+						          <a href="http://cc-study.appspot.com/my-town-timeline/lodc2015">http://cc-study.appspot.com/my-town-timeline/lodc2015</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>その他</th>
+					        <td>
+						        <p>
+						        </p>
+					        </td>
+					      </tr>
+					    </table>
+					  </div>
 
-						  ①SPARQL Endpoint（SPARQLコンソール）<br/>
-						  開発者がデータを検索および取得するための仕組み<br/>
-						  <a href="http://sparql.odp.jig.jp/sparql.html">http://sparql.odp.jig.jp/sparql.html</a><br/><br/>
+					  <div class="partner-detail-list-element" id="i050">
+					    <h4>一般社団法人リンクデータ</h4>
+					    <table class="partner-table">
+					      <tr>
+					        <th>概要</th>
+					        <td>
+						        <p>
+						          LinkData.orgはデータの公開から活用までを幅広くサポートするWebサービスです。「豊富なデータリソース」「サーバ構築不要」「無料で使える」という点が特徴です。<br/>
+						          <a href="http://linkdata.org">http://linkdata.org</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用手続き</th>
+					        <td>
+						        <p>
+						          データ・アプリ・アイディアを公開するにはアカウント登録が必要です。（閲覧のみの場合は不要）<br/>
+						          <a href="http://idea.linkdata.org/idea/idea1s558i">http://idea.linkdata.org/idea/idea1s558i</a>
+						        </p>
+					        </td>
+					      </tr>
+					      <tr>
+					        <th>利用方法</th>
+					        <td>
+						        <p>
+						          <a href="http://www.slideshare.net/sayokoshimoyama/linkdataorg-53418369">http://www.slideshare.net/sayokoshimoyama/linkdataorg-53418369</a>
+					          </p>
+				          </td>
+				        </tr>
+				        <tr>
+					        <th>利用規定</th>
+					        <td>
+					          <p>
+						          <a href="http://linkdata.org/termsofuse">http://linkdata.org/termsofuse</a>
+						        </p>
+					        </td>
+				        </tr>
+				        <tr>
+				          <th>その他</th>
+				          <td>
+					          <p>
+					            お問い合わせ先：support@linkdata.org（LinkDataサポート）
+					          </p>
+				          </td>
+				        </tr>
+				      </table>
+  				  </div>
 
-						  ②データカタログサイト<br/>
-						  ユーザーがオープンデータを検索できるWebサイト<br/>
-						  <a href="http://ckan.odp.jig.jp/">http://ckan.odp.jig.jp/</a><br/><br/>
+            <div class="partner-detail-list-element" id="i060">
+              <h4>株式会社jig.jp</h4>
+              <table class="partner-table">
+                <tr>
+                  <th>概要</th>
+                  <td>
+                    <p>
+                      オープンデータプラットフォーム 自治体の持つオープンデータを、簡単に５つ星オープンデータ（LOD、Linked-RDF）に変換し、公開するASPサービスです。<br/>
+                      現在、30近い自治体さんのオープンデータが公開されています。主なデータは、避難所、公共施設、観光情報、人口統計、AED情報、トイレ情報、ごみ分別情報、リアルタイム水位情報など。<br/><br/>
 
-						  ③開発者支援サイト<br/>
-						  <a href="http://developer.odp.jig.jp/">http://developer.odp.jig.jp/</a><br/><br/>
+                      ①SPARQL Endpoint（SPARQLコンソール）<br/>
+                      開発者がデータを検索および取得するための仕組み<br/>
+                      <a href="http://sparql.odp.jig.jp/sparql.html">http://sparql.odp.jig.jp/sparql.html</a><br/><br/>
 
-						  ④odp製品紹介サイト<br/>
-						  <a href="http://odp.jig.jp">http://odp.jig.jp/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  <a href="http://sparql.odp.jig.jp/api/v1/sparql">http://sparql.odp.jig.jp/api/v1/sparql</a>
-						  手続きは特にありません。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://developer.odp.jig.jp/sparql/">http://developer.odp.jig.jp/sparql/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="http://developer.odp.jig.jp/rules/">http://developer.odp.jig.jp/rules/</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  なし。
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
+                      ②データカタログサイト<br/>
+                      ユーザーがオープンデータを検索できるWebサイト<br/>
+                      <a href="http://ckan.odp.jig.jp/">http://ckan.odp.jig.jp/</a><br/><br/>
 
-					<div class="partner-detail-list-element" id="i5">
-					  <h4>ハウモリ</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  街の歴史が繋がれば、未来も繋がる。そして魅力が繋がる。<br/>
-						  様々な年表を横串し、古くて新しい「気付き」を「築き」ませんか？<br/>
-						  ハウモリでは、ウィキ町史プロジェクトの一環である、「ウィキ町史」のビューアAPIと、エディタを提供します。<br/>
-						  ビューアではみなさんがハウモリデータ仕様に準じた形式で作成した年表を、ハウモリが作成した森町の沿革等と横串表示ができるなどの機能を提供し、エディタでは、ハウモリデータ仕様に準じた 年表作成を支援します。<br/>
-						  ※ハウモリでは、IPA共通語彙基盤 コア語彙を利用しております。<br/>
-						  合わせて　<a href="http://goikiban.ipa.go.jp">http://goikiban.ipa.go.jp</a>　をご確認ください。
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  <a href="http://cc-study.appspot.com/my-town-timeline/lodc2015">http://cc-study.appspot.com/my-town-timeline/lodc2015</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://cc-study.appspot.com/my-town-timeline/lodc2015">http://cc-study.appspot.com/my-town-timeline/lodc2015</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="http://cc-study.appspot.com/my-town-timeline/lodc2015">http://cc-study.appspot.com/my-town-timeline/lodc2015</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
+                      ③開発者支援サイト<br/>
+                      <a href="http://developer.odp.jig.jp/">http://developer.odp.jig.jp/</a><br/><br/>
 
-				      </div>
-				    </div>
-
-					<div class="partner-detail-list-element" id="i6">
-					  <h4>一般社団法人リンクデータ</h4>
-					  <table class="partner-table">
-					    <tr>
-					      <th>概要</th>
-					      <td>
-						<p>
-						  LinkData.orgはデータの公開から活用までを幅広くサポートするWebサービスです。「豊富なデータリソース」「サーバ構築不要」「無料で使える」という点が特徴です。<br/>
-						  <a href="http://linkdata.org">http://linkdata.org</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用手続き</th>
-					      <td>
-						<p>
-						  データ・アプリ・アイディアを公開するにはアカウント登録が必要です。（閲覧のみの場合は不要）<br/>
-						  <a href="http://idea.linkdata.org/idea/idea1s558i">http://idea.linkdata.org/idea/idea1s558i</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用方法</th>
-					      <td>
-						<p>
-						  <a href="http://www.slideshare.net/sayokoshimoyama/linkdataorg-53418369">http://www.slideshare.net/sayokoshimoyama/linkdataorg-53418369</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>利用規定</th>
-					      <td>
-						<p>
-						  <a href="http://linkdata.org/termsofuse">http://linkdata.org/termsofuse</a>
-						</p>
-					      </td>
-					    </tr>
-					    <tr>
-					      <th>その他</th>
-					      <td>
-						<p>
-						  お問い合わせ先：support@linkdata.org（LinkDataサポート）
-						</p>
-					      </td>
-					    </tr>
-					  </table>
-					</div>
-
-				      </div>
-				    </div>
-
-
-		</div>
-
-		<div id="footer"></div>
-
-	</div>
-
-</body>
+                      ④odp製品紹介サイト<br/>
+                      <a href="http://odp.jig.jp">http://odp.jig.jp/</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>利用手続き</th>
+                  <td>
+                    <p>
+                      <a href="http://sparql.odp.jig.jp/api/v1/sparql">http://sparql.odp.jig.jp/api/v1/sparql</a>
+                      手続きは特にありません。
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>利用方法</th>
+                  <td>
+                    <p>
+                      <a href="http://developer.odp.jig.jp/sparql/">http://developer.odp.jig.jp/sparql/</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>利用規定</th>
+                  <td>
+                    <p>
+                      <a href="http://developer.odp.jig.jp/rules/">http://developer.odp.jig.jp/rules/</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>その他</th>
+                  <td>
+              <p>
+                なし。
+              </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+		    </div>
+        <div id="footer"></div>
+    </div>
+  </body>
 </html>
