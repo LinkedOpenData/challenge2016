@@ -89,12 +89,14 @@ div#mainContents .leftcontainer {
 #mainContents #entry_button {
     background: #FFF;
     padding: 10px;
-    font-size: 2.5em;
     color: #BC2A30;
     width: 500px;
     text-align: center;
     margin: 10px auto;
+    text-decoration: none;
 }
+
+#mainTopix
 
 /* 3つのトピックス */
 div#mainContents div.topicsBox{
